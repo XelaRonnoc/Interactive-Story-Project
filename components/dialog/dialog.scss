@@ -1,0 +1,9 @@
+.dialog {
+    &__option {
+        cursor: pointer;
+        padding: 10px;
+        &:hover {
+            background-color: blue;
+        }
+    }
+}

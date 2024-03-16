@@ -1,0 +1,9 @@
+// @use "./modules/breakpoints";
+// @use "./modules/mixins.scss";
+//@import for partials for things like theme, also name these like _name.scss
+//used to get from other scss files
+@use "./services/themeProvider/theme.scss";
+@use "./components/page/page.scss";
+@use "./components/navButton/navButton.scss";
+@use "./components/dialog/dialog.scss";
+@use "./components/barTimer/timer.scss";
