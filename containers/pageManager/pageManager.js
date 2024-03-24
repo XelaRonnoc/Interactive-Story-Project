@@ -1,8 +1,12 @@
-import { getContentWithId } from "../../services/contentProvider/contentProvider.js";
+import {
+    getContentWithId,
+    setDeathMessage,
+} from "../../services/contentProvider/contentProvider.js";
 import {
     createBackgroundImageHTML,
     createPage,
     createPageWithDialog,
+    createPageWithQuickTime,
 } from "../../components/page/page.js";
 
 // the holder for every page of the story
@@ -11,6 +15,11 @@ let currentStoryPoints = 0;
 let currentPageTimeout = 0;
 
 export const nextPage = (pageContainer, nextPageId, storyPoints) => {
+    if (nextPageId === "DeathScreen") {
+        setDeathMessage(
+            getContentWithId(currentPage).quickTime.failPageMessage
+        );
+    }
     currentPage = nextPageId;
     currentStoryPoints += storyPoints || 0;
     renderPage(pageContainer);
@@ -25,9 +34,13 @@ export const getCurrentPageTimeout = () => {
 };
 
 const getTextHTML = (textContent) => {
-    return textContent.dialog
-        ? createPageWithDialog(textContent)
-        : createPage(textContent);
+    if (textContent.dialog) {
+        return createPageWithDialog(textContent);
+    }
+    if (textContent.quickTime) {
+        return createPageWithQuickTime(textContent);
+    }
+    return createPage(textContent);
 };
 
 const getImageHTML = (imgInfo) => {

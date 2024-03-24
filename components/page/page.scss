@@ -11,12 +11,18 @@ section {
         left: 50%;
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
-        min-width: 100%;
-        height: 100%;
 
         display: block;
         opacity: 1;
         transition: 2s opacity ease;
+    }
+    & > .square {
+        width: 100%;
+        min-height: 100%;
+    }
+    & > .rect {
+        min-width: 100%;
+        height: 100%;
     }
 }
 

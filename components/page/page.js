@@ -1,6 +1,7 @@
 import { getNavButtonsHTML } from "../navButton/navButton.js";
 import { createDialogOption } from "../dialog/dialog.js";
 import { getTimerBarHTML } from "../barTimer/barTimer.js";
+import { createQuickTimeInstructions } from "../quickTime/quickTime.js";
 
 export const createPage = (textInformation) => {
     const { id, title, text, nextPage } = textInformation;
@@ -34,13 +35,26 @@ export const createPageWithDialog = (textInformation) => {
     </div>
     `;
 };
+export const createPageWithQuickTime = (textInformation) => {
+    const { id, title, text, quickTime, time } = textInformation;
+    return `
+    <div id='${id}' class="page">
+    <h1>${title}</h1>
+        <div id="paraId${id}" class="page__text-container">
+            <div>${text}</div>
+            ${createQuickTimeInstructions(quickTime.instructions)}
+            ${time ? getTimerBarHTML(time) : ""}
+        </div>
+    </div>
+    `;
+};
 
 export const createBackgroundImageHTML = (imgInfo) => {
-    const { imageRef, alt } = imgInfo;
+    const { imageRef, alt, scaleType } = imgInfo;
     return `
     <section id="imageContainer">
         <img
-            class="image"
+            class="image ${scaleType}"
             src="${imageRef}"
             alt="${alt}"
         /> 

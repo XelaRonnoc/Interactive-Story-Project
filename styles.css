@@ -25,11 +25,17 @@ section > img {
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  min-width: 100%;
-  height: 100%;
   display: block;
   opacity: 1;
   transition: 2s opacity ease;
+}
+section > .square {
+  width: 100%;
+  min-height: 100%;
+}
+section > .rect {
+  min-width: 100%;
+  height: 100%;
 }
 
 main {
@@ -115,7 +121,7 @@ main::-webkit-scrollbar {
 }
 
 .next-button {
-  color: blue;
+  color: var(--nav-bar-text-color);
 }
 
 .dialog__option {
@@ -123,7 +129,7 @@ main::-webkit-scrollbar {
   padding: 10px;
 }
 .dialog__option:hover {
-  background-color: blue;
+  background-color: var(--nav-bar-background-highlight);
 }
 
 .timer-bar div {

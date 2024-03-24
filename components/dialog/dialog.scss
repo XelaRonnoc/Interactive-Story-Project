@@ -3,7 +3,7 @@
         cursor: pointer;
         padding: 10px;
         &:hover {
-            background-color: blue;
+            background-color: var(--nav-bar-background-highlight);
         }
     }
 }
