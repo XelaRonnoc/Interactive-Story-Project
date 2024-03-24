@@ -7,7 +7,6 @@ import {
 import { getContentWithId } from "./services/contentProvider/contentProvider.js";
 
 $(document).ready(function () {
-    const pageRoot = $(":root");
     const pageContainer = $("main");
     let timeoutId = 0;
     let keyPattern = "";
@@ -29,8 +28,6 @@ $(document).ready(function () {
             let key = event.keyCode ? event.keyCode : event.which;
             let character = String.fromCharCode(key).toLowerCase();
             keyPattern += character;
-
-            console.log(keyPattern);
             if (keyPattern === curSuccessCode) {
                 clearTimeout(timeoutId);
                 nextPage(

@@ -48,7 +48,7 @@ const contentArray = [
         title: "Option 2a 20 points",
         text: `<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, error tempore, distinctio dolorem animi quam veritatis doloribus quasi, non iusto deleniti optio culpa rerum. Facilis soluta eaque nulla quibusdam quisquam.</p>`,
         image: {
-            imageRef: `images/USASpaceSuits.jpg`,
+            imageRef: `images/USASpaceSuitsBridge.jpg`,
             alt: "test image",
             scaleType: "square",
         },
