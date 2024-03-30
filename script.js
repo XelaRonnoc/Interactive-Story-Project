@@ -17,7 +17,9 @@ $(document).ready(function () {
         nextPage(
             pageContainer,
             $(this).attr("data-next-page"),
-            parseInt($(this).attr("data-story-points")) ?? 0
+            parseInt($(this).attr("data-story-points")) ?? 0,
+            $(this).attr("data-branch-target"),
+            $(this).attr("data-branch-value")
         );
     });
 

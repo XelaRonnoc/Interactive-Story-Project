@@ -8,25 +8,38 @@ import {
     createPageWithDialog,
     createPageWithQuickTime,
 } from "../../components/page/page.js";
+import { updateBranchPath } from "../../services/contentProvider/contentProvider.js";
 
 // the holder for every page of the story
-let currentPage = "0";
+let currentPage = "1a";
 let currentStoryPoints = 0;
 let currentPageTimeout = 0;
 
-export const nextPage = (pageContainer, nextPageId, storyPoints) => {
+export const nextPage = (
+    pageContainer,
+    nextPageId,
+    storyPoints,
+    updateBranchTarget = undefined,
+    updateBranchValue = undefined
+) => {
+    const currentPageObj = getContentWithId(getCurrentPage());
     if (nextPageId === "DeathScreen") {
-        setDeathMessage(
-            getContentWithId(currentPage).quickTime.failPageMessage
-        );
+        setDeathMessage(currentPageObj.quickTime.failPageMessage);
     }
-    currentPage = nextPageId;
+    if (updateBranchTarget && updateBranchValue) {
+        updateBranchPath(updateBranchTarget, updateBranchValue);
+    }
+    setCurrentPage(nextPageId);
     currentStoryPoints += storyPoints || 0;
     renderPage(pageContainer);
 };
 
 export const getCurrentPage = () => {
     return currentPage;
+};
+
+const setCurrentPage = (newPage) => {
+    currentPage = newPage;
 };
 
 export const getCurrentPageTimeout = () => {
