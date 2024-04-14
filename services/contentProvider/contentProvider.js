@@ -552,8 +552,8 @@ const contentArray = [
             scaleType: "square",
         },
         quickTime: {
-            instructions: "1 1 1 A 4 3 & % B Q ",
-            successCode: "111A43&%BQ ",
+            instructions: "1 1 1 A 4 3 F 9 B Q",
+            successCode: "111A43F9BQ",
             passPage: "11b",
             failPage: "failScreen",
             failPageMessage: "<p>Code not recognised please try again</p>",
@@ -1144,6 +1144,7 @@ export const getContentWithId = (id) => {
 };
 
 export const setFailScreen = (target, message, failPageCheckpoint) => {
+    console.log(failPageCheckpoint);
     const failIndex = contentArray.findIndex((item) => item.id === target);
     contentArray[failIndex].text = `${message}`;
     contentArray[failIndex].nextPage = `${failPageCheckpoint}`;

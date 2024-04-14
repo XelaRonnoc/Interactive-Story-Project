@@ -1,7 +1,7 @@
 import {
     getContentWithId,
-    setDeathMessage,
     setFailScreen,
+    updateBranchPath,
 } from "../../services/contentProvider/contentProvider.js";
 import {
     createBackgroundImageHTML,
@@ -9,11 +9,8 @@ import {
     createPageWithDialog,
     createPageWithQuickTime,
 } from "../../components/page/page.js";
-import { updateBranchPath } from "../../services/contentProvider/contentProvider.js";
 
 // the holder for every page of the story
-let currentPage = "1a";
-let currentStoryPoints = 0;
 let currentPageTimeout = 0;
 
 export const nextPage = (
@@ -35,16 +32,21 @@ export const nextPage = (
         updateBranchPath(updateBranchTarget, updateBranchValue);
     }
     setCurrentPage(nextPageId);
-    currentStoryPoints += storyPoints || 0;
+    updateStoryPoints(storyPoints || 0);
     renderPage(pageContainer);
 };
 
 export const getCurrentPage = () => {
-    return currentPage;
+    return localStorage.getItem("curPage");
+};
+
+export const updateStoryPoints = (points) => {
+    const newPoints = points + parseInt(localStorage.getItem("storyPoints"));
+    localStorage.setItem("storyPoints", newPoints);
 };
 
 const setCurrentPage = (newPage) => {
-    currentPage = newPage;
+    localStorage.setItem("curPage", newPage);
 };
 
 export const getCurrentPageTimeout = () => {
@@ -66,9 +68,14 @@ const getImageHTML = (imgInfo) => {
 };
 
 export const renderPage = (pageContainer) => {
-    const curPageContent = getContentWithId(currentPage);
+    const curPageContent = getContentWithId(getCurrentPage());
     currentPageTimeout = curPageContent.time;
     const imgHTML = getImageHTML(curPageContent.image);
     const textHTML = getTextHTML(curPageContent);
     pageContainer.html(imgHTML + textHTML);
+};
+
+export const initialiseLocalStorage = () => {
+    localStorage.setItem("curPage", "1a");
+    localStorage.setItem("storyPoints", 0);
 };
