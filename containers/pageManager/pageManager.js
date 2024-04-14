@@ -1,6 +1,7 @@
 import {
     getContentWithId,
     setDeathMessage,
+    setFailScreen,
 } from "../../services/contentProvider/contentProvider.js";
 import {
     createBackgroundImageHTML,
@@ -23,8 +24,12 @@ export const nextPage = (
     updateBranchValue = undefined
 ) => {
     const currentPageObj = getContentWithId(getCurrentPage());
-    if (nextPageId === "DeathScreen") {
-        setDeathMessage(currentPageObj.quickTime.failPageMessage);
+    if (nextPageId === "failPage") {
+        setFailScreen(
+            currentPageObj.quickTime.failPage,
+            currentPageObj.quickTime.failPageMessage,
+            currentPageObj.quickTime.failPageCheckpoint
+        );
     }
     if (updateBranchTarget && updateBranchValue) {
         updateBranchPath(updateBranchTarget, updateBranchValue);

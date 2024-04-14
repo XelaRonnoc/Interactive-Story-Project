@@ -39,7 +39,6 @@ $(document).ready(function () {
                 );
                 keyPattern = "";
             } else if (keyPattern.length >= curSuccessCode.length) {
-                console.log(keyPattern, "here");
                 clearTimeout(timeoutId);
                 nextPage(
                     pageContainer,
