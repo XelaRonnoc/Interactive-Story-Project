@@ -2,18 +2,17 @@ const contentArray = [
     {
         id: "1a",
         title: "Chapter 1 SOS",
-        text: `<p>
-        “Decelerating to the Last known location of the Gwydion Captain.”
-        “How long till we are in visual range?”
-        “3 hours 43 minutes 38 seconds, Captain” 
-        “Ok, let me know when we are there Rhiannon”
-        “yes , captain”
+        text: `
+        <p>“Decelerating to the Last known location of the Gwydion Captain.”</p>
+        <p>“How long till we are in visual range?”</p>
+        <p>“3 hours 43 minutes 38 seconds, Captain” </p>
+        <p>“Ok, let me know when we are there Rhiannon”</p>
+        <p>“yes , captain”</p>
         </p>
         <p>Connor groaned as he rose from under the console he was working on. The screen had been flickering, likely a loose wire and he had decided there was no need to disturb Hyun-Ae with such a trivial fix. That however had been more than 3 hours ago and despite his repeated oaths of the pain and torment he would inflict upon the panel it had still stubbornly refused to improve and if anything was worse than when he started.</p>
-        <p>“Piece of shit” he mumbled as he made his way to the door
-        “What was that Captain?” came Rhiannon’s synthetic voice
-        “Not you Rhiannon, just the bloody navigation panel that’s all”
-        </p>
+        <p>“Piece of shit” he mumbled as he made his way to the door</p>
+        <p>“What was that Captain?” came Rhiannon’s synthetic voice</p>
+        <p>“Not you Rhiannon, just the bloody navigation panel that’s all”</p>
         <p>The Rhiannon was an old ship one of the oldest on Titan’s Salvage and Rescue roster, but with that age came experience. More than once she had gotten Connor and the others out of sticky situations, and so Connor was inclined to forgive the odd malfunction. Besides there was little Hyun-Ae couldn’t fix.</p>`,
         image: {
             imageRef: `images/MoonBase.jpg`,
@@ -553,7 +552,7 @@ const contentArray = [
         },
         quickTime: {
             instructions: "1 1 1 A 4 3 F 9 B Q",
-            successCode: "111A43F9BQ",
+            successCode: "111a43f9bq",
             passPage: "11b",
             failPage: "failScreen",
             failPageMessage: "<p>Code not recognised please try again</p>",
@@ -1144,7 +1143,7 @@ export const getContentWithId = (id) => {
 };
 
 export const setFailScreen = (target, message, failPageCheckpoint) => {
-    console.log(failPageCheckpoint);
+    console.log(target);
     const failIndex = contentArray.findIndex((item) => item.id === target);
     contentArray[failIndex].text = `${message}`;
     contentArray[failIndex].nextPage = `${failPageCheckpoint}`;

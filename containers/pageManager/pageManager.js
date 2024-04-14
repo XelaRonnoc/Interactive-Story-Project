@@ -21,7 +21,8 @@ export const nextPage = (
     updateBranchValue = undefined
 ) => {
     const currentPageObj = getContentWithId(getCurrentPage());
-    if (nextPageId === "failPage") {
+    console.log(nextPageId);
+    if (nextPageId === "failScreen") {
         setFailScreen(
             currentPageObj.quickTime.failPage,
             currentPageObj.quickTime.failPageMessage,
