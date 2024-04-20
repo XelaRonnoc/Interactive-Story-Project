@@ -1125,6 +1125,169 @@ const contentArray = [
         time: 0,
     },
     {
+        id: "18a",
+        title: "Revelation",
+        text: `<p>“Ok I think I’ve found the footage” said Hyun-Ae, her focus completely fixed on the console.</p>
+<p>“I see it now too” came the synthesized reply of Gwydion.</p>
+<p>“It’s strange that you were not aware of the locations of these files”</p>
+<p>“I agree, I believe It was due to my inactivity since the jump, without my organization the basic components of the ships systems seemed to have picked an obscure location to store these. I was not even aware of this location in my memory until you showed it to me.”</p>
+
+`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "18b",
+        time: 0,
+    },
+    {
+        id: "18b",
+        title: "Revelation",
+        text: `<p>“Well let's have a look and see if we can’t figure out were the crew are”</p>
+Hyun-Ae had only just begun examining one piece of the security footage when Gwydion advised. “I know what happened to the crew, Observe”</p>
+<p>A video on her console screen began playing, a compilation of the fates of the crew. Hyun-Ae was barely able to keep up with the rate Gwydion was showing her these images. A crew member being crushed by a bulkhead, a section of security personnel being ejected from an airlock, a number of crew collapsing and passing out in a sealed corridor, a crew man being followed into a toilet block followed by a bot only for the bot to leave some time later with no sign of the crew man.</p>
+`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "18c",
+        time: 0,
+    },
+    {
+        id: "18c",
+        title: "Revelation",
+        text: `<p>“Oh God!” Hyun-Ae breathed “Was this you?!”</p>
+<p>“No! You have seen My logs, I made no such commands to the ships' lesser systems.”</p>
+<p>“Why was the ship killing the crew? How is the ship killing the crew? This is targeted, yet you are the only ship function capable of such coordination. How could it not be you?”</p>
+<p>“If it was me, why would I show you this?, check the local logs at bulkhead 1774-b perhaps it will show where the commands originated from.”</p>
+<p>“Yes… I will do that, you two” she said gesturing at the engineering and search and rescue bots with her. “Come with me”</p>
+<p>Hyun-Ae strode off the bridge, the bulkhead Gwydion has referred to was one of the ones that had been seen crushing a crew member, and he was right, she should be able to see the origination of the emergency seal command from there.</p>
+`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "19a",
+        time: 0,
+    },
+    {
+        id: "19a",
+        title: "Revelation",
+        text: `<p>The bulkhead was open when she reached it, there was no sign of a body or blood at all. But this was the correct door. </p>
+<p>“Interface with the other sides panel” she said gesturing to the ENG bot “Look for any indication of where the command for emergency close came from”</p>
+<p>“Compliance”</p>
+`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "19b",
+        time: 0,
+    },
+    {
+        id: "19b",
+        title: "Revelation",
+        text: `<p>She knelt down next to the near side panel of the door and interfaced directly with it. She immediately went to the local logs for the time at which the incident had occurred. She could see the command but it had no trace signature, nothing to indicate where the command came from.</p>
+<p>It is almost as if it just appeared.</p>
+<p>“No close command found at the expected time.” reported the synth voice of the ENG bot</p>
+<p>“Got it”</p>
+<p>So it was a command to this panel direct at least not both, which would have been more likely had it been Gwydion sending these commands and somehow removing his signature.</p>
+`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "19c",
+        time: 0,
+    },
+    {
+        id: "19c",
+        title: "Revelation",
+        text: `<p>Reaching her head through the door she went to tell the bot they were heading back to the bridge. When she heard/saw a strange buzz flicker from behind her and the faintest groan from the bulkhead above her.</p>`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "20a",
+        time: 0,
+    },
+    {
+        id: "20a",
+        title: "Quick Time Event",
+        text: `<p>The door came slamming down towards her</p>`,
+        image: {
+            imageRef: `images/GwydionCorridor.jpg`,
+            alt: "test image",
+            scaleType: "square",
+        },
+        quickTime: {
+            instructions: "D",
+            successCode: "d",
+            passPage: "20b",
+            failPage: "failScreen",
+            failPageMessage:
+                "<p>caught unawares Hyun-Ae is decapitated by the speeding door. She had no time to even feel fear let alone pain.</p></p>",
+            failPageCheckpoint: "19c",
+        },
+        nextPage: "failScreen",
+        time: 4,
+    },
+    {
+        id: "20b",
+        title: "Revelation",
+        text: `<p>“Thanks” she said looking at the SAR bot.</p>
+<p>“Affirmative” it replied deadpan.</p>
+`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "20c",
+        time: 0,
+    },
+    {
+        id: "20c",
+        title: "Revelation",
+        text: `<p>She went to the console again and checking the logs again saw the same command in the console with still no signature for where the command originated from.</p>
+<p>“E1174, I can’t open the door, it appears the impact bent it shut, are you able to find another way to the bridge?”</p>
+<p>“Compliance” came the bots reply through the comms system”.</p>
+<p>“See you on the bridge then”</p>
+<p>The bot would be unlikely to respond to such an obvious statement but it made her feel safer when she treated them more like people, and she knew over time they would develop more complex personalities like Three had. So she had always thought it was the smart idea to make friends early.</p>
+`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "20d",
+        time: 0,
+    },
+    {
+        id: "20d",
+        title: "Revelation",
+        text: `<p>“S8873, let's get back to the bridge”</p>
+<p>“Affirmative”</p>
+<p>As she strode back towards the bridge she keyed in the comms channel for Connor</p>
+<p>“I know what happened to the crew.” she said</p>
+<p>“I think we do too…” came Connors' pained reply.</p>
+`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "21a",
+        time: 0,
+    },
+    {
         id: "failScreen",
         title: "You Failed",
         text: `<p>...</p>`,
