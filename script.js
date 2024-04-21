@@ -12,12 +12,11 @@ $(document).ready(function () {
         initialiseLocalStorage();
     }
     const pageContainer = $("main");
-    let timeoutId = 0;
     let keyPattern = "";
     renderPage(pageContainer);
 
     $("main").on("click", ".next-button", function () {
-        clearTimeout(timeoutId);
+        $(".timer-bar__inner").stop();
         nextPage(
             pageContainer,
             $(this).attr("data-next-page"),
@@ -25,6 +24,21 @@ $(document).ready(function () {
             $(this).attr("data-branch-target"),
             $(this).attr("data-branch-value")
         );
+        if (getCurrentPageTimeout() > 0) {
+            $(".timer-bar__inner").animate(
+                { width: "0px" },
+                {
+                    duration: getCurrentPageTimeout() * 1000,
+                    easing: "linear",
+                    complete: () =>
+                        nextPage(
+                            pageContainer,
+                            getContentWithId(getCurrentPage()).nextPage,
+                            0
+                        ),
+                }
+            );
+        }
     });
 
     $(document).keypress(function (event) {
@@ -35,7 +49,7 @@ $(document).ready(function () {
             let character = String.fromCharCode(key).toLowerCase();
             keyPattern += character;
             if (keyPattern === curSuccessCode) {
-                clearTimeout(timeoutId);
+                $(".timer-bar__inner").stop();
                 nextPage(
                     pageContainer,
                     getContentWithId(getCurrentPage()).quickTime.passPage,
@@ -43,7 +57,7 @@ $(document).ready(function () {
                 );
                 keyPattern = "";
             } else if (keyPattern.length >= curSuccessCode.length) {
-                clearTimeout(timeoutId);
+                $(".timer-bar__inner").stop();
                 nextPage(
                     pageContainer,
                     getContentWithId(getCurrentPage()).nextPage,
@@ -54,15 +68,20 @@ $(document).ready(function () {
         }
     });
 
-    $("main").on("click", function () {
-        if (getCurrentPageTimeout() > 0) {
-            timeoutId = setTimeout(function () {
-                nextPage(
-                    pageContainer,
-                    getContentWithId(getCurrentPage()).nextPage,
-                    0
-                );
-            }, getCurrentPageTimeout() * 1000);
-        }
-    });
+    if (getCurrentPageTimeout() > 0) {
+        $(".timer-bar__inner").stop();
+        $(".timer-bar__inner").animate(
+            { width: "0px" },
+            {
+                duration: getCurrentPageTimeout() * 1000,
+                easing: "linear",
+                complete: () =>
+                    nextPage(
+                        pageContainer,
+                        getContentWithId(getCurrentPage()).nextPage,
+                        0
+                    ),
+            }
+        );
+    }
 });
