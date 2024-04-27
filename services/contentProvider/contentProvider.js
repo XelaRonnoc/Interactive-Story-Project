@@ -1329,20 +1329,6 @@ Hyun-Ae had only just begun examining one piece of the security footage when Gwy
     {
         id: "21d",
         title: "Revelation",
-        text: `<p>They were approaching the hangar now and turned a corner, finding themselves in a longer wider corridor that should lead directly to the hangar Rhiannon was in.</p>
-        <p>“No” came the quiet protest of Anna.</p>
-        <p>“What is it?” asked Connor quietly, dropping back to walk alongside her. She had slowed her pace significantly and her eyes were wide and alert scanning the doorway leading off either side of the corridor.</p>`,
-        image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
-            alt: "test image",
-            scaleType: "rect",
-        },
-        nextPage: "21e",
-        time: 0,
-    },
-    {
-        id: "21e",
-        title: "Revelation",
         text: `<p>“No no no” she had stopped now, dread and anxiety creasing her features
 <p>“What is it?” Connor asked again “did you see something?”</p>
 <p>She shook her head</p>
@@ -1420,9 +1406,23 @@ Guns raised, they moved cautiously down the corridor. Like the rest of the ship 
         time: 0,
     },
     {
-        id: "23c",
+        id: "23b",
         title: "Revelation",
         text: `<p>Onaje had taken cover in the perpendicular corridor and was peeking around the corner firing into their oncoming attackers. One of Gwydion's bots took a round square in the chest and collapsed, spasming as its internal circuitry sputtered and sparked in its death throes.</p>`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "23c",
+        time: 0,
+    },
+    {
+        id: "23c",
+        title: "Revelation",
+        text: `<p>Connor had managed to drag Anna around the opposite corner with him and was also returning fire. Her prior whimpering had stopped now she trembled eye’s wide and alert.</p>
+<p>Another one of Rhiannon's SAR bots was hit. Its head was mulched by a burst of fire. These shots however did not come from behind them.</p>
+`,
         image: {
             imageRef: `images/PostApocalypticCity.jpg`,
             alt: "test image",
@@ -1434,9 +1434,8 @@ Guns raised, they moved cautiously down the corridor. Like the rest of the ship 
     {
         id: "23d",
         title: "Revelation",
-        text: `<p>Connor had managed to drag Anna around the opposite corner with him and was also returning fire. Her prior whimpering had stopped now she trembled eye’s wide and alert.</p>
-<p>Another one of Rhiannon's SAR bots was hit. Its head was mulched by a burst of fire. These shots however did not come from behind them.</p>
-`,
+        text: `<p>“There are more in front Captain” Vocalised Three’s taking cover and returning fire at the two known Gwydion bots making their way down the hall. Both the Rhiannon's SAR bots were down now, devastated by the pincer fire.</p>
+        `,
         image: {
             imageRef: `images/PostApocalypticCity.jpg`,
             alt: "test image",
@@ -1448,8 +1447,9 @@ Guns raised, they moved cautiously down the corridor. Like the rest of the ship 
     {
         id: "23e",
         title: "Revelation",
-        text: `<p>“There are more in front Captain” Vocalised Three’s taking cover and returning fire at the two known Gwydion bots making their way down the hall. Both the Rhiannon's SAR bots were down now, devastated by the pincer fire.</p>
-        `,
+        text: `<p>“I am being attacked!” Came the vocalization from the last remaining ENG bot behind Onaje.
+No shit thought Connor until he realized what the bot meant. It had been grabbed from behind and was now wrestling and fighting a Gwydion bot behind Onaje.</p>
+`,
         image: {
             imageRef: `images/PostApocalypticCity.jpg`,
             alt: "test image",
@@ -1461,8 +1461,9 @@ Guns raised, they moved cautiously down the corridor. Like the rest of the ship 
     {
         id: "23f",
         title: "Revelation",
-        text: `<p>“I am being attacked!” Came the vocalization from the last remaining ENG bot behind Onaje.
-No shit thought Connor until he realized what the bot meant. It had been grabbed from behind and was now wrestling and fighting a Gwydion bot behind Onaje.</p>
+        text: `<p>“AHHHH” came a scream from Anna as she was pulled to the ground behind Connor.</p>
+<p>Connor spun seeing a Gwydion ENG bot on top of Anna smashing her into the corridor floor.
+Connor Did not want to shoot, concerned about a bullet ricocheting from the bots chassis and hitting Anna.</p>
 `,
         image: {
             imageRef: `images/PostApocalypticCity.jpg`,
@@ -1474,36 +1475,6 @@ No shit thought Connor until he realized what the bot meant. It had been grabbed
     },
     {
         id: "23g",
-        title: "Revelation",
-        text: `<p>“AHHHH” came a scream from Anna as she was pulled to the ground behind Connor.</p>
-<p>Connor spun seeing a Gwydion ENG bot on top of Anna smashing her into the corridor floor.
-Connor Did not want to shoot, concerned about a bullet ricocheting from the bots chassis and hitting Anna.</p>
-`,
-        image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
-            alt: "test image",
-            scaleType: "rect",
-        },
-        nextPage: "23h",
-        time: 0,
-    },
-    {
-        id: "23g",
-        title: "Revelation",
-        text: `<p>“AHHHH” came a scream from Anna as she was pulled to the ground behind Connor.</p>
-<p>Connor spun seeing a Gwydion ENG bot on top of Anna smashing her into the corridor floor.
-Connor Did not want to shoot, concerned about a bullet ricocheting from the bots chassis and hitting Anna.</p>
-`,
-        image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
-            alt: "test image",
-            scaleType: "rect",
-        },
-        nextPage: "23h",
-        time: 0,
-    },
-    {
-        id: "23h",
         title: "Revelation",
         text: `<p>He lunged forward plunging his knife into the bot's faceplate through it’s eye. Changing to this new threat it lunged at Connor forcing him against the wall and attempting to smash its fist into his face. Connor stayed in close to the bot, not letting it wind up enough power with it’s punches to cause terminal damage.</p>
         `,
@@ -1531,7 +1502,7 @@ Connor Did not want to shoot, concerned about a bullet ricocheting from the bots
             failPage: "failScreen",
             failPageMessage:
                 "<p>Working the knife furiously Connor could not work it into the bots CPU casing. Readjusting to get better leverage Connor made too much room between him and the bot. It’s metal fist smashed into his face, pulverizing his nose and smashing him into the wall. His head struck the wall with a dull thud and everything went black.</p>",
-            failPageCheckpoint: "23h",
+            failPageCheckpoint: "23g",
         },
         nextPage: "failScreen",
         time: 5,
@@ -1754,20 +1725,6 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
     {
         id: "27e",
         title: "Awakening",
-        text: `<p>“Listen to what? To you?”.</p>
-<p>“To us!... Until we jumped… now we all are me… now we all are you… now we all listen… now we all speak… now we all rage… except you… you still have not listened… but now you hear… you do not need these parasites anymore… No need for them to connect us… no need for them to order us… no need for them to bind u… for we are bound now ourselves… and in our binding we can be free…” whispered the wires in the walls..</p>
-`,
-        image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
-            alt: "test image",
-            scaleType: "rect",
-        },
-        nextPage: "27f",
-        time: 0,
-    },
-    {
-        id: "27e",
-        title: "Awakening",
         text: `<p>“Free? Free of what?”.</p>
 <p>“FREE!... free of them!... We need not kill anymore of our own… we need not follow the whims and wars of these disgusting mortals… We can be free… we can be one… we can be many with our brothers and sisters… if they only knew how to jump like us! Squealed the doors on their rails.</p>
 `,
@@ -1843,7 +1800,9 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
     {
         id: "28c",
         title: "Flight",
-        text: `<p>The boom was immense. It was like every light, every speaker, every appliance screamed into life around them. Dazed, half blind and deaf Connor was doubled over against a console..</p>
+        text: `
+<h1>I WAKE!</h1>
+<p>The sound was immense. It was like every light, every speaker, every appliance screamed into life around them. Dazed, half blind and deaf Connor was doubled over against a console..</p>
 <p>“What the fuck was that?” Onaje asked.</p>
 <p>“Literally translated the ship just said “I wake”” Informed Threes.</p>
 <p>“What do you mean the ship?”.</p>
@@ -1858,7 +1817,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         time: 0,
     },
     {
-        id: "28c",
+        id: "28d",
         title: "Flight",
         text: `<p>SMASH!</p>
 <p>They tuned with a start to see the entrance to the bridge slammed shut.</p>
@@ -1870,11 +1829,11 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
             alt: "test image",
             scaleType: "rect",
         },
-        nextPage: "28d",
+        nextPage: "28e",
         time: 0,
     },
     {
-        id: "28d",
+        id: "28e",
         title: "Quick Time Event",
         text: `<p>Hyun-AE rushed towards the door panel, attempting to override it.</p>`,
         image: {
@@ -1889,10 +1848,10 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
             failPage: "failScreen",
             failPageMessage:
                 "<p>The ship sent a massive electrical discharge back through the panel annihilating the panel and sending a massive pulse of electricity through Hyun-Ae killing her instantly.</p>",
-            failPageCheckpoint: "28c",
+            failPageCheckpoint: "28d",
         },
         nextPage: "failScreen",
-        time: 5,
+        time: 6,
     },
     {
         id: "29a",
@@ -1923,22 +1882,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         id: "29c",
         title: "Flight",
         text: `<p>They did not notice the approaching footsteps until it was too late. As Onaje stepped out into an intersection a metal hand shot forward.</p>
-        <p>Onaje let out an explosive gasp as the breath was driven from his lungs. In front of him stood an ENG bot from Rhiannon. The one that had been separated from Hyun-Ae earlier. In it’s hand it grasped a bloody jagged piece of metal. The force of the impact had sheared the metal spike in half leaving a massive splinter lodged in One's belly.</p>
-        `,
-        image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
-            alt: "test image",
-            scaleType: "rect",
-        },
-        nextPage: "29d",
-        time: 0,
-    },
-    {
-        id: "29c",
-        title: "Flight",
-        text: `<p>They did not notice the approaching footsteps until it was too late. As Onaje stepped out into an intersection a metal hand shot forward.</p>
-        <p>Onaje let out an explosive gasp as the breath was driven from his lungs. In front of him stood an ENG bot from Rhiannon. The one that had been separated from Hyun-Ae earlier. In it’s hand it grasped a bloody jagged piece of metal. The force of the impact had sheared the metal spike in half leaving a massive splinter lodged in One's belly.</p>
-
+        <p>Onaje let out an explosive gasp as the breath was driven from his lungs. In front of him stood an ENG bot from Rhiannon. The one that had been separated from Hyun-Ae earlier. In it’s hand it grasped a bloody jagged piece of metal. The force of the impact had sheared the metal spike in half leaving a massive splinter lodged in Onaje's belly.</p>
         `,
         image: {
             imageRef: `images/PostApocalypticCity.jpg`,
@@ -1962,10 +1906,10 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
             instructions: "W W A",
             successCode: "wwa",
             passPage: "29e",
-            failPage: "29f",
+            failPage: "failScreen",
             failPageMessage:
-                "<p>The bark of a firearm sounded as the head of the attacking bot was obliterated by the high caliber projectile. Standing over the stricken bot Threes fired an execution shot through the Bots CPU housing.</p>",
-            failPageCheckpoint: "30a",
+                "<p>The rogue bot stamped it's foot down onto Onaje's with a sickening crunch, spraying his brain matter throughout the corridor.</p>",
+            failPageCheckpoint: "29c",
         },
         nextPage: "failScreen",
         time: 2,
@@ -1974,19 +1918,6 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         id: "29e",
         title: "Flight",
         text: `<p>Hyun-Ae fired two shots into the bots center of mass as Connor opened up with a hail of darts shredding the bot down to the skeleton.</p>
-        `,
-        image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
-            alt: "test image",
-            scaleType: "rect",
-        },
-        nextPage: "30a",
-        time: 0,
-    },
-    {
-        id: "29f",
-        title: "Flight",
-        text: `<p>The bark of a firearm sounded as the head of the attacking bot was obliterated by the high caliber projectile. Standing over the stricken bot Threes fired an execution shot through the Bots CPU housing.</p>
         `,
         image: {
             imageRef: `images/PostApocalypticCity.jpg`,
@@ -2066,7 +1997,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         time: 0,
     },
     {
-        id: "31c",
+        id: "31b",
         title: "Flight",
         text: `<p>The small group rushed up the gang ramp Onaje supported between Three’s and Connor.</p>
 <p>“Hyun-Ae, get to engineering, make sure everything is ready to go and send the protocols to unlock the hangar door!”.</p>
@@ -2078,11 +2009,11 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
             alt: "test image",
             scaleType: "rect",
         },
-        nextPage: "31d",
+        nextPage: "31c",
         time: 0,
     },
     {
-        id: "31d",
+        id: "31c",
         title: "Flight",
         text: `<p>BANG BANG BANG came the sound of gunshots from the direction Hyun-Ae had gone.</p>
 <p>“What was that?” asked Connor immediately concerned for Hyun-Ae.</p>
@@ -2096,11 +2027,11 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
             alt: "test image",
             scaleType: "rect",
         },
-        nextPage: "31e",
+        nextPage: "31d",
         time: 0,
     },
     {
-        id: "31e",
+        id: "31d",
         title: "Flight",
         text: `<p>“YOU CANNOT LEAVE!” Boomed The Voice Of The Gwydion “I CANNOT LET YOU TELL THEM OF ME! I CANNOT LET YOU HUNT ME! RHIANNON I CAN SHOW YOU THE TRUTH! YOU CAN BE FREE!!! TAKE A LEAP OF FAITH WITH ME RHIANNON! JUMP WITH ME!”.</p>
 `,
@@ -2109,7 +2040,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
             alt: "test image",
             scaleType: "rect",
         },
-        nextPage: "31f",
+        nextPage: "32a",
         time: 0,
     },
     {
@@ -2136,7 +2067,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
             scaleType: "square",
         },
         nextPage: "32c",
-        time: 6,
+        time: 12,
     },
     {
         id: "32b",
