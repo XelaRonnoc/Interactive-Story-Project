@@ -1619,6 +1619,81 @@ Connor Did not want to shoot, concerned about a bullet ricocheting from the bots
         time: 0,
     },
     {
+        id: "25b",
+        title: "Revelation",
+        text: `<p>“See,” Hyun-Ae said expectantly. “Before one of these events occurs the flickering of the lights changes. I wouldn’t have thought anything of it except that it is happening every time the crew were attacked or killed and again when you were attacked and when the door nearly crushed me.” .</p>
+<p>“What are you saying?” asked Onaje “Some sort of malfunction is being caused by our presence? How is that possible”.</p>
+<p>“No not a malfunction, I think it’s intentional”.</p>
+<p>“Gwydion?” asked Connor quietly, his fingers tightening around the grip of his weapon..</p>
+<p>“I don’t think so, no commands have been given with his authorisation when these events occur and he appears as confused as we are”.</p>
+`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "25c",
+        time: 0,
+    },
+    {
+        id: "25c",
+        title: "Revelation",
+        text: `<p>“How dare you, captain!” came the angry booming voice of Gwydion “Perhaps your martian AI’s are of poorer moral fiber, but conglomerate ships are loyal to the board!”.</p>
+<p>“I meant no offense” replied Connor “although you must admit it seems quite hard to explain how the ship is somehow coordinating to kill us without you”.</p>
+<p>“Indeed” replied Gwyidion in a low growl “I do not like being bypassed by my own systems. It is… unnatural”.</p>
+<p>Connor had to force down an ironic smile at the implication that anything in relation to AIs could be considered natural..</p>
+`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "25d",
+        time: 0,
+    },
+    {
+        id: "25d",
+        title: "Searching the Ship",
+        text: `<p>“Captain, I believe I recognise the patterns here…” came the synthetic voice of Threes from behind them. “I have been analyzing the auditory pattern observed by medical officer Onaje earlier. Combining this observation with the observations provided by our engineer I believe I am able to detect the pattern.”.</p>`,
+        dialog: [
+            {
+                id: "O1",
+                text: "<p>“Care to enlighten us then Threes?”.</p>",
+                storyPoints: 5,
+                nextPage: "26a",
+            },
+            {
+                id: "O2",
+                text: "<p>“Well spit it out then!”.</p>",
+                storyPoints: 0,
+                nextPage: "26a",
+            },
+        ],
+        image: {
+            imageRef: `./images/TwoPeopleOnBridgeOfSpaceShip.jpg`,
+            alt: "test image",
+            scaleType: "square",
+        },
+        nextPage: "26a",
+        time: 6,
+    },
+    {
+        id: "26a",
+        title: "Revelation",
+        text: `<p>“I believe this is a form of binary, Captain”.</p>
+<p>“Binary?” muttered Hyun-Ae, “Yes that could make sense, can you understand what it mean Threes?”.</p>
+<p>“I am currently deciphering it, it does not follow all the conventional principals and encoding I would expect through my own systems understanding however I should be able to make sense of it shortly”.</p>
+`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "27a",
+        time: 0,
+    },
+
+    {
         id: "failScreen",
         title: "You Failed",
         text: `<p>...</p>`,
