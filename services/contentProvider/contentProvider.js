@@ -1288,6 +1288,337 @@ Hyun-Ae had only just begun examining one piece of the security footage when Gwy
         time: 0,
     },
     {
+        id: "21a",
+        title: "Revelation",
+        text: `<p>The small team was making their way through the corridors transecting Gwydion's main body as they headed towards the hangar bay where Rhiannon was waiting. Onaje and Connor were taking the front keeping their eyes peeled for any further unexplained mishaps while Threes and the bots took up the rear. Anna stayed close to the front, clearly a way to get too close to the bots.</p>
+`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "21b",
+        time: 0,
+    },
+    {
+        id: "21b",
+        title: "Revelation",
+        text: `<p>Connor was concerned about Anna’s reaction to the bots. Making him think of those empty bot cradles in the engineering deck. Had the bots somehow gone rouge? Surely the crew could have overpowered them though, most were not combat programmed bots with only minimal ship defense learning and should have been dealt with easily defeated by the conglomerate marines stationed on such a ship.</p>`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "21c",
+        time: 0,
+    },
+    {
+        id: "21c",
+        title: "Revelation",
+        text: `<p>They were approaching the hangar now and turned a corner, finding themselves in a longer wider corridor that should lead directly to the hangar Rhiannon was in.</p>
+        <p>“No” came the quiet protest of Anna.</p>
+        <p>“What is it?” asked Connor quietly, dropping back to walk alongside her. She had slowed her pace significantly and her eyes were wide and alert scanning the doorway leading off either side of the corridor.</p>`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "21d",
+        time: 0,
+    },
+    {
+        id: "21d",
+        title: "Revelation",
+        text: `<p>They were approaching the hangar now and turned a corner, finding themselves in a longer wider corridor that should lead directly to the hangar Rhiannon was in.</p>
+        <p>“No” came the quiet protest of Anna.</p>
+        <p>“What is it?” asked Connor quietly, dropping back to walk alongside her. She had slowed her pace significantly and her eyes were wide and alert scanning the doorway leading off either side of the corridor.</p>`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "21e",
+        time: 0,
+    },
+    {
+        id: "21e",
+        title: "Revelation",
+        text: `<p>“No no no” she had stopped now, dread and anxiety creasing her features
+<p>“What is it?” Connor asked again “did you see something?”</p>
+<p>She shook her head</p>
+<p>“You think something is wrong though? Something has changed?”</p>
+<p>She nodded</p>
+<p>“Ok. Everyone!” he said in a harsh whisper “Be alert, check the doors before you pass them, be alert!”</p>
+`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "22a",
+        time: 0,
+    },
+    {
+        id: "22a",
+        title: "Revelation",
+        text: `<p>Connor didn’t notice anything wrong or different to before, but he was not foolish enough not to trust the instincts of someone who so far appeared to be the ship's only survivor.
+Guns raised, they moved cautiously down the corridor. Like the rest of the ship it was poorly lit and the drone and hum of damaged electronics and speakers was a constant low level noise.</p>
+<p>Halfway down the hallway they approached a four way junction. As they crept closer Anna began to whimper softly clearly terrified of what may lay in wait.</p>
+`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "22b",
+        time: 0,
+    },
+    {
+        id: "22b",
+        title: "Revelation",
+        text: `<p>“Onaje, you take left I’ll take right, Three’s you keep eye’s front”</p>
+<p>“Copy” </p>
+<p>“Compliance”</p>
+<p>“Three… Two… One… GO!” </p>
+<p>Onaje and Connor pushed rapidly around the corners as Three kept his weapon aiming down the dim corridor.</p>
+<p>Connor saw nothing, just another dim corridor, in the same state of damage and disrepair as the rest..</p>
+`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "22c",
+        time: 0,
+    },
+    {
+        id: "22c",
+        title: "Revelation",
+        text: `<p>“BANG BANG BANG BANG” the crack of gunfire was deafening in the enclosed space.</p>
+<p>“Behind us!” Yelled Onaje.</p>
+`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "23a",
+        time: 0,
+    },
+    {
+        id: "23a",
+        title: "Revelation",
+        text: `<p>One of the ENG bots taking up the rear had been obliterated, pieces of its shattered chassis scattered across the deck as its headless neck spurted oil.</p>
+<p>The Two remaining SAR bots were returning fire down the hall behind them. One was firing one handed as its right arm had been mangled by another bullet.</p>
+`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "23b",
+        time: 0,
+    },
+    {
+        id: "23c",
+        title: "Revelation",
+        text: `<p>Onaje had taken cover in the perpendicular corridor and was peeking around the corner firing into their oncoming attackers. One of Gwydion's bots took a round square in the chest and collapsed, spasming as its internal circuitry sputtered and sparked in its death throes.</p>`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "23d",
+        time: 0,
+    },
+    {
+        id: "23d",
+        title: "Revelation",
+        text: `<p>Connor had managed to drag Anna around the opposite corner with him and was also returning fire. Her prior whimpering had stopped now she trembled eye’s wide and alert.</p>
+<p>Another one of Rhiannon's SAR bots was hit. Its head was mulched by a burst of fire. These shots however did not come from behind them.</p>
+`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "23e",
+        time: 0,
+    },
+    {
+        id: "23e",
+        title: "Revelation",
+        text: `<p>“There are more in front Captain” Vocalised Three’s taking cover and returning fire at the two known Gwydion bots making their way down the hall. Both the Rhiannon's SAR bots were down now, devastated by the pincer fire.</p>
+        `,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "23f",
+        time: 0,
+    },
+    {
+        id: "23f",
+        title: "Revelation",
+        text: `<p>“I am being attacked!” Came the vocalization from the last remaining ENG bot behind Onaje.
+No shit thought Connor until he realized what the bot meant. It had been grabbed from behind and was now wrestling and fighting a Gwydion bot behind Onaje.</p>
+`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "23g",
+        time: 0,
+    },
+    {
+        id: "23g",
+        title: "Revelation",
+        text: `<p>“AHHHH” came a scream from Anna as she was pulled to the ground behind Connor.</p>
+<p>Connor spun seeing a Gwydion ENG bot on top of Anna smashing her into the corridor floor.
+Connor Did not want to shoot, concerned about a bullet ricocheting from the bots chassis and hitting Anna.</p>
+`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "23h",
+        time: 0,
+    },
+    {
+        id: "23g",
+        title: "Revelation",
+        text: `<p>“AHHHH” came a scream from Anna as she was pulled to the ground behind Connor.</p>
+<p>Connor spun seeing a Gwydion ENG bot on top of Anna smashing her into the corridor floor.
+Connor Did not want to shoot, concerned about a bullet ricocheting from the bots chassis and hitting Anna.</p>
+`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "23h",
+        time: 0,
+    },
+    {
+        id: "23h",
+        title: "Revelation",
+        text: `<p>He lunged forward plunging his knife into the bot's faceplate through it’s eye. Changing to this new threat it lunged at Connor forcing him against the wall and attempting to smash its fist into his face. Connor stayed in close to the bot, not letting it wind up enough power with it’s punches to cause terminal damage.</p>
+        `,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "24a",
+        time: 0,
+    },
+    {
+        id: "24a",
+        title: "Quick Time Event",
+        text: `<p>Pulling the knife free he plunged it back into the bots torso working it around furiously, trying to cut and damage the essential circuits of the bots CPU.</p>`,
+        image: {
+            imageRef: `images/GwydionCorridor.jpg`,
+            alt: "test image",
+            scaleType: "square",
+        },
+        quickTime: {
+            instructions: "W A D S W D S A",
+            successCode: "wadswdsa",
+            passPage: "24b",
+            failPage: "failScreen",
+            failPageMessage:
+                "<p>Working the knife furiously Connor could not work it into the bots CPU casing. Readjusting to get better leverage Connor made too much room between him and the bot. It’s metal fist smashed into his face, pulverizing his nose and smashing him into the wall. His head struck the wall with a dull thud and everything went black.</p>",
+            failPageCheckpoint: "23h",
+        },
+        nextPage: "failScreen",
+        time: 5,
+    },
+    {
+        id: "24b",
+        title: "Revelation",
+        text: `<p>A loud clang sounded and the bots neck joints snapped as it tumbled away from Connor. In Front of him stood Anna, a metal bar in her hands.
+<p>“Thanks,” Connor said, gathering up his firearm again.</p>
+<p>On the other side of the Corridor Onaje had shot the Gwydion bot attacking the Rhiannon Eng bot. Far less concerned about the ricochet into the ENG bot.</p>
+`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "24c",
+        time: 0,
+    },
+    {
+        id: "24c",
+        title: "Revelation",
+        text: `<p>Threes was still engaging the Two bots approaching from the direction of the hangar. One had been struck in the leg and was moving slower than its companion as they both suppressed Three’s. There was only one bot still coming from behind them which had its attention focused on Onaje.</p>
+        `,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "24d",
+        time: 0,
+    },
+    {
+        id: "24d",
+        title: "Revelation",
+        text: `<p>Ducking quickly out from cover Connor unleashed a spray of bullets into the oncoming bot shredding it’s torso with a storm of high velocity darts.The bot collapsed forwards all motor control and thought evaporated.</p>
+        <p>Connor had to nearly dive back into cover as the bots advancing from the hangar switched their target towards him.</p>
+        `,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "24e",
+        time: 0,
+    },
+    {
+        id: "24e",
+        title: "Revelation",
+        text: `<p>This gave Threes an opportunity to lean out from cover and fire two expertly placed shots straight into the Bots CPU. The stricken bot collapsed mid stride falling into a heap on the ground.</p>
+        `,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "24f",
+        time: 0,
+    },
+    {
+        id: "24f",
+        title: "Revelation",
+        text: `<p>Onaje was able to take the final bot with a burst from his weapon the stitched the bot from torso to head. The bot groaned as it tumbled backwards landing with a resounding clang against the steel floor..</p>
+<p>“Captain! I know what happened to the crew” Came the sound of Hyun-Ae’s voice through the comlink.</p>
+<p>I think we do too…” groaned Connor as he got to his feet.</p>
+`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "25a",
+        time: 0,
+    },
+    {
+        id: "25a",
+        title: "Revelation",
+        text: `<p>They stood on the bridge gathered around Hyun-Ae peering over her shoulder at the security footage for the past months and the footage since they have arrived on the Gwydion. Connor and Onaje had gotten Anna to the Rhiannon’s medical bay where they had left her to rest and be taken care of by the medical bots, she had had to be sedated to prevent her fight or flight response kicking in with the Rhiannon's medical bots and her either running back into the Gwydion or damaging Rhiannon.</p>`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "25b",
+        time: 0,
+    },
+    {
         id: "failScreen",
         title: "You Failed",
         text: `<p>...</p>`,
