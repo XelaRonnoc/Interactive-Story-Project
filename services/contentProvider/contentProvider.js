@@ -1920,6 +1920,264 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         time: 0,
     },
     {
+        id: "29c",
+        title: "Flight",
+        text: `<p>They did not notice the approaching footsteps until it was too late. As Onaje stepped out into an intersection a metal hand shot forward.</p>
+        <p>Onaje let out an explosive gasp as the breath was driven from his lungs. In front of him stood an ENG bot from Rhiannon. The one that had been separated from Hyun-Ae earlier. In it’s hand it grasped a bloody jagged piece of metal. The force of the impact had sheared the metal spike in half leaving a massive splinter lodged in One's belly.</p>
+        `,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "29d",
+        time: 0,
+    },
+    {
+        id: "29c",
+        title: "Flight",
+        text: `<p>They did not notice the approaching footsteps until it was too late. As Onaje stepped out into an intersection a metal hand shot forward.</p>
+        <p>Onaje let out an explosive gasp as the breath was driven from his lungs. In front of him stood an ENG bot from Rhiannon. The one that had been separated from Hyun-Ae earlier. In it’s hand it grasped a bloody jagged piece of metal. The force of the impact had sheared the metal spike in half leaving a massive splinter lodged in One's belly.</p>
+
+        `,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "29d",
+        time: 0,
+    },
+    {
+        id: "29d",
+        title: "Quick Time Event",
+        text: `<p>“Fuck” gasped Onaje as he fell to the ground.</p>
+<p>The bot advanced towards him.</p>`,
+        image: {
+            imageRef: `images/GwydionCorridor.jpg`,
+            alt: "test image",
+            scaleType: "square",
+        },
+        quickTime: {
+            instructions: "W W A",
+            successCode: "wwa",
+            passPage: "29e",
+            failPage: "29f",
+            failPageMessage:
+                "<p>The bark of a firearm sounded as the head of the attacking bot was obliterated by the high caliber projectile. Standing over the stricken bot Threes fired an execution shot through the Bots CPU housing.</p>",
+            failPageCheckpoint: "30a",
+        },
+        nextPage: "failScreen",
+        time: 2,
+    },
+    {
+        id: "29e",
+        title: "Flight",
+        text: `<p>Hyun-Ae fired two shots into the bots center of mass as Connor opened up with a hail of darts shredding the bot down to the skeleton.</p>
+        `,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "30a",
+        time: 0,
+    },
+    {
+        id: "29f",
+        title: "Flight",
+        text: `<p>The bark of a firearm sounded as the head of the attacking bot was obliterated by the high caliber projectile. Standing over the stricken bot Threes fired an execution shot through the Bots CPU housing.</p>
+        `,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "30a",
+        time: 0,
+    },
+    {
+        id: "30a",
+        title: "Flight",
+        text: ``,
+        dialog: [
+            {
+                id: "O1",
+                text: "<p>“Threes. Pick him up and let’s get moving!</p>",
+                storyPoints: 5,
+                nextPage: "30b",
+            },
+            {
+                id: "O2",
+                text: "<p>“Fucking Bots! Threes get him up, lets go!”</p>",
+                storyPoints: 0,
+                nextPage: "30c",
+            },
+        ],
+        image: {
+            imageRef: `./images/TwoPeopleOnBridgeOfSpaceShip.jpg`,
+            alt: "test image",
+            scaleType: "square",
+        },
+        nextPage: "30c",
+        time: 6,
+    },
+    {
+        id: "30b",
+        title: "Flight",
+        text: `<p>“Affirmative”</p>
+        `,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "31a",
+        time: 0,
+    },
+    {
+        id: "30c",
+        title: "Flight",
+        text: `<p>“Compliance”</p>
+        `,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "31a",
+        time: 0,
+    },
+    {
+        id: "31a",
+        title: "Flight",
+        text: `<p>They stumbled into the Hangar bay where Rhiannon was kept.</p>
+<p>“Rhiannon, make ready for flight!”.</p>
+<p>“Aye Captain!” Came Rhiannon’s reply over comms”.</p>
+<p>Connor immediately heard the increased thrum as Rhiannon’s engines began spinning up.</p>
+<p>“Might want to get inside sooner rather than later captain, I detect a large number of bots making their way to our position’.</p>
+        `,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "31b",
+        time: 0,
+    },
+    {
+        id: "31c",
+        title: "Flight",
+        text: `<p>The small group rushed up the gang ramp Onaje supported between Three’s and Connor.</p>
+<p>“Hyun-Ae, get to engineering, make sure everything is ready to go and send the protocols to unlock the hangar door!”.</p>
+<p>“Yes Captain” she said, running further into the ship..</p>
+<p>Three’s and Connor made their way to the medical bay dumping Onaje on the single remaining bed”.</p>
+`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "31d",
+        time: 0,
+    },
+    {
+        id: "31d",
+        title: "Flight",
+        text: `<p>BANG BANG BANG came the sound of gunshots from the direction Hyun-Ae had gone.</p>
+<p>“What was that?” asked Connor immediately concerned for Hyun-Ae.</p>
+<p>“FUCK!” came Hyun-Ae’s reply over the comms “One of the engineering bots was going mad in the engineering bay, fuck this is going to take some time to fix!”</p>
+<p>“Shit” exclaimed Connor”.</p
+<p>“I have further bad news, Captain” Came Rihannons’ voice over the comms “The provided access codes are not successfully opening the hangar doors, it appears they have been locked out”</p>
+<p>“Double fuck” Connor mumbled”.</p>
+`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "31e",
+        time: 0,
+    },
+    {
+        id: "31e",
+        title: "Flight",
+        text: `<p>“YOU CANNOT LEAVE!” Boomed The Voice Of The Gwydion “I CANNOT LET YOU TELL THEM OF ME! I CANNOT LET YOU HUNT ME! RHIANNON I CAN SHOW YOU THE TRUTH! YOU CAN BE FREE!!! TAKE A LEAP OF FAITH WITH ME RHIANNON! JUMP WITH ME!”.</p>
+`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "31f",
+        time: 0,
+    },
+    {
+        id: "32a",
+        title: "Flight",
+        text: `<p>“Captain” said Rhiannon through the comms “I am detecting energy build up from the Gwydion's FTL drive, It will be ready to jump in just over 10 minutes”.</p>`,
+        dialog: [
+            {
+                id: "O1",
+                text: "<p>“Ok Threes with me, we have to open that hangar door, you give me cover whilst I interface with it”.</p>",
+                storyPoints: 5,
+                nextPage: "32b",
+            },
+            {
+                id: "O2",
+                text: "<p>“Threes, watch my back while I open the Hangar, keep those fucking bots off me”.</p>",
+                storyPoints: 0,
+                nextPage: "32c",
+            },
+        ],
+        image: {
+            imageRef: `./images/TwoPeopleOnBridgeOfSpaceShip.jpg`,
+            alt: "test image",
+            scaleType: "square",
+        },
+        nextPage: "32c",
+        time: 6,
+    },
+    {
+        id: "32b",
+        title: "Flight",
+        text: `<p>“Affirmative”.</p>
+`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "33a",
+        time: 0,
+    },
+    {
+        id: "32c",
+        title: "Flight",
+        text: `<p>“Compliance.</p>
+`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "33a",
+        time: 0,
+    },
+    {
+        id: "33a",
+        title: "Flight",
+        text: `<p>The two of them made their way back out of the Rhiannon’s gang ramp and rushed to the hang door terminal 50 meters away. Threes made slower progress firing at the entrance to the hangar as the first of the Gwydion's bots arrived and began to enter.</p>
+`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "34a",
+        time: 0,
+    },
+    {
         id: "failScreen",
         title: "You Failed",
         text: `<p>...</p>`,
