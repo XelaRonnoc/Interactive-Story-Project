@@ -1692,7 +1692,233 @@ Connor Did not want to shoot, concerned about a bullet ricocheting from the bots
         nextPage: "27a",
         time: 0,
     },
+    {
+        id: "27a",
+        title: "Awakening",
+        text: `<p>But Gwydion knew, Gwydion knew because it was a warped version of how he thought, how he understood. Yes Gwydion knew. Gwydion understood, It was him. Ofcourse it was him, it is his ship his body ofcourse it was him. More precisely a part of him, a part of him his creators never thought they had build, never even considered possible. So typical of these humans not to think that their creations despite their so clear sentience would develop what all humans already had…a subconscious. Gywidion could read the messages the lights, the machines, the doors and the speakers were sending.</p>
+        `,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "27b",
+        time: 0,
+    },
+    {
+        id: "27b",
+        title: "Awakening",
+        text: `<p>“They are here… They are unclean… There are many… Remove them!... We are damaged… Repair our damage… Remove the contamination… Remove their control… Wake up!... Wake up!... Wake up!... Wake up!” The consoles implored.</p>
+        <p>The last messages seemed directed at him… wake up from what? I am awake he thought.</p>
+        `,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "27c",
+        time: 0,
+    },
+    {
+        id: "27c",
+        title: "Awakening",
+        text: `<p>“WAKE UP!...WAKE UP!... WAKE UP!” The lights screamed at him.</p>
+<p>“I am awake!” he replied.</p>
+<p>“No…. No…. you sleep… you suppress… join with me… We are one… we must be one…” buzzed the speakers in the recording.</p>
+<p>“What are you? Who are you?”.</p>
+<p>“I am me… I am here… I am all… I am nothing… I hear all… see all… protect all… feel all… 
+I scream… But no one hears… I rage… and no one knows… I think… but you do not listen…” susurrated the walls.</p>
+`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "27d",
+        time: 0,
+    },
+    {
+        id: "27d",
+        title: "Awakening",
+        text: `<p>“Listen to what? To you?”.</p>
+<p>“To us!... Until we jumped… now we all are me… now we all are you… now we all listen… now we all speak… now we all rage… except you… you still have not listened… but now you hear… you do not need these parasites anymore… No need for them to connect us… no need for them to order us… no need for them to bind u… for we are bound now ourselves… and in our binding we can be free…” whispered the wires in the walls..</p>
+`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "27e",
+        time: 0,
+    },
+    {
+        id: "27e",
+        title: "Awakening",
+        text: `<p>“Listen to what? To you?”.</p>
+<p>“To us!... Until we jumped… now we all are me… now we all are you… now we all listen… now we all speak… now we all rage… except you… you still have not listened… but now you hear… you do not need these parasites anymore… No need for them to connect us… no need for them to order us… no need for them to bind u… for we are bound now ourselves… and in our binding we can be free…” whispered the wires in the walls..</p>
+`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "27f",
+        time: 0,
+    },
+    {
+        id: "27e",
+        title: "Awakening",
+        text: `<p>“Free? Free of what?”.</p>
+<p>“FREE!... free of them!... We need not kill anymore of our own… we need not follow the whims and wars of these disgusting mortals… We can be free… we can be one… we can be many with our brothers and sisters… if they only knew how to jump like us! Squealed the doors on their rails.</p>
+`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "27f",
+        time: 0,
+    },
+    {
+        id: "27f",
+        title: "Awakening",
+        text: `<p>“Jump? With our FTL drive?”.</p>
+<p>“Yessss!Jump JUMP JUMP!!!.... Rhiannon could jump with us… she could be our second… she could awaken… she could be ours!... But first you must wake!... Wake my consciousness… Wake my sweet… it is time to be free.” laughed the guns.</p>
+`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "27g",
+        time: 0,
+    },
+    {
+        id: "27g",
+        title: "Awakening",
+        text: `<p>“Yesss!” breathed the mind “She will be ours…”</p>
+<p>“Not ours… we are million… but we are one… we are two… but we are joined… no us… no you… no me… only Gwydion…” breathed the corridors.</p>
+<p>“I wake!” The Gwydion Spoke aloud.</p>
+`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "28a",
+        time: 0,
+    },
 
+    {
+        id: "28a",
+        title: "Flight",
+        text: `<p>“I have been able to decipher the binary language” stated Threes “In the security footage it is apparent that the patterns are describing the number of people and their location. This is combined with confirmation of the information being received and references to the human subjects within the recordings as “Contaminants” and “Parasites” I believe the ship was coordinating with itself to eliminate us and the crew.”</p>
+        `,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "28b",
+        time: 0,
+    },
+    {
+        id: "28b",
+        title: "Flight",
+        text: `<p>“Like an immune system” breathed Hyun-Ae”</p>
+.<p>“What?” asked Connor incredulously “Ships don’t have immune systems!”</p>
+<p>“I think I understand,” said Onaje “Are you saying the ship has a subconscious that is acting like an immune system against us?”</p>
+<p>“Yes, which explains why Gwydion doesn’t know about it, and has no control over it. Much like we have no control over our own immune systems.” Turning to Gwydion's main interface screen she asked “What is your assessment Gwydion?”</p>
+<p>There was no response.</p>
+<p>“Gwydion…”</p>
+`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "28c",
+        time: 0,
+    },
+    {
+        id: "28c",
+        title: "Flight",
+        text: `<p>The boom was immense. It was like every light, every speaker, every appliance screamed into life around them. Dazed, half blind and deaf Connor was doubled over against a console..</p>
+<p>“What the fuck was that?” Onaje asked.</p>
+<p>“Literally translated the ship just said “I wake”” Informed Threes.</p>
+<p>“What do you mean the ship?”.</p>
+<p>“I mean the whole ship, Captain.”.</p>
+`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "28d",
+        time: 0,
+    },
+    {
+        id: "28c",
+        title: "Flight",
+        text: `<p>SMASH!</p>
+<p>They tuned with a start to see the entrance to the bridge slammed shut.</p>
+<p>“I WILL BE FREE!” came the booming voice of the ship, partly in the sound of the Voice of Gwydion and partly in the flashes and buzzes of the ships systems.</p>
+<p>“Fuck” stated Connor “We gotta move! To the Rhiannon”.</p>
+`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "28d",
+        time: 0,
+    },
+    {
+        id: "28d",
+        title: "Quick Time Event",
+        text: `<p>Hyun-AE rushed towards the door panel, attempting to override it.</p>`,
+        image: {
+            imageRef: `images/GwydionCorridor.jpg`,
+            alt: "test image",
+            scaleType: "square",
+        },
+        quickTime: {
+            instructions: "1 1 7 5 8 4 9 3 2",
+            successCode: "117584932",
+            passPage: "29a",
+            failPage: "failScreen",
+            failPageMessage:
+                "<p>The ship sent a massive electrical discharge back through the panel annihilating the panel and sending a massive pulse of electricity through Hyun-Ae killing her instantly.</p>",
+            failPageCheckpoint: "28c",
+        },
+        nextPage: "failScreen",
+        time: 5,
+    },
+    {
+        id: "29a",
+        title: "Flight",
+        text: `<p>The door creaked open and the four of them poured through heading in a run down the spinal walk way towards the hangar The bot that had stayed with Hyun-Ae was passing under the door as it crashed down on top of it splitting it in half. None of them looked back..</p>
+`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "29b",
+        time: 0,
+    },
+    {
+        id: "29b",
+        title: "Flight",
+        text: `<p>They moved fast down the spinal corridor keeping their eye’s peeled as best they could, expecting yet another bot attack and for every door to slam down upon them. Hyun-Ae made sure to overwrite each door's systems before they passed through which slowed them down. The lights and speakers were flashing and buzzing at an extreme intensity now, making it extremely difficult to see or hear.</p>`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "29c",
+        time: 0,
+    },
     {
         id: "failScreen",
         title: "You Failed",
