@@ -32,7 +32,18 @@ export const nextPage = (
     if (updateBranchTarget && updateBranchValue) {
         updateBranchPath(updateBranchTarget, updateBranchValue);
     }
-    setCurrentPage(nextPageId);
+    if (nextPageId === "Ending") {
+        const storyPoints = getStoryPoints();
+        if (storyPoints >= 30) {
+            setCurrentPage("G1a");
+        } else if (storyPoints > 10) {
+            setCurrentPage("N1a");
+        } else {
+            setCurrentPage("B1a");
+        }
+    } else {
+        setCurrentPage(nextPageId);
+    }
     updateStoryPoints(storyPoints || 0);
     renderPage(pageContainer);
 };
@@ -44,6 +55,9 @@ export const getCurrentPage = () => {
 export const updateStoryPoints = (points) => {
     const newPoints = points + parseInt(localStorage.getItem("storyPoints"));
     localStorage.setItem("storyPoints", newPoints);
+};
+export const getStoryPoints = () => {
+    return localStorage.getItem("storyPoints");
 };
 
 const setCurrentPage = (newPage) => {

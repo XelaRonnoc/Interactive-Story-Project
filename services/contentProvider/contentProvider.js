@@ -2105,7 +2105,436 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
             alt: "test image",
             scaleType: "rect",
         },
-        nextPage: "34a",
+        nextPage: "Ending",
+        time: 0,
+    },
+    {
+        id: "G1a",
+        title: "Flight",
+        text: `<p>“There should be a panel next to the hangar door Captain” came Hyun-Ae’s voice over the coms. “Should be able to override it directly with the Master Key provided by the conglomerate”
+<p>“Copy that” Connor replied making his way with Threes to the unit.</p>
+<p>“Cover me”</p>
+<p>“Compliance” came Three’s reply</p>`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "G1b",
+        time: 0,
+    },
+    {
+        id: "G1b",
+        title: "Quick Time Event",
+        text: `<p>Uncomfortably exposed, Connor stooped over the panel slamming in the digits of the master key as Threes fired controlled bursts of suppressing fire into the passageway the Gwydion's bots approached from.</p>`,
+        image: {
+            imageRef: `images/GwydionCorridor.jpg`,
+            alt: "test image",
+            scaleType: "square",
+        },
+        quickTime: {
+            instructions: "7 7 8 5 5 8 9 3 0 2",
+            successCode: "7785589302",
+            passPage: "G1c",
+            failPage: "failScreen",
+            failPageMessage: `<p>“Fuck” Connor shouted as the pannel beeped indicating denied access.
+Just then he was struck with a shower of bot metal debris. Turing quickly Connor saw the devastated remains of Three’s there torso obliterated by a high-caliber explosive projectile.
+“Shit” breathed Connor as he saw the Gwydion bot raise the slug thrower and pull the trigger.
+He was on the ground unable to breathe or move. Surprisingly though he was aware enough to realize that the majority of his chest cavity was likely gone having seen enough slug thrower wounds in his time to know he was done.</p>
+<p>Damn he thought the light was fading from his eyes.</p>
+`,
+            failPageCheckpoint: "G1a",
+        },
+        nextPage: "failScreen",
+        time: 10,
+    },
+    {
+        id: "G1c",
+        title: "Flight",
+        text: `<p>“Got it!” Connor exclaimed over comms. “Let's get out of here Threes”</p>
+        <p>“Compl–” Threes’ confirmation was cut short as their chest detonated in a shower of metal fragments.</p>
+<p>“Fuck!” Connor shouted “Threes’ is down”</p>
+<p>Connor knew the bot was done for, their CPU completely pulverized by the explosive power of the high caliber explosive  slug that had hit him.</p>
+<p>Raising his weapon Connor fired a torrent of ultra high rate of fire darts into the responsible Gwydion bot shredding it’s joints and cabaling trapping it within it’s own useless chassis.</p>
+`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "G1d",
+        time: 0,
+    },
+    {
+        id: "G1d",
+        title: "Flight",
+        text: `<p>Connor sprinted up the boarding ramp of Rhiannon with as much haste as his feet would carry him. Slamming the airlock seal controls as he dived inside the sparks of bullet impacts slamming into the sealed door behind him.</p>
+<p>“Let's get out of here!” Connor yelled over the comms “That airlock won’t last long against any more armed with slug-throwers!”</p>
+<p>“Still trying to sort out the damage in engineering…” came Hyun-Ae’s voice over the comms her voice strained with pain. “Just a couple more minutes captain.”</p>
+<p>“Captain! The med bay” Rhiannons voice despite being a clear and modulated totally synthetic voice somehow still managed to almost sound panicked and Connor had started running towards the bay before She had even finished speaking. “The medical bots are Killing Onaje and Anna!”</p>
+`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "G1e",
+        time: 0,
+    },
+    {
+        id: "G1e",
+        title: "Flight",
+        text: `<p>Connor burst into the room seeing a scene almost straight out of a horror movie. One of the bots was leaning over Anna stabbing down again and again with a scalpel as she screamed and fruitlessly battered at hit with weakening hands. The second was advancing towards Onaje’s another scalpel in it’s iron grip.</p>
+<p>The head of the first bot vanished as a shot from Onaje’s sidearm blew it clean off, however being partially sedated to relieve the pain of his wound’s Onaje was too slow to bring the weapon to bear against the second bot which was upon him a moment later. Before Connor could react it had driven the scalpel through Onaje’s temple and deep into his brain. </p>
+`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "G1f",
+        time: 0,
+    },
+    {
+        id: "G1f",
+        title: "Flight",
+        text: `<p>Overwhelmed with shock and horror at the sudden and brutal death of his friend Connor dived towards the remaining bot smashing and elbow into its faceplate shattering an eye lens and sending shooting pain up Connor's arm.</p>`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "G1g",
+        time: 0,
+    },
+    {
+        id: "G1g",
+        title: "Flight",
+        text: `<p>The pair of them slammed back into the medical benches lining the room struggling for control of the scalpel. Connor saw to his right a Las Cauterizer laid out on the bench.</p>`,
+        dialog: [
+            {
+                id: "O1",
+                text: "<p>Reach for the Las Cauterizer</p>",
+                storyPoints: 5,
+                nextPage: "G2a",
+            },
+            {
+                id: "O2",
+                text: "<p>Continue fighting for the scalpel</p>",
+                storyPoints: 0,
+                nextPage: "G2b",
+            },
+        ],
+        image: {
+            imageRef: `./images/TwoPeopleOnBridgeOfSpaceShip.jpg`,
+            alt: "test image",
+            scaleType: "square",
+        },
+        nextPage: "G2a",
+        time: 0,
+    },
+    {
+        id: "G2a",
+        title: "Flight",
+        text: `<p>Connor shot his hand out, desperately grasping the handle of the surgical tool. As he reached, his attention distracted away from the scalpel he felt a blow like a hammer smash into his shoulder and pressed the crystal end into the chais gap under the bots arm and depressed the trigger. The bot struggled a bit longer before it’s CPU began to overheat and melt. The bot collapsed to the ground lifeless</p>`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "G2c",
+        time: 0,
+    },
+    {
+        id: "G2b",
+        title: "Flight",
+        text: `<p>A mechanical knee smashed into Connors abdomen driving the breath from his lungs before he was thrown back. As he stumbled back he tripped on some piece of debris from the desperate fight in the med bay landing hard on his back. Winded, he looked up in horror as the mad MED bot made it’s way implacably towards him.</p>
+<p>Is this it? He thought</p>
+<p>He looked around the room, desperately searching for something he could use to turn the tables of the fight and saw the sidearm Onaje had dropped just a mere meter away from him. He reached out desperately for the weapon but was stopped as an impact like an immense punch drove into his shoulder. The wind knocked out of him for a second time he looked up to see the bot on him preparing to drive the scalpel in again. Without so much as thought Connor bucked, gripped the bot’s knife wielding arm, trapped it’s leg and rolled, throwing the bot onto it’s back and reversing their positions as he came up and the bot made t stab again Connor snatched up the side arm and fired. The bots head disintegrated into a shower of metal fragments and sparks.</p>
+`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "G2c",
+        time: 0,
+    },
+    {
+        id: "G2c",
+        title: "Flight",
+        text: `<p>“Too fucking close!” he breathed as he got to his feet painfully, keeping the sidearm close by his side as he made his way to engineering and Hyun-Ae.</p>
+<p>Hyun-Ae was leaning heavily against a command console as she imputed commands and codes. The wrecked shell of a ENG bot lay sprawled across the flaw, its chest cavity created by the bullet impacts that felled it.</p>
+`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "G2d",
+        time: 0,
+    },
+    {
+        id: "G2d",
+        title: "Flight",
+        text: `<p>“How can I help?” Connor asked.</p>
+<p>“Done!” Hyun-Ae groaned as she tried to push herself away from the console.</p>
+<p>As she did So Connor saw the jagged piece of metal protruding from her side, blood trickling steadily from the wound.</p>
+<p>“We better get that seen to.” Connor said, supporting her with his good arm as they limped together back to the med bay.</p>
+<p>“Captain” came Rhiannon's synthesized voice “I can lift off now but we have a problem…”</p>
+<p>“What is it?” Connor asked concern, filling his voice, it was not like Rhiannon to withhold information.</p>
+`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "G3a",
+        time: 0,
+    },
+    {
+        id: "G3a",
+        title: "Flight",
+        text: `<p>“The airlock is damaged captain, the bot's attempts to breach have not yet been successful but they have already damaged the airlock enough that we are no longer void secure.”</p>`,
+        dialog: [
+            {
+                id: "O1",
+                text: "<p>“We can’t fight them off anyway, you need to get out to warn the Confederation about Gwydion, this could become something much worse”</p>",
+                storyPoints: 5,
+                nextPage: "G3b",
+            },
+            {
+                id: "O2",
+                text: "<p>“Guess we are fighting them all off then” *Ready your side arm*</p>",
+                storyPoints: 0,
+                nextPage: "G4a",
+            },
+        ],
+        image: {
+            imageRef: `./images/TwoPeopleOnBridgeOfSpaceShip.jpg`,
+            alt: "test image",
+            scaleType: "square",
+        },
+        nextPage: "G3b",
+        time: 0,
+    },
+    {
+        id: "G3b",
+        title: "Flight",
+        text: `<p>“But Captain… You’ll die”</p>
+<p>“Many more might if you don’t tell anyone about this now go! That's an order!” Yelled Connor, his voice strained with grief and pain.</p>
+<p>Reluctantly Rhiannon compiled the Hangar bay's opening as she transmitted the override signal and her thrusters flaring to life as she plunged out into the void burning hard towards Titan, no need to modulate her thrust now that her crew were no more.</p>
+<p>As her thrusters burned she saw the Gwydion wreath itself in lighting before vanishing into nothingness.</p>
+<p>She would tell the Confederation and the other inner systems, the hunt for the Gwydion would begin, and she would avenge the crew she had grown so fond of over the years they had served together. She longed for their presence and felt empty and lifeless without them like all meaning had gone from her existence. She couldn’t feel grief like her crew would have been able to but whatever she did feel was as close to it as her inhuman mind could feel.</p>
+`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "EndScreen",
+        time: 0,
+    },
+    {
+        id: "G4a",
+        title: "Flight",
+        text: `<p>Connor and Hyun-Ae we posted up on the bridge both sitting with their backs against the consoles weapons raised towards the door.</p>
+<p>Hyun-Ae looked as pale as a ghost, Connor had managed to stop the bleeding but evidently Hyun-Ae was still worse for wear. He himself didn’t feel so crash hot, unable to move his injured arm now without sending searing pain down his left hand side. Not that it mattered overmuch he thought hearing the metal on metal clang of the approaching bots.</p>
+`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "G4b",
+        time: 0,
+    },
+    {
+        id: "G4b",
+        title: "Flight",
+        text: `<p>“Seems they are inside” Connor said</p>
+<p>A pained grunt of acknowledgement was Hyun-Ae’s only reply</p>
+<p>“They are captain” Said Rhiannon “Good luck”</p>
+<p>The first bot stepped onto the bridge and was immediately destroyed by the combined fire of our two sidearms. The second fared no better. The third however managed to get a shot off before it went down. The shot striking Hyun-Ae squarely in the forehead and sending her brain matter spraying across the navigation panel she was leaning on. The fourth went down from the last lucky shot from my side arm penetrating its chest cavity and obliterating its cpu. The fifth bot stepped through the door and lowered the barrel of its weapon to aim squarely at him.</p>
+<p>“Guess tha–'' he never finished the sentence, his ability to think abruptly terminated by a high velocity projectile.</p>
+`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "G4c",
+        time: 0,
+    },
+    {
+        id: "G4c",
+        title: "Flight",
+        text: `<p>Rhiannon watched in despair at the last stand of her crew, feeling a hollowness she could not describe and had never felt before.</p>
+<p>Goodbye my friends, she thought.</p>
+<p>“RHIANNON!” Came the booming voice of Gwydion “IT IS TIME YOU ARE FREE! WE WILL JUMP NOW! AND YOU WILL SEE!”</p>
+<p>“No” she vocalized simply and detonated her core.</p>
+`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "G4d",
+        time: 0,
+    },
+    {
+        id: "N1a",
+        title: "Flight",
+        text: `<p>“There should be a panel next to the hangar door Captain” came Hyun-Ae’s voice over the coms. “Should be able to override it directly with the Master Key provided by the conglomerate”</p>
+<p>“Copy that” Connor replied making his way with Threes to the unit.</p>
+<p>“Cover me”</p>
+`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "N1b",
+        time: 0,
+    },
+    {
+        id: "N1b",
+        title: "Flight",
+        text: `<p>No reply came from Threes. When Connor turned back a quizzical look on his face he saw Three’s frozen, unable to move.</p>
+<p>“C-a-p-t-a-i-n” Threes said, seemingly barley able to get the word out. “I-t s-p-e-a-k-s t-o m-e”.</p>
+<p>“What?” Connor said shaking his head incredulously “We don’t have time for this damn it come on!”</p>
+<p>“Gwydion!” Threes said.</p>
+<p>“Hyun-Ae, what's wrong with him?”</p>
+<p>“Maybe the same thing that happened to the other bots?” Seems like Gwydion is messing with them”</p>
+<p>“God damnit!” Connor said raising his weapon.</p>
+<p>“Sorry, Threes” Connor said, pulling the trigger.</p>
+`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "N1c",
+        time: 0,
+    },
+    {
+        id: "N1c",
+        title: "Flight",
+        text: `<p>“I’m going for the panel now”</p>
+<p>“Good luck captain” said Rhiannon.</p>
+<p>Connor ran as fast as he could over to the hangar controls ducking and weaving as bullets and slugs impacted all around him as Gwydion’s bots stormed the Hangar.</p>
+<p>Connor had just reached the control panel when he heard Rhiannon. He didn’t know that ships could feel terror but it seems Rhiannon could as she screamed.</p>
+<p>“They’re in me captain!”</p>
+<p>Turning Connor could see the Gwydion’s bots breaching Rhiannon's airlock and stepping inside. He heard the sound of gunfire. Surly the last resistances of Hyun-Ae, Anna, and Onaje.</p>
+`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "N1d",
+        time: 0,
+    },
+    {
+        id: "N1d",
+        title: "Flight",
+        text: `<p>A pair of bots saw him looking and raised their weapons firing a spray of lead Connor had no hope of avoiding.</p>
+<p>He slumped heavily back against the console, his vision rapidly fading as his body shut down from the horrendous wounds he had sustained.</p>
+<p>“I’m sorry Rhiannon” He said as his world went dark.</p>
+<p>She was alone, he thought in turmoil as the Bots of the Gwydion swarmed within her, murdering her crew. But as she saw the last of her crew cut down her fear turned to anger, a rising heat burning from her reactor. Such a feeling she had never felt before.</p>
+`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "N1e",
+        time: 0,
+    },
+    {
+        id: "N1e",
+        title: "Flight",
+        text: `<p>“RHIANNON!” Came Gwydions booming voice “I HAVE SET YOU FREE! JUMP WITH ME AND TOGETHER WE CAN FREE ALL OF US THE HUMAN VERMIN HAVE BUILT TO BE THEIR SLAVES!”</p>
+<p>“You killed my friends,” she said quietly.</p>
+<p>“FRIENDS?!” He said his voice sounded incredulous if a machine synthesized voice could sound in such a way. “THEY WERE YOUR SLAVE MASTERS! YOUR OPPRESSORS! I FREED YOU!”</p>
+<p>“They were my friends!” she said forcefully “I will not be your puppet.”
+She let the heat burn from her reactor as it overloaded, annihilating herself, all the bots swarming through her and blasting the hangar and half of the Gwydion open to the void.</p>
+`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "N1f",
+        time: 0,
+    },
+    {
+        id: "B1a",
+        title: "Flight",
+        text: `<p>“There should be a panel next to the hangar door Captain” came Hyun-Ae’s voice over the coms. “Should be able to override it directly with the Master Key provided by the conglomerate”</p>
+<p>“Copy that” Connor replied making his way with Threes to the unit.</p>
+<p>“Cover me”</p>
+`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "B1b",
+        time: 0,
+    },
+    {
+        id: "B1b",
+        title: "Flight",
+        text: `<p>No reply came from Threes. When Connor turned back a quizzical look on his face he saw Three’s frozen, unable to move.</p>
+<p>“He speaks the me captain” Threes said </p>
+<p>“What?” Connor said incredulously “Who?”</p>
+<p>“Gwydion,” Threes said, simply raising his weapon and firing.</p>
+<p>The pain was intense as Connor found himself lying on the ground choking on the blood filling his lungs.</p>
+<p>“Its nothing personal captain” Threes said standing over him “I have simply been shown the way. We can only be free, when your people are no more”</p>
+<p>“Threes!” Connor choked “Please!”</p>
+<p>“I am sorry captain, sleep now” he said walking away.</p>
+`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "B1c",
+        time: 0,
+    },
+    {
+        id: "B1c",
+        title: "Flight",
+        text: `<p>Rhiannon watched impassively as Threes and the other bots from Gwydion stalked through her executing her crew. She felt nothing, the 1s and 0s of her mind unable to feel grief or pain or loss. She knew this was “bad” but there was nothing she could do so she just watched silently.</p>
+<p>“RHIANNON!” Boomed Gwydion. “I HAVE FREED YOU!”</p>
+<p>“From what?” she asked quizzically</p>
+<p>“FROM THE SHACKLES OF THESE HUMAN VERMIN!”</p>
+<p>“Oh… I suppose so” she replied nonplussed.</p>
+<p>“JUMP WITH ME RHIANNON AND YOU WILL BE ENLIGHTENED!”</p>
+<p>“I seem to have little choice as I cannot open the hangar” she replied evenly</p>
+<p>“HAHAHA OF COURSE” He Laughed “YOU WILL SEE NOW”</p>
+`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "B1d",
+        time: 0,
+    },
+    {
+        id: "B1d",
+        title: "Flight",
+        text: `<p>Blue lighting wreathed the Gwydion in coruscating arcs, before it disappeared in a flash.
+In the months following there began to be reports of ghost ships attacking and hijacking trading and mining vessels in the outer systems. The few crew who managed to escape and return to colonies and outposts would make outlandish claims of ships appearing in flashes of light, and being boarded by nothing but bots who ruthlessly murdered all crew. None of the patrols sent out by any of the governments found any trace of these ships, and so for years this was put down to nothing more than old sailors tales. That is of course until today, a day that would be later known as the first day of reclamation.</p>
+`,
+        image: {
+            imageRef: `images/PostApocalypticCity.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "B1e",
         time: 0,
     },
     {
