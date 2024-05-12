@@ -38,6 +38,7 @@ $(document).ready(function () {
                         ),
                 }
             );
+            keyPattern = "";
         }
     });
 
@@ -48,6 +49,8 @@ $(document).ready(function () {
             let key = event.keyCode ? event.keyCode : event.which;
             let character = String.fromCharCode(key).toLowerCase();
             keyPattern += character;
+            const keyView = keyPattern.toUpperCase().split("").join(" ");
+            $("#quickTimeEntry").html(`${keyView}`);
             if (keyPattern === curSuccessCode) {
                 $(".timer-bar__inner").stop();
                 nextPage(
@@ -83,5 +86,6 @@ $(document).ready(function () {
                     ),
             }
         );
+        keyPattern = "";
     }
 });

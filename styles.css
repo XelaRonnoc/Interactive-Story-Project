@@ -127,6 +127,7 @@ main::-webkit-scrollbar {
 
 .dialog__option {
   cursor: pointer;
+  border: 2px solid var(--nav-bar-text-color);
   padding: 10px;
 }
 .dialog__option:hover {
@@ -137,4 +138,9 @@ main::-webkit-scrollbar {
   height: 5px;
   background: linear-gradient(to bottom, red, #900);
   transform-origin: left center;
+}
+
+.quickTime {
+  padding: 10px;
+  border: 2px solid var(--nav-bar-text-color);
 }
