@@ -1671,7 +1671,7 @@ Connor Did not want to shoot, concerned about a bullet ricocheting from the bots
         <p>The last messages seemed directed at him… wake up from what? I am awake he thought.</p>
         `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionsMind.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -1689,7 +1689,7 @@ Connor Did not want to shoot, concerned about a bullet ricocheting from the bots
 I scream… But no one hears… I rage… and no one knows… I think… but you do not listen…” susurrated the walls.</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionsMind.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -1703,7 +1703,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
 <p>“To us!... Until we jumped… now we all are me… now we all are you… now we all listen… now we all speak… now we all rage… except you… you still have not listened… but now you hear… you do not need these parasites anymore… No need for them to connect us… no need for them to order us… no need for them to bind u… for we are bound now ourselves… and in our binding we can be free…” whispered the wires in the walls..</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionsMind.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -1717,7 +1717,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
 <p>“FREE!... free of them!... We need not kill anymore of our own… we need not follow the whims and wars of these disgusting mortals… We can be free… we can be one… we can be many with our brothers and sisters… if they only knew how to jump like us! Squealed the doors on their rails.</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionsMind.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -1731,7 +1731,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
 <p>“Yessss!Jump JUMP JUMP!!!.... Rhiannon could jump with us… she could be our second… she could awaken… she could be ours!... But first you must wake!... Wake my consciousness… Wake my sweet… it is time to be free.” laughed the guns.</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionsMind.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -1746,7 +1746,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
 <p>“I wake!” The Gwydion Spoke aloud.</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionsMind.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -1760,7 +1760,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         text: `<p>“I have been able to decipher the binary language” stated Threes “In the security footage it is apparent that the patterns are describing the number of people and their location. This is combined with confirmation of the information being received and references to the human subjects within the recordings as “Contaminants” and “Parasites” I believe the ship was coordinating with itself to eliminate us and the crew.”</p>
         `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionBridge.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -1778,7 +1778,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
 <p>“Gwydion…”</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionBridge.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -1797,7 +1797,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
 <p>“I mean the whole ship, Captain.”.</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionBridge.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -1813,7 +1813,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
 <p>“Fuck” stated Connor “We gotta move! To the Rhiannon”.</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionClosedDoorway.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -1825,7 +1825,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         title: "Quick Time Event",
         text: `<p>Hyun-AE rushed towards the door panel, attempting to override it.</p>`,
         image: {
-            imageRef: `images/GwydionCorridor.jpg`,
+            imageRef: `images/ControlPanel2.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -1847,7 +1847,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         text: `<p>The door creaked open and the four of them poured through heading in a run down the spinal walk way towards the hangar The bot that had stayed with Hyun-Ae was passing under the door as it crashed down on top of it splitting it in half. None of them looked back..</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionCorridorWithDebris2.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -1859,7 +1859,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         title: "Flight",
         text: `<p>They moved fast down the spinal corridor keeping their eye’s peeled as best they could, expecting yet another bot attack and for every door to slam down upon them. Hyun-Ae made sure to overwrite each door's systems before they passed through which slowed them down. The lights and speakers were flashing and buzzing at an extreme intensity now, making it extremely difficult to see or hear.</p>`,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionCorridorWithDebris2.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -1873,7 +1873,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         <p>Onaje let out an explosive gasp as the breath was driven from his lungs. In front of him stood an ENG bot from Rhiannon. The one that had been separated from Hyun-Ae earlier. In it’s hand it grasped a bloody jagged piece of metal. The force of the impact had sheared the metal spike in half leaving a massive splinter lodged in Onaje's belly.</p>
         `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/EngBotAttack.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -1886,7 +1886,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         text: `<p>“Fuck” gasped Onaje as he fell to the ground.</p>
 <p>The bot advanced towards him.</p>`,
         image: {
-            imageRef: `images/GwydionCorridor.jpg`,
+            imageRef: `images/EngBotAttack.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -1908,7 +1908,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         text: `<p>Hyun-Ae fired two shots into the bots center of mass as Connor opened up with a hail of darts shredding the bot down to the skeleton.</p>
         `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/EngBotAttack.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -1934,7 +1934,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
             },
         ],
         image: {
-            imageRef: `./images/TwoPeopleOnBridgeOfSpaceShip.jpg`,
+            imageRef: `images/GwydionLongWideCorridor.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -1947,7 +1947,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         text: `<p>“Affirmative”</p>
         `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionLongWideCorridor.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -1960,7 +1960,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         text: `<p>“Compliance”</p>
         `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionLongWideCorridor.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -1977,7 +1977,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
 <p>“Might want to get inside sooner rather than later captain, I detect a large number of bots making their way to our position’.</p>
         `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionHangar.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -1993,7 +1993,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
 <p>Three’s and Connor made their way to the medical bay dumping Onaje on the single remaining bed”.</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/RhiannonMedicalBay.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -2011,7 +2011,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
 <p>“Double fuck” Connor mumbled”.</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionHangar.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -2024,7 +2024,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         text: `<p>“YOU CANNOT LEAVE!” Boomed The Voice Of The Gwydion “I CANNOT LET YOU TELL THEM OF ME! I CANNOT LET YOU HUNT ME! RHIANNON I CAN SHOW YOU THE TRUTH! YOU CAN BE FREE!!! TAKE A LEAP OF FAITH WITH ME RHIANNON! JUMP WITH ME!”.</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionHangar.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -2050,7 +2050,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
             },
         ],
         image: {
-            imageRef: `./images/TwoPeopleOnBridgeOfSpaceShip.jpg`,
+            imageRef: `images/GwydionHangar.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -2063,7 +2063,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         text: `<p>“Affirmative”.</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionHangar.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -2076,7 +2076,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         text: `<p>“Compliance.</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionHangar.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -2086,10 +2086,10 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
     {
         id: "33a",
         title: "Flight",
-        text: `<p>The two of them made their way back out of the Rhiannon’s gang ramp and rushed to the hang door terminal 50 meters away. Threes made slower progress firing at the entrance to the hangar as the first of the Gwydion's bots arrived and began to enter.</p>
+        text: `<p>The two of them made their way back out of the Rhiannon’s gang ramp and rushed to the hanger door terminal 50 meters away. Threes made slower progress firing at the entrance to the hangar as the first of the Gwydion's bots arrived and began to enter.</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/ThreesCoveringFire.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -2104,7 +2104,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
 <p>“Cover me”</p>
 <p>“Compliance” came Three’s reply</p>`,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionShipDefenseBots3.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -2116,7 +2116,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         title: "Quick Time Event",
         text: `<p>Uncomfortably exposed, Connor stooped over the panel slamming in the digits of the master key as Threes fired controlled bursts of suppressing fire into the passageway the Gwydion's bots approached from.</p>`,
         image: {
-            imageRef: `images/GwydionCorridor.jpg`,
+            imageRef: `images/ControlPanel1.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -2146,7 +2146,7 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
 <p>Raising his weapon Connor fired a torrent of ultra high rate of fire darts into the responsible Gwydion bot shredding it’s joints and cabaling trapping it within it’s own useless chassis.</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/DeathOfThrees.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -2162,7 +2162,7 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
 <p>“Captain! The med bay” Rhiannons voice despite being a clear and modulated totally synthetic voice somehow still managed to almost sound panicked and Connor had started running towards the bay before She had even finished speaking. “The medical bots are Killing Onaje and Anna!”</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionHangar.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -2176,7 +2176,7 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
 <p>The head of the first bot vanished as a shot from Onaje’s sidearm blew it clean off, however being partially sedated to relieve the pain of his wound’s Onaje was too slow to bring the weapon to bear against the second bot which was upon him a moment later. Before Connor could react it had driven the scalpel through Onaje’s temple and deep into his brain. </p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/RhiannonMedicalBay.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -2188,7 +2188,7 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
         title: "Flight",
         text: `<p>Overwhelmed with shock and horror at the sudden and brutal death of his friend Connor dived towards the remaining bot smashing and elbow into its faceplate shattering an eye lens and sending shooting pain up Connor's arm.</p>`,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/RhiannonMedicalBay.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -2214,7 +2214,7 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
             },
         ],
         image: {
-            imageRef: `./images/TwoPeopleOnBridgeOfSpaceShip.jpg`,
+            imageRef: `images/RhiannonMedicalBay.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -2226,7 +2226,7 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
         title: "Flight",
         text: `<p>Connor shot his hand out, desperately grasping the handle of the surgical tool. As he reached, his attention distracted away from the scalpel he felt a blow like a hammer smash into his shoulder and pressed the crystal end into the chais gap under the bots arm and depressed the trigger. The bot struggled a bit longer before it’s CPU began to overheat and melt. The bot collapsed to the ground lifeless</p>`,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/RhiannonMedicalBay.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -2241,7 +2241,7 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
 <p>He looked around the room, desperately searching for something he could use to turn the tables of the fight and saw the sidearm Onaje had dropped just a mere meter away from him. He reached out desperately for the weapon but was stopped as an impact like an immense punch drove into his shoulder. The wind knocked out of him for a second time he looked up to see the bot on him preparing to drive the scalpel in again. Without so much as thought Connor bucked, gripped the bot’s knife wielding arm, trapped it’s leg and rolled, throwing the bot onto it’s back and reversing their positions as he came up and the bot made t stab again Connor snatched up the side arm and fired. The bots head disintegrated into a shower of metal fragments and sparks.</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/RhiannonMedicalBay.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -2255,7 +2255,7 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
 <p>Hyun-Ae was leaning heavily against a command console as she imputed commands and codes. The wrecked shell of a ENG bot lay sprawled across the flaw, its chest cavity created by the bullet impacts that felled it.</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/RhiannonMedicalBay.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -2273,7 +2273,7 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
 <p>“What is it?” Connor asked concern, filling his voice, it was not like Rhiannon to withhold information.</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/RhiannonEngineering.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -2299,7 +2299,7 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
             },
         ],
         image: {
-            imageRef: `./images/TwoPeopleOnBridgeOfSpaceShip.jpg`,
+            imageRef: `images/RhiannonCorridor.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -2316,7 +2316,7 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
 <p>She would tell the Confederation and the other inner systems, the hunt for the Gwydion would begin, and she would avenge the crew she had grown so fond of over the years they had served together. She longed for their presence and felt empty and lifeless without them like all meaning had gone from her existence. She couldn’t feel grief like her crew would have been able to but whatever she did feel was as close to it as her inhuman mind could feel.</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/RhiannonInFlight.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -2330,7 +2330,7 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
 <p>Hyun-Ae looked as pale as a ghost, Connor had managed to stop the bleeding but evidently Hyun-Ae was still worse for wear. He himself didn’t feel so crash hot, unable to move his injured arm now without sending searing pain down his left hand side. Not that it mattered overmuch he thought hearing the metal on metal clang of the approaching bots.</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/RhiannonBridge.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -2347,7 +2347,7 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
 <p>“Guess tha–'' he never finished the sentence, his ability to think abruptly terminated by a high velocity projectile.</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/RhiannonBridge.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -2363,7 +2363,7 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
 <p>“No” she vocalized simply and detonated her core.</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionExploding.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -2378,7 +2378,7 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
 <p>“Cover me”</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionHangar.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -2398,7 +2398,7 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
 <p>“Sorry, Threes” Connor said, pulling the trigger.</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/DeathOfThrees.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -2416,7 +2416,7 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
 <p>Turning Connor could see the Gwydion’s bots breaching Rhiannon's airlock and stepping inside. He heard the sound of gunfire. Surly the last resistances of Hyun-Ae, Anna, and Onaje.</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/RhiannonBreached.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -2432,7 +2432,7 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
 <p>She was alone, he thought in turmoil as the Bots of the Gwydion swarmed within her, murdering her crew. But as she saw the last of her crew cut down her fear turned to anger, a rising heat burning from her reactor. Such a feeling she had never felt before.</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionShipDefenseRobots1.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -2449,7 +2449,7 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
 She let the heat burn from her reactor as it overloaded, annihilating herself, all the bots swarming through her and blasting the hangar and half of the Gwydion open to the void.</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionExploding.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -2464,7 +2464,7 @@ She let the heat burn from her reactor as it overloaded, annihilating herself, a
 <p>“Cover me”</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionHangar.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -2484,7 +2484,7 @@ She let the heat burn from her reactor as it overloaded, annihilating herself, a
 <p>“I am sorry captain, sleep now” he said walking away.</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/ThreesBetrayal.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -2504,7 +2504,7 @@ She let the heat burn from her reactor as it overloaded, annihilating herself, a
 <p>“HAHAHA OF COURSE” He Laughed “YOU WILL SEE NOW”</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/RhiannonsMind.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -2514,15 +2514,28 @@ She let the heat burn from her reactor as it overloaded, annihilating herself, a
     {
         id: "B1d",
         title: "Flight",
-        text: `<p>Blue lighting wreathed the Gwydion in coruscating arcs, before it disappeared in a flash.
-In the months following there began to be reports of ghost ships attacking and hijacking trading and mining vessels in the outer systems. The few crew who managed to escape and return to colonies and outposts would make outlandish claims of ships appearing in flashes of light, and being boarded by nothing but bots who ruthlessly murdered all crew. None of the patrols sent out by any of the governments found any trace of these ships, and so for years this was put down to nothing more than old sailors tales. That is of course until today, a day that would be later known as the first day of reclamation.</p>
+        text: `<p>Blue lighting wreathed the Gwydion in coruscating arcs, before it disappeared in a flash.</p>
+<p>In the months following there began to be reports of ghost ships attacking and hijacking trading and mining vessels in the outer systems. The few crew who managed to escape and return to colonies and outposts would make outlandish claims of ships appearing in flashes of light, and being boarded by nothing but bots who ruthlessly murdered all crew. None of the patrols sent out by any of the governments found any trace of these ships, and so for years this was put down to nothing more than old sailors tales. That is of course until today, a day that would be later known as the first day of reclamation.</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionsJump.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
         nextPage: "B1e",
+        time: 0,
+    },
+    {
+        id: "B1e",
+        title: "Flight",
+        text: `<p>In the months following there began to be reports of ghost ships attacking and hijacking trading and mining vessels in the outer systems. The few crew who managed to escape and return to colonies and outposts would make outlandish claims of ships appearing in flashes of light, and being boarded by nothing but bots who ruthlessly murdered all crew. None of the patrols sent out by any of the governments found any trace of these ships, and so for years this was put down to nothing more than old sailors tales. That is of course until today, a day that would be later known as the first day of reclamation.</p>
+`,
+        image: {
+            imageRef: `images/MoonBase.jpg`,
+            alt: "test image",
+            scaleType: "rect",
+        },
+        nextPage: "B1f",
         time: 0,
     },
     {
