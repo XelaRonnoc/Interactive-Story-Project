@@ -83,7 +83,8 @@ main {
     }
 
     &__text-container {
-        width: 90%;
+        max-width: 800px;
+        width: 80%;
         z-index: 999;
 
         font-size: 18px;

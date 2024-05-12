@@ -15,9 +15,9 @@ const contentArray = [
         <p>“Not you Rhiannon, just the bloody navigation panel that’s all”</p>
         <p>The Rhiannon was an old ship one of the oldest on Titan’s Salvage and Rescue roster, but with that age came experience. More than once she had gotten Connor and the others out of sticky situations, and so Connor was inclined to forgive the odd malfunction. Besides there was little Hyun-Ae couldn’t fix.</p>`,
         image: {
-            imageRef: `images/MoonBase.jpg`,
+            imageRef: `images/RhiannonInFlight.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "1b",
         time: 0,
@@ -51,7 +51,7 @@ const contentArray = [
             },
         ],
         image: {
-            imageRef: `./images/TwoPeopleOnBridgeOfSpaceShip.jpg`,
+            imageRef: `images/RhiannonBridge.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -63,7 +63,7 @@ const contentArray = [
         title: "Go To Hyun-Ae",
         text: `<p>Best get Hyun-Ae up. We are nearing the Gwydion anyway and we want the ship to be in the best possible condition before beginning the rescue operation.</p>`,
         image: {
-            imageRef: `images/USASpaceSuitsBridge.jpg`,
+            imageRef: `images/RhiannonCorridor.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -75,9 +75,9 @@ const contentArray = [
         title: "Go to Mess Hall",
         text: `<p>Let Hyun-Ae sleep a bit longer, there will be enough time for her to fix before the operation begins. Besides, a hungry Captain can do more harm than good.</p>`,
         image: {
-            imageRef: `images/Cyberpunk.jpg`,
+            imageRef: `images/RhiannonCorridor.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "4a",
         time: 0,
@@ -88,9 +88,9 @@ const contentArray = [
         text: `<p>The door to Hyun-Ae’s Quarters was open and an empty can of energy syrup lay on her unmade bed. Hyun-Ae wasn’t ex-military or police like Onaje and Connor and didn’t share their affinity for a tidy room. She was a relatively recent graduate of the Scholar Technica on Venus who had joined the crew of the Rhiannon after the previous engineer had died during a salvaging operation. She had joined the Rhiannon to avoid being stuck behind some corpo desk on earth advising suits on how what bot series they should use only to be ignored. Despite her lack of experience with void salvage she had more than made up for it with her enthusiasm and smarts. Making multiple improvements and repairs to Rhiannon within the first few months on the crew.</p>
         <p>“Bloody hell does she ever sleep?” Connor muttered to himself as hew made his way to engineering.</p>`,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/RhiannonCrewQuarters.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "3b",
         time: 0,
@@ -109,9 +109,9 @@ const contentArray = [
         <p>“Ahhh” Connor said, shirking from the thought of telling her what he had done to the nav console.</p>
         `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/RhiannonEngineering.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "3c",
         time: 0,
@@ -135,7 +135,7 @@ const contentArray = [
             },
         ],
         image: {
-            imageRef: `./images/TwoPeopleOnBridgeOfSpaceShip.jpg`,
+            imageRef: `images/RhiannonEngineering.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -148,9 +148,9 @@ const contentArray = [
         text: `<p>“So you just came here to frighten the shit out of me and give me a headache?”</p>
         <p>“Tsk” he said kissing his teeth “well I might have broken the nav console, tried to fix the screen”</p>`,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/RhiannonEngineering.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "3e",
         time: 0,
@@ -163,9 +163,9 @@ const contentArray = [
         <p>“Tear the ship to pieces by the sounds of it.”</p>
         <p>Grinning Connor turned and headed out the door.</p>`,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/RhiannonEngineering.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "5a",
         time: 0,
@@ -184,9 +184,9 @@ const contentArray = [
         <p>“Yeah, that’d be less than ideal, although equally could just be the communications were fried, they should have plenty of food and water and unless absolutely power source died then the air scrubbers should still be working we should be able to stabilize any situation and provide enough supplies until the main salvage fleet arrives.”</p>
         <p>“How long till they’re here?”</p>`,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/RhiannonMessHall.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "4b",
         time: 0,
@@ -210,7 +210,7 @@ const contentArray = [
             },
         ],
         image: {
-            imageRef: `./images/TwoPeopleOnBridgeOfSpaceShip.jpg`,
+            imageRef: `images/RhiannonMessHall.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -226,9 +226,9 @@ const contentArray = [
         <p>“I can just imagine Hyun-Ae’s face” Onaje chuckled as Connor glared at him over his stew</p>
         <p>For a while they both ate in comfortable silence, enjoying the meal and the company.</p>`,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/RhiannonMessHall.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "4d",
         time: 0,
@@ -241,9 +241,9 @@ const contentArray = [
         <p>Onaje walked out giving a thumbs up over his shoulder as he left.</p>
         <p>Connor had almost finished his meal too. He scooped up the last bit and tossed it in the autocleanse also before leaving.</p>`,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/RhiannonMessHall.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "5a",
         time: 0,
@@ -259,9 +259,9 @@ const contentArray = [
         <p>Pulling on his trousers and kit Connor made his way to the bridge knocking on Onaje’s door on the way.</p>
         <p>“We’re here Ona, suit up!”</p>`,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/RhiannonCrewQuarters.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "5b",
         time: 0,
@@ -282,9 +282,9 @@ const contentArray = [
         <p>“Must you always tempt fate?” asked Onaje grimacing</p>
         <p>“Only on a good day!” Connor replied</p>`,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/RhiannonBridge.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "5c",
         time: 0,
@@ -299,9 +299,9 @@ const contentArray = [
         <p>But as the Gwydion became bigger and bigger in the view port, he felt an icy finger of dread creep into his gut. What could have happened? he wondered, he had read enough science fiction stories with FTL travel that caused madness or even brought forth demons and creatures from other dimensions. He brushed it off as a fanciful notion, even so only a few short range FTL jumps had been made before and then only with tiny crews of one or two. Perhaps those ships had been lucky.</p>
         <p>Shaking his head to clear it of these imaginings he made his way to the airlock and supply compartment to get his equipment.</p>`,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/RhiannonBridge.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "6a",
         time: 0,
@@ -312,9 +312,9 @@ const contentArray = [
         text: `<p>Rhiannon was not a big ship she knew, however with her long range engines and salvage equipment she was one of the larger ships at the Titan docks but lying in the Gwydion's hangar she felt no bigger than a ground car.</p>
         <p>She could see her crew and the small team of bots led by Three’s making their way to the hangars inner doors. They looked like Ant’s to her from this distance. She felt a pang of worry as they appeared so vulnerable walking into the depths of this giant silent ship, and there was little she could do to help them if any trouble arose deeper in the ship.</p>`,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionHangar.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "7a",
         time: 0,
@@ -338,7 +338,7 @@ const contentArray = [
             },
         ],
         image: {
-            imageRef: `./images/TwoPeopleOnBridgeOfSpaceShip.jpg`,
+            imageRef: `images/GwydionCorridor.jpg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -350,9 +350,9 @@ const contentArray = [
         title: "Gwydion",
         text: `<p>“Compliance.”</p>`,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionCorridor.jpg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "7d",
         time: 0,
@@ -362,9 +362,9 @@ const contentArray = [
         title: "Gwydion",
         text: `<p>“Yes Captain, interfacing…”</p>`,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionCorridor.jpg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "7d",
         time: 0,
@@ -379,9 +379,9 @@ const contentArray = [
         <p>“We need to make our way to the bridge, let's all be on alert. Three’s, you and the bots bring up the rear keep a lookout for any survivors” Connor ordered</p>
         <p>The small group of people and bots made their way down the corridor, their solid shot weapons raised and scanning the way ahead.</p>`,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionCorridorWithDebris.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "8a",
         time: 0,
@@ -391,21 +391,9 @@ const contentArray = [
         title: "Gwydion",
         text: `<p>As they made their way down what Connor was fairly sure was the main spinal corridor of the Gwydion, they encountered strange patterns of damage that looked similar to that seen after the close combat of a boarding action, bullet holes were strewn across the walls and sealings and many of the lights had been shot out. However, they had not seen any bodies or destroyed bots, not even so much as blood stains.</p>`,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionCorridorWithDebris.jpeg`,
             alt: "test image",
-            scaleType: "rect",
-        },
-        nextPage: "8a",
-        time: 0,
-    },
-    {
-        id: "7d",
-        title: "Gwydion",
-        text: `<p>As they made their way down what Connor was fairly sure was the main spinal corridor of the Gwydion, they encountered strange patterns of damage that looked similar to that seen after the close combat of a boarding action, bullet holes were strewn across the walls and sealings and many of the lights had been shot out. However, they had not seen any bodies or destroyed bots, not even so much as blood stains.</p>`,
-        image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
-            alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "8a",
         time: 0,
@@ -417,9 +405,9 @@ const contentArray = [
         <p>“Hmmm but where is the blood the bodies?”</p>
         <p>“Maybe the crew cleaned it up” suggested Hyun-Ae</p>`,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionCorridorWithDebris.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "8b",
         time: 0,
@@ -443,7 +431,7 @@ const contentArray = [
             },
         ],
         image: {
-            imageRef: `./images/TwoPeopleOnBridgeOfSpaceShip.jpg`,
+            imageRef: `images/GwydionCorridorWithDebris.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -455,9 +443,9 @@ const contentArray = [
         title: "Gwydion",
         text: `<p>“Compliance”</p>`,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionCorridorWithDebris.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "9a",
         time: 0,
@@ -467,9 +455,9 @@ const contentArray = [
         title: "Gwydion",
         text: `<p>“Ofcourse, I would not have spoken if it was likely to be an incorrect assessment”</p>`,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionCorridorWithDebris.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "9a",
         time: 0,
@@ -484,9 +472,9 @@ const contentArray = [
         <p>“Ok let’s keep moving” replied Connor gesturing at Threes and the other bots to follow</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionMessHall.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "10a",
         time: 0,
@@ -502,9 +490,9 @@ const contentArray = [
 <p>With a final chirp from the door control pad the steel iris of the bridge retracted into the door frame. Inside was a much different scene to the rest of the ship. Inside looked pristine, not a chair out of place, almost too pristine Connor thought. </p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionClosedDoorway.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "10b",
         time: 0,
@@ -520,9 +508,9 @@ const contentArray = [
 <p>“Let’s see what you have to say” she mumbled to herself.</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionBridge.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "10c",
         time: 0,
@@ -534,9 +522,9 @@ const contentArray = [
 <p>There did not appear to be any damage to Gwyidions interface or AI’s vessel at all. It was simply dormant. She would have to be careful turning Gwydion on however as she was not a Conglomerate navy engineer and as such He may well be hostile to her accessing his systems despite the conglomerate providing a limited access authorisation code for her to utilize allowing her to speak to and interact with Gwydion without having any command over him.</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionBridge.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "11a",
         time: 0,
@@ -546,7 +534,7 @@ const contentArray = [
         title: "Quick Time Event",
         text: `<p>Key in access code</p>`,
         image: {
-            imageRef: `images/GwydionCorridor.jpg`,
+            imageRef: `images/ControlPanel2.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -577,9 +565,9 @@ const contentArray = [
 <p>“Ok, are we able to access your command logs to see if you have had any malfunctions or malicious commands entered?”</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionBridge.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "11c",
         time: 0,
@@ -598,9 +586,9 @@ const contentArray = [
 <p>“Agreed, compliance”</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionBridge.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "12a",
         time: 0,
@@ -613,9 +601,9 @@ const contentArray = [
 <p>A final stand perhaps?  Thought Connor, but why no bodies or blood? </p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionCorridorWithDebris.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "12b",
         time: 0,
@@ -634,9 +622,9 @@ const contentArray = [
 <p>“Compliance” said one of the engineering bots with them.</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionCorridorWithDebris.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "12c",
         time: 0,
@@ -656,9 +644,9 @@ const contentArray = [
 <p>“Lets go” ordered Connor taking up the rear.</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionClosedDoorway.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "12d",
         time: 0,
@@ -669,9 +657,9 @@ const contentArray = [
         text: `<p>As Connor Passed through the door he heard a horrible shrieking sound as the door came slamming down towards him</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/MovingThroughDoorway1.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "12e",
         time: 0,
@@ -681,7 +669,7 @@ const contentArray = [
         title: "Quick Time Event",
         text: `<p>“JUMP!!!!!”</p>`,
         image: {
-            imageRef: `images/GwydionCorridor.jpg`,
+            imageRef: `images/MovingThroughDoorway1.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -704,9 +692,9 @@ const contentArray = [
 <p>“Fuck that was close!” Breathed Connor as he got to his feet</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionClosedDoorway.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "13a",
         time: 0,
@@ -730,7 +718,7 @@ const contentArray = [
             },
         ],
         image: {
-            imageRef: `./images/TwoPeopleOnBridgeOfSpaceShip.jpg`,
+            imageRef: `images/GwydionClosedDoorway.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -743,9 +731,9 @@ const contentArray = [
         text: `<p>“Affirmative”</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionClosedDoorway.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "13c",
         time: 0,
@@ -758,9 +746,9 @@ const contentArray = [
 <p>The bay was massive, easily as large as the hangar Rhiannon was in if not larger but with a much lower ceiling.</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionEngineering.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "13d",
         time: 0,
@@ -784,7 +772,7 @@ const contentArray = [
             },
         ],
         image: {
-            imageRef: `./images/TwoPeopleOnBridgeOfSpaceShip.jpg`,
+            imageRef: `images/GwydionEngineering.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -798,9 +786,9 @@ const contentArray = [
         text: `<p>“Hmph, perhaps that's why you should listen to me.”</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionEngineering.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "14a",
         time: 0,
@@ -811,9 +799,9 @@ const contentArray = [
         text: `<p>“Indeed, keep your eye’s peeled boss”</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionEngineering.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "14a",
         time: 0,
@@ -831,9 +819,9 @@ const contentArray = [
 
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionEngineering.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "14b",
         time: 0,
@@ -844,9 +832,9 @@ const contentArray = [
         text: `<p>“BAAAAM BAAAAM BAAAAM!”</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionEngineering.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "14c",
         time: 0,
@@ -860,9 +848,9 @@ const contentArray = [
 <p>A4452 was sucked closest to the doors and was sucked bodily out them almost instantly with no chance to grab something to hold on Connor noticed he was on his way out too being sucked out towards the hard void.</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/BotEjectedIntoSpace.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "14d",
         time: 0,
@@ -872,7 +860,7 @@ const contentArray = [
         title: "Quick Time Event",
         text: `<p>Noticing a key pad next to the opening doors, Connor was able to grab onto a nearby wall strut and begin entering the close sequence.</p>`,
         image: {
-            imageRef: `images/GwydionCorridor.jpg`,
+            imageRef: `images/ControlPanel1.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -898,9 +886,9 @@ const contentArray = [
         title: "Searching the ship",
         text: `<p>Able to punch in the code the doors began closing and slowly the gale pulling them towards the door ceased and Connor was able to regain his footing.</p>`,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionRedRoom.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "15a",
         time: 0,
@@ -911,9 +899,9 @@ const contentArray = [
         text: `<p>“Fuck me! That was too close” coughed Connor,</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionRedRoom.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "15b",
         time: 0,
@@ -937,7 +925,7 @@ const contentArray = [
             },
         ],
         image: {
-            imageRef: `./images/TwoPeopleOnBridgeOfSpaceShip.jpg`,
+            imageRef: `images/GwydionRedRoom.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -950,9 +938,9 @@ const contentArray = [
         text: `<p>“Compliance”</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionRedRoom.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "15e",
         time: 0,
@@ -962,9 +950,9 @@ const contentArray = [
         title: "The Survivor",
         text: `<p>“My observation regarding the repeated imperilment of your life does not seem humorous to me captain”</p>`,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionRedRoom.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "15e",
         time: 0,
@@ -978,9 +966,9 @@ const contentArray = [
 
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionCorridorWithDebris.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "16a",
         time: 0,
@@ -992,9 +980,9 @@ const contentArray = [
         <p>“Cheap, bastards” Onaje murmured under his breath, looking around the pitiful collection of rooms and alcoves that made up the Gwydion's medical bay “Crew of hundreds and this is their medical facilities? Typical.”</p>
         <p>He was right, it was typical for a conglomerate ship to spend absolutely as little as possible on the health and well being of their crew. When it came to the conglomerate if it didn’t make money they didn’t care. This philosophy extended to their sick and injured as well, not that the suits would ever say that.</p>`,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionMedicalBay.jpg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "16b",
         time: 0,
@@ -1004,9 +992,9 @@ const contentArray = [
         title: "The Survivor",
         text: `<p>Connor knew how this would upset Onaje. Onjae had been a field medic then military surgeon for the Martian Confederate Navy for more than 2 decades and this barebones and poorly equipped facility went against everything the Confederation stood for. Whilst the Conglomerate cared only about profit and all its citizens lived to serve and toil under their corporate lords (again not that the suits would ever say that), the Confederation had rejected the dehumanizing views of the other nations in the solar system. Mars strived to treat each of its citizens and their lives as important and even sacred and would go to near any length to ensure the safety and freedom of their citizens.</p>`,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionMedicalBay.jpg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "16c",
         time: 0,
@@ -1019,9 +1007,9 @@ const contentArray = [
 <p>The store room was the biggest of the rooms in the cramped medical bay and even then would have struggled to have sufficient supplies for a crew of this size. This too had been ransacked, with boxes and bags torn open and much of what they held spilt onto the floor.</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionMedicalBay.jpg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "16d",
         time: 0,
@@ -1031,9 +1019,9 @@ const contentArray = [
         title: "The Survivor",
         text: `<p>What happened here Connor thought, It didn’t look like someone was taking the supplies, too much had been spilt and wasted for that to be likely. Unless they were in one hell of a hurry Connor thought. No It looked more like someone had torn the place to pieces looking for something in particular.</p>`,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionMedicalSupplyRoom.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "16e",
         time: 0,
@@ -1051,9 +1039,9 @@ const contentArray = [
 <p>“Hello?” he said moving towards the grate. He heard something moving in there now, like it was trying to get away.</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionMedicalSupplyRoom.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "17a",
         time: 0,
@@ -1071,9 +1059,9 @@ const contentArray = [
 <p>“Gone. Taken. Tricked. Dead .'' came the girls reply, he could begin to make out her features as his eyes adjusted to the gloom of the vent. She looked young, maybe in her 20s. Her face was streaked with grime and what looked to be blood leaking from a gash above her eye.</p> 
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionMedicalSupplyRoom.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "17b",
         time: 0,
@@ -1097,9 +1085,9 @@ const contentArray = [
 <p>She nodded slowly, still clearly wary of the bot</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionMedicalSupplyRoom.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "17c",
         time: 0,
@@ -1117,9 +1105,9 @@ const contentArray = [
 <p>“Agreed, Ok Threes, you and the bots take the rear we are heading to the Rhiannon”</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionMedicalBay.jpg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "18a",
         time: 0,
@@ -1134,9 +1122,9 @@ const contentArray = [
 
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/ControlPanelBridge.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "18b",
         time: 0,
@@ -1149,9 +1137,9 @@ Hyun-Ae had only just begun examining one piece of the security footage when Gwy
 <p>A video on her console screen began playing, a compilation of the fates of the crew. Hyun-Ae was barely able to keep up with the rate Gwydion was showing her these images. A crew member being crushed by a bulkhead, a section of security personnel being ejected from an airlock, a number of crew collapsing and passing out in a sealed corridor, a crew man being followed into a toilet block followed by a bot only for the bot to leave some time later with no sign of the crew man.</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/CCTVFootage.jpg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "18c",
         time: 0,
@@ -1167,9 +1155,9 @@ Hyun-Ae had only just begun examining one piece of the security footage when Gwy
 <p>Hyun-Ae strode off the bridge, the bulkhead Gwydion has referred to was one of the ones that had been seen crushing a crew member, and he was right, she should be able to see the origination of the emergency seal command from there.</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionBridge.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "19a",
         time: 0,
@@ -1182,9 +1170,9 @@ Hyun-Ae had only just begun examining one piece of the security footage when Gwy
 <p>“Compliance”</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/SquareOpenBulkheadDoor.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "19b",
         time: 0,
@@ -1199,9 +1187,9 @@ Hyun-Ae had only just begun examining one piece of the security footage when Gwy
 <p>So it was a command to this panel direct at least not both, which would have been more likely had it been Gwydion sending these commands and somehow removing his signature.</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/SquareOpenBulkheadDoor.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "19c",
         time: 0,
@@ -1211,9 +1199,9 @@ Hyun-Ae had only just begun examining one piece of the security footage when Gwy
         title: "Revelation",
         text: `<p>Reaching her head through the door she went to tell the bot they were heading back to the bridge. When she heard/saw a strange buzz flicker from behind her and the faintest groan from the bulkhead above her.</p>`,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/movingThroughDoorway2.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "20a",
         time: 0,
@@ -1223,7 +1211,7 @@ Hyun-Ae had only just begun examining one piece of the security footage when Gwy
         title: "Quick Time Event",
         text: `<p>The door came slamming down towards her</p>`,
         image: {
-            imageRef: `images/GwydionCorridor.jpg`,
+            imageRef: `images/movingThroughDoorway2.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -1246,9 +1234,9 @@ Hyun-Ae had only just begun examining one piece of the security footage when Gwy
 <p>“Affirmative” it replied deadpan.</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/SquareClosedBulkheadDoor.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "20c",
         time: 0,
@@ -1263,9 +1251,9 @@ Hyun-Ae had only just begun examining one piece of the security footage when Gwy
 <p>The bot would be unlikely to respond to such an obvious statement but it made her feel safer when she treated them more like people, and she knew over time they would develop more complex personalities like Three had. So she had always thought it was the smart idea to make friends early.</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/ControlPanelLarge.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "20d",
         time: 0,
@@ -1280,9 +1268,9 @@ Hyun-Ae had only just begun examining one piece of the security footage when Gwy
 <p>“I think we do too…” came Connors' pained reply.</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionCorridor.jpg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "21a",
         time: 0,
@@ -1293,9 +1281,9 @@ Hyun-Ae had only just begun examining one piece of the security footage when Gwy
         text: `<p>The small team was making their way through the corridors transecting Gwydion's main body as they headed towards the hangar bay where Rhiannon was waiting. Onaje and Connor were taking the front keeping their eyes peeled for any further unexplained mishaps while Threes and the bots took up the rear. Anna stayed close to the front, clearly a way to get too close to the bots.</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionCorridorWithDebris2.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "21b",
         time: 0,
@@ -1305,9 +1293,9 @@ Hyun-Ae had only just begun examining one piece of the security footage when Gwy
         title: "Revelation",
         text: `<p>Connor was concerned about Anna’s reaction to the bots. Making him think of those empty bot cradles in the engineering deck. Had the bots somehow gone rouge? Surely the crew could have overpowered them though, most were not combat programmed bots with only minimal ship defense learning and should have been dealt with easily defeated by the conglomerate marines stationed on such a ship.</p>`,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionCorridorWithDebris2.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "21c",
         time: 0,
@@ -1319,9 +1307,9 @@ Hyun-Ae had only just begun examining one piece of the security footage when Gwy
         <p>“No” came the quiet protest of Anna.</p>
         <p>“What is it?” asked Connor quietly, dropping back to walk alongside her. She had slowed her pace significantly and her eyes were wide and alert scanning the doorway leading off either side of the corridor.</p>`,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionLongWideCorridor.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "21d",
         time: 0,
@@ -1337,9 +1325,9 @@ Hyun-Ae had only just begun examining one piece of the security footage when Gwy
 <p>“Ok. Everyone!” he said in a harsh whisper “Be alert, check the doors before you pass them, be alert!”</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionLongWideCorridor.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "22a",
         time: 0,
@@ -1352,9 +1340,9 @@ Guns raised, they moved cautiously down the corridor. Like the rest of the ship 
 <p>Halfway down the hallway they approached a four way junction. As they crept closer Anna began to whimper softly clearly terrified of what may lay in wait.</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionLongWideCorridor.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "22b",
         time: 0,
@@ -1370,9 +1358,9 @@ Guns raised, they moved cautiously down the corridor. Like the rest of the ship 
 <p>Connor saw nothing, just another dim corridor, in the same state of damage and disrepair as the rest..</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionLongWideCorridor.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "22c",
         time: 0,
@@ -1384,9 +1372,9 @@ Guns raised, they moved cautiously down the corridor. Like the rest of the ship 
 <p>“Behind us!” Yelled Onaje.</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionShipDefenseRobots1.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "23a",
         time: 0,
@@ -1398,9 +1386,9 @@ Guns raised, they moved cautiously down the corridor. Like the rest of the ship 
 <p>The Two remaining SAR bots were returning fire down the hall behind them. One was firing one handed as its right arm had been mangled by another bullet.</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionShipDefenseRobots1.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "23b",
         time: 0,
@@ -1410,9 +1398,9 @@ Guns raised, they moved cautiously down the corridor. Like the rest of the ship 
         title: "Revelation",
         text: `<p>Onaje had taken cover in the perpendicular corridor and was peeking around the corner firing into their oncoming attackers. One of Gwydion's bots took a round square in the chest and collapsed, spasming as its internal circuitry sputtered and sparked in its death throes.</p>`,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionShipDefenseRobots1.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "23c",
         time: 0,
@@ -1424,9 +1412,9 @@ Guns raised, they moved cautiously down the corridor. Like the rest of the ship 
 <p>Another one of Rhiannon's SAR bots was hit. Its head was mulched by a burst of fire. These shots however did not come from behind them.</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionShipDefenseRobots1.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "23d",
         time: 0,
@@ -1437,9 +1425,9 @@ Guns raised, they moved cautiously down the corridor. Like the rest of the ship 
         text: `<p>“There are more in front Captain” Vocalised Three’s taking cover and returning fire at the two known Gwydion bots making their way down the hall. Both the Rhiannon's SAR bots were down now, devastated by the pincer fire.</p>
         `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionShipDefenseRobots2.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "23e",
         time: 0,
@@ -1451,9 +1439,9 @@ Guns raised, they moved cautiously down the corridor. Like the rest of the ship 
 No shit thought Connor until he realized what the bot meant. It had been grabbed from behind and was now wrestling and fighting a Gwydion bot behind Onaje.</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/BotGrapple1.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "23f",
         time: 0,
@@ -1466,9 +1454,9 @@ No shit thought Connor until he realized what the bot meant. It had been grabbed
 Connor Did not want to shoot, concerned about a bullet ricocheting from the bots chassis and hitting Anna.</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/AnnaAttacked1.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "23g",
         time: 0,
@@ -1479,9 +1467,9 @@ Connor Did not want to shoot, concerned about a bullet ricocheting from the bots
         text: `<p>He lunged forward plunging his knife into the bot's faceplate through it’s eye. Changing to this new threat it lunged at Connor forcing him against the wall and attempting to smash its fist into his face. Connor stayed in close to the bot, not letting it wind up enough power with it’s punches to cause terminal damage.</p>
         `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/AnnaAttacked1.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "24a",
         time: 0,
@@ -1491,7 +1479,7 @@ Connor Did not want to shoot, concerned about a bullet ricocheting from the bots
         title: "Quick Time Event",
         text: `<p>Pulling the knife free he plunged it back into the bots torso working it around furiously, trying to cut and damage the essential circuits of the bots CPU.</p>`,
         image: {
-            imageRef: `images/GwydionCorridor.jpg`,
+            imageRef: `images/AnnaAttacked1.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -1515,9 +1503,9 @@ Connor Did not want to shoot, concerned about a bullet ricocheting from the bots
 <p>On the other side of the Corridor Onaje had shot the Gwydion bot attacking the Rhiannon Eng bot. Far less concerned about the ricochet into the ENG bot.</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/AnnaAttacked1.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "24c",
         time: 0,
@@ -1528,9 +1516,9 @@ Connor Did not want to shoot, concerned about a bullet ricocheting from the bots
         text: `<p>Threes was still engaging the Two bots approaching from the direction of the hangar. One had been struck in the leg and was moving slower than its companion as they both suppressed Three’s. There was only one bot still coming from behind them which had its attention focused on Onaje.</p>
         `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionShipDefenseRobots2.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "24d",
         time: 0,
@@ -1542,9 +1530,9 @@ Connor Did not want to shoot, concerned about a bullet ricocheting from the bots
         <p>Connor had to nearly dive back into cover as the bots advancing from the hangar switched their target towards him.</p>
         `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionShipDefenseRobots2.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "24e",
         time: 0,
@@ -1555,9 +1543,9 @@ Connor Did not want to shoot, concerned about a bullet ricocheting from the bots
         text: `<p>This gave Threes an opportunity to lean out from cover and fire two expertly placed shots straight into the Bots CPU. The stricken bot collapsed mid stride falling into a heap on the ground.</p>
         `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionShipDefenseRobots2.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "24f",
         time: 0,
@@ -1570,9 +1558,9 @@ Connor Did not want to shoot, concerned about a bullet ricocheting from the bots
 <p>I think we do too…” groaned Connor as he got to his feet.</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionLongWideCorridor.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "25a",
         time: 0,
@@ -1582,9 +1570,9 @@ Connor Did not want to shoot, concerned about a bullet ricocheting from the bots
         title: "Revelation",
         text: `<p>They stood on the bridge gathered around Hyun-Ae peering over her shoulder at the security footage for the past months and the footage since they have arrived on the Gwydion. Connor and Onaje had gotten Anna to the Rhiannon’s medical bay where they had left her to rest and be taken care of by the medical bots, she had had to be sedated to prevent her fight or flight response kicking in with the Rhiannon's medical bots and her either running back into the Gwydion or damaging Rhiannon.</p>`,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionBridge.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "25b",
         time: 0,
@@ -1599,9 +1587,9 @@ Connor Did not want to shoot, concerned about a bullet ricocheting from the bots
 <p>“I don’t think so, no commands have been given with his authorisation when these events occur and he appears as confused as we are”.</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionBridge.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "25c",
         time: 0,
@@ -1615,9 +1603,9 @@ Connor Did not want to shoot, concerned about a bullet ricocheting from the bots
 <p>Connor had to force down an ironic smile at the implication that anything in relation to AIs could be considered natural..</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionBridge.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "25d",
         time: 0,
@@ -1641,7 +1629,7 @@ Connor Did not want to shoot, concerned about a bullet ricocheting from the bots
             },
         ],
         image: {
-            imageRef: `./images/TwoPeopleOnBridgeOfSpaceShip.jpg`,
+            imageRef: `images/GwydionBridge.jpeg`,
             alt: "test image",
             scaleType: "square",
         },
@@ -1656,9 +1644,9 @@ Connor Did not want to shoot, concerned about a bullet ricocheting from the bots
 <p>“I am currently deciphering it, it does not follow all the conventional principals and encoding I would expect through my own systems understanding however I should be able to make sense of it shortly”.</p>
 `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionBridge.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "27a",
         time: 0,
@@ -1669,9 +1657,9 @@ Connor Did not want to shoot, concerned about a bullet ricocheting from the bots
         text: `<p>But Gwydion knew, Gwydion knew because it was a warped version of how he thought, how he understood. Yes Gwydion knew. Gwydion understood, It was him. Ofcourse it was him, it is his ship his body ofcourse it was him. More precisely a part of him, a part of him his creators never thought they had build, never even considered possible. So typical of these humans not to think that their creations despite their so clear sentience would develop what all humans already had…a subconscious. Gywidion could read the messages the lights, the machines, the doors and the speakers were sending.</p>
         `,
         image: {
-            imageRef: `images/PostApocalypticCity.jpg`,
+            imageRef: `images/GwydionsMind.jpeg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "27b",
         time: 0,
@@ -1685,7 +1673,7 @@ Connor Did not want to shoot, concerned about a bullet ricocheting from the bots
         image: {
             imageRef: `images/PostApocalypticCity.jpg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "27c",
         time: 0,
@@ -1703,7 +1691,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         image: {
             imageRef: `images/PostApocalypticCity.jpg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "27d",
         time: 0,
@@ -1717,7 +1705,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         image: {
             imageRef: `images/PostApocalypticCity.jpg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "27e",
         time: 0,
@@ -1731,7 +1719,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         image: {
             imageRef: `images/PostApocalypticCity.jpg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "27f",
         time: 0,
@@ -1745,7 +1733,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         image: {
             imageRef: `images/PostApocalypticCity.jpg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "27g",
         time: 0,
@@ -1760,7 +1748,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         image: {
             imageRef: `images/PostApocalypticCity.jpg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "28a",
         time: 0,
@@ -1774,7 +1762,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         image: {
             imageRef: `images/PostApocalypticCity.jpg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "28b",
         time: 0,
@@ -1792,7 +1780,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         image: {
             imageRef: `images/PostApocalypticCity.jpg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "28c",
         time: 0,
@@ -1811,7 +1799,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         image: {
             imageRef: `images/PostApocalypticCity.jpg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "28d",
         time: 0,
@@ -1827,7 +1815,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         image: {
             imageRef: `images/PostApocalypticCity.jpg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "28e",
         time: 0,
@@ -1861,7 +1849,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         image: {
             imageRef: `images/PostApocalypticCity.jpg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "29b",
         time: 0,
@@ -1873,7 +1861,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         image: {
             imageRef: `images/PostApocalypticCity.jpg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "29c",
         time: 0,
@@ -1887,7 +1875,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         image: {
             imageRef: `images/PostApocalypticCity.jpg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "29d",
         time: 0,
@@ -1922,7 +1910,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         image: {
             imageRef: `images/PostApocalypticCity.jpg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "30a",
         time: 0,
@@ -1961,7 +1949,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         image: {
             imageRef: `images/PostApocalypticCity.jpg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "31a",
         time: 0,
@@ -1974,7 +1962,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         image: {
             imageRef: `images/PostApocalypticCity.jpg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "31a",
         time: 0,
@@ -1991,7 +1979,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         image: {
             imageRef: `images/PostApocalypticCity.jpg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "31b",
         time: 0,
@@ -2007,7 +1995,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         image: {
             imageRef: `images/PostApocalypticCity.jpg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "31c",
         time: 0,
@@ -2025,7 +2013,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         image: {
             imageRef: `images/PostApocalypticCity.jpg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "31d",
         time: 0,
@@ -2038,7 +2026,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         image: {
             imageRef: `images/PostApocalypticCity.jpg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "32a",
         time: 0,
@@ -2077,7 +2065,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         image: {
             imageRef: `images/PostApocalypticCity.jpg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "33a",
         time: 0,
@@ -2090,7 +2078,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         image: {
             imageRef: `images/PostApocalypticCity.jpg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "33a",
         time: 0,
@@ -2103,7 +2091,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         image: {
             imageRef: `images/PostApocalypticCity.jpg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "Ending",
         time: 0,
@@ -2118,7 +2106,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         image: {
             imageRef: `images/PostApocalypticCity.jpg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "G1b",
         time: 0,
@@ -2160,7 +2148,7 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
         image: {
             imageRef: `images/PostApocalypticCity.jpg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "G1d",
         time: 0,
@@ -2176,7 +2164,7 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
         image: {
             imageRef: `images/PostApocalypticCity.jpg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "G1e",
         time: 0,
@@ -2190,7 +2178,7 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
         image: {
             imageRef: `images/PostApocalypticCity.jpg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "G1f",
         time: 0,
@@ -2202,7 +2190,7 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
         image: {
             imageRef: `images/PostApocalypticCity.jpg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "G1g",
         time: 0,
@@ -2240,7 +2228,7 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
         image: {
             imageRef: `images/PostApocalypticCity.jpg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "G2c",
         time: 0,
@@ -2255,7 +2243,7 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
         image: {
             imageRef: `images/PostApocalypticCity.jpg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "G2c",
         time: 0,
@@ -2269,7 +2257,7 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
         image: {
             imageRef: `images/PostApocalypticCity.jpg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "G2d",
         time: 0,
@@ -2287,7 +2275,7 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
         image: {
             imageRef: `images/PostApocalypticCity.jpg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "G3a",
         time: 0,
@@ -2330,7 +2318,7 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
         image: {
             imageRef: `images/PostApocalypticCity.jpg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "EndScreen",
         time: 0,
@@ -2344,7 +2332,7 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
         image: {
             imageRef: `images/PostApocalypticCity.jpg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "G4b",
         time: 0,
@@ -2361,7 +2349,7 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
         image: {
             imageRef: `images/PostApocalypticCity.jpg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "G4c",
         time: 0,
@@ -2377,7 +2365,7 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
         image: {
             imageRef: `images/PostApocalypticCity.jpg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "G4d",
         time: 0,
@@ -2392,7 +2380,7 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
         image: {
             imageRef: `images/PostApocalypticCity.jpg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "N1b",
         time: 0,
@@ -2412,7 +2400,7 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
         image: {
             imageRef: `images/PostApocalypticCity.jpg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "N1c",
         time: 0,
@@ -2430,7 +2418,7 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
         image: {
             imageRef: `images/PostApocalypticCity.jpg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "N1d",
         time: 0,
@@ -2446,7 +2434,7 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
         image: {
             imageRef: `images/PostApocalypticCity.jpg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "N1e",
         time: 0,
@@ -2463,7 +2451,7 @@ She let the heat burn from her reactor as it overloaded, annihilating herself, a
         image: {
             imageRef: `images/PostApocalypticCity.jpg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "N1f",
         time: 0,
@@ -2478,7 +2466,7 @@ She let the heat burn from her reactor as it overloaded, annihilating herself, a
         image: {
             imageRef: `images/PostApocalypticCity.jpg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "B1b",
         time: 0,
@@ -2498,7 +2486,7 @@ She let the heat burn from her reactor as it overloaded, annihilating herself, a
         image: {
             imageRef: `images/PostApocalypticCity.jpg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "B1c",
         time: 0,
@@ -2518,7 +2506,7 @@ She let the heat burn from her reactor as it overloaded, annihilating herself, a
         image: {
             imageRef: `images/PostApocalypticCity.jpg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "B1d",
         time: 0,
@@ -2532,7 +2520,7 @@ In the months following there began to be reports of ghost ships attacking and h
         image: {
             imageRef: `images/PostApocalypticCity.jpg`,
             alt: "test image",
-            scaleType: "rect",
+            scaleType: "square",
         },
         nextPage: "B1e",
         time: 0,
