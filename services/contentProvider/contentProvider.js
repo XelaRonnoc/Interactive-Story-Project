@@ -115,6 +115,7 @@ const contentArray = [
         },
         nextPage: "3c",
         time: 0,
+        audio: "./audio/benchWack.mp3",
     },
     {
         id: "3c",
@@ -216,6 +217,7 @@ const contentArray = [
         },
         nextPage: "4c",
         time: 3,
+        audio: "./audio/autoNukeChime.wav",
     },
     {
         id: "4c",
@@ -385,6 +387,7 @@ const contentArray = [
         },
         nextPage: "8a",
         time: 0,
+        audio: "./audio/openingSlidingDoor.wav",
     },
     {
         id: "7d",
@@ -496,6 +499,7 @@ const contentArray = [
         },
         nextPage: "10b",
         time: 0,
+        audio: "./audio/openingSlidingDoor.wav",
     },
     {
         id: "10b",
@@ -548,6 +552,7 @@ const contentArray = [
         },
         nextPage: "failScreen",
         time: 20,
+        audio: "./audio/keypadBeep.wav",
     },
     {
         id: "11b",
@@ -628,6 +633,7 @@ const contentArray = [
         },
         nextPage: "12c",
         time: 0,
+        audio: "./audio/noise.wav",
     },
     {
         id: "12c",
@@ -684,6 +690,7 @@ const contentArray = [
         },
         nextPage: "failScreen",
         time: 3,
+        audio: "audio/metalScreech.wav",
     },
     {
         id: "12f",
@@ -698,6 +705,7 @@ const contentArray = [
         },
         nextPage: "13a",
         time: 0,
+        audio: "audio/bulkheadDoorSlam.wav",
     },
     {
         id: "13a",
@@ -838,6 +846,7 @@ const contentArray = [
         },
         nextPage: "14c",
         time: 0,
+        audio: "./audio/alarm.mp3",
     },
     {
         id: "14c",
@@ -854,6 +863,7 @@ const contentArray = [
         },
         nextPage: "14d",
         time: 0,
+        audio: "./audio/decompression.wav",
     },
     {
         id: "14d",
@@ -880,6 +890,7 @@ const contentArray = [
         },
         nextPage: "failScreen",
         time: 10,
+        audio: "./audio/keypadBeep.wav",
     },
     {
         id: "14e",
@@ -1045,6 +1056,7 @@ const contentArray = [
         },
         nextPage: "17a",
         time: 0,
+        audio: "./audio/crying.wav",
     },
     {
         id: "17a",
@@ -1065,6 +1077,7 @@ const contentArray = [
         },
         nextPage: "17b",
         time: 0,
+        audio: "./audio/crying.wav",
     },
     {
         id: "17b",
@@ -1226,6 +1239,7 @@ Hyun-Ae had only just begun examining one piece of the security footage when Gwy
         },
         nextPage: "failScreen",
         time: 4,
+        audio: "./metalScreech.wav",
     },
     {
         id: "20b",
@@ -1240,6 +1254,7 @@ Hyun-Ae had only just begun examining one piece of the security footage when Gwy
         },
         nextPage: "20c",
         time: 0,
+        audio: "./bulkheadDoorSlam.wav",
     },
     {
         id: "20c",
@@ -1378,6 +1393,7 @@ Guns raised, they moved cautiously down the corridor. Like the rest of the ship 
         },
         nextPage: "23a",
         time: 0,
+        audio: "./audio/gunfire.flac",
     },
     {
         id: "23a",
@@ -1392,6 +1408,7 @@ Guns raised, they moved cautiously down the corridor. Like the rest of the ship 
         },
         nextPage: "23b",
         time: 0,
+        audio: "./audio/gunfire.flac",
     },
     {
         id: "23b",
@@ -1404,6 +1421,7 @@ Guns raised, they moved cautiously down the corridor. Like the rest of the ship 
         },
         nextPage: "23c",
         time: 0,
+        audio: "./audio/gunfire.flac",
     },
     {
         id: "23c",
@@ -1418,6 +1436,7 @@ Guns raised, they moved cautiously down the corridor. Like the rest of the ship 
         },
         nextPage: "23d",
         time: 0,
+        audio: "./audio/gunfire.flac",
     },
     {
         id: "23d",
@@ -1431,6 +1450,7 @@ Guns raised, they moved cautiously down the corridor. Like the rest of the ship 
         },
         nextPage: "23e",
         time: 0,
+        audio: "./audio/gunfire.flac",
     },
     {
         id: "23e",
@@ -1445,6 +1465,7 @@ No shit thought Connor until he realized what the bot meant. It had been grabbed
         },
         nextPage: "23f",
         time: 0,
+        audio: "./audio/gunfire.flac",
     },
     {
         id: "23f",
@@ -1522,6 +1543,7 @@ Connor Did not want to shoot, concerned about a bullet ricocheting from the bots
         },
         nextPage: "24d",
         time: 0,
+        audio: "./audio/gunfire.flac",
     },
     {
         id: "24d",
@@ -1536,6 +1558,7 @@ Connor Did not want to shoot, concerned about a bullet ricocheting from the bots
         },
         nextPage: "24e",
         time: 0,
+        audio: "./audio/gunfire.flac",
     },
     {
         id: "24e",
@@ -1549,6 +1572,7 @@ Connor Did not want to shoot, concerned about a bullet ricocheting from the bots
         },
         nextPage: "24f",
         time: 0,
+        audio: "./audio/gunfire.flac",
     },
     {
         id: "24f",
@@ -1819,6 +1843,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         },
         nextPage: "28e",
         time: 0,
+        audio: "./audio/bulkheadDoorSlam.wav",
     },
     {
         id: "28e",
@@ -1840,6 +1865,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         },
         nextPage: "failScreen",
         time: 6,
+        audio: "./audio/keypadBeep.wav",
     },
     {
         id: "29a",
@@ -1896,7 +1922,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
             passPage: "29e",
             failPage: "failScreen",
             failPageMessage:
-                "<p>The rogue bot stamped it's foot down onto Onaje's with a sickening crunch, spraying his brain matter throughout the corridor.</p>",
+                "<p>The rogue bot stamped it's foot down onto Onaje's skull with a sickening crunch, spraying his brain matter throughout the corridor.</p>",
             failPageCheckpoint: "29c",
         },
         nextPage: "failScreen",
@@ -1914,6 +1940,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         },
         nextPage: "30a",
         time: 0,
+        audio: "./audio/gunfire.flac",
     },
     {
         id: "30a",
@@ -1983,6 +2010,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         },
         nextPage: "31b",
         time: 0,
+        audio: "./audio/rocketEngine.wav",
     },
     {
         id: "31b",
@@ -2095,6 +2123,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         },
         nextPage: "Ending",
         time: 0,
+        audio: "./audio/gunfire.flac",
     },
     {
         id: "G1a",
@@ -2135,6 +2164,7 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
         },
         nextPage: "failScreen",
         time: 10,
+        audio: "./audio/keypadBeep.wav",
     },
     {
         id: "G1c",
@@ -2152,6 +2182,7 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
         },
         nextPage: "G1d",
         time: 0,
+        audio: "./audio/gunfire",
     },
     {
         id: "G1d",
@@ -2168,6 +2199,7 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
         },
         nextPage: "G1e",
         time: 0,
+        audio: "./audio/gunfire.flac",
     },
     {
         id: "G1e",
@@ -2353,6 +2385,7 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
         },
         nextPage: "G4c",
         time: 0,
+        audio: "./audio/gunfire.flac",
     },
     {
         id: "G4c",
@@ -2438,6 +2471,7 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
         },
         nextPage: "N1e",
         time: 0,
+        audio: "./audio/gunfire.flac",
     },
     {
         id: "N1e",
@@ -2490,6 +2524,7 @@ She let the heat burn from her reactor as it overloaded, annihilating herself, a
         },
         nextPage: "B1c",
         time: 0,
+        audio: "./audio/gunfire.flac",
     },
     {
         id: "B1c",
@@ -2510,6 +2545,7 @@ She let the heat burn from her reactor as it overloaded, annihilating herself, a
         },
         nextPage: "B1d",
         time: 0,
+        audio: "./audio/gunfire.flac",
     },
     {
         id: "B1d",

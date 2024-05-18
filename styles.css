@@ -103,6 +103,10 @@ main::-webkit-scrollbar {
   color: var(--nav-bar-text-color);
 }
 
+audio {
+  visibility: hidden;
+}
+
 /* styles for the font toggle button */
 .button-container__nav-button {
   position: relative;

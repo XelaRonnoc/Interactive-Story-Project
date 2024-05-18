@@ -21,7 +21,6 @@ export const nextPage = (
     updateBranchValue = undefined
 ) => {
     const currentPageObj = getContentWithId(getCurrentPage());
-    console.log(nextPageId);
     if (nextPageId === "failScreen") {
         setFailScreen(
             currentPageObj.quickTime.failPage,
@@ -49,19 +48,19 @@ export const nextPage = (
 };
 
 export const getCurrentPage = () => {
-    return localStorage.getItem("curPage");
+    return sessionStorage.getItem("curPage");
 };
 
 export const updateStoryPoints = (points) => {
-    const newPoints = points + parseInt(localStorage.getItem("storyPoints"));
-    localStorage.setItem("storyPoints", newPoints);
+    const newPoints = points + parseInt(sessionStorage.getItem("storyPoints"));
+    sessionStorage.setItem("storyPoints", newPoints);
 };
 export const getStoryPoints = () => {
-    return localStorage.getItem("storyPoints");
+    return sessionStorage.getItem("storyPoints");
 };
 
 const setCurrentPage = (newPage) => {
-    localStorage.setItem("curPage", newPage);
+    sessionStorage.setItem("curPage", newPage);
 };
 
 export const getCurrentPageTimeout = () => {
@@ -88,9 +87,11 @@ export const renderPage = (pageContainer) => {
     const imgHTML = getImageHTML(curPageContent.image);
     const textHTML = getTextHTML(curPageContent);
     pageContainer.html(imgHTML + textHTML);
+    const audio = document.querySelectorAll("audio")[0];
+    audio ? (audio.volume = 1) : "";
 };
 
-export const initialiseLocalStorage = () => {
-    localStorage.setItem("curPage", "1a");
-    localStorage.setItem("storyPoints", 0);
+export const initialiseSessionStorage = () => {
+    sessionStorage.setItem("curPage", "1a");
+    sessionStorage.setItem("storyPoints", 0);
 };

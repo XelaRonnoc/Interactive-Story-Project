@@ -1,15 +1,15 @@
 import {
     getCurrentPage,
     getCurrentPageTimeout,
-    initialiseLocalStorage,
+    initialiseSessionStorage,
     nextPage,
     renderPage,
 } from "./containers/pageManager/pageManager.js";
 import { getContentWithId } from "./services/contentProvider/contentProvider.js";
 
 $(document).ready(function () {
-    if (!localStorage.getItem("curPage")) {
-        initialiseLocalStorage();
+    if (!sessionStorage.getItem("curPage")) {
+        initialiseSessionStorage();
     }
     const pageContainer = $("main");
     let keyPattern = "";
