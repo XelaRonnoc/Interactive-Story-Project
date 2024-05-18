@@ -16,7 +16,7 @@ const contentArray = [
         <p>The Rhiannon was an old ship one of the oldest on Titan’s Salvage and Rescue roster, but with that age came experience. More than once she had gotten Connor and the others out of sticky situations, and so Connor was inclined to forgive the odd malfunction. Besides there was little Hyun-Ae couldn’t fix.</p>`,
         image: {
             imageRef: `images/RhiannonInFlight.jpeg`,
-            alt: "test image",
+            alt: "Rhiannon in Flight",
             scaleType: "square",
         },
         nextPage: "1b",
@@ -52,7 +52,7 @@ const contentArray = [
         ],
         image: {
             imageRef: `images/RhiannonBridge.jpeg`,
-            alt: "test image",
+            alt: "Rhiannon Bridge",
             scaleType: "square",
         },
         nextPage: "2a",
@@ -64,7 +64,7 @@ const contentArray = [
         text: `<p>Best get Hyun-Ae up. We are nearing the Gwydion anyway and we want the ship to be in the best possible condition before beginning the rescue operation.</p>`,
         image: {
             imageRef: `images/RhiannonCorridor.jpeg`,
-            alt: "test image",
+            alt: "Rhiannon Corridor",
             scaleType: "square",
         },
         nextPage: "3a",
@@ -76,7 +76,7 @@ const contentArray = [
         text: `<p>Let Hyun-Ae sleep a bit longer, there will be enough time for her to fix before the operation begins. Besides, a hungry Captain can do more harm than good.</p>`,
         image: {
             imageRef: `images/RhiannonCorridor.jpeg`,
-            alt: "test image",
+            alt: "Rhiannon Corridor",
             scaleType: "square",
         },
         nextPage: "4a",
@@ -89,7 +89,7 @@ const contentArray = [
         <p>“Bloody hell does she ever sleep?” Connor muttered to himself as hew made his way to engineering.</p>`,
         image: {
             imageRef: `images/RhiannonCrewQuarters.jpeg`,
-            alt: "test image",
+            alt: "Rhiannon Crew Quarters",
             scaleType: "square",
         },
         nextPage: "3b",
@@ -110,7 +110,7 @@ const contentArray = [
         `,
         image: {
             imageRef: `images/RhiannonEngineering.jpeg`,
-            alt: "test image",
+            alt: "Rhiannon Engineering",
             scaleType: "square",
         },
         nextPage: "3c",
@@ -137,7 +137,7 @@ const contentArray = [
         ],
         image: {
             imageRef: `images/RhiannonEngineering.jpeg`,
-            alt: "test image",
+            alt: "Rhiannon Engineering",
             scaleType: "square",
         },
         nextPage: "3d",
@@ -150,7 +150,7 @@ const contentArray = [
         <p>“Tsk” he said kissing his teeth “well I might have broken the nav console, tried to fix the screen”</p>`,
         image: {
             imageRef: `images/RhiannonEngineering.jpeg`,
-            alt: "test image",
+            alt: "Rhiannon Engineering",
             scaleType: "square",
         },
         nextPage: "3e",
@@ -165,7 +165,7 @@ const contentArray = [
         <p>Grinning Connor turned and headed out the door.</p>`,
         image: {
             imageRef: `images/RhiannonEngineering.jpeg`,
-            alt: "test image",
+            alt: "Rhiannon Engineering",
             scaleType: "square",
         },
         nextPage: "5a",
@@ -186,7 +186,7 @@ const contentArray = [
         <p>“How long till they’re here?”</p>`,
         image: {
             imageRef: `images/RhiannonMessHall.jpeg`,
-            alt: "test image",
+            alt: "Rhiannon Mess Hall",
             scaleType: "square",
         },
         nextPage: "4b",
@@ -212,7 +212,7 @@ const contentArray = [
         ],
         image: {
             imageRef: `images/RhiannonMessHall.jpeg`,
-            alt: "test image",
+            alt: "Rhiannon Mess Hall",
             scaleType: "square",
         },
         nextPage: "4c",
@@ -229,7 +229,7 @@ const contentArray = [
         <p>For a while they both ate in comfortable silence, enjoying the meal and the company.</p>`,
         image: {
             imageRef: `images/RhiannonMessHall.jpeg`,
-            alt: "test image",
+            alt: "Rhiannon Mess Hall",
             scaleType: "square",
         },
         nextPage: "4d",
@@ -244,7 +244,7 @@ const contentArray = [
         <p>Connor had almost finished his meal too. He scooped up the last bit and tossed it in the autocleanse also before leaving.</p>`,
         image: {
             imageRef: `images/RhiannonMessHall.jpeg`,
-            alt: "test image",
+            alt: "Rhiannon Mess Hall",
             scaleType: "square",
         },
         nextPage: "5a",
@@ -262,7 +262,7 @@ const contentArray = [
         <p>“We’re here Ona, suit up!”</p>`,
         image: {
             imageRef: `images/RhiannonCrewQuarters.jpeg`,
-            alt: "test image",
+            alt: "Rhiannon Crew Quarters",
             scaleType: "square",
         },
         nextPage: "5b",
@@ -285,7 +285,7 @@ const contentArray = [
         <p>“Only on a good day!” Connor replied</p>`,
         image: {
             imageRef: `images/RhiannonBridge.jpeg`,
-            alt: "test image",
+            alt: "Rhiannon Bridge",
             scaleType: "square",
         },
         nextPage: "5c",
@@ -302,7 +302,7 @@ const contentArray = [
         <p>Shaking his head to clear it of these imaginings he made his way to the airlock and supply compartment to get his equipment.</p>`,
         image: {
             imageRef: `images/RhiannonBridge.jpeg`,
-            alt: "test image",
+            alt: "Rhiannon Bridge",
             scaleType: "square",
         },
         nextPage: "6a",
@@ -315,7 +315,7 @@ const contentArray = [
         <p>She could see her crew and the small team of bots led by Three’s making their way to the hangars inner doors. They looked like Ant’s to her from this distance. She felt a pang of worry as they appeared so vulnerable walking into the depths of this giant silent ship, and there was little she could do to help them if any trouble arose deeper in the ship.</p>`,
         image: {
             imageRef: `images/GwydionHangar.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Hangar",
             scaleType: "square",
         },
         nextPage: "7a",
@@ -323,7 +323,7 @@ const contentArray = [
     },
     {
         id: "7a",
-        title: "To the brdige",
+        title: "To the bridge",
         text: ``,
         dialog: [
             {
@@ -341,7 +341,7 @@ const contentArray = [
         ],
         image: {
             imageRef: `images/GwydionCorridor.jpg`,
-            alt: "test image",
+            alt: "Gwydion Corridor",
             scaleType: "square",
         },
         nextPage: "7b",
@@ -353,7 +353,7 @@ const contentArray = [
         text: `<p>“Compliance.”</p>`,
         image: {
             imageRef: `images/GwydionCorridor.jpg`,
-            alt: "test image",
+            alt: "Gwydion Corridor",
             scaleType: "square",
         },
         nextPage: "7d",
@@ -365,7 +365,7 @@ const contentArray = [
         text: `<p>“Yes Captain, interfacing…”</p>`,
         image: {
             imageRef: `images/GwydionCorridor.jpg`,
-            alt: "test image",
+            alt: "Gwydion Corridor",
             scaleType: "square",
         },
         nextPage: "7d",
@@ -382,7 +382,7 @@ const contentArray = [
         <p>The small group of people and bots made their way down the corridor, their solid shot weapons raised and scanning the way ahead.</p>`,
         image: {
             imageRef: `images/GwydionCorridorWithDebris.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Corridor With Debris",
             scaleType: "square",
         },
         nextPage: "8a",
@@ -395,7 +395,7 @@ const contentArray = [
         text: `<p>As they made their way down what Connor was fairly sure was the main spinal corridor of the Gwydion, they encountered strange patterns of damage that looked similar to that seen after the close combat of a boarding action, bullet holes were strewn across the walls and sealings and many of the lights had been shot out. However, they had not seen any bodies or destroyed bots, not even so much as blood stains.</p>`,
         image: {
             imageRef: `images/GwydionCorridorWithDebris.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Corridor With Debris",
             scaleType: "square",
         },
         nextPage: "8a",
@@ -409,7 +409,7 @@ const contentArray = [
         <p>“Maybe the crew cleaned it up” suggested Hyun-Ae</p>`,
         image: {
             imageRef: `images/GwydionCorridorWithDebris.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Corridor With Debris",
             scaleType: "square",
         },
         nextPage: "8b",
@@ -435,7 +435,7 @@ const contentArray = [
         ],
         image: {
             imageRef: `images/GwydionCorridorWithDebris.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Corridor with Debris",
             scaleType: "square",
         },
         nextPage: "8c",
@@ -447,7 +447,7 @@ const contentArray = [
         text: `<p>“Compliance”</p>`,
         image: {
             imageRef: `images/GwydionCorridorWithDebris.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Corridor With Debris",
             scaleType: "square",
         },
         nextPage: "9a",
@@ -459,7 +459,7 @@ const contentArray = [
         text: `<p>“Ofcourse, I would not have spoken if it was likely to be an incorrect assessment”</p>`,
         image: {
             imageRef: `images/GwydionCorridorWithDebris.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Corridor With Debris",
             scaleType: "square",
         },
         nextPage: "9a",
@@ -476,7 +476,7 @@ const contentArray = [
 `,
         image: {
             imageRef: `images/GwydionMessHall.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Mess Hall",
             scaleType: "square",
         },
         nextPage: "10a",
@@ -494,7 +494,7 @@ const contentArray = [
 `,
         image: {
             imageRef: `images/GwydionClosedDoorway.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Closed Doorway",
             scaleType: "square",
         },
         nextPage: "10b",
@@ -513,7 +513,7 @@ const contentArray = [
 `,
         image: {
             imageRef: `images/GwydionBridge.jpeg`,
-            alt: "test image",
+            alt: "Gwydion bridge",
             scaleType: "square",
         },
         nextPage: "10c",
@@ -527,7 +527,7 @@ const contentArray = [
 `,
         image: {
             imageRef: `images/GwydionBridge.jpeg`,
-            alt: "test image",
+            alt: "Gwydion bridge",
             scaleType: "square",
         },
         nextPage: "11a",
@@ -539,7 +539,7 @@ const contentArray = [
         text: `<p>Key in access code</p>`,
         image: {
             imageRef: `images/ControlPanel2.jpeg`,
-            alt: "test image",
+            alt: "Control panel 2",
             scaleType: "square",
         },
         quickTime: {
@@ -571,7 +571,7 @@ const contentArray = [
 `,
         image: {
             imageRef: `images/GwydionBridge.jpeg`,
-            alt: "test image",
+            alt: "Gwydion bridge",
             scaleType: "square",
         },
         nextPage: "11c",
@@ -592,7 +592,7 @@ const contentArray = [
 `,
         image: {
             imageRef: `images/GwydionBridge.jpeg`,
-            alt: "test image",
+            alt: "Gwydion bridge",
             scaleType: "square",
         },
         nextPage: "12a",
@@ -607,7 +607,7 @@ const contentArray = [
 `,
         image: {
             imageRef: `images/GwydionCorridorWithDebris.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Corridor With Debris",
             scaleType: "square",
         },
         nextPage: "12b",
@@ -628,7 +628,7 @@ const contentArray = [
 `,
         image: {
             imageRef: `images/GwydionCorridorWithDebris.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Corridor With Debris",
             scaleType: "square",
         },
         nextPage: "12c",
@@ -651,7 +651,7 @@ const contentArray = [
 `,
         image: {
             imageRef: `images/GwydionClosedDoorway.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Closed Doorway",
             scaleType: "square",
         },
         nextPage: "12d",
@@ -664,7 +664,7 @@ const contentArray = [
 `,
         image: {
             imageRef: `images/MovingThroughDoorway1.jpeg`,
-            alt: "test image",
+            alt: "Moving through doorway 1",
             scaleType: "square",
         },
         nextPage: "12e",
@@ -700,7 +700,7 @@ const contentArray = [
 `,
         image: {
             imageRef: `images/GwydionClosedDoorway.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Closed Doorway",
             scaleType: "square",
         },
         nextPage: "13a",
@@ -727,7 +727,7 @@ const contentArray = [
         ],
         image: {
             imageRef: `images/GwydionClosedDoorway.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Closed Doorway",
             scaleType: "square",
         },
         nextPage: "13c",
@@ -740,7 +740,7 @@ const contentArray = [
 `,
         image: {
             imageRef: `images/GwydionClosedDoorway.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Closed Doorway",
             scaleType: "square",
         },
         nextPage: "13c",
@@ -755,7 +755,7 @@ const contentArray = [
 `,
         image: {
             imageRef: `images/GwydionEngineering.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Engineering",
             scaleType: "square",
         },
         nextPage: "13d",
@@ -781,7 +781,7 @@ const contentArray = [
         ],
         image: {
             imageRef: `images/GwydionEngineering.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Engineering",
             scaleType: "square",
         },
         nextPage: "13e",
@@ -795,7 +795,7 @@ const contentArray = [
 `,
         image: {
             imageRef: `images/GwydionEngineering.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Engineering",
             scaleType: "square",
         },
         nextPage: "14a",
@@ -808,7 +808,7 @@ const contentArray = [
 `,
         image: {
             imageRef: `images/GwydionEngineering.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Engineering",
             scaleType: "square",
         },
         nextPage: "14a",
@@ -828,7 +828,7 @@ const contentArray = [
 `,
         image: {
             imageRef: `images/GwydionEngineering.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Engineering",
             scaleType: "square",
         },
         nextPage: "14b",
@@ -841,7 +841,7 @@ const contentArray = [
 `,
         image: {
             imageRef: `images/GwydionEngineering.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Engineering",
             scaleType: "square",
         },
         nextPage: "14c",
@@ -858,7 +858,7 @@ const contentArray = [
 `,
         image: {
             imageRef: `images/BotEjectedIntoSpace.jpeg`,
-            alt: "test image",
+            alt: "Bot Ejected Into Space",
             scaleType: "square",
         },
         nextPage: "14d",
@@ -871,7 +871,7 @@ const contentArray = [
         text: `<p>Noticing a key pad next to the opening doors, Connor was able to grab onto a nearby wall strut and begin entering the close sequence.</p>`,
         image: {
             imageRef: `images/ControlPanel1.jpeg`,
-            alt: "test image",
+            alt: "Control panel 1",
             scaleType: "square",
         },
         quickTime: {
@@ -898,7 +898,7 @@ const contentArray = [
         text: `<p>Able to punch in the code the doors began closing and slowly the gale pulling them towards the door ceased and Connor was able to regain his footing.</p>`,
         image: {
             imageRef: `images/GwydionRedRoom.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Red Room",
             scaleType: "square",
         },
         nextPage: "15a",
@@ -911,7 +911,7 @@ const contentArray = [
 `,
         image: {
             imageRef: `images/GwydionRedRoom.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Red Room",
             scaleType: "square",
         },
         nextPage: "15b",
@@ -937,7 +937,7 @@ const contentArray = [
         ],
         image: {
             imageRef: `images/GwydionRedRoom.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Red Room",
             scaleType: "square",
         },
         nextPage: "15c",
@@ -950,7 +950,7 @@ const contentArray = [
 `,
         image: {
             imageRef: `images/GwydionRedRoom.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Red Room",
             scaleType: "square",
         },
         nextPage: "15e",
@@ -962,7 +962,7 @@ const contentArray = [
         text: `<p>“My observation regarding the repeated imperilment of your life does not seem humorous to me captain”</p>`,
         image: {
             imageRef: `images/GwydionRedRoom.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Red Room",
             scaleType: "square",
         },
         nextPage: "15e",
@@ -978,7 +978,7 @@ const contentArray = [
 `,
         image: {
             imageRef: `images/GwydionCorridorWithDebris.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Corridor With Debris",
             scaleType: "square",
         },
         nextPage: "16a",
@@ -992,7 +992,7 @@ const contentArray = [
         <p>He was right, it was typical for a conglomerate ship to spend absolutely as little as possible on the health and well being of their crew. When it came to the conglomerate if it didn’t make money they didn’t care. This philosophy extended to their sick and injured as well, not that the suits would ever say that.</p>`,
         image: {
             imageRef: `images/GwydionMedicalBay.jpg`,
-            alt: "test image",
+            alt: "Gwydion Medical Bay",
             scaleType: "square",
         },
         nextPage: "16b",
@@ -1004,7 +1004,7 @@ const contentArray = [
         text: `<p>Connor knew how this would upset Onaje. Onjae had been a field medic then military surgeon for the Martian Confederate Navy for more than 2 decades and this barebones and poorly equipped facility went against everything the Confederation stood for. Whilst the Conglomerate cared only about profit and all its citizens lived to serve and toil under their corporate lords (again not that the suits would ever say that), the Confederation had rejected the dehumanizing views of the other nations in the solar system. Mars strived to treat each of its citizens and their lives as important and even sacred and would go to near any length to ensure the safety and freedom of their citizens.</p>`,
         image: {
             imageRef: `images/GwydionMedicalBay.jpg`,
-            alt: "test image",
+            alt: "Gwydion medical bay",
             scaleType: "square",
         },
         nextPage: "16c",
@@ -1019,7 +1019,7 @@ const contentArray = [
 `,
         image: {
             imageRef: `images/GwydionMedicalBay.jpg`,
-            alt: "test image",
+            alt: "Gwydion medical bay",
             scaleType: "square",
         },
         nextPage: "16d",
@@ -1031,7 +1031,7 @@ const contentArray = [
         text: `<p>What happened here Connor thought, It didn’t look like someone was taking the supplies, too much had been spilt and wasted for that to be likely. Unless they were in one hell of a hurry Connor thought. No It looked more like someone had torn the place to pieces looking for something in particular.</p>`,
         image: {
             imageRef: `images/GwydionMedicalSupplyRoom.jpeg`,
-            alt: "test image",
+            alt: "Gwydion medical Supply room",
             scaleType: "square",
         },
         nextPage: "16e",
@@ -1051,7 +1051,7 @@ const contentArray = [
 `,
         image: {
             imageRef: `images/GwydionMedicalSupplyRoom.jpeg`,
-            alt: "test image",
+            alt: "Gwydion medical supply room",
             scaleType: "square",
         },
         nextPage: "17a",
@@ -1072,7 +1072,7 @@ const contentArray = [
 `,
         image: {
             imageRef: `images/GwydionMedicalSupplyRoom.jpeg`,
-            alt: "test image",
+            alt: "Gwydion medical supply room",
             scaleType: "square",
         },
         nextPage: "17b",
@@ -1099,7 +1099,7 @@ const contentArray = [
 `,
         image: {
             imageRef: `images/GwydionMedicalSupplyRoom.jpeg`,
-            alt: "test image",
+            alt: "Gwydion medical supply room",
             scaleType: "square",
         },
         nextPage: "17c",
@@ -1119,7 +1119,7 @@ const contentArray = [
 `,
         image: {
             imageRef: `images/GwydionMedicalBay.jpg`,
-            alt: "test image",
+            alt: "Gwydion medical bay",
             scaleType: "square",
         },
         nextPage: "18a",
@@ -1136,7 +1136,7 @@ const contentArray = [
 `,
         image: {
             imageRef: `images/ControlPanelBridge.jpeg`,
-            alt: "test image",
+            alt: "control panel for bridge",
             scaleType: "square",
         },
         nextPage: "18b",
@@ -1151,7 +1151,7 @@ Hyun-Ae had only just begun examining one piece of the security footage when Gwy
 `,
         image: {
             imageRef: `images/CCTVFootage.jpg`,
-            alt: "test image",
+            alt: "CCTV Footage",
             scaleType: "square",
         },
         nextPage: "18c",
@@ -1169,7 +1169,7 @@ Hyun-Ae had only just begun examining one piece of the security footage when Gwy
 `,
         image: {
             imageRef: `images/GwydionBridge.jpeg`,
-            alt: "test image",
+            alt: "Gwydion bridge",
             scaleType: "square",
         },
         nextPage: "19a",
@@ -1184,7 +1184,7 @@ Hyun-Ae had only just begun examining one piece of the security footage when Gwy
 `,
         image: {
             imageRef: `images/SquareOpenBulkheadDoor.jpeg`,
-            alt: "test image",
+            alt: "Square Open Bulkhead door",
             scaleType: "square",
         },
         nextPage: "19b",
@@ -1201,7 +1201,7 @@ Hyun-Ae had only just begun examining one piece of the security footage when Gwy
 `,
         image: {
             imageRef: `images/SquareOpenBulkheadDoor.jpeg`,
-            alt: "test image",
+            alt: "square open bulkhead door",
             scaleType: "square",
         },
         nextPage: "19c",
@@ -1213,7 +1213,7 @@ Hyun-Ae had only just begun examining one piece of the security footage when Gwy
         text: `<p>Reaching her head through the door she went to tell the bot they were heading back to the bridge. When she heard/saw a strange buzz flicker from behind her and the faintest groan from the bulkhead above her.</p>`,
         image: {
             imageRef: `images/movingThroughDoorway2.jpeg`,
-            alt: "test image",
+            alt: "moving through doorway 2",
             scaleType: "square",
         },
         nextPage: "20a",
@@ -1225,7 +1225,7 @@ Hyun-Ae had only just begun examining one piece of the security footage when Gwy
         text: `<p>The door came slamming down towards her</p>`,
         image: {
             imageRef: `images/movingThroughDoorway2.jpeg`,
-            alt: "test image",
+            alt: "moving through doorway 2",
             scaleType: "square",
         },
         quickTime: {
@@ -1249,7 +1249,7 @@ Hyun-Ae had only just begun examining one piece of the security footage when Gwy
 `,
         image: {
             imageRef: `images/SquareClosedBulkheadDoor.jpeg`,
-            alt: "test image",
+            alt: "square closed bulkhead door",
             scaleType: "square",
         },
         nextPage: "20c",
@@ -1267,7 +1267,7 @@ Hyun-Ae had only just begun examining one piece of the security footage when Gwy
 `,
         image: {
             imageRef: `images/ControlPanelLarge.jpeg`,
-            alt: "test image",
+            alt: "Control Panel Large",
             scaleType: "square",
         },
         nextPage: "20d",
@@ -1284,7 +1284,7 @@ Hyun-Ae had only just begun examining one piece of the security footage when Gwy
 `,
         image: {
             imageRef: `images/GwydionCorridor.jpg`,
-            alt: "test image",
+            alt: "Gwydion Corridor",
             scaleType: "square",
         },
         nextPage: "21a",
@@ -1297,7 +1297,7 @@ Hyun-Ae had only just begun examining one piece of the security footage when Gwy
 `,
         image: {
             imageRef: `images/GwydionCorridorWithDebris2.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Corridor With Debris 2",
             scaleType: "square",
         },
         nextPage: "21b",
@@ -1309,7 +1309,7 @@ Hyun-Ae had only just begun examining one piece of the security footage when Gwy
         text: `<p>Connor was concerned about Anna’s reaction to the bots. Making him think of those empty bot cradles in the engineering deck. Had the bots somehow gone rouge? Surely the crew could have overpowered them though, most were not combat programmed bots with only minimal ship defense learning and should have been dealt with easily defeated by the conglomerate marines stationed on such a ship.</p>`,
         image: {
             imageRef: `images/GwydionCorridorWithDebris2.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Corridor With Debris",
             scaleType: "square",
         },
         nextPage: "21c",
@@ -1323,7 +1323,7 @@ Hyun-Ae had only just begun examining one piece of the security footage when Gwy
         <p>“What is it?” asked Connor quietly, dropping back to walk alongside her. She had slowed her pace significantly and her eyes were wide and alert scanning the doorway leading off either side of the corridor.</p>`,
         image: {
             imageRef: `images/GwydionLongWideCorridor.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Long Wide Corridor",
             scaleType: "square",
         },
         nextPage: "21d",
@@ -1341,7 +1341,7 @@ Hyun-Ae had only just begun examining one piece of the security footage when Gwy
 `,
         image: {
             imageRef: `images/GwydionLongWideCorridor.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Long Wide Corridor",
             scaleType: "square",
         },
         nextPage: "22a",
@@ -1356,7 +1356,7 @@ Guns raised, they moved cautiously down the corridor. Like the rest of the ship 
 `,
         image: {
             imageRef: `images/GwydionLongWideCorridor.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Long Wide Corridor",
             scaleType: "square",
         },
         nextPage: "22b",
@@ -1374,7 +1374,7 @@ Guns raised, they moved cautiously down the corridor. Like the rest of the ship 
 `,
         image: {
             imageRef: `images/GwydionLongWideCorridor.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Long Wide Corridor",
             scaleType: "square",
         },
         nextPage: "22c",
@@ -1388,7 +1388,7 @@ Guns raised, they moved cautiously down the corridor. Like the rest of the ship 
 `,
         image: {
             imageRef: `images/GwydionShipDefenseRobots1.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Ship Defense Robots",
             scaleType: "square",
         },
         nextPage: "23a",
@@ -1403,7 +1403,7 @@ Guns raised, they moved cautiously down the corridor. Like the rest of the ship 
 `,
         image: {
             imageRef: `images/GwydionShipDefenseRobots1.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Ship Defense Robots",
             scaleType: "square",
         },
         nextPage: "23b",
@@ -1416,7 +1416,7 @@ Guns raised, they moved cautiously down the corridor. Like the rest of the ship 
         text: `<p>Onaje had taken cover in the perpendicular corridor and was peeking around the corner firing into their oncoming attackers. One of Gwydion's bots took a round square in the chest and collapsed, spasming as its internal circuitry sputtered and sparked in its death throes.</p>`,
         image: {
             imageRef: `images/GwydionShipDefenseRobots1.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Ship Defense Robots",
             scaleType: "square",
         },
         nextPage: "23c",
@@ -1431,7 +1431,7 @@ Guns raised, they moved cautiously down the corridor. Like the rest of the ship 
 `,
         image: {
             imageRef: `images/GwydionShipDefenseRobots1.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Ship Defense Robots",
             scaleType: "square",
         },
         nextPage: "23d",
@@ -1444,8 +1444,8 @@ Guns raised, they moved cautiously down the corridor. Like the rest of the ship 
         text: `<p>“There are more in front Captain” Vocalised Three’s taking cover and returning fire at the two known Gwydion bots making their way down the hall. Both the Rhiannon's SAR bots were down now, devastated by the pincer fire.</p>
         `,
         image: {
-            imageRef: `images/GwydionShipDefenseRobots2.jpeg`,
-            alt: "test image",
+            imageRef: `images/GwydionShipDefenseRobots1.jpeg`,
+            alt: "Gwydion Ship Defense Robots",
             scaleType: "square",
         },
         nextPage: "23e",
@@ -1459,8 +1459,8 @@ Guns raised, they moved cautiously down the corridor. Like the rest of the ship 
 No shit thought Connor until he realized what the bot meant. It had been grabbed from behind and was now wrestling and fighting a Gwydion bot behind Onaje.</p>
 `,
         image: {
-            imageRef: `images/BotGrapple1.jpeg`,
-            alt: "test image",
+            imageRef: `images/GwydionShipDefenseRobots1.jpeg`,
+            alt: "Gwydion Ship Defense Robots",
             scaleType: "square",
         },
         nextPage: "23f",
@@ -1475,8 +1475,8 @@ No shit thought Connor until he realized what the bot meant. It had been grabbed
 Connor Did not want to shoot, concerned about a bullet ricocheting from the bots chassis and hitting Anna.</p>
 `,
         image: {
-            imageRef: `images/AnnaAttacked1.jpeg`,
-            alt: "test image",
+            imageRef: `images/GwydionShipDefenseRobots1.jpeg`,
+            alt: "Gwydion Ship Defense Robots",
             scaleType: "square",
         },
         nextPage: "23g",
@@ -1488,8 +1488,8 @@ Connor Did not want to shoot, concerned about a bullet ricocheting from the bots
         text: `<p>He lunged forward plunging his knife into the bot's faceplate through it’s eye. Changing to this new threat it lunged at Connor forcing him against the wall and attempting to smash its fist into his face. Connor stayed in close to the bot, not letting it wind up enough power with it’s punches to cause terminal damage.</p>
         `,
         image: {
-            imageRef: `images/AnnaAttacked1.jpeg`,
-            alt: "test image",
+            imageRef: `images/GwydionShipDefenseRobots1.jpeg`,
+            alt: "Gwydion Ship Defense Robots",
             scaleType: "square",
         },
         nextPage: "24a",
@@ -1500,8 +1500,8 @@ Connor Did not want to shoot, concerned about a bullet ricocheting from the bots
         title: "Quick Time Event",
         text: `<p>Pulling the knife free he plunged it back into the bots torso working it around furiously, trying to cut and damage the essential circuits of the bots CPU.</p>`,
         image: {
-            imageRef: `images/AnnaAttacked1.jpeg`,
-            alt: "test image",
+            imageRef: `images/GwydionShipDefenseRobots1.jpeg`,
+            alt: "Gwydion Ship Defense Robots",
             scaleType: "square",
         },
         quickTime: {
@@ -1524,8 +1524,8 @@ Connor Did not want to shoot, concerned about a bullet ricocheting from the bots
 <p>On the other side of the Corridor Onaje had shot the Gwydion bot attacking the Rhiannon Eng bot. Far less concerned about the ricochet into the ENG bot.</p>
 `,
         image: {
-            imageRef: `images/AnnaAttacked1.jpeg`,
-            alt: "test image",
+            imageRef: `images/GwydionShipDefenseRobots1.jpeg`,
+            alt: "Gwydion Ship Defense Robots",
             scaleType: "square",
         },
         nextPage: "24c",
@@ -1537,8 +1537,8 @@ Connor Did not want to shoot, concerned about a bullet ricocheting from the bots
         text: `<p>Threes was still engaging the Two bots approaching from the direction of the hangar. One had been struck in the leg and was moving slower than its companion as they both suppressed Three’s. There was only one bot still coming from behind them which had its attention focused on Onaje.</p>
         `,
         image: {
-            imageRef: `images/GwydionShipDefenseRobots2.jpeg`,
-            alt: "test image",
+            imageRef: `images/GwydionShipDefenseRobots1.jpeg`,
+            alt: "Gwydion Ship Defense Robots",
             scaleType: "square",
         },
         nextPage: "24d",
@@ -1552,8 +1552,8 @@ Connor Did not want to shoot, concerned about a bullet ricocheting from the bots
         <p>Connor had to nearly dive back into cover as the bots advancing from the hangar switched their target towards him.</p>
         `,
         image: {
-            imageRef: `images/GwydionShipDefenseRobots2.jpeg`,
-            alt: "test image",
+            imageRef: `images/GwydionShipDefenseRobots1.jpeg`,
+            alt: "Gwydion Ship Defense Robots",
             scaleType: "square",
         },
         nextPage: "24e",
@@ -1566,8 +1566,8 @@ Connor Did not want to shoot, concerned about a bullet ricocheting from the bots
         text: `<p>This gave Threes an opportunity to lean out from cover and fire two expertly placed shots straight into the Bots CPU. The stricken bot collapsed mid stride falling into a heap on the ground.</p>
         `,
         image: {
-            imageRef: `images/GwydionShipDefenseRobots2.jpeg`,
-            alt: "test image",
+            imageRef: `images/GwydionShipDefenseRobots1.jpeg`,
+            alt: "Gwydion Ship Defense Robots",
             scaleType: "square",
         },
         nextPage: "24f",
@@ -1583,7 +1583,7 @@ Connor Did not want to shoot, concerned about a bullet ricocheting from the bots
 `,
         image: {
             imageRef: `images/GwydionLongWideCorridor.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Long Wide Corridor",
             scaleType: "square",
         },
         nextPage: "25a",
@@ -1595,7 +1595,7 @@ Connor Did not want to shoot, concerned about a bullet ricocheting from the bots
         text: `<p>They stood on the bridge gathered around Hyun-Ae peering over her shoulder at the security footage for the past months and the footage since they have arrived on the Gwydion. Connor and Onaje had gotten Anna to the Rhiannon’s medical bay where they had left her to rest and be taken care of by the medical bots, she had had to be sedated to prevent her fight or flight response kicking in with the Rhiannon's medical bots and her either running back into the Gwydion or damaging Rhiannon.</p>`,
         image: {
             imageRef: `images/GwydionBridge.jpeg`,
-            alt: "test image",
+            alt: "Gwydion bridge",
             scaleType: "square",
         },
         nextPage: "25b",
@@ -1612,7 +1612,7 @@ Connor Did not want to shoot, concerned about a bullet ricocheting from the bots
 `,
         image: {
             imageRef: `images/GwydionBridge.jpeg`,
-            alt: "test image",
+            alt: "Gwydion bridge",
             scaleType: "square",
         },
         nextPage: "25c",
@@ -1628,7 +1628,7 @@ Connor Did not want to shoot, concerned about a bullet ricocheting from the bots
 `,
         image: {
             imageRef: `images/GwydionBridge.jpeg`,
-            alt: "test image",
+            alt: "Gwydion bridge",
             scaleType: "square",
         },
         nextPage: "25d",
@@ -1654,7 +1654,7 @@ Connor Did not want to shoot, concerned about a bullet ricocheting from the bots
         ],
         image: {
             imageRef: `images/GwydionBridge.jpeg`,
-            alt: "test image",
+            alt: "Gwydion bridge",
             scaleType: "square",
         },
         nextPage: "26a",
@@ -1669,7 +1669,7 @@ Connor Did not want to shoot, concerned about a bullet ricocheting from the bots
 `,
         image: {
             imageRef: `images/GwydionBridge.jpeg`,
-            alt: "test image",
+            alt: "Gwydion bridge",
             scaleType: "square",
         },
         nextPage: "27a",
@@ -1682,7 +1682,7 @@ Connor Did not want to shoot, concerned about a bullet ricocheting from the bots
         `,
         image: {
             imageRef: `images/GwydionsMind.jpeg`,
-            alt: "test image",
+            alt: "Gwydion's Mind",
             scaleType: "square",
         },
         nextPage: "27b",
@@ -1696,7 +1696,7 @@ Connor Did not want to shoot, concerned about a bullet ricocheting from the bots
         `,
         image: {
             imageRef: `images/GwydionsMind.jpeg`,
-            alt: "test image",
+            alt: "Gwydion's Mind",
             scaleType: "square",
         },
         nextPage: "27c",
@@ -1714,7 +1714,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
 `,
         image: {
             imageRef: `images/GwydionsMind.jpeg`,
-            alt: "test image",
+            alt: "Gwydion's Mind",
             scaleType: "square",
         },
         nextPage: "27d",
@@ -1728,7 +1728,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
 `,
         image: {
             imageRef: `images/GwydionsMind.jpeg`,
-            alt: "test image",
+            alt: "Gwydion's Mind",
             scaleType: "square",
         },
         nextPage: "27e",
@@ -1742,7 +1742,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
 `,
         image: {
             imageRef: `images/GwydionsMind.jpeg`,
-            alt: "test image",
+            alt: "Gwydion's Mind",
             scaleType: "square",
         },
         nextPage: "27f",
@@ -1756,7 +1756,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
 `,
         image: {
             imageRef: `images/GwydionsMind.jpeg`,
-            alt: "test image",
+            alt: "Gwydion's Mind",
             scaleType: "square",
         },
         nextPage: "27g",
@@ -1771,7 +1771,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
 `,
         image: {
             imageRef: `images/GwydionsMind.jpeg`,
-            alt: "test image",
+            alt: "Gwydion's Mind",
             scaleType: "square",
         },
         nextPage: "28a",
@@ -1785,7 +1785,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         `,
         image: {
             imageRef: `images/GwydionBridge.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Bridge",
             scaleType: "square",
         },
         nextPage: "28b",
@@ -1803,7 +1803,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
 `,
         image: {
             imageRef: `images/GwydionBridge.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Bridge",
             scaleType: "square",
         },
         nextPage: "28c",
@@ -1822,7 +1822,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
 `,
         image: {
             imageRef: `images/GwydionBridge.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Bridge",
             scaleType: "square",
         },
         nextPage: "28d",
@@ -1838,7 +1838,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
 `,
         image: {
             imageRef: `images/GwydionClosedDoorway.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Closed Doorway",
             scaleType: "square",
         },
         nextPage: "28e",
@@ -1851,7 +1851,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         text: `<p>Hyun-AE rushed towards the door panel, attempting to override it.</p>`,
         image: {
             imageRef: `images/ControlPanel2.jpeg`,
-            alt: "test image",
+            alt: "Control panel 2",
             scaleType: "square",
         },
         quickTime: {
@@ -1874,7 +1874,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
 `,
         image: {
             imageRef: `images/GwydionCorridorWithDebris2.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Corridor With Debris 2",
             scaleType: "square",
         },
         nextPage: "29b",
@@ -1886,7 +1886,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         text: `<p>They moved fast down the spinal corridor keeping their eye’s peeled as best they could, expecting yet another bot attack and for every door to slam down upon them. Hyun-Ae made sure to overwrite each door's systems before they passed through which slowed them down. The lights and speakers were flashing and buzzing at an extreme intensity now, making it extremely difficult to see or hear.</p>`,
         image: {
             imageRef: `images/GwydionCorridorWithDebris2.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Corridor With Debris 2",
             scaleType: "square",
         },
         nextPage: "29c",
@@ -1899,8 +1899,8 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         <p>Onaje let out an explosive gasp as the breath was driven from his lungs. In front of him stood an ENG bot from Rhiannon. The one that had been separated from Hyun-Ae earlier. In it’s hand it grasped a bloody jagged piece of metal. The force of the impact had sheared the metal spike in half leaving a massive splinter lodged in Onaje's belly.</p>
         `,
         image: {
-            imageRef: `images/EngBotAttack.jpeg`,
-            alt: "test image",
+            imageRef: `images/GwydionCorridorWithDebris2.jpeg`,
+            alt: "Gwydion Corridor With Debris 2",
             scaleType: "square",
         },
         nextPage: "29d",
@@ -1912,8 +1912,8 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         text: `<p>“Fuck” gasped Onaje as he fell to the ground.</p>
 <p>The bot advanced towards him.</p>`,
         image: {
-            imageRef: `images/EngBotAttack.jpeg`,
-            alt: "test image",
+            imageRef: `images/GwydionCorridorWithDebris2.jpeg`,
+            alt: "Gwydion Corridor With Debris 2",
             scaleType: "square",
         },
         quickTime: {
@@ -1934,8 +1934,8 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         text: `<p>Hyun-Ae fired two shots into the bots center of mass as Connor opened up with a hail of darts shredding the bot down to the skeleton.</p>
         `,
         image: {
-            imageRef: `images/EngBotAttack.jpeg`,
-            alt: "test image",
+            imageRef: `images/GwydionCorridorWithDebris2.jpeg`,
+            alt: "Gwydion Corridor With Debris 2",
             scaleType: "square",
         },
         nextPage: "30a",
@@ -1962,7 +1962,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         ],
         image: {
             imageRef: `images/GwydionLongWideCorridor.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Long Wide Corridor",
             scaleType: "square",
         },
         nextPage: "30c",
@@ -1975,7 +1975,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         `,
         image: {
             imageRef: `images/GwydionLongWideCorridor.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Long Wide Corridor",
             scaleType: "square",
         },
         nextPage: "31a",
@@ -1988,7 +1988,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         `,
         image: {
             imageRef: `images/GwydionLongWideCorridor.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Long Wide Corridor",
             scaleType: "square",
         },
         nextPage: "31a",
@@ -2005,7 +2005,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         `,
         image: {
             imageRef: `images/GwydionHangar.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Hangar",
             scaleType: "square",
         },
         nextPage: "31b",
@@ -2022,7 +2022,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
 `,
         image: {
             imageRef: `images/RhiannonMedicalBay.jpeg`,
-            alt: "test image",
+            alt: "Rhiannon medical bay",
             scaleType: "square",
         },
         nextPage: "31c",
@@ -2040,7 +2040,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
 `,
         image: {
             imageRef: `images/GwydionHangar.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Hangar",
             scaleType: "square",
         },
         nextPage: "31d",
@@ -2053,7 +2053,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
 `,
         image: {
             imageRef: `images/GwydionHangar.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Hangar",
             scaleType: "square",
         },
         nextPage: "32a",
@@ -2079,7 +2079,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         ],
         image: {
             imageRef: `images/GwydionHangar.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Hangar",
             scaleType: "square",
         },
         nextPage: "32c",
@@ -2092,7 +2092,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
 `,
         image: {
             imageRef: `images/GwydionHangar.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Hangar",
             scaleType: "square",
         },
         nextPage: "33a",
@@ -2105,7 +2105,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
 `,
         image: {
             imageRef: `images/GwydionHangar.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Hangar",
             scaleType: "square",
         },
         nextPage: "33a",
@@ -2117,8 +2117,8 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         text: `<p>The two of them made their way back out of the Rhiannon’s gang ramp and rushed to the hanger door terminal 50 meters away. Threes made slower progress firing at the entrance to the hangar as the first of the Gwydion's bots arrived and began to enter.</p>
 `,
         image: {
-            imageRef: `images/ThreesCoveringFire.jpeg`,
-            alt: "test image",
+            imageRef: `images/GwydionHangar.jpeg`,
+            alt: "Gwydion Hangar",
             scaleType: "square",
         },
         nextPage: "Ending",
@@ -2134,7 +2134,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
 <p>“Compliance” came Three’s reply</p>`,
         image: {
             imageRef: `images/GwydionShipDefenseBots3.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Ship Defense Bots 3",
             scaleType: "square",
         },
         nextPage: "G1b",
@@ -2146,7 +2146,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         text: `<p>Uncomfortably exposed, Connor stooped over the panel slamming in the digits of the master key as Threes fired controlled bursts of suppressing fire into the passageway the Gwydion's bots approached from.</p>`,
         image: {
             imageRef: `images/ControlPanel1.jpeg`,
-            alt: "test image",
+            alt: "Control panel 1",
             scaleType: "square",
         },
         quickTime: {
@@ -2176,8 +2176,8 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
 <p>Raising his weapon Connor fired a torrent of ultra high rate of fire darts into the responsible Gwydion bot shredding it’s joints and cabaling trapping it within it’s own useless chassis.</p>
 `,
         image: {
-            imageRef: `images/DeathOfThrees.jpeg`,
-            alt: "test image",
+            imageRef: `images/GwydionHangar.jpeg`,
+            alt: "Gwydion Hangar",
             scaleType: "square",
         },
         nextPage: "G1d",
@@ -2194,7 +2194,7 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
 `,
         image: {
             imageRef: `images/GwydionHangar.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Hangar",
             scaleType: "square",
         },
         nextPage: "G1e",
@@ -2209,7 +2209,7 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
 `,
         image: {
             imageRef: `images/RhiannonMedicalBay.jpeg`,
-            alt: "test image",
+            alt: "Rhiannon Medical Bay",
             scaleType: "square",
         },
         nextPage: "G1f",
@@ -2221,7 +2221,7 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
         text: `<p>Overwhelmed with shock and horror at the sudden and brutal death of his friend Connor dived towards the remaining bot smashing and elbow into its faceplate shattering an eye lens and sending shooting pain up Connor's arm.</p>`,
         image: {
             imageRef: `images/RhiannonMedicalBay.jpeg`,
-            alt: "test image",
+            alt: "Rhiannon Medical Bay",
             scaleType: "square",
         },
         nextPage: "G1g",
@@ -2247,7 +2247,7 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
         ],
         image: {
             imageRef: `images/RhiannonMedicalBay.jpeg`,
-            alt: "test image",
+            alt: "Rhiannon medical bay",
             scaleType: "square",
         },
         nextPage: "G2a",
@@ -2259,7 +2259,7 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
         text: `<p>Connor shot his hand out, desperately grasping the handle of the surgical tool. As he reached, his attention distracted away from the scalpel he felt a blow like a hammer smash into his shoulder and pressed the crystal end into the chais gap under the bots arm and depressed the trigger. The bot struggled a bit longer before it’s CPU began to overheat and melt. The bot collapsed to the ground lifeless</p>`,
         image: {
             imageRef: `images/RhiannonMedicalBay.jpeg`,
-            alt: "test image",
+            alt: "Rhiannon Medical Bay",
             scaleType: "square",
         },
         nextPage: "G2c",
@@ -2274,7 +2274,7 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
 `,
         image: {
             imageRef: `images/RhiannonMedicalBay.jpeg`,
-            alt: "test image",
+            alt: "Rhiannon Medical Bay",
             scaleType: "square",
         },
         nextPage: "G2c",
@@ -2288,7 +2288,7 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
 `,
         image: {
             imageRef: `images/RhiannonMedicalBay.jpeg`,
-            alt: "test image",
+            alt: "Rhiannon Medical Bay",
             scaleType: "square",
         },
         nextPage: "G2d",
@@ -2306,7 +2306,7 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
 `,
         image: {
             imageRef: `images/RhiannonEngineering.jpeg`,
-            alt: "test image",
+            alt: "Rhiannon Engineering",
             scaleType: "square",
         },
         nextPage: "G3a",
@@ -2332,7 +2332,7 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
         ],
         image: {
             imageRef: `images/RhiannonCorridor.jpeg`,
-            alt: "test image",
+            alt: "Rhiannon Corridor",
             scaleType: "square",
         },
         nextPage: "G3b",
@@ -2349,7 +2349,7 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
 `,
         image: {
             imageRef: `images/RhiannonInFlight.jpeg`,
-            alt: "test image",
+            alt: "Rhiannon In Flight",
             scaleType: "square",
         },
         nextPage: "EndScreen",
@@ -2363,7 +2363,7 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
 `,
         image: {
             imageRef: `images/RhiannonBridge.jpeg`,
-            alt: "test image",
+            alt: "Rhiannon Bridge",
             scaleType: "square",
         },
         nextPage: "G4b",
@@ -2380,7 +2380,7 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
 `,
         image: {
             imageRef: `images/RhiannonBridge.jpeg`,
-            alt: "test image",
+            alt: "Rhiannon Bridge",
             scaleType: "square",
         },
         nextPage: "G4c",
@@ -2397,7 +2397,7 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
 `,
         image: {
             imageRef: `images/GwydionExploding.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Exploding",
             scaleType: "square",
         },
         nextPage: "G4d",
@@ -2412,7 +2412,7 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
 `,
         image: {
             imageRef: `images/GwydionHangar.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Hangar",
             scaleType: "square",
         },
         nextPage: "N1b",
@@ -2431,8 +2431,8 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
 <p>“Sorry, Threes” Connor said, pulling the trigger.</p>
 `,
         image: {
-            imageRef: `images/DeathOfThrees.jpeg`,
-            alt: "test image",
+            imageRef: `images/GwydionHangar.jpeg`,
+            alt: "Gwydion Hangar",
             scaleType: "square",
         },
         nextPage: "N1c",
@@ -2450,7 +2450,7 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
 `,
         image: {
             imageRef: `images/RhiannonBreached.jpeg`,
-            alt: "test image",
+            alt: "Rhiannon Breached",
             scaleType: "square",
         },
         nextPage: "N1d",
@@ -2466,7 +2466,7 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
 `,
         image: {
             imageRef: `images/GwydionShipDefenseRobots1.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Ship Defense Bots 1",
             scaleType: "square",
         },
         nextPage: "N1e",
@@ -2484,7 +2484,7 @@ She let the heat burn from her reactor as it overloaded, annihilating herself, a
 `,
         image: {
             imageRef: `images/GwydionExploding.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Exploding",
             scaleType: "square",
         },
         nextPage: "N1f",
@@ -2499,7 +2499,7 @@ She let the heat burn from her reactor as it overloaded, annihilating herself, a
 `,
         image: {
             imageRef: `images/GwydionHangar.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Hangar",
             scaleType: "square",
         },
         nextPage: "B1b",
@@ -2518,8 +2518,8 @@ She let the heat burn from her reactor as it overloaded, annihilating herself, a
 <p>“I am sorry captain, sleep now” he said walking away.</p>
 `,
         image: {
-            imageRef: `images/ThreesBetrayal.jpeg`,
-            alt: "test image",
+            imageRef: `images/GwydionHangar.jpeg`,
+            alt: "Gwydion Hangar",
             scaleType: "square",
         },
         nextPage: "B1c",
@@ -2540,7 +2540,7 @@ She let the heat burn from her reactor as it overloaded, annihilating herself, a
 `,
         image: {
             imageRef: `images/RhiannonsMind.jpeg`,
-            alt: "test image",
+            alt: "Rhiannons Mind",
             scaleType: "square",
         },
         nextPage: "B1d",
@@ -2555,7 +2555,7 @@ She let the heat burn from her reactor as it overloaded, annihilating herself, a
 `,
         image: {
             imageRef: `images/GwydionsJump.jpeg`,
-            alt: "test image",
+            alt: "Gwydion Jump",
             scaleType: "square",
         },
         nextPage: "B1e",
@@ -2568,7 +2568,7 @@ She let the heat burn from her reactor as it overloaded, annihilating herself, a
 `,
         image: {
             imageRef: `images/MoonBase.jpg`,
-            alt: "test image",
+            alt: "Moon base",
             scaleType: "rect",
         },
         nextPage: "B1f",
@@ -2580,7 +2580,7 @@ She let the heat burn from her reactor as it overloaded, annihilating herself, a
         text: `<p>...</p>`,
         image: {
             imageRef: `images/Death.jpeg`,
-            alt: "test image",
+            alt: "Death",
             scaleType: "square",
         },
         nextPage: "0",
