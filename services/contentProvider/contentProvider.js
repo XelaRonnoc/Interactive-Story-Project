@@ -7,9 +7,9 @@ const contentArray = [
         <p>“How long till we are in visual range?”</p>
         <p>“3 hours 43 minutes 38 seconds, Captain” </p>
         <p>“Ok, let me know when we are there Rhiannon”</p>
-        <p>“yes , captain”</p>
+        <p>“Yes , captain”</p>
         </p>
-        <p>Connor groaned as he rose from under the console he was working on. The screen had been flickering, likely a loose wire and he had decided there was no need to disturb Hyun-Ae with such a trivial fix. That however had been more than 3 hours ago and despite his repeated oaths of the pain and torment he would inflict upon the panel it had still stubbornly refused to improve and if anything was worse than when he started.</p>
+        <p>Groaning Connor Captain of the Salvage and Rescue vessel Rhiannon rose from from under the console he was working on. The screen had been flickering, likely a loose wire and he had decided there was no need to disturb Hyun-Ae, the ships chief engineer with such a trivial fix. That however had been more than 3 hours ago and despite his repeated oaths, citing of the pain and torment he would inflict upon the panel it had still stubbornly refused to improve. If anything it was worse than when he started.</p>
         <p>“Piece of shit” he mumbled as he made his way to the door</p>
         <p>“What was that Captain?” came Rhiannon’s synthetic voice</p>
         <p>“Not you Rhiannon, just the bloody navigation panel that’s all”</p>
@@ -25,9 +25,9 @@ const contentArray = [
     {
         id: "1b",
         title: "Decision Hyun-Ae or Mess hall",
-        text: `<p>Speaking of Hyun-Ae, best go wake her, Rhiannon can do the nav herself. However, it is always good for the Captain to see where his vessel is too.</p>\
-        <p>*grumble*</p>
-        <p>‘God I’m hungry!’ he thought. He couldn’t remember if he had eaten anything since he woke up.</p>`,
+        text: `<p>Speaking of Hyun-Ae, best go wake her, Rhiannon could do the nav herself after all.</p>
+        <p>*grumble-gurgle*</p>
+        <p>‘God I’m hungry!’ he thought. He couldn’t remember if he had eaten anything since he woke up nearly 12 hours earlier.</p>`,
         dialog: [
             {
                 id: "O1",
@@ -61,7 +61,7 @@ const contentArray = [
     {
         id: "2a",
         title: "Go To Hyun-Ae",
-        text: `<p>Best get Hyun-Ae up. We are nearing the Gwydion anyway and we want the ship to be in the best possible condition before beginning the rescue operation.</p>`,
+        text: `<p>'Best get Hyun-Ae up.' He thought 'We are nearing the Gwydion and it wouldn't do for the ship to be malfunction in the middle of a rescue op.'</p>`,
         image: {
             imageRef: `images/RhiannonCorridor.jpeg`,
             alt: "Rhiannon Corridor",
@@ -73,7 +73,7 @@ const contentArray = [
     {
         id: "2b",
         title: "Go to Mess Hall",
-        text: `<p>Let Hyun-Ae sleep a bit longer, there will be enough time for her to fix before the operation begins. Besides, a hungry Captain can do more harm than good.</p>`,
+        text: `<p>Let Hyun-Ae sleep a bit longer' Connor decided  'There will be enough time for her to fix before the operation begins. Besides, a hungry Captain could end up doing more harm than good!'</p>`,
         image: {
             imageRef: `images/RhiannonCorridor.jpeg`,
             alt: "Rhiannon Corridor",
@@ -85,9 +85,11 @@ const contentArray = [
     {
         id: "3a",
         title: "Hyun-Ae",
-        text: `<p>The door to Hyun-Ae’s Quarters was open and an empty can of energy syrup lay on her unmade bed. Hyun-Ae wasn’t ex-military or police like Onaje and Connor and didn’t share their affinity for a tidy room. She was a relatively recent graduate of the Scholar Technica on Venus who had joined the crew of the Rhiannon after the previous engineer had died during a salvaging operation. She had joined the Rhiannon to avoid being stuck behind some corpo desk on earth advising suits on which bot series they should use only to be ignored.</p> 
-        <p>Despite her lack of experience with void salvage she had more than made up for it with her enthusiasm and smarts. Making multiple improvements and repairs to Rhiannon within the first few months on the crew.</p>
-        <p>“Bloody hell does she ever sleep?” Connor muttered to himself as he made his way to engineering.</p>`,
+        text: `<p>The door to Hyun-Ae’s Quarters was open and an empty can of energy syrup lay on an unmade bed. Hyun-Ae wasn’t ex-military or police like Onaje and Connor and didn’t share the two veterans affinity for a tidy room.
+        Hyun-Ae was a relatively recent graduate of the Scholar Technica on Venus who had joined the crew of the Rhiannon after the previous engineer had died during a salvaging operation. She had been looking for a place to apply her skills and education without
+        being stuck behind some corpo desk on Earth advising suits on which bot series they should. Of course to be entirely ignored later in favour of which series was owned by said suits best mate.</p> 
+        <p>Despite her youth and lack of experience with void salvage she had more than made up for it with her enthusiasm and smarts. Making multiple improvements and repairs to Rhiannon within the first few months on the crew. Which had made Rhiannon feel young again, at least that is what Rhiannon had told Connor</p>
+        <p>“Bloody hell does she ever sleep?” Connor muttered to himself as his quick scan of the room failed to reveal any human shaped lumped within the tangle of bed sheets. Sighing audibly he turned and made his way to engineering.</p>`,
         image: {
             imageRef: `images/RhiannonCrewQuarters.jpeg`,
             alt: "Rhiannon Crew Quarters",
@@ -99,15 +101,15 @@ const contentArray = [
     {
         id: "3b",
         title: "Engineering",
-        text: `<p>“OI!”</p>
-        <p>Connor winced as Hyun-Ae jumped with a start, wacking her head on the machine she was under.</p>
-        <p>‘Whoops’ he thought</p>
+        text: `<p>“OI!” Connor yelled as he entered the engineering bay.</p>
+        <p>With a start Hyun-Ae shot up hitting the machinery she had been crouched under with a dull thud on the way up. He winced, knowing how much that would have hurt.</p>
+        <p>"Whoops" he said with a grimace</p>
         <p>“What was that for?!” she demanded rubbing her head</p>
-        <p>“You were meant to be asleep! You can’t have gotten more than 3 hours since we last spoke!”</p>
-        <p>“Three and a half actually” she replied</p>
+        <p>“A lesson!" he said deciding to double down after all "You were meant to be asleep! You can’t have gotten more than 3 hours since we last spoke!”</p>
+        <p>“Three and a half actually.” she replied</p>
         <p>“We need you rested for this, a tired brain…”</p>
-        <p>“...Make mistakes yes I know” she said “But I figured out why our electronics are dying so often lately. There's a hole in the coolant piping insulation and it is dropping condensation straight onto the main switch board! No more outages and flickery screens!”</p>
-        <p>“Ahhh” Connor said, shirking from the thought of telling her what he had done to the nav console.</p>
+        <p>“...Make mistakes yes I know” she said “But, I figured out why our electronics are dying so often lately. There's a hole in the coolant insulation and it is dropping condensation straight onto the main switch board! No more outages and flickery screens!”</p>
+        <p>“Ahhh” Connor said, shirking from the thought of telling her what he had done to the nav console to fix one such issue.</p>
         `,
         image: {
             imageRef: `images/RhiannonEngineering.jpeg`,
@@ -121,7 +123,7 @@ const contentArray = [
     {
         id: "3c",
         title: "Reply to Hyun-Ae",
-        text: `<p>“What did you need, captain?”</p>`,
+        text: `<p>“What did you do?” she asked cautiously</p>`,
         dialog: [
             {
                 id: "O1",
@@ -148,7 +150,7 @@ const contentArray = [
         id: "3d",
         title: "Response from Hyun-Ae",
         text: `<p>“So you just came here to frighten the shit out of me and give me a headache?”</p>
-        <p>“Tsk” he said kissing his teeth “well I might have broken the nav console, tried to fix the screen”</p>`,
+        <p>“Tsk” he said kissing his teeth “well I might have broken the nav console... trying to fix the flicker...</p>`,
         image: {
             imageRef: `images/RhiannonEngineering.jpeg`,
             alt: "Rhiannon Engineering",
@@ -162,7 +164,7 @@ const contentArray = [
         title: "Response from Hyun-Ae",
         text: `<p>“huuuuhhh” she sighed deeply “What have I said about leaving the repairs to the professionals? Fine, I will get on it”</p>
         <p>“Thanks Hyun, what would I do without you?”</p>
-        <p>“Tear the ship to pieces by the sounds of it.”</p>
+        <p>“Tear the ship to pieces by the sounds of it.” she mumbled returning to her work.</p>
         <p>Grinning Connor turned and headed out the door.</p>`,
         image: {
             imageRef: `images/RhiannonEngineering.jpeg`,
@@ -175,16 +177,21 @@ const contentArray = [
     {
         id: "4a",
         title: "Mess Hall",
-        text: `<p>As Connor entered the mess he saw Onaje seated at the small round table at the center. Onaje was a pretty big man in his mid thirties, an ex-agri-corp securities surgeon who was a veteran of many of the hostile takeovers that plague the home world of humanity. Onaje had retired from the military in order to try and seek out a more peaceful life and so had joined Connor some years prior to act as the Rhiannon's medical officer. He and Connor had become close friends over the years and so Connor was happy to see him here now.</p>
-        <p>“What's for dinner today” Connor asked</p>
-        <p>“Stew”</p>
-        <p>“Ahhh good, my favourite”</p>
-        <p>"Heat for Connor," he said, grabbing one of the quick meal packs and tossing it into the microwave.</p>
-        <p>“Affirmative, heating Beef Stew 29983 to preference setting: Connor” confirmed the autonuker.</p>
-        <p>“We are almost at Gwydion, you still concerned about it Ona?”</p>
-        <p>“Aren’t you? A crew of nearly 3 thousand and all we have received is one SOS beacon” replied Onaje “Not to mention the prototype FTL, they could all have died of some horrible unforseen radiation for all we know, hell the ship could be deadly just to be near if that's the case.”</p>
-        <p>“Yeah, that’d be less than ideal, although equally could just be the communications were fried, they should have plenty of food and water and unless absolutely power source died then the air scrubbers should still be working we should be able to stabilize any situation and provide enough supplies until the main salvage fleet arrives.”</p>
-        <p>“How long till they’re here?”</p>`,
+        text: `<p>As Connor entered the mess he saw Onaje seated at the small central dining table. Onaje was a pretty big man in his mid thirties, an ex Agri-Corp Securities surgeon who was a veteran of many of the hostile takeovers
+        that plague the home world of humanity. Onaje had retired from the Agri-Corp armed forces in order to try and seek out a more peaceful life and so had joined Connor some years prior to act as the Rhiannon's medical officer. He and Connor had become close friends
+         over the years and so Connor was always happy to see him.</p>
+        <p>“What's for dinner today?” Connor asked</p>
+        <p>“Stew” Onaje replied flatly clearly less than impressed with the food variety the Rhiannon provided. Despite being the one who had requisitioned it for the trip.</p>
+        <p>“Ahhh good, my favourite!” Connor replied with false enthusiasm</p>
+        <p>"Heat for Connor,"he said, speaking to the autonuker and grabbing one of the quick meal packs and tossing it it's heating compartment.</p>
+        <p>“Affirmative, heating Beef Stew 29983 to preference setting: Connor” confirmed the machine.</p>
+        <p>“We are almost at the Gwydion, you still concerned about it Ona?”</p>
+        <p>“Aren’t you? A crew of nearly 3 thousand and all we have received is one SOS beacon” replied Onaje “Not to mention the prototype FTL, they could all have died of some horrible unforseen radiation for all we know,\
+         hell the ship could be deadly just to be near if that's the case.”</p>
+        <p>“Yeah, that’d be less than ideal, although equally could just be the communications were fried. 
+        They should have plenty of food and water and unless absolutely every power source died the air scrubbers should still be working and we should be able to stabilize any situation and provide enough supplies until the main salvage fleet arrives.”</p>
+        <p>Despite being a relativley small ship, the Rhiannon had a fairly significant cargo hold able to provided enough additionally foodstuff to supply the crew of the Gwydion for a month or so at two at a stretch, whilst we awaited the bulk of the rescue flotilla to arrive.</p>
+        <p>“How long till they’re here?” Onaje asked.</p>`,
         image: {
             imageRef: `images/RhiannonMessHall.jpeg`,
             alt: "Rhiannon Mess Hall",
@@ -223,11 +230,12 @@ const contentArray = [
     {
         id: "4c",
         title: "Mess Hall",
-        text: `<p>“Last message they sent said they were about 2 months behind us, they must have gotten moving pretty quick from Lunar in order to be so close on our heels” Connor said sitting down opposite Onaje.</p>
-        <p>“How’d the nav console go?” Asked Onaje with a smirk</p>
-        <p>“Hurgphm” grunted Connor, unable to speak with a mouthful of stew, not that he wanted to.</p>
-        <p>“I can just imagine Hyun-Ae’s face” Onaje chuckled as Connor glared at him over his stew</p>
-        <p>For a while they both ate in comfortable silence, enjoying the meal and the company.</p>`,
+        text: `<p>“Last message they sent said they were about 2 months behind us." Connor replied sitting down opposite his friend.</p>
+        <p>"They must have gotten moving pretty quick from Lunar in order to be so close on our heels.” Onaje Commented."</p>
+        <p>“How’d the nav console go?” he asked smirking in a manner that told Connor he already knew the answer.</p>
+        <p>“Hurgphm” grunted Connor, unable to speak with a mouthful of stew. Not that he thought the comment deserved a reply.</p>
+        <p>“I can just imagine Hyun-Ae’s face” Onaje chuckled as Connor glared at him over his stew a faint smile betraying his true good humor.</p>
+        <p>The conversation died down as they both ate, enjoying the hot meal and the company.</p>`,
         image: {
             imageRef: `images/RhiannonMessHall.jpeg`,
             alt: "Rhiannon Mess Hall",
@@ -239,10 +247,11 @@ const contentArray = [
     {
         id: "4d",
         title: "Mess Hall",
-        text: `<p>“I best try and get an hour or two before we arrive '' said Onaje getting up to put his bowl in the autocleanse dishwasher.</p>
+        text: `<p>“I best try and get an hour or two before we arrive" said Onaje getting up to put his bowl in the autocleanse.</p>
         <p>“I’ll call you when we reach visual range”</p>
-        <p>Onaje walked out giving a thumbs up over his shoulder as he left.</p>
-        <p>Connor had almost finished his meal too. He scooped up the last bit and tossed it in the autocleanse before leaving.</p>`,
+        <p>Walking out Onaje gave a thumbs up over his shoulder as he left.</p>
+        <p>Connor had almost finished his meal too. Scooping up the last morsel he tossed it in the autocleanse.</p>
+        <p> "begin wash cycle" he said as he strode out of the mess.`,
         image: {
             imageRef: `images/RhiannonMessHall.jpeg`,
             alt: "Rhiannon Mess Hall",
@@ -254,10 +263,10 @@ const contentArray = [
     {
         id: "5a",
         title: "Arrival at The Gwydion",
-        text: `<p>Connor woke with a start to the sound of Rhiannon’s voice through his quarters comms</p>
+        text: `<p>He woke with a start to the sound of Rhiannon’s voice through his quarters comms speakers.</p>
         <p>“Gwydion in visual range captain, will be ready to dock in 20 minutes”</p>
-        <p>“What have I told you about waking me like that!” moaned Connor</p>
-        <p>“I can hardly gently shake you awake Captain” Rhiannon chided</p>
+        <p>“What have I told you about waking me like that!” Connor groaned even as he rolled out of bed.</p>
+        <p>“I can hardly gently shake you awake Captain.” she chided</p>
         <p>“Point taken”<p>
         <p>Pulling on his trousers and kit Connor made his way to the bridge knocking on Onaje’s door on the way.</p>
         <p>“We’re here Ona, suit up!”</p>`,
@@ -272,18 +281,20 @@ const contentArray = [
     {
         id: "5b",
         title: "Arrival at The Gwydion",
-        text: `<p>On the bridge Connor found Hyun-Ae under the Nav console he had torn apart earlier.</p>
-        <p>“You did a number on this one captain” Hyun-Ae said</p>
-        <p>“Well good thing we have the best engineer on all of Titan on the job then isn’t it”</p>
-        <p>Looking out the front view-port Connor could see the long pill-like shape of the Gwydion silhouetted against the deep blue of Neptune behind it.</p>
+        text: `<p>On the bridge Connor found Hyun-Ae under the Nav console he had so comprehensively torn apart earlier.</p>
+        <p>“You did a number on this one captain” Hyun-Ae commented her voice muffled by the surrounding machinery</p>
+        <p>“Well good thing we have the best engineer in all of Titan on the job then isn’t it?” he replied making his way to the view port.</p>
+        <p>Looking out through the clear void glass Connor could see the long pill-like shape of the Gwydion silhouetted against the deep blue of Neptune behind it.</p>
         <p>“Any signals from the Gwydion, Rhiannon?”</p>
-        <p>“Only the SOS captain, I am picking up that the ship still has some power and there doesn’t appear to be any external damage, however there is a small debris field surrounding it, looks to be like their may have been a number of unplanned decompressions”</p>
-        <p>“Strange, maybe the jump caused some electrical or system damage then, hopefully it didn’t fry him. Any radiation?” asked the captain thinking back to Onaje’s earlier comments</p>
+        <p>“Only the SOS captain, I am picking up that the ship still has some power and there doesn’t appear to be any external damage, however I am picking up a small debris field surrounding it 
+        looks to be like their may have been a number of rapid decompressions”</p>
+        <p>'Strange,' Connor thought 'maybe the jump caused some electrical or system damage then. Hopefully it didn’t fry Gwydion himself too.'</p>
+        <p> Any radiation?” he asked thinking back to Onaje’s earlier comments</p>
         <p>“None above expected levels</p>
-        <p>“That’s a relief” said Onaje stepping onto the bridge</p>
-        <p>“So far so good!” replied Connor with a grin</p>
-        <p>“Must you always tempt fate?” asked Onaje grimacing</p>
-        <p>“Only on a good day!” Connor replied</p>`,
+        <p>“That’s a relief!” said Onaje stepping onto the bridge</p>
+        <p>“So far so good!” replied grinning</p>
+        <p>Onaje grimaced at the comment “Must you always tempt fate?”</p>
+        <p>“Gotta make it a bit interesting at least” he replied unable to hide his amusement at his friends discomfort.</p>`,
         image: {
             imageRef: `images/RhiannonBridge.jpeg`,
             alt: "Rhiannon Bridge",
