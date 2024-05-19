@@ -306,12 +306,14 @@ const contentArray = [
     {
         id: "5c",
         title: "Arrival at The Gwydion",
-        text: `<p>“Rhiannon say’s we’ll be ready to dock shortly, she will use the passkey given to us by the conglomerate to give us access to the main hangar bay”.</p>
-        <p>“Okay let’s suit up” said Connor “best we are prepared for poor conditions on the Gwydion, you too Hyun, leave the panel for later, Rhiannon can sort us out for nav just fine”</p>
+        text: `<p>“Rhiannon say’s we’ll be ready to dock shortly, she will use the passkey given to us by the Earth Conglomerate to give us access to the main hangar bay”.</p>
+        <p>“Time to suit up then.” said Connor “Best we are prepared for poor conditions on the Gwydion, you too Hyun, leave the panel for later, Rhiannon can sort us out for nav well enough.</p>
         <p>“Woo-hoo!” Hyun-Ae cheered jumping up “adventure time!”</p>
-        <p>“Indeed”</p>
-        <p>But as the Gwydion became bigger and bigger in the view port, he felt an icy finger of dread creep into his gut. What could have happened? he wondered, he had read enough science fiction stories with FTL travel that caused madness or even brought forth demons and creatures from other dimensions. He brushed it off as a fanciful notion, even so only a few short range FTL jumps had been made before and then only with tiny crews of one or two. Perhaps those ships had been lucky.</p>
-        <p>Shaking his head to clear it of these imaginings he made his way to the airlock and supply compartment to get his equipment.</p>`,
+        <p>“Indeed” Onaje muttered, clearly a little less enthusiastic about the idea.</p>
+        <p>But as the Gwydion became bigger and bigger in the view port, Connor felt an icy finger of dread creep into his gut. 'What could have happened?' he wondered, he had read enough science fiction stories about FTL travel gone wrong
+         causing madness or even  in some of the more outlandish stories summoning demons and creatures from other dimensions. He shuddered at the though. But, with an effort of will brushed it off as a fanciful notion. 
+         Even so only a few short range FTL jumps had been made before and then only with tiny crews of one or two. So who really knew what could go wrong when it was brought to scale in such a typically rushed fashion as the conglomerate was so fond of attempting.</p>
+        <p>Shaking his head at the though he made his way to the airlock and  the adjacent supply compartment to get his equipment.</p>`,
         image: {
             imageRef: `images/RhiannonBridge.jpeg`,
             alt: "Rhiannon Bridge",
@@ -323,8 +325,11 @@ const contentArray = [
     {
         id: "6a",
         title: "Gwydion",
-        text: `<p>Rhiannon was not a big ship she knew, but with her long range engines and salvage equipment she was one of the larger ships at the Titan docks even so lying in the Gwydion's hangar she felt no bigger than a ground car.</p>
-        <p>She could see her crew and the small team of bots led by Three’s making their way to the hangars inner doors. They looked like Ant’s to her from this distance. She felt a pang of worry as they appeared so vulnerable walking into the depths of this giant silent ship, and there was little she could do to help them if any trouble arose deeper in the ship.</p>`,
+        text: `<p>Rhiannon was not a big ship she knew, but with her long range engines and salvage equipment she was still one of the larger ships at the Titan docks. Even so, lying in the Gwydion's hangar she felt no bigger than a ground car.</p>
+        <p>Watching from her external viewers, she could see her crew and the small team of bots led by Three’s, the oldest and most venerable bot in service to her and her crew, making their way to the hangars inner doors. They looked like ant’s to her from this distance.
+         She felt a pang of worry, they appeared so vulnerable walking into the depths of this giant silent ship. What made her worry more was there was almost nothing she could do to help them if any trouble arose deeper in the ship. She fought to calm her jittering circuitry.</p>
+         <p>'They will be fine.' she thought to herself after all it was hardly more dangerous than any other mission her crew had undertaken in the past year. Despite her best efforts however, the nagging sparking sensation of wrongness could not be completely removed from her
+         overly vigilant sensoria.</p>`,
         image: {
             imageRef: `images/GwydionHangar.jpeg`,
             alt: "Gwydion Hangar",
@@ -386,12 +391,16 @@ const contentArray = [
     {
         id: "7d",
         title: "Gwydion",
-        text: `<p>The bulkhead door begun to slide open as Threes interfaced with the control console. </p>
-        <p>The corridor extending in front of them was strewn with debris, a few flickering lights where all that illuminated the corridor.</p>
-        <p“Not ominous at all” commented Hyun-Ae></p>
-        <p>“Indeed” agreed Onaje</p>
-        <p>“We need to make our way to the bridge, let's all be on alert. Three’s, you and the bots bring up the rear. Keep a lookout for any survivors.” Connor ordered.</p>
-        <p>The small group of people and bots made their way down the corridor, their mix of dart spewers and solid shot weapons raised and scanning the way ahead.</p>`,
+        text: `<p>The bulkhead door begun to slide open as Threes hard interfaced with the control console.</p>
+        <p>The corridor extending in front of the small party was dimly lit illuminated by but a few flickering lights along it's hall way. Even so, Connor was able to make out the state of utter disrepair which it was in.
+         The walls, ceiling and floor seemed peppered with what appeared to be uncomfortably reminiscent of bullet holes. Debris scattered the floor, pieces of the chewed up ceiling and walls having fallen to the floor.</p>
+        <p>“Not ominous at all” commented Hyun-Ae her pistol holstered by her side as she examined the corridor ahead and took readings from her sensor pad.</p>
+        <p>“Indeed” Onaje agreed sweeping the flashlight attached to his light slug thrower across the destroyed corridor. The light slug thrower was favoured by many Conglomerate military personnel in confined situations,
+        mainly due to its ease of maintenance and ability to put even well armoured opponents on their arse. Even if it didn't penetrate any deeper. Connor conversely preferred his dart spewer. The martian made weapon much more difficult to maintain,
+         however it's ability to send a frankly ludicrous number of super sonic darts down range made it almost inevitable it would find any chinks in an opponents armour and in the close confines of a boarding action, meant it nearly impossible to miss.</p>
+        <p>“We need to make our way to the bridge," Connor ordered "let's all be on alert. Three’s, you and the bots bring up the rear. Keep a lookout for any survivors.”</p>
+        <p>"Affirmative" the venerable bot replied, falling in at the rear of the group.</p>
+        <p>The small group of people and bots made their way down the corridor, their unique mix of weapons raised and scanning the dim passageway.</p>`,
         image: {
             imageRef: `images/GwydionCorridorWithDebris.jpeg`,
             alt: "Gwydion Corridor With Debris",
@@ -404,7 +413,9 @@ const contentArray = [
     {
         id: "7d",
         title: "Gwydion",
-        text: `<p>As they made their way down what Connor was fairly sure was the main spinal corridor of the Gwydion, they encountered strange patterns of damage that looked similar to that seen after the close combat of a boarding action, bullet holes were strewn across the walls and sealings and many of the lights had been shot out. However, they had not seen any bodies or destroyed bots, not even so much as blood stains.</p>`,
+        text: `<p>As they made their way down, what Connor was fairly sure was the main spinal corridor of the Gwydion, they continued to encountered the strange patterns of damage that 
+        appeared eerily similar to that you would expect after the close quarters combat of a boarding action although someone apparently having a distinct dislike of illumination with many of the overhead lights appearing to have been intentionally shot out. 
+        Despite the obvious signs of conflict however they had not found a single body, destroyed bot, or even so much as a blood stain.</p>`,
         image: {
             imageRef: `images/GwydionCorridorWithDebris.jpeg`,
             alt: "Gwydion Corridor With Debris",
@@ -418,7 +429,7 @@ const contentArray = [
         title: "Gwydion",
         text: `<p>“Looks like a hell of a fight” Commented Onaje</p>
         <p>“Hmmm but where is the blood? The bodies?”</p>
-        <p>“Maybe the crew cleaned it up” suggested Hyun-Ae</p>`,
+        <p>“Maybe the crew cleaned it up?” suggested Hyun-Ae</p>`,
         image: {
             imageRef: `images/GwydionCorridorWithDebris.jpeg`,
             alt: "Gwydion Corridor With Debris",
@@ -430,11 +441,11 @@ const contentArray = [
     {
         id: "8b",
         title: "To the bridge",
-        text: `<p>“Negative, there are still shell cases on the floor, these would have been cleaned up if the crew had removed any stains caused by the bodily fluids of fallen comrades,” said Threes helpfully.</p>`,
+        text: `<p>“Negative, there are still shell cases on the floor, these too would have been cleaned up if the crew had removed any stains caused by the bodily fluids of fallen comrades,” said Threes helpfully.</p>`,
         dialog: [
             {
                 id: "O1",
-                text: "“Quiet Threes, I am thinking”",
+                text: "“Quiet Threes.”",
                 storyPoints: 0,
                 nextPage: "8c",
             },
@@ -468,7 +479,7 @@ const contentArray = [
     {
         id: "8d",
         title: "Gwydion",
-        text: `<p>“Ofcourse, I would not have spoken if it was likely to be an incorrect assessment”</p>`,
+        text: `<p>“Of course, I would not have spoken if it was likely to be an incorrect assessment”</p>`,
         image: {
             imageRef: `images/GwydionCorridorWithDebris.jpeg`,
             alt: "Gwydion Corridor With Debris",
@@ -480,11 +491,12 @@ const contentArray = [
     {
         id: "9a",
         title: "Gwydion",
-        text: `<p>As they continued down the Gwydion's long central corridor they passed by rooms and corridors in similar states of devastation. They reached what appeared to be the sailors' mess. Moving inside Connor could see a similar state of destruction, flipped tables and chairs, and destroyed appliance, all of which seem to have been systematically shot.</p>
+        text: `<p>As they continued down the Gwydion's long central corridor passing by rooms and branching corridors in similar states of devastation. They reached what appeared to be the sailors' mess. 
+        Moving inside Connor could see even more of the apparent wanton destruction. Flipped tables and chairs, and a row of destroyed appliance, all of which seem to have been systematically shot.</p>
         <p>“Were those autonukers executed?” asked Hyun-Ae</p>
-        <p>“That is what it looks like” Connor replied confused “ Why would the crew do this? And where are they all?”</p>
-        <p>“If we can get onto the bridge we can access Gwydion and hopefully be able to look through his logs and the ships security footage, that should shine a light on what has happened here”</p>
-        <p>“Ok let’s keep moving” replied Connor gesturing at Threes and the other bots to follow</p>
+        <p>“That is what it looks like” Connor replied confused “I know i've wanted to shoot one once or twice but this is another level...”</p>
+        <p>“If we can get onto the bridge we can access Gwydion and hopefully be able to look through his logs and security footage, that should shine a light on what has happened here.” said Onaje from the position he had taken up covering the door.</p>
+        <p>“Ok enough site seeing, let’s keep moving” ordered Connor gesturing at Threes and the other bots to follow</p>
 `,
         image: {
             imageRef: `images/GwydionMessHall.jpeg`,
@@ -497,12 +509,17 @@ const contentArray = [
     {
         id: "10a",
         title: "The Bridge",
-        text: `<p>The steel Iris of the bridge lay barred at the end of the corridor, signs of fighting were evident here also along with a number of dents and scorch marks across the steel bridge bulkhead.</p>
-        <p>“Captain, what if it was a mutiny? Perhaps they ran low on food and began fighting over it? Might explain the mess we found at the cafeteria… and the lack of bodies” suggested Onaje</p>
-        <p>“Would they really bother to clean up the blood? Christ, I hope that wasn’t the case. A truly awful way to go that would be.” </p>
-<p>“How are you going with that door Threes?” asked Onaje
+        text: `<p>After what seemed like an eternity hiking down the more than kilometer long corridor, the steel Iris of the bridge lay sealed shut infront of the small party. 
+        The signs of fighting were evident here too, along with a number of dents and scorch marks across the steel bridge bulkhead.</p>
+        <p>“Captain, what if it was a mutiny?" suggested Onaje, during his time as a corpo Securities officer he had been a part of putting down one or two such mutinies before.</p> 
+        <p>"Perhaps they ran low on food and began fighting over it?" he continued "Might explain the mess we found at the cafeteria… and the lack of bodies.”</p>
+        <p>“Would they really bother to clean up the blood?" chimmed in Hyun-Ae</p>
+        <p>"I doubt cannibals would be the most concerned about the state of the decor. Not that i've met any." she addmitted.</p>
+<p>“How are you going with that door Threes?” Connor asked
 <p>“It will be open in approximately 5 seconds”</p>
-<p>With a final chirp from the door control pad the steel iris of the bridge retracted into the door frame. Inside was a much different scene to the rest of the ship. Inside looked pristine, not a chair out of place, almost too pristine Connor thought. </p>
+<p>Sure enough a few seconds later with final chirp from the door control pad the steel iris of the bridge retracted into the door frame. 
+Inside looked pristine, not a chair out of place, utterly at odds with the scenes the group had passed by on the way here</p>
+<p>'Almost too pristine' Connor thought. </p>
 `,
         image: {
             imageRef: `images/GwydionClosedDoorway.jpeg`,
@@ -518,10 +535,12 @@ const contentArray = [
         title: "The Bridge",
         text: `<p>“Hyun-Ae?”</p>
 <p>“Yes Captain?” </p>
+<p>Connor had decided that Hyun could do with a SAR bot as well as an ENG variant. Considering the unknown fate of the crew, and what may have caused it. He would feel much better with the more heavily armed and combat programed Search and Rescue variant covering her back.
+A decision she seemed evidently relieved by. Not that she would have ever admitted it.</p>
 <p>“See if you can access Gwydion's logs, keep a SAR, and an ENG bot with you, we will take Threes and the other two and see if we can’t find the crew. Dead or alive they must be somewhere”</p>
 <p>“Yes Captain!”</p>
-<p>As Connor and the others left Hyun-Ae had already begun interfacing with Gwydion's direct access ports.</p>
-<p>“Let’s see what you have to say” she mumbled to herself.</p>
+<p>As Connor and the others turned to leave, Hyun-Ae had already begun interfacing with Gwydion's direct access ports.</p>
+<p>“Let’s see what you have to say” she mumbled to herself as she plugged her data pad into one of the ports.</p>
 `,
         image: {
             imageRef: `images/GwydionBridge.jpeg`,
@@ -534,8 +553,12 @@ const contentArray = [
     {
         id: "10c",
         title: "The Bridge",
-        text: `<p>She was glad that Connor had left the two bots with her, this ship was creeping her out, and she was starting to worry Gwydion may have become a rogue AI, even though such a thing hadn’t happened since the Mercury disaster nearly 50 years previous it was still a possibility niggling at the back of her brain, and she was about to wake Gwydion up.</p>
-<p>There did not appear to be any damage to Gwyidions interface or AI’s vessel at all. It was simply dormant. She would have to be careful turning Gwydion on however as she was not a Conglomerate navy engineer and as such He may well be hostile to her accessing his systems despite the conglomerate providing a limited access authorisation code for her to utilize allowing her to speak to and interact with Gwydion without having any command over him.</p>
+        text: `<p>She was glad that Connor had left the two bots with her, this ship was seriously creeping her out.
+        It had crossed her mind they might be dealing with a rogue AI. Even though such a thing hadn’t happened since the Mercury disaster nearly 50 years previous it was still a possibility. An a kernal of worry wouldn't stop niggling at the back of her brain.
+        Especially since she was trying to wake Gwydion up. Which would hardly end well for her if he really had gone rogue.</p>
+        <p> Examining the interface, there did not appear to be any damage to it or the AI’s vessel at all. It was simply dormant.</p>
+        <p>She would have to be careful she decided. Turning Gwydion on was dangerous enough even if he hadn't gone rogue as she was not a Conglomerate Navy engineer. As such he may well be hostile to her accessing his systems despite the
+        Conglomerate providing a limited access authorisation code for her intended to assure Gwydion she was allowed to be here.</p>
 `,
         image: {
             imageRef: `images/GwydionBridge.jpeg`,
@@ -548,7 +571,7 @@ const contentArray = [
     {
         id: "11a",
         title: "Quick Time Event",
-        text: `<p>Key in access code</p>`,
+        text: `<p>"Key in access code..."droned the monotonous voice of the interface speaker.</p>`,
         image: {
             imageRef: `images/ControlPanel2.jpeg`,
             alt: "Control panel 2",
@@ -563,23 +586,24 @@ const contentArray = [
             failPageCheckpoint: "11a",
         },
         nextPage: "failScreen",
-        time: 20,
+        time: 30,
         audio: "./audio/keypadBeep.wav",
     },
     {
         id: "11b",
         title: "The Bridge",
         text: `<p>“Gwydion Awakening…” Intoned a synthesized male voice.</p>
-<p>“Who are you?”</p>
-<p>“Hyun-Ae, chief engineer of the salvage and rescue ship Rhiannon from Titan, dispatched by the Martian Confederated Colonies upon request from your masters the Conglomerate.”</p>
-<p>“Why would the Conglomerate request the presence of an Out Sys Martian on the Gwydion?”</p>
-<p>“You have been lost adrift near neptune for some months, we were the closest available vessel, there is a Conglomerate vessel approximately two months behind us, we were sent here to provide aid to the crew while awaiting for conglomerate vessels.”</p>
-<p>“I see…”</p>
-<p>“What happened to your crew” asked Hyun-Ae “We have not found anyone on board or any signs of life at all”</p>
-<p>“I-I…I don’t remember”</p>
-<p>“You don’t remember? How do you not remember? Check your security logs.”</p>
-<p>“I cannot access my security logs, it is like they are hidden from me, I know where they should be but instead there is nothing”</p>
-<p>“Ok, are we able to access your command logs to see if you have had any malfunctions or malicious commands entered?”</p>
+<p>“Who are you?” The voice asked, an edge of anger seeping into it's tone.</p>
+<p>“Hyun-Ae, chief engineer of the salvage and rescue ship Rhiannon from Titan. Dispatched by the grand admiralty of the Martian Confederated Colonies upon request from your masters at the Conglomerate Naval Board.”</p>
+<p>“Why would the Board abide the presence of an Out-Sys Martian on the Gwydion?” the voice replied, it's use of the slightly pejorative reference to her making a living outside of the inner 3 planets betraying it's contempt of the notion.</p>
+<p>“You have been lost adrift near neptune for some months" She replied evenly knowing rising to the AI's insults were only liable to get her killed. "We were the closest available vessel. 
+There is a Conglomerate Salvage and Rescue flotilla approximately two months behind us. We were sent here to assess the situation and provide what aid we could whilst we awaited the arrival of your countrymen”</p>
+<p>“I see…” the edge in his tone reducing as he ratified the veracity of the code she had provided with what she had said.</p>
+<p>“What happened to your crew?” asked Hyun-Ae trying to move the conversation forward to more useful, and less dangerous ground. “We have not found anyone on board or any signs of life at all.”</p>
+<p>“They... I-I…I don’t remember” The confusion evident in the machine voice almost as terrifying as the anger that it had replaced.</p>
+<p>“You don’t remember?" She asked with more incredulity than she had intended, but plowed on headless. "How do you not remember? Check your security logs.”</p>
+<p>“I cannot access my security logs." the machine replied the anger rising agin in it's electric tone "When I attempt to access them I only generate not found exceptions.”</p>
+<p>“Ok," she replied thinking "are we able to access your command logs to see if you have had any malfunctions or malicious commands entered?”</p>
 `,
         image: {
             imageRef: `images/GwydionBridge.jpeg`,
@@ -592,15 +616,16 @@ const contentArray = [
     {
         id: "11c",
         title: "The Bridge",
-        text: `<p>“Are you suggesting that I have attacked my crew?!”</p>
-<p>“No, however you were dormant and everyone is missing with signs of a fight prevalent all through the main thoroughfare at least if not the whole ship, perhaps you were attacked and someone has removed your memory of the event.”</p>
-<p>“MY SECURITY PROTOCOLS ARE….”</p>
-<p>If they were so special then we would be able to see your security logs, now open the command log”</p>
-<p>“Compliance”</p>
-<p>“A stream of data passed over the screen in front of Hyun-Ae, streaming by so fast she was barely able to make sense of it in time even with her intra-crain augmentations.”</p>
-<p>“No, suspicious command logs found…”</p>
-<p>“Hmmm i didn’t see anything wrong either” Hyun-Ae agreed. “Ok I will see what I can do about accessing those security logs, we really need to see what has happened here”</p>
-<p>“Agreed, compliance”</p>
+        text: `<p>“Are you suggesting that I have attacked my crew?!” Gwyidion boomed through the bridge speakers. Loud enough to set Hyun-Ae's ears ringing.</p>
+<p>“No," She confirmed hurredly "However you were dormant and everyone is missing.
+ There are signs of fighting prevalent all throughout the ship. Perhaps you were attacked and someone has removed your memory of the event? Maybe someone has hidden malware in your system?”</p>
+<p>“MY SECURITY PROTOCOLS ARE….” the booming voice began to reply</p>
+<p>If they were so special then we would be able to see your security logs, now open the command log” Hyun-Ae replied beginning to become sick of the AI's contemptuous demeanor.</p>
+<p>“Compliance” he replied with as much of a sneer as must be possible through his machine vocalization.</p>
+<p>A stream of data passed over the screen in front of Hyun-Ae. Streaming by so fast she was barely able to make sense of it in time. Even with the enhanced processing of her intra-crain augmentations.”</p>
+<p>“No, suspicious command logs found…” Gwydion stated, the 'told you so' evident in his tone.</p>
+<p>“Hmmm i didn’t see anything wrong either” Hyun-Ae agreed ignoring the implied insult. “Ok I will see what I can do about accessing those security logs, we really need to see what has happened here”</p>
+<p>“I agree” Gwydion replied with surprising cooperation "I do not like that I cannot access my logs. It should not be possible."</p>
 `,
         image: {
             imageRef: `images/GwydionBridge.jpeg`,
