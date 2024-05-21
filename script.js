@@ -5,6 +5,10 @@ import {
     nextPage,
     renderPage,
 } from "./containers/pageManager/pageManager.js";
+import {
+    setupMusicHTML,
+    getSong,
+} from "./services/musicProvider/musicProvider.js";
 import { getContentWithId } from "./services/contentProvider/contentProvider.js";
 
 $(document).ready(function () {
@@ -13,9 +17,21 @@ $(document).ready(function () {
     }
     const pageContainer = $("main");
     let keyPattern = "";
+    let curSongId = 0;
     renderPage(pageContainer);
 
+    $("#musicContainer").html(setupMusicHTML());
+    document.getElementById("backgroundMusic").volume = 0.1;
+    $("#backgroundMusic").on("ended", function () {
+        curSongId = getSong(curSongId).next;
+        $(this).attr("src", getSong(curSongId).song);
+        this.play();
+    });
+
     $("main").on("click", ".next-button", function () {
+        if (document.getElementById("backgroundMusic").paused) {
+            document.getElementById("backgroundMusic").play();
+        }
         $(".timer-bar__inner").stop();
         nextPage(
             pageContainer,

@@ -14,7 +14,7 @@ export const createPage = (textInformation) => {
         ${getNavButtonsHTML(nextPage)}
         ${
             textInformation.audio
-                ? `<audio src=${textInformation.audio} autoplay></audio>`
+                ? `<audio id="sfx" src=${textInformation.audio} autoplay></audio>`
                 : ""
         }
     </div>
@@ -38,7 +38,7 @@ export const createPageWithDialog = (textInformation) => {
              ${time ? getTimerBarHTML(time) : ""}
              ${
                  textInformation.audio
-                     ? `<audio src=${textInformation.audio} autoplay></audio>`
+                     ? `<audio id="sfx" src=${textInformation.audio} autoplay></audio>`
                      : ""
              }
         </div>
@@ -56,7 +56,7 @@ export const createPageWithQuickTime = (textInformation) => {
             ${time ? getTimerBarHTML(time) : ""}
             ${
                 textInformation.audio
-                    ? `<audio src=${textInformation.audio} autoplay></audio>`
+                    ? `<audio id="sfx" src=${textInformation.audio} autoplay></audio>`
                     : ""
             }
         </div>

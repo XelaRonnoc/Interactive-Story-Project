@@ -1188,7 +1188,6 @@ There is a Conglomerate Salvage and Rescue flotilla approximately two months beh
 <p>“I see it now too” came the synthesized reply of Gwydion.</p>
 <p>“It’s strange that you were not aware of the locations of these files”</p>
 <p>“I agree, I believe It was due to my inactivity since the jump, without my organization the basic components of the ships systems seemed to have picked an obscure location to store these. I was not even aware of this location in my memory until you showed it to me.”</p>
-
 `,
         image: {
             imageRef: `images/ControlPanelBridge.jpeg`,
@@ -1268,7 +1267,7 @@ Hyun-Ae had only just begun examining one piece of the security footage when Gwy
         title: "Revelation",
         text: `<p>Reaching her head through the door she went to tell the bot they were heading back to the bridge. When she heard/saw a strange buzz flicker from behind her and the faintest groan from the bulkhead above her.</p>`,
         image: {
-            imageRef: `images/movingThroughDoorway2.jpeg`,
+            imageRef: `images/MovingThroughDoorway2.jpeg`,
             alt: "moving through doorway 2",
             scaleType: "square",
         },

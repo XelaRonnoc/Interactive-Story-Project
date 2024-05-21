@@ -87,7 +87,7 @@ export const renderPage = (pageContainer) => {
     const imgHTML = getImageHTML(curPageContent.image);
     const textHTML = getTextHTML(curPageContent);
     pageContainer.html(imgHTML + textHTML);
-    const audio = document.querySelectorAll("audio")[0];
+    const audio = document.getElementById("sfx");
     audio ? (audio.volume = 1) : "";
 };
 
