@@ -21,11 +21,22 @@ $(document).ready(function () {
     renderPage(pageContainer);
 
     $("#musicContainer").html(setupMusicHTML());
-    document.getElementById("backgroundMusic").volume = 0.1;
+    // document.getElementById("backgroundMusic").volume = 0.1;
     $("#backgroundMusic").on("ended", function () {
         curSongId = getSong(curSongId).next;
         $(this).attr("src", getSong(curSongId).song);
         this.play();
+    });
+
+    $("#mute").on("click", function () {
+        const musicEl = document.getElementById("backgroundMusic");
+        musicEl.muted = musicEl.muted ? false : true;
+        $(this).html(musicEl.muted ? "Unmute Music" : "Mute Music");
+    });
+
+    $("#musicVolume").on("input propertychange", function () {
+        const musicEl = document.getElementById("backgroundMusic");
+        musicEl.volume = $(this).val() / 100;
     });
 
     $("main").on("click", ".next-button", function () {

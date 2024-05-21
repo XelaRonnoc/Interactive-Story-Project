@@ -108,7 +108,7 @@ audio {
 }
 
 /* styles for the font toggle button */
-.button-container__nav-button {
+.button-container__button {
   position: relative;
   z-index: 999;
   padding: 6px 10px;
@@ -121,12 +121,40 @@ audio {
   cursor: pointer;
   transition: 1s all ease;
 }
-.button-container__nav-button:hover {
+.button-container__button:hover {
   background-color: var(--nav-bar-background-highlight);
 }
+.button-container__button--mute {
+  position: fixed;
+  top: 30px;
+  right: 30px;
+}
 
-.next-button {
+.volume-container {
+  position: fixed;
+  top: 30px;
+  left: 30px;
+  z-index: 999;
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid var(--nav-bar-text-color);
+  background-color: var(--nav-bar-background);
   color: var(--nav-bar-text-color);
+  font-family: var(--header-font-family);
+  font-size: medium;
+  cursor: pointer;
+  transition: 1s all ease;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.volume-container__slider {
+  border-radius: 2px;
+  width: 100px;
+  height: 5px;
+}
+.volume-container__label {
+  font-size: small;
 }
 
 .dialog__option {

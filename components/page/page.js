@@ -1,4 +1,4 @@
-import { getNavButtonsHTML } from "../navButton/navButton.js";
+import { getNavButtonsHTML } from "../controls/controls.js";
 import { createDialogOption } from "../dialog/dialog.js";
 import { getTimerBarHTML } from "../barTimer/barTimer.js";
 import { createQuickTimeInstructions } from "../quickTime/quickTime.js";
