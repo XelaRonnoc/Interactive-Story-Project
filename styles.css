@@ -124,7 +124,7 @@ audio {
 .button-container__button:hover {
   background-color: var(--nav-bar-background-highlight);
 }
-.button-container__button--mute {
+.button-container__button--reset {
   position: fixed;
   top: 30px;
   right: 30px;
