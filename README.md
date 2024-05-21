@@ -7,6 +7,15 @@ I'll give you 8.5/10
 
 ## references:
 
+### AI Image Generators
+
+Designer: https://designer.microsoft.com/image-creator
+NightCafe: https://creator.nightcafe.studio/studio
+
+### Image Resizer
+
+ShutterStock: https://www.shutterstock.com/image-resizer?c3apidt=&gad_source=1&gclid=Cj0KCQjwjLGyBhCYARIsAPqTz1-gZDfFAnwSjC4NaH91p-yghxsepsBeX3NLiOcIJ2UzMJEyeqwHei8aAlYvEALw_wcB&gclsrc=aw.ds&kw=
+
 ### Audio
 
 alarm https://freesound.org/people/Latranz/sounds/520200/
