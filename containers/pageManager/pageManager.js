@@ -92,6 +92,6 @@ export const renderPage = (pageContainer) => {
 };
 
 export const initialiseSessionStorage = () => {
-    sessionStorage.setItem("curPage", "1a");
+    sessionStorage.setItem("curPage", "intro");
     sessionStorage.setItem("storyPoints", 0);
 };

@@ -3,6 +3,8 @@
 An Interactive Story Project built using JQuery
 sass --watch --no-source-map styles.scss:styles.css
 
+I'll give you 8.5/10
+
 ## references:
 
 ### Audio

@@ -1,5 +1,24 @@
 const contentArray = [
     {
+        id: "intro",
+        title: "Tutorial and Introduction to Gwydion",
+        text: `<p>Gwydion is a heavily story focused an Interactive experience that allows users to not only become immersed in it's universe, but also shape the course of events within it. 
+        Allowing the user to take control of a number of the crew of the Rhiannon at critical junctures in the story for good or for ill.</p>
+        <p>Within Gwydion there are two main types of interaction:</p>
+        <p><b>Choices:</b> Usually dialog but can be between different courses of action. These choices can an will effect the outcome of your story in one of 4 possible endings. 
+        To complete these choices simply select the option you want before the time runs out (if it is a timed choice) and the option will be selected for you.</p>
+        <p><b>Quick Time Events:</b> Simple events where the story may abruptly come to an often grizzly end. Fear not however as the story will reset to before the disastrous failure when you click the next button.
+        To complete these Events successfully you must enter the displayed code on your keyboard before the time runs out.</p>
+        <p>Good luck and I hope you enjoy your foray into the world of Gwydion.</p>`,
+        image: {
+            imageRef: `images/MoonBase.jpg`,
+            alt: "Moon Base",
+            scaleType: "square",
+        },
+        nextPage: "1a",
+        time: 0,
+    },
+    {
         id: "1a",
         title: "Chapter 1 SOS",
         text: `
@@ -1430,7 +1449,6 @@ Guns raised, they moved cautiously down the corridor. Like the rest of the ship 
         },
         nextPage: "23a",
         time: 0,
-        audio: "./audio/gunfire.flac",
     },
     {
         id: "23a",
@@ -1445,7 +1463,6 @@ Guns raised, they moved cautiously down the corridor. Like the rest of the ship 
         },
         nextPage: "23b",
         time: 0,
-        audio: "./audio/gunfire.flac",
     },
     {
         id: "23b",
@@ -1458,7 +1475,6 @@ Guns raised, they moved cautiously down the corridor. Like the rest of the ship 
         },
         nextPage: "23c",
         time: 0,
-        audio: "./audio/gunfire.flac",
     },
     {
         id: "23c",
@@ -1473,7 +1489,6 @@ Guns raised, they moved cautiously down the corridor. Like the rest of the ship 
         },
         nextPage: "23d",
         time: 0,
-        audio: "./audio/gunfire.flac",
     },
     {
         id: "23d",
@@ -1488,7 +1503,6 @@ Guns raised, they moved cautiously down the corridor. Like the rest of the ship 
         },
         nextPage: "23e",
         time: 0,
-        audio: "./audio/gunfire.flac",
     },
     {
         id: "23e",
@@ -1503,7 +1517,6 @@ Guns raised, they moved cautiously down the corridor. Like the rest of the ship 
         },
         nextPage: "23f",
         time: 0,
-        audio: "./audio/gunfire.flac",
     },
     {
         id: "23f",
@@ -1583,7 +1596,6 @@ Guns raised, they moved cautiously down the corridor. Like the rest of the ship 
         },
         nextPage: "24d",
         time: 0,
-        audio: "./audio/gunfire.flac",
     },
     {
         id: "24d",
@@ -1598,7 +1610,6 @@ Guns raised, they moved cautiously down the corridor. Like the rest of the ship 
         },
         nextPage: "24e",
         time: 0,
-        audio: "./audio/gunfire.flac",
     },
     {
         id: "24e",
@@ -1612,7 +1623,6 @@ Guns raised, they moved cautiously down the corridor. Like the rest of the ship 
         },
         nextPage: "24f",
         time: 0,
-        audio: "./audio/gunfire.flac",
     },
     {
         id: "24f",
@@ -1982,7 +1992,6 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         },
         nextPage: "30a",
         time: 0,
-        audio: "./audio/gunfire.flac",
     },
     {
         id: "30a",
@@ -2165,7 +2174,6 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         },
         nextPage: "Ending",
         time: 0,
-        audio: "./audio/gunfire.flac",
     },
     {
         id: "G1a",
@@ -2242,7 +2250,6 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
         },
         nextPage: "G1e",
         time: 0,
-        audio: "./audio/gunfire.flac",
     },
     {
         id: "G1e",
@@ -2428,7 +2435,6 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
         },
         nextPage: "G4c",
         time: 0,
-        audio: "./audio/gunfire.flac",
     },
     {
         id: "G4c",
@@ -2515,7 +2521,6 @@ coms. “Inputting the codes directly should bypass whatever is blocking the rem
         },
         nextPage: "N1e",
         time: 0,
-        audio: "./audio/gunfire.flac",
     },
     {
         id: "N1e",
@@ -2570,7 +2575,6 @@ coms. “Inputting the codes directly should bypass whatever is blocking the rem
         },
         nextPage: "B1c",
         time: 0,
-        audio: "./audio/gunfire.flac",
     },
     {
         id: "B1c",
@@ -2591,7 +2595,6 @@ coms. “Inputting the codes directly should bypass whatever is blocking the rem
         },
         nextPage: "B1d",
         time: 0,
-        audio: "./audio/gunfire.flac",
     },
     {
         id: "B1d",
