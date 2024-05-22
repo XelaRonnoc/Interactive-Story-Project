@@ -243,7 +243,7 @@ const contentArray = [
             scaleType: "square",
         },
         nextPage: "4c",
-        time: 3,
+        time: 100,
         audio: "./audio/autoNukeChime.wav",
     },
     {
