@@ -5,8 +5,8 @@ const contentArray = [
         text: `<p>Gwydion is a heavily story focused an Interactive experience that allows users to not only become immersed in it's universe, but also shape the course of events within it. 
         Allowing the user to take control of a number of the crew of the Rhiannon at critical junctures in the story for good or for ill.</p>
         <p>Within Gwydion there are two main types of interaction:</p>
-        <p><b>Choices:</b> Usually dialog but can be between different courses of action. These choices can an will effect the outcome of your story in one of 4 possible endings. 
-        To complete these choices simply select the option you want before the time runs out (if it is a timed choice) and the option will be selected for you.</p>
+        <p><b>Choices:</b> Usually dialog but can also be between different courses of action. These choices can an will effect the outcome of your story in one of 4 possible endings. 
+        To complete these choices simply select one of the options to proceed.</p>
         <p><b>Quick Time Events:</b> Simple events where the story may abruptly come to an often grizzly end. Fear not however as the story will reset to before the disastrous failure when you click the next button.
         To complete these Events successfully you must enter the displayed code on your keyboard before the time runs out.</p>
         <p>Good luck and I hope you enjoy your foray into the world of Gwydion.</p>`,
@@ -20,7 +20,7 @@ const contentArray = [
     },
     {
         id: "1a",
-        title: "Chapter 1 SOS",
+        title: "Salvage and Rescue",
         text: `
         <p>“Decelerating to the Last known location of the Gwydion Captain.”</p>
         <p>“How long till we are in visual range?”</p>
@@ -43,7 +43,7 @@ const contentArray = [
     },
     {
         id: "1b",
-        title: "Decision Hyun-Ae or Mess hall",
+        title: "Salvage and Rescue",
         text: `<p>Speaking of Hyun-Ae, best go wake her, Rhiannon could do the nav herself after all.</p>
         <p>*grumble-gurgle*</p>
         <p>‘God I’m hungry!’ he thought. He couldn’t remember if he had eaten anything since he woke up nearly 12 hours earlier.</p>`,
@@ -75,11 +75,11 @@ const contentArray = [
             scaleType: "square",
         },
         nextPage: "2a",
-        time: 10,
+        time: 0,
     },
     {
         id: "2a",
-        title: "Go To Hyun-Ae",
+        title: "Salvage and Rescue",
         text: `<p>'Best get Hyun-Ae up.' He thought 'We are nearing the Gwydion and it wouldn't do for the ship to be malfunction in the middle of a rescue op.'</p>`,
         image: {
             imageRef: `images/RhiannonCorridor.jpeg`,
@@ -91,7 +91,7 @@ const contentArray = [
     },
     {
         id: "2b",
-        title: "Go to Mess Hall",
+        title: "Salvage and Rescue",
         text: `<p>Let Hyun-Ae sleep a bit longer' Connor decided  'There will be enough time for her to fix before the operation begins. Besides, a hungry Captain could end up doing more harm than good!'</p>`,
         image: {
             imageRef: `images/RhiannonCorridor.jpeg`,
@@ -103,7 +103,7 @@ const contentArray = [
     },
     {
         id: "3a",
-        title: "Hyun-Ae",
+        title: "Salvage and Rescue",
         text: `<p>The door to Hyun-Ae’s Quarters was open and an empty can of energy syrup lay on an unmade bed. Hyun-Ae wasn’t ex-military or police like Onaje and Connor and didn’t share the two veterans affinity for a tidy room.
         Hyun-Ae was a relatively recent graduate of the Scholar Technica on Venus who had joined the crew of the Rhiannon after the previous engineer had died during a salvaging operation. She had been looking for a place to apply her skills and education without
         being stuck behind some corpo desk on Earth advising suits on which bot series they should. Of course to be entirely ignored later in favour of which series was owned by said suits best mate.</p> 
@@ -119,7 +119,7 @@ const contentArray = [
     },
     {
         id: "3b",
-        title: "Engineering",
+        title: "Salvage and Rescue",
         text: `<p>“OI!” Connor yelled as he entered the engineering bay.</p>
         <p>With a start Hyun-Ae shot up hitting the machinery she had been crouched under with a dull thud on the way up. He winced, knowing how much that would have hurt.</p>
         <p>"Whoops" he said with a grimace</p>
@@ -141,7 +141,7 @@ const contentArray = [
     },
     {
         id: "3c",
-        title: "Reply to Hyun-Ae",
+        title: "Salvage and Rescue",
         text: `<p>“What did you do?” she asked cautiously</p>`,
         dialog: [
             {
@@ -163,11 +163,11 @@ const contentArray = [
             scaleType: "square",
         },
         nextPage: "3d",
-        time: 10,
+        time: 0,
     },
     {
         id: "3d",
-        title: "Response from Hyun-Ae",
+        title: "Salvage and Rescue",
         text: `<p>“So you just came here to frighten the shit out of me and give me a headache?”</p>
         <p>“Tsk” he said kissing his teeth “well I might have broken the nav console... trying to fix the flicker...</p>`,
         image: {
@@ -180,7 +180,7 @@ const contentArray = [
     },
     {
         id: "3e",
-        title: "Response from Hyun-Ae",
+        title: "Salvage and Rescue",
         text: `<p>“huuuuhhh” she sighed deeply “What have I said about leaving the repairs to the professionals? Fine, I will get on it”</p>
         <p>“Thanks Hyun, what would I do without you?”</p>
         <p>“Tear the ship to pieces by the sounds of it.” she mumbled returning to her work.</p>
@@ -195,7 +195,7 @@ const contentArray = [
     },
     {
         id: "4a",
-        title: "Mess Hall",
+        title: "Salvage and Rescue",
         text: `<p>As Connor entered the mess he saw Onaje seated at the small central dining table. Onaje was a pretty big man in his mid thirties, an ex Agri-Corp Securities surgeon who was a veteran of many of the hostile takeovers
         that plague the home world of humanity. Onaje had retired from the Agri-Corp armed forces in order to try and seek out a more peaceful life and so had joined Connor some years prior to act as the Rhiannon's medical officer. He and Connor had become close friends
          over the years and so Connor was always happy to see him.</p>
@@ -221,7 +221,7 @@ const contentArray = [
     },
     {
         id: "4b",
-        title: "Autonuke",
+        title: "Salvage and Rescue",
         text: `<p>“Meal Ready!” Chimed the machine voice of the autonuker”</p>`,
         dialog: [
             {
@@ -243,12 +243,12 @@ const contentArray = [
             scaleType: "square",
         },
         nextPage: "4c",
-        time: 100,
+        time: 0,
         audio: "./audio/autoNukeChime.wav",
     },
     {
         id: "4c",
-        title: "Mess Hall",
+        title: "Salvage and Rescue",
         text: `<p>“Last message they sent said they were about 2 months behind us." Connor replied sitting down opposite his friend.</p>
         <p>"They must have gotten moving pretty quick from Lunar in order to be so close on our heels.” Onaje Commented."</p>
         <p>“How’d the nav console go?” he asked smirking in a manner that told Connor he already knew the answer.</p>
@@ -265,7 +265,7 @@ const contentArray = [
     },
     {
         id: "4d",
-        title: "Mess Hall",
+        title: "Salvage and Rescue",
         text: `<p>“I best try and get an hour or two before we arrive" said Onaje getting up to put his bowl in the autocleanse.</p>
         <p>“I’ll call you when we reach visual range”</p>
         <p>Walking out Onaje gave a thumbs up over his shoulder as he left.</p>
@@ -343,7 +343,7 @@ const contentArray = [
     },
     {
         id: "6a",
-        title: "Gwydion",
+        title: "Arrival at The Gwydion",
         text: `<p>Rhiannon was not a big ship she knew, but with her long range engines and salvage equipment she was still one of the larger ships at the Titan docks. Even so, lying in the Gwydion's hangar she felt no bigger than a ground car.</p>
         <p>Watching from her external viewers, she could see her crew and the small team of bots led by Three’s, the oldest and most venerable bot in service to her and her crew, making their way to the hangars inner doors. They looked like ant’s to her from this distance.
          She felt a pang of worry, they appeared so vulnerable walking into the depths of this giant silent ship. What made her worry more was there was almost nothing she could do to help them if any trouble arose deeper in the ship. She fought to calm her jittering circuitry.</p>
@@ -359,7 +359,7 @@ const contentArray = [
     },
     {
         id: "7a",
-        title: "To the bridge",
+        title: "Arrival at The Gwydion",
         text: ``,
         dialog: [
             {
@@ -385,7 +385,7 @@ const contentArray = [
     },
     {
         id: "7b",
-        title: "Gwydion",
+        title: "Arrival at The Gwydion",
         text: `<p>“Compliance.”</p>`,
         image: {
             imageRef: `images/GwydionCorridor.jpg`,
@@ -397,7 +397,7 @@ const contentArray = [
     },
     {
         id: "7c",
-        title: "Gwydion",
+        title: "Arrival at The Gwydion",
         text: `<p>“Yes Captain, interfacing…”</p>`,
         image: {
             imageRef: `images/GwydionCorridor.jpg`,
@@ -409,7 +409,7 @@ const contentArray = [
     },
     {
         id: "7d",
-        title: "Gwydion",
+        title: "Arrival at The Gwydion",
         text: `<p>The bulkhead door begun to slide open as Threes hard interfaced with the control console.</p>
         <p>The corridor extending in front of the small party was dimly lit illuminated by but a few flickering lights along it's hall way. Even so, Connor was able to make out the state of utter disrepair which it was in.
          The walls, ceiling and floor seemed peppered with what appeared to be uncomfortably reminiscent of bullet holes. Debris scattered the floor, pieces of the chewed up ceiling and walls having fallen to the floor.</p>
@@ -431,7 +431,7 @@ const contentArray = [
     },
     {
         id: "7d",
-        title: "Gwydion",
+        title: "Arrival at The Gwydion",
         text: `<p>As they made their way down, what Connor was fairly sure was the main spinal corridor of the Gwydion, they continued to encountered the strange patterns of damage that 
         appeared eerily similar to that you would expect after the close quarters combat of a boarding action although someone apparently having a distinct dislike of illumination with many of the overhead lights appearing to have been intentionally shot out. 
         Despite the obvious signs of conflict however they had not found a single body, destroyed bot, or even so much as a blood stain.</p>`,
@@ -445,7 +445,7 @@ const contentArray = [
     },
     {
         id: "8a",
-        title: "Gwydion",
+        title: "Arrival at The Gwydion",
         text: `<p>“Looks like a hell of a fight” Commented Onaje</p>
         <p>“Hmmm but where is the blood? The bodies?”</p>
         <p>“Maybe the crew cleaned it up?” suggested Hyun-Ae</p>`,
@@ -459,7 +459,7 @@ const contentArray = [
     },
     {
         id: "8b",
-        title: "To the bridge",
+        title: "Arrival at The Gwydion",
         text: `<p>“Negative, there are still shell cases on the floor, these too would have been cleaned up if the crew had removed any stains caused by the bodily fluids of fallen comrades,” said Threes helpfully.</p>`,
         dialog: [
             {
@@ -485,7 +485,7 @@ const contentArray = [
     },
     {
         id: "8c",
-        title: "Gwydion",
+        title: "Arrival at The Gwydion",
         text: `<p>“Compliance”</p>`,
         image: {
             imageRef: `images/GwydionCorridorWithDebris.jpeg`,
@@ -497,7 +497,7 @@ const contentArray = [
     },
     {
         id: "8d",
-        title: "Gwydion",
+        title: "Arrival at The Gwydion",
         text: `<p>“Of course, I would not have spoken if it was likely to be an incorrect assessment”</p>`,
         image: {
             imageRef: `images/GwydionCorridorWithDebris.jpeg`,
@@ -509,7 +509,7 @@ const contentArray = [
     },
     {
         id: "9a",
-        title: "Gwydion",
+        title: "Arrival at The Gwydion",
         text: `<p>As they continued down the Gwydion's long central corridor passing by rooms and branching corridors in similar states of devastation. They reached what appeared to be the sailors' mess. 
         Moving inside Connor could see even more of the apparent wanton destruction. Flipped tables and chairs, and a row of destroyed appliance, all of which seem to have been systematically shot.</p>
         <p>“Were those autonukers executed?” asked Hyun-Ae</p>
@@ -527,7 +527,7 @@ const contentArray = [
     },
     {
         id: "10a",
-        title: "The Bridge",
+        title: "Gwydion",
         text: `<p>After what seemed like an eternity hiking down the more than kilometer long corridor, the steel Iris of the bridge lay sealed shut infront of the small party. 
         The signs of fighting were evident here too, along with a number of dents and scorch marks across the steel bridge bulkhead.</p>
         <p>“Captain, what if it was a mutiny?" suggested Onaje, during his time as a corpo Securities officer he had been a part of putting down one or two such mutinies before.</p> 
@@ -551,7 +551,7 @@ Inside looked pristine, not a chair out of place, utterly at odds with the scene
     },
     {
         id: "10b",
-        title: "The Bridge",
+        title: "Gwydion",
         text: `<p>“Hyun-Ae?”</p>
 <p>“Yes Captain?” </p>
 <p>Connor had decided that Hyun could do with a SAR bot as well as an ENG variant. Considering the unknown fate of the crew, and what may have caused it. He would feel much better with the more heavily armed and combat programed Search and Rescue variant covering her back.
@@ -571,7 +571,7 @@ A decision she seemed evidently relieved by. Not that she would have ever admitt
     },
     {
         id: "10c",
-        title: "The Bridge",
+        title: "Gwydion",
         text: `<p>She was glad that Connor had left the two bots with her, this ship was seriously creeping her out.
         It had crossed her mind they might be dealing with a rogue AI. Even though such a thing hadn’t happened since the Mercury disaster nearly 50 years previous it was still a possibility. An a kernal of worry wouldn't stop niggling at the back of her brain.
         Especially since she was trying to wake Gwydion up. Which would hardly end well for her if he really had gone rogue.</p>
@@ -589,7 +589,7 @@ A decision she seemed evidently relieved by. Not that she would have ever admitt
     },
     {
         id: "11a",
-        title: "Quick Time Event",
+        title: "Gwydion",
         text: `<p>"Key in access code..."droned the monotonous voice of the interface speaker.</p>`,
         image: {
             imageRef: `images/ControlPanel2.jpeg`,
@@ -601,7 +601,7 @@ A decision she seemed evidently relieved by. Not that she would have ever admitt
             successCode: "111a43f9bq",
             passPage: "11b",
             failPage: "failScreen",
-            failPageMessage: "<p>Code not recognised please try again</p>",
+            failPageMessage: `<p>"Incorrect access key" the speak droned "session terminated... reinitialize session to proceed..."</p>`,
             failPageCheckpoint: "11a",
         },
         nextPage: "failScreen",
@@ -610,7 +610,7 @@ A decision she seemed evidently relieved by. Not that she would have ever admitt
     },
     {
         id: "11b",
-        title: "The Bridge",
+        title: "Gwydion",
         text: `<p>“Gwydion Awakening…” Intoned a synthesized male voice.</p>
 <p>“Who are you?” The voice asked, an edge of anger seeping into it's tone.</p>
 <p>“Hyun-Ae, chief engineer of the salvage and rescue ship Rhiannon from Titan. Dispatched by the grand admiralty of the Martian Confederated Colonies upon request from your masters at the Conglomerate Naval Board.”</p>
@@ -634,7 +634,7 @@ There is a Conglomerate Salvage and Rescue flotilla approximately two months beh
     },
     {
         id: "11c",
-        title: "The Bridge",
+        title: "Gwydion",
         text: `<p>“Are you suggesting that I have attacked my crew?!” Gwyidion boomed through the bridge speakers. Loud enough to set Hyun-Ae's ears ringing.</p>
 <p>“No," She confirmed hurredly "However you were dormant and everyone is missing.
  There are signs of fighting prevalent all throughout the ship. Perhaps you were attacked and someone has removed your memory of the event? Maybe someone has hidden malware in your system?”</p>
@@ -657,9 +657,10 @@ There is a Conglomerate Salvage and Rescue flotilla approximately two months beh
     {
         id: "12a",
         title: "Searching the ship",
-        text: `<p>Connor, Onaje, Threes, and the bots were making their way to Gwydion's engineering section, looking to see if any of the crew have sought refuge there and, if not, to find clues about the fate of Gwydion’s crew. </p>
-<p>As they walked they came across more scenes reminiscent of those they found on the main thoroughfare. Lights destroyed, appliances shot, intercoms torn out. These scenes however became less frequent the further they traveled from the bridge however, it appeared that most of whatever had happened was closer to the bridge.</p>
-<p>A final stand perhaps?  Thought Connor, but why no bodies or blood? </p>
+        text: `<p>Connor and his small party, had been making their way towards the Gwydion's engineering deck. A place as likely as any Connor thought to get some answers to the increasingly disturbing silence of the massive ship.</p>
+<p>As they made their way deeper into the ship the signs of combat began to reduce. Unlike the wanton destuction they had seen closer to the bridge this appeared almost deliberate, lights taken out with single shots, intercom speakers torn from their housing</p>
+<p>"What the fuck happened here?" He heard Onaje mumble under his breath.</p>
+<p>Connor just nodded. 'Whatever it was' he thought 'it wasn't good'</p>
 `,
         image: {
             imageRef: `images/GwydionCorridorWithDebris.jpeg`,
@@ -673,14 +674,15 @@ There is a Conglomerate Salvage and Rescue flotilla approximately two months beh
         id: "12b",
         title: "Searching the ship",
         text: `<p>“Did you hear that?” asked Onaje</p>
-<p>“I hear only background noise and static from faulty and damaged speakers” replied Threes,</p>
-<p>“I didn’t hear anything unusual” said  Connor asking “what did you hear?”</p>
-<p>“The speakers, didn’t that sound like a pattern to you?”</p>
-<p>“I didn’t notice it, I will keep an ear out though if it happens again”</p>
-<p>They turned a corner into a dark corridor lit only by a single flickering ceiling light.</p>
-<p>“Engineering should be just through there” said Connor</p>
-<p>“A4452, open that door and get us in”</p>
-<p>“Compliance” said one of the engineering bots with them.</p>
+<p>“I hear only background noise and static from faulty and damaged speakers” replied Threes in his typical monotonous drone,</p>
+<p>“I didn’t hear anything unusual” Connor replied having heard nothing himself but unwilling to dismiss Onaje's years of experience out of hand “what did you hear?”</p>
+<p>“The speakers... doesn't that sound like a pattern to you?”</p>
+<p> Connor listened, the drone of the ships devastated internal systems rising and falling as it was punctuated by the fizz pop of shorting wires. Connor listened for what must have been thirty seconds trying to decern what Onaje had heard but was unable to pick any patter out of the noise.</p>
+<p>“I can't hear it, just sounds like shorting wires and noise to me.” he said finally "Let me know if you hear it again"</p>
+<p> "Yes boss..." Onaje replied clearly distracted by his efforts to pick up the elusive pattern as they moved out.</p>
+<p>“Engineering should be just through there” said Connor as they passed through a T-junction lit by a single flickering light</p>
+<p>“A4452, open that door and get us in” he said directing one of the ENG bots of the party to the sealed door at the end of the corridor.</p>
+<p>“Compliance” came the bots emotionless acknowledgment as it advance it's steel feet ringing loudly on the deck plate</p>
 `,
         image: {
             imageRef: `images/GwydionCorridorWithDebris.jpeg`,
@@ -694,16 +696,18 @@ There is a Conglomerate Salvage and Rescue flotilla approximately two months beh
     {
         id: "12c",
         title: "Searching the ship",
-        text: `<p>As they waited for A4452 to get the door open, Connor found himself, staring at the flickering light, as he watched he thought he saw a pattern also, but it was too fast and complex to be sure.</p>
-<p>“Hey” he said “Do you see the light? You think it is flickering in a pattern too?”</p>
-<p>“I can’t tell” said Onaje, “if it is it’s a long one”</p>
-<p>“Threes can you tell?”</p>
-<p>“I detect a consistent pattern occurring over a 12.32114 second period, I believe this is the result of a rotaying power fluctuation to the light, possibly caused by the same implement that damaged the other lamps in this corridor. I believe the pattern to be meaningless.” replied Threes at length.</p>
-<p>“Hmm fair enough I guess, getting a bit jumpy boss?”</p>
-<p>“Me? You’re the one who was jumping at a couple of speakers a second ago!” replied Connor indignantly</p>
-<p>“Hahaha” laughed Onaje “touche”</p>
-<p>“Door opening” an tinny electronic voice sounded from the doors key pad</p>
-<p>“Lets go” ordered Connor taking up the rear.</p>
+        text: `<p>It took some time for the BOT to get the door open. As Connor leaned against the bulkhead he found himself staring at the flickering light in the center of the junction.</p>
+        <p>BLINK... BLINK BLINK, BLINK... BLINK... BLINK BLINK, BLINK</p>
+<p>“Hey” he said punching Onaje's arm and gesturing “The light”</p>
+<p>Onaje had been keeping a steady watch down the corridor and looked up at the gesture "Hmmm, I see it too" he said after a moment</p>
+<p>“Threes can you tell?” Onaje asked</p>
+<p>“I detect a consistent pattern occurring over a 12.32114 second period, I believe this is the result of a rotating power fluctuation to the light. Likley caused by the damage we have observed to the other internal systems" The BOT replied at length</p>
+<p>“Hmmmm, I guess" he replied clearly not satisfied with the answer</p>
+<p>“Come on!” Connor chuckled giving Onaje another punch in the arm "A veteran like you jumping at a few dim corridors! Geeze don't make the Corpo PMC's like the used to hey"</p>
+<p>“Why do you think I quit to come skulk around with you in the middle of nowhere” the veteran replied with a forced smile</p>
+<p>despite his attempt to make light of the situation Connor couldn't shake the feeling of something just out of sight watching them. 'Fucking hell' he thought to himself 'I'm as jumpy as a fresh recruit!' </p>
+<p>His revery was interupted by the hiss scrape of the Door as the BOT finally managed to override the locking mechanism.</p>
+<p>“Lets go” ordered Connor sloting in at the rear of the party stepping through the doorway.</p>
 `,
         image: {
             imageRef: `images/GwydionClosedDoorway.jpeg`,
@@ -716,7 +720,8 @@ There is a Conglomerate Salvage and Rescue flotilla approximately two months beh
     {
         id: "12d",
         title: "Searching the ship",
-        text: `<p>As Connor Passed through the door he heard a horrible shrieking sound as the door came slamming down towards him</p>
+        text: `<p>SCREEEEEEECH</p>
+        <p>The sound of protesting metal rails was deafening and Connor looked up to see the bulkhead door hurtling down towards him</p>
 `,
         image: {
             imageRef: `images/MovingThroughDoorway1.jpeg`,
@@ -740,8 +745,8 @@ There is a Conglomerate Salvage and Rescue flotilla approximately two months beh
             successCode: "a",
             passPage: "12f",
             failPage: "failScreen",
-            failPageMessage:
-                "<p>Unable to get out of the way fast enough Connor was caught squarely in center by the door, being nearly cut in half by the force of the impact.</p>",
+            failPageMessage: `<p>Unable to get out of the way fast enough Connor was caught squarely in center by the door, being nearly cut in half by the force of the impact.
+                 His blood an viscera spraying the walls on both sides of the now shut door before each side of him feel lifeless to the deck.</p>`,
             failPageCheckpoint: "12d",
         },
         nextPage: "failScreen",
@@ -751,8 +756,8 @@ There is a Conglomerate Salvage and Rescue flotilla approximately two months beh
     {
         id: "12f",
         title: "Searching the ship",
-        text: `<p>Connor dived into engineering narrowly avoiding the door which slammed with a reverberating BANG! That echoed through the large engineering bay.</p>
-<p>“Fuck that was close!” Breathed Connor as he got to his feet</p>
+        text: `<p>Connor dived through the door narrowly avoiding being cut in half as the bulk head slamed closed with a reverberating bang that echoed through the cavernous engineering bay.</p>
+<p>“Fuck that was close!” Connor muttered breathlessly as threes helped him to his feet</p>
 `,
         image: {
             imageRef: `images/GwydionClosedDoorway.jpeg`,
@@ -787,7 +792,7 @@ There is a Conglomerate Salvage and Rescue flotilla approximately two months beh
             scaleType: "square",
         },
         nextPage: "13c",
-        time: 5,
+        time: 0,
     },
     {
         id: "13b",
@@ -805,9 +810,9 @@ There is a Conglomerate Salvage and Rescue flotilla approximately two months beh
     {
         id: "13c",
         title: "Searching the ship",
-        text: `<p>“Ok lets move, keep your eyes peeled for survivors” Ordered Connor.</p>
-<p>The small party spread out and moved towards the rear of the engineering bay, which echoed softly with the metallic tread of the bots as they advanced through the engineering bay.</p>
-<p>The bay was massive, easily as large as the hangar Rhiannon was in, if not larger but with a significantly lower ceiling.</p>
+        text: `<p>“Ok lets move, keep your eyes peeled for survivors” Ordered Connor releasing Threes' assisting grasp and picking up his weapon from where it lay.</p>
+<p>The small party spread out, moving down the corridors made by the stacks of crates and machinery nearly three times Connors height, their footsteps echoing softly in the quiet expanse.</p>
+<p>The bay was massive, easily as large as the hangar within which they had made ingress to the Gwydion but with a lower ceiling. Not needing to allow for the additional head height required for shuttles and other smaller craft that the hangar was designed to support.</p>
 `,
         image: {
             imageRef: `images/GwydionEngineering.jpeg`,
@@ -820,17 +825,17 @@ There is a Conglomerate Salvage and Rescue flotilla approximately two months beh
     {
         id: "13d",
         title: "Searching the Ship",
-        text: `<p>“I don’t like this” came Onaje’s voice over the coms “Its so quiet, I feel like I am being watched”</p>`,
+        text: `<p>“It's too quiet” came Onaje's voice through the com bead, a hint of disquiet in his tone that Connor was unused to hearing from the grizzled veteran “I feel like I am being watched”</p>`,
         dialog: [
             {
                 id: "O1",
-                text: "<p>“Bit jumpy are you, thought an old veteran like you wouldn’t be so easily phased”</p>",
+                text: "<p>“Jumping at a few shadows are we?”</p>",
                 storyPoints: 0,
                 nextPage: "13e",
             },
             {
                 id: "O2",
-                text: "<p>“I know what you mean, I feel as if I was to turn quickly I might catch something in the corner of my eye.”</p>",
+                text: "<p>“Me too, I feel like if I were to turn around quickly I'd catch something scuttling back into the shadows.”</p>",
                 storyPoints: 5,
                 nextPage: "13f",
             },
@@ -841,13 +846,13 @@ There is a Conglomerate Salvage and Rescue flotilla approximately two months beh
             scaleType: "square",
         },
         nextPage: "13e",
-        time: 6,
+        time: 0,
     },
 
     {
         id: "13e",
         title: "Searching the ship",
-        text: `<p>“Hmph, perhaps that's why you should listen to me.”</p>
+        text: `<p>“Hmph” Onaje grunted in response clearly miffed about being brushed off.</p>
 `,
         image: {
             imageRef: `images/GwydionEngineering.jpeg`,
@@ -860,7 +865,7 @@ There is a Conglomerate Salvage and Rescue flotilla approximately two months beh
     {
         id: "13f",
         title: "Searching the ship",
-        text: `<p>“Indeed, keep your eye’s peeled boss”</p>
+        text: `<p>“Almost wish you had said it was just me.” he said his voice low</p>
 `,
         image: {
             imageRef: `images/GwydionEngineering.jpeg`,
@@ -873,13 +878,20 @@ There is a Conglomerate Salvage and Rescue flotilla approximately two months beh
     {
         id: "14a",
         title: "Searching the ship",
-        text: `<p>As they were nearing the outer edge of the engineering bay Connor could see the massive cargo doors looming in front of him. Connor knew that the entire engineering bay could be depressurised in order to allow for easy salvage, repair, and restock even when in void. A similar feature existed on Rhiannon as well. Although Connor had never seen engineering doors of this scale before. </p>
-<p>“Woohoo” , Connor whistled to himself “This is one hell of a ship”.</p>
-<p>Over to his left Connor saw Onaje examining a row of nearly 100 bot cradles.</p>
-<p>“Geeze, that's alot of engineering bots” Connor said walking over.</p>
-<p>“Yeah, but where are all the bots?”</p>
-<p>Confused, Connor looked again, and noticed through the scratched and worn perspex windows there was nothing. All the cradles were empty.</p>
-<p>“What the fuck?, where are they all? How does a crew of this size disappear along with all its bots?”</p>
+        text: `<p>They were approaching the rear of the engineering bay, where the massive external doors loomed. Connor had seen the like before on many larger Salvage and mining vessels.
+         The doors could make a direct seal with an orbital dock allowing for rapid and easy transfer of goods and materiel from the dock or another ship directly to the Gwydion. 
+         Connor had also seen salvage vessels depressurize an entire compartment before opening the large doors in order to speed up a salvage effort.
+         Removing  time consuming re-pressurization process each time a reclaimed section was to be brought aboard.
+         
+<p>“Woohoo” , Connor whistled to himself as he marveled at the scale of the doors and subsequent bay in front of him. They exceeded even those on the largest of salvage ships and he was briefly taken aback by the utterly immense scale of the vessel.
+which only made it's apparent lifelessness even more disconcerting.</p>
+<p>Now they had passed out of the rows of containers and machinery Connor looked around to check on the progress of his team. Seeing Onaje examining a bank of what looked like hundreds of bot cradles.</p>
+<p>“Just a few.” Connor said as he made his way over.</p>
+<p>“Where are they all?” Onaje replied his eyes fixed on the cradle in front of him</p>
+<p>Confused, Connor looked in one next to himself. To his surprise it was empty. The scratched an worn perspex inspection window showed an empty cradle where a bot should have been. Moving to the next one he saw it was empty too.</p>
+<p>“What the fuck? How does a crew of this size disappear along with all its bots?” Connor said his concerns rushing back as he struggled with the impossibility of the situation. 
+"Thousands of crew and bots and we haven't seen so much as a mouse scuttling around the corridors." </p>
+<p>"I'm not liking this at all boss" Onaje said his weapon raised it's under barrel flashlight scanning the silent chamber.</p>
 
 `,
         image: {
@@ -907,10 +919,12 @@ There is a Conglomerate Salvage and Rescue flotilla approximately two months beh
     {
         id: "14c",
         title: "Searching the ship",
-        text: `<p>As if in answer to his question an alarm started blaring as the gears and hydraulics of the engineering doors started whirring to life</p>
-<p>“Warning Outer door opening!” Came an electronic voice through the engineering bay speakers</p>
-<p>Connor Onaje, and all the bots were swept off their feet as the engineering bays atmosphere was vented. </p>
-<p>A4452 was sucked closest to the doors and was sucked bodily out them almost instantly with no chance to grab something to hold on Connor noticed he was on his way out too being sucked out towards the hard void.</p>
+        text: `<p>The silence was shattered by the blaring of an alarm as red waring lights began flashing all across the engineering bay.</p>
+<p>“Warning Outer door opening.” Warned an incongruously calm electronic as the main bay doors began to open.</p>
+<p>Connor Onaje, and all the bots were ripped off their feet as the atmosphere rushed out through the doors like a prisoner sprung from jail.</p>
+<p>One of the ENG BOTs nearest the opening doors was sucked out into space. It's cry of alarm drowned out by the roar of the escaping atmosphere.</p>
+<p>Connor too found himself being inexorably dragged out of the bay as he desperately scrabbled for a hand hold. Just as he was being dragged out into the void his hand caught on something.
+ He had managed to cling onto one of the control panels that the the ships engineers or ENG bots would use to work the large doors under more normal circumstances</p>
 `,
         image: {
             imageRef: `images/BotEjectedIntoSpace.jpeg`,
@@ -924,7 +938,7 @@ There is a Conglomerate Salvage and Rescue flotilla approximately two months beh
     {
         id: "14d",
         title: "Quick Time Event",
-        text: `<p>Noticing a key pad next to the opening doors, Connor was able to grab onto a nearby wall strut and begin entering the close sequence.</p>`,
+        text: `<p>Connor desperately began punching in the override code one handed as he clung on for dear life</p>`,
         image: {
             imageRef: `images/ControlPanel1.jpeg`,
             alt: "Control panel 1",
@@ -935,12 +949,14 @@ There is a Conglomerate Salvage and Rescue flotilla approximately two months beh
             successCode: "118765",
             passPage: "14e",
             failPage: "failScreen",
-            failPageMessage: `<p>clumsy from the disorentating de-compression Connor punched in the wrong code. Losing his grip he also was torn out of the Gwydion and ejected far into space. Breathing heavily Connor began to regain control.</p>
-<p>“It’s ok, Rhiannon will be able to come out and get us, just need to keep calm and we’ll be fine”</p>
-<p>That's when he noticed the small crack leaking air through his visor</p>
-<p>“Suit Oxygen low” came the synthesized voice of his internal suits systems</p>
-<p>Panicked now, Connor noticed the small crack in his visor above his right eye.</p>
-<p>“Fuck”</p>
+            failPageMessage: `
+            <p>Clumsy from the disorientating de-compression Connor punched in the wrong code and before he could try again is fingers slipped and he was torn out of the Gwydion like a hapless bacteria expelled by a giants sneeze.</p>
+             <p>After what felt like an eternity but couldn't have been more than a couple of minutes the small 0g thrusters in his suit were able to arrest his headlong tumble in the void.</p>
+             <p>Looking back towards the open doors he could see he was already nearly a kilometer away and despite no longer tumbling he was still moving further away. The small thrusters of his suit struggling to overcome the inertia of his rapid ejection from the ship</p>
+<p>“It’s ok, Rhiannon will be able to come out and get us, just need to keep calm and we’ll be fine” he said forcing himself to breath to calm himself down and conserve the limited oxygen supply of his suit</p>
+<p>Despite his efforts however his breathing still seemed shallow. No matter how much he tried he couldn't breath any deeper. glancing down he saw a small crack in the bottom corner of his visor, the air freezing into vapor as it vented into the void.</p>
+<p>“Suit Oxygen low” came the synthesized voice of his suits monitoring systems.</p>
+<p>'Fuck' he thought the world fading into grey.</p>
 `,
             failPageCheckpoint: "14c",
         },
@@ -951,7 +967,7 @@ There is a Conglomerate Salvage and Rescue flotilla approximately two months beh
     {
         id: "14e",
         title: "Searching the ship",
-        text: `<p>Able to punch in the code the doors began closing and slowly the gale pulling them towards the door ceased and Connor was able to regain his footing.</p>`,
+        text: `<p>Able to punch in the code the doors began closing the grind of their hinges barley audible through the now thin atmosphere of the bay. Slowly the gale pulling him towards the door died away as the doors came together and he was able to regain his footing.</p>`,
         image: {
             imageRef: `images/GwydionRedRoom.jpeg`,
             alt: "Gwydion Red Room",
@@ -963,7 +979,7 @@ There is a Conglomerate Salvage and Rescue flotilla approximately two months beh
     {
         id: "15a",
         title: "The Survivor",
-        text: `<p>“Fuck me! That was too close” coughed Connor,</p>
+        text: `<p>“Fuck me! That was too close” coughed Connor breathing as the air cyclers struggled to re-pressurize the vast chamber.</p>
 `,
         image: {
             imageRef: `images/GwydionRedRoom.jpeg`,
@@ -976,17 +992,17 @@ There is a Conglomerate Salvage and Rescue flotilla approximately two months beh
     {
         id: "15b",
         title: "Searching the Ship",
-        text: `<p>“It seems the ship has an adverse reaction to your presence Captain.” said Threes helpfully.</p>`,
+        text: `<p>“It seems the ship has an adverse reaction to our presence Captain.” said Threes completely unbothered by the thin atmosphere.</p>`,
         dialog: [
             {
                 id: "O1",
-                text: "<p>“Shut up Threes” </p>",
+                text: "<p>“Shut up Threes” Connor said scowling as he coughed, his lungs burning with the effort of breathing the all too slowly thickening atmosphere</p>",
                 storyPoints: 0,
                 nextPage: "15c",
             },
             {
                 id: "O2",
-                text: "<p>“Was that a joke Threes?”</p>",
+                text: "<p>“Was that a joke?” Connor said smiling despite the pain in his lungs</p>",
                 storyPoints: 5,
                 nextPage: "15d",
             },
@@ -997,7 +1013,7 @@ There is a Conglomerate Salvage and Rescue flotilla approximately two months beh
             scaleType: "square",
         },
         nextPage: "15c",
-        time: 5,
+        time: 0,
     },
     {
         id: "15c",
@@ -1015,7 +1031,8 @@ There is a Conglomerate Salvage and Rescue flotilla approximately two months beh
     {
         id: "15d",
         title: "The Survivor",
-        text: `<p>“My observation regarding the repeated imperilment of your life does not seem humorous to me captain”</p>`,
+        text: `<p>“My observation regarding the repeated imperilment of your life and our mission does not seem humorous to me captain”</p>
+        <p>"Neither." Connor replied as he finally was able to catch his breath "Your concern is appreciated Threes."`,
         image: {
             imageRef: `images/GwydionRedRoom.jpeg`,
             alt: "Gwydion Red Room",
@@ -1027,9 +1044,9 @@ There is a Conglomerate Salvage and Rescue flotilla approximately two months beh
     {
         id: "15e",
         title: "The Survivor",
-        text: `<p>“Ok, Onaje, What is left to search here?”</p>
-<p>“Only the far entrance, the medical bay should be in that direction further down the ship also” replied Onaje</p>
-<p>“Ok, we will head that way, see if there is anything else to find in the med bay. IWe need to figure out what has happened to the crew.” </p>
+        text: `<p>"I think we have searched this particular bay quite enough don't you think Ona?" Connor asked as he moved towards one of the small bulkhead doors leading out of the bay</p>
+<p>“Not going to hear a complaint from me.” replied Onaje falling in beside him. "Med bay is only a short way further along this passage."</p>
+<p>“Ok, hopefully we can find a clue to what happened to the crew there. Maybe the docs logs will show something.” he said as the remaining ENG bot worked to override door.</p>
 
 `,
         image: {
