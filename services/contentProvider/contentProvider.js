@@ -978,7 +978,7 @@ which only made it's apparent lifelessness even more disconcerting.</p>
     },
     {
         id: "15a",
-        title: "The Survivor",
+        title: "Searching the ship",
         text: `<p>“Fuck me! That was too close” coughed Connor breathing as the air cyclers struggled to re-pressurize the vast chamber.</p>
 `,
         image: {
@@ -1017,7 +1017,7 @@ which only made it's apparent lifelessness even more disconcerting.</p>
     },
     {
         id: "15c",
-        title: "The Survivor",
+        title: "Searching the ship",
         text: `<p>“Compliance”</p>
 `,
         image: {
@@ -1030,7 +1030,7 @@ which only made it's apparent lifelessness even more disconcerting.</p>
     },
     {
         id: "15d",
-        title: "The Survivor",
+        title: "Searching the shipr",
         text: `<p>“My observation regarding the repeated imperilment of your life and our mission does not seem humorous to me captain”</p>
         <p>"Neither." Connor replied as he finally was able to catch his breath "Your concern is appreciated Threes."`,
         image: {
@@ -1043,7 +1043,7 @@ which only made it's apparent lifelessness even more disconcerting.</p>
     },
     {
         id: "15e",
-        title: "The Survivor",
+        title: "Searching the ship",
         text: `<p>"I think we have searched this particular bay quite enough don't you think Ona?" Connor asked as he moved towards one of the small bulkhead doors leading out of the bay</p>
 <p>“Not going to hear a complaint from me.” replied Onaje falling in beside him. "Med bay is only a short way further along this passage."</p>
 <p>“Ok, hopefully we can find a clue to what happened to the crew there. Maybe the docs logs will show something.” he said as the remaining ENG bot worked to override door.</p>
@@ -1060,9 +1060,11 @@ which only made it's apparent lifelessness even more disconcerting.</p>
     {
         id: "16a",
         title: "The Survivor",
-        text: `<p>The medical bay had clearly been ransacked, broken pill bottles and damaged machinery lay strewn around the small cluster of rooms like a mini tornado had made it’s way through every corner of the enclosed space.</p>
-        <p>“Cheap, bastards” Onaje murmured under his breath, looking around the pitiful collection of rooms and alcoves that made up the Gwydion's medical bay “Crew of hundreds and this is their medical facilities? Typical.”</p>
-        <p>He was right, it was typical for a conglomerate ship to spend absolutely as little as possible on the health and well being of their crew. When it came to the conglomerate if it didn’t make money they didn’t care. This philosophy extended to their sick and injured as well, not that the suits would ever say that.</p>`,
+        text: `<p>The medical bay had been ransacked. Broken pill bottles and damaged machinery lay strewn around the small cluster of rooms as if a mini tornado had appeared and decided to try its hand at interior design.</p>
+        <p>“Cheap, bastards” Onaje murmured under his breath as he entered the room behind Connor and took in the pitiful collection of rooms and alcoves that made up the Gwydion's medical bay.</p>
+        <p>"I see the Conglomerate has taken to workers compensation with their usual gusto" Connor said sharing his friends sentiment. Being an ex-Cong himself and a field surgeon at that, Onaje knew all to well the the Conglomerates utter disdain
+        (despite what the propo films might suggest) for anything that couldn't make them a quick buck. Meaning that despite the Gwydion being a ship of thousands it possessed a grand total of what appeared to be 6 medical beds and a dental chair.
+         Which Connor thought was oddly generous of them.`,
         image: {
             imageRef: `images/GwydionMedicalBay.jpg`,
             alt: "Gwydion Medical Bay",
@@ -1074,7 +1076,10 @@ which only made it's apparent lifelessness even more disconcerting.</p>
     {
         id: "16b",
         title: "The Survivor",
-        text: `<p>Connor knew how this would upset Onaje. Onjae had been a field medic then military surgeon for the Martian Confederate Navy for more than 2 decades and this barebones and poorly equipped facility went against everything the Confederation stood for. Whilst the Conglomerate cared only about profit and all its citizens lived to serve and toil under their corporate lords (again not that the suits would ever say that), the Confederation had rejected the dehumanizing views of the other nations in the solar system. Mars strived to treat each of its citizens and their lives as important and even sacred and would go to near any length to ensure the safety and freedom of their citizens.</p>`,
+        text: `<p>Connor knew how seeing the dismal facilities of a Conglomerate vessel would bring back memories Onaje tried his damndest to force back down but he could tell his friend was struggling to hold his temper, his fist tightening and loosening around the pistol grip of his slugger.
+        this would upset Onaje. deciding it was best to get his friends mind off the current state of the med bay before he started adding large calibre holes to the rooms decor, he spoke up.</p>
+        <p>"Onaje, you have a look at the patient rooms, Three's check to see if you can't rip anything off the medical terminal, I'll check out the store room. Other BOTs keep an eye on the corridor"</p>
+        <p>"Affirmative" came the chorused response of the BOTs and Threes, as they went about their orders, Onaje nodding in silent acknowledgment as he moved towards the nearest patient room.</p>`,
         image: {
             imageRef: `images/GwydionMedicalBay.jpg`,
             alt: "Gwydion medical bay",
@@ -1086,9 +1091,8 @@ which only made it's apparent lifelessness even more disconcerting.</p>
     {
         id: "16c",
         title: "The Survivor",
-        text: `<p>“I’m just glad, I don’t work for the greedy cunts anymore!” agreed Connor with feeling.</p>
-<p>“You and Threes check the patient rooms, I’ll have a look at the store room”</p>
-<p>The store room was the biggest of the rooms in the cramped medical bay and even then would have struggled to have sufficient supplies for a crew of this size. This too had been ransacked, with boxes and bags torn open and much of what they held spilt onto the floor.</p>
+        text: `<p>The store room was the biggest of the rooms in the cramped medical bay and even then would have struggled to have sufficient supplies for a crew half the Gwydion's size. This too had been ransacked, with boxes and bags torn open and much of what they
+        held spilt onto the floor. So much so that walking on it felt like walking on a floor of marbles. Connors sliding and rolling as the spilt pills and canisters rolled under his tread.</p>
 `,
         image: {
             imageRef: `images/GwydionMedicalBay.jpg`,
@@ -1101,7 +1105,17 @@ which only made it's apparent lifelessness even more disconcerting.</p>
     {
         id: "16d",
         title: "The Survivor",
-        text: `<p>What happened here Connor thought, It didn’t look like someone was taking the supplies, too much had been spilt and wasted for that to be likely. Unless they were in one hell of a hurry Connor thought. No It looked more like someone had torn the place to pieces looking for something in particular.</p>`,
+        text: `<p>'What happened here' He thought, If it had been a mutiny he would have expected all of the important medical items to have been hoarded and defended by whoever managed to get their hands on them. he would hardly expect them to just discard
+        such important supplies to the floor for the sake of wonton destruction. Even with the Conglomerates general lack of care for such "luxuries".</p>
+        <p>'No' he thought, 'That wasn't it'</p>
+        <p> The shelves had been stripped nearly bear, their contents dashed to the floor. Some of the shelving units themselves, less securely fastened to the wall than their neighbors had be torn from their fixings as well</p>
+        <p>An icy finger of dread began to drip down his spine as this final observation occurred to him. Had the Venutions been here? Connor knew few things that could fit in the confined storage space that could have snapped quarter inch thick bolts in half, but a Venution
+        breacher was most certainly one of them. Connor had seen one the over muscled hulks genetically engineered to be the Vanguard of Venution assault actions tear a hapless pirate limb from limb in the confined space of the modified ore hauler they had been using to prey on astroid miners in the outer system,
+        and at the time had just been thankful that they were on his side.</p>
+        <p>Venus hadn't responded to the Conglomerates request for assistance. which was no real surprise to anyone. The Conglomerate and the Venution high council having been at each others throats for nearly a century. 
+        Their diametrically opposed philosophies butting heads and leading to bloodshed on more than one occasion. However it just didn't seem right. Whilst he was sure Venus was none too happy about the conglomerates successfully developing FTL travel before them he doubted
+        they would make such a brazen act that would surely and irreversibly lead to a war the Venutions could ill afford.</p>
+        <p>Unable to shake the thought that he was missing something he continued to search the small room.</p>`,
         image: {
             imageRef: `images/GwydionMedicalSupplyRoom.jpeg`,
             alt: "Gwydion medical Supply room",
@@ -1113,14 +1127,13 @@ which only made it's apparent lifelessness even more disconcerting.</p>
     {
         id: "16e",
         title: "The Survivor",
-        text: `<p>As that thought entered his mind he heard something that sounded like a shaky breath.</p>
-<p>“Did you hear that?” Connor asked over coms to Onaje</p>
-<p>“No, what did you hear?”</p>
-<p>“I thought I heard breathing.”</p>
+        text: `<p>Just as he was about to leave convinced he wouldn't find anything of use in here. He heard something. A sound like a shallow breath, so slight he thought he might have imagined it.</p>
+        <p> again he heard it, more clearly this time like a shaky breath or a stifled sob </p>
 <p>Again the shaky breathing came, like someone trying to stifle a sob. He definitely heard it this time.</p>
-<p>“Is someone there?’</p>
-<p>A soft whimper was his only response, but he could tell which direction it was coming from, a small alcove in the store room. Moving towards it he saw a small ventilation grate behind a shelf.</p>
-<p>“Hello?” he said moving towards the grate. He heard something moving in there now, like it was trying to get away.</p>
+<p>“Is someone there?’ He said knowing his voice would transmit across the com feed and raising his weapon, searching for the source of the noise.</p>
+<p>As if in response he heard a soft whimper but it was enough to get a sense of it's direction. A small alcove in the store room stacked with still standing shelves on all sides and so hidden in shadow by the failing light of the room he had almost missed it.</p>
+<p>Moving towards it he saw a small ventilation grate, just large enough for a someone about Hyun-Ae's size to squeeze into. lurking just above ground level almost completely hidden by one of the shelves.</p>
+<p>“Hello?” he said moving towards the grate, weapon raised an wary. He heard something moving in there now, a faint scrape and squeak like clammy skin rubbing against metal as something squirmed in it's now discovered hiding place.</p>
 `,
         image: {
             imageRef: `images/GwydionMedicalSupplyRoom.jpeg`,
