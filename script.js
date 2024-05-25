@@ -1,9 +1,8 @@
 import {
     getCurrentPageTimeout,
     handlePageNavigation,
-    initializeSessionStorage as initializeSessionStorage,
-    renderPage,
 } from "./containers/pageManager/pageManager.js";
+import { renderPage } from "./containers/pageRenderer/pageRenderer.js";
 import {
     setupMusicHTML,
     playNext,
@@ -12,6 +11,7 @@ import {
 } from "./services/musicProvider/musicProvider.js";
 import { initializeTimerBar } from "./components/barTimer/barTimer.js";
 import { handleCodeEntry } from "./components/quickTime/quickTime.js";
+import { initializeSessionStorage } from "./services/utils/utils.sessionStorage.js";
 
 $(document).ready(function () {
     // initialise app and page

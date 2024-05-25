@@ -9,9 +9,7 @@ export const setupMusicHTML = () => {
             </audio>`);
 };
 
-export const musicList = [
-    // { id: 0, next: 1, song: "audio/bulkheadDoorSlam.wav" },
-    // { id: 1, next: 0, song: "audio/benchWack.mp3" },
+const musicList = [
     { id: 0, next: 1, song: "audio/music/MysteriesOfTheAbyss.mp3" },
     { id: 1, next: 2, song: "audio/music/ShadowsCreepUnseen.mp3" },
     { id: 2, next: 3, song: "audio/music/EchoesInDarkness.mp3" },
@@ -28,7 +26,7 @@ export const updateMusicVol = (volumeAdjustment) => {
     musicEl.volume = volumeAdjustment / 100;
 };
 
-export const getSong = (id) => {
+const getSong = (id) => {
     return musicList.find((music) => music.id === id);
 };
 

@@ -656,7 +656,7 @@ There is a Conglomerate Salvage and Rescue flotilla approximately two months beh
     },
     {
         id: "12a",
-        title: "Searching the ship",
+        title: "Searching the Ship",
         text: `<p>Connor and his small party, had been making their way towards the Gwydion's engineering deck. A place as likely as any Connor thought to get some answers to the increasingly disturbing silence of the massive ship.</p>
 <p>As they made their way deeper into the ship the signs of combat began to reduce. Unlike the wanton destuction they had seen closer to the bridge this appeared almost deliberate, lights taken out with single shots, intercom speakers torn from their housing</p>
 <p>"What the fuck happened here?" He heard Onaje mumble under his breath.</p>
@@ -672,7 +672,7 @@ There is a Conglomerate Salvage and Rescue flotilla approximately two months beh
     },
     {
         id: "12b",
-        title: "Searching the ship",
+        title: "Searching the Ship",
         text: `<p>“Did you hear that?” asked Onaje</p>
 <p>“I hear only background noise and static from faulty and damaged speakers” replied Threes in his typical monotonous drone,</p>
 <p>“I didn’t hear anything unusual” Connor replied having heard nothing himself but unwilling to dismiss Onaje's years of experience out of hand “what did you hear?”</p>
@@ -695,7 +695,7 @@ There is a Conglomerate Salvage and Rescue flotilla approximately two months beh
     },
     {
         id: "12c",
-        title: "Searching the ship",
+        title: "Searching the Ship",
         text: `<p>It took some time for the BOT to get the door open. As Connor leaned against the bulkhead he found himself staring at the flickering light in the center of the junction.</p>
         <p>BLINK... BLINK BLINK, BLINK... BLINK... BLINK BLINK, BLINK</p>
 <p>“Hey” he said punching Onaje's arm and gesturing “The light”</p>
@@ -719,7 +719,7 @@ There is a Conglomerate Salvage and Rescue flotilla approximately two months beh
     },
     {
         id: "12d",
-        title: "Searching the ship",
+        title: "Searching the Ship",
         text: `<p>SCREEEEEEECH</p>
         <p>The sound of protesting metal rails was deafening and Connor looked up to see the bulkhead door hurtling down towards him</p>
 `,
@@ -733,7 +733,7 @@ There is a Conglomerate Salvage and Rescue flotilla approximately two months beh
     },
     {
         id: "12e",
-        title: "Quick Time Event",
+        title: "Searching the Ship",
         text: `<p>“JUMP!!!!!”</p>`,
         image: {
             imageRef: `images/MovingThroughDoorway1.jpeg`,
@@ -755,7 +755,7 @@ There is a Conglomerate Salvage and Rescue flotilla approximately two months beh
     },
     {
         id: "12f",
-        title: "Searching the ship",
+        title: "Searching the Ship",
         text: `<p>Connor dived through the door narrowly avoiding being cut in half as the bulk head slamed closed with a reverberating bang that echoed through the cavernous engineering bay.</p>
 <p>“Fuck that was close!” Connor muttered breathlessly as threes helped him to his feet</p>
 `,
@@ -796,7 +796,7 @@ There is a Conglomerate Salvage and Rescue flotilla approximately two months beh
     },
     {
         id: "13b",
-        title: "Searching the ship",
+        title: "Searching the Ship",
         text: `<p>“Affirmative”</p>
 `,
         image: {
@@ -809,7 +809,7 @@ There is a Conglomerate Salvage and Rescue flotilla approximately two months beh
     },
     {
         id: "13c",
-        title: "Searching the ship",
+        title: "Searching the Ship",
         text: `<p>“Ok lets move, keep your eyes peeled for survivors” Ordered Connor releasing Threes' assisting grasp and picking up his weapon from where it lay.</p>
 <p>The small party spread out, moving down the corridors made by the stacks of crates and machinery nearly three times Connors height, their footsteps echoing softly in the quiet expanse.</p>
 <p>The bay was massive, easily as large as the hangar within which they had made ingress to the Gwydion but with a lower ceiling. Not needing to allow for the additional head height required for shuttles and other smaller craft that the hangar was designed to support.</p>
@@ -851,7 +851,7 @@ There is a Conglomerate Salvage and Rescue flotilla approximately two months beh
 
     {
         id: "13e",
-        title: "Searching the ship",
+        title: "Searching the Ship",
         text: `<p>“Hmph” Onaje grunted in response clearly miffed about being brushed off.</p>
 `,
         image: {
@@ -864,7 +864,7 @@ There is a Conglomerate Salvage and Rescue flotilla approximately two months beh
     },
     {
         id: "13f",
-        title: "Searching the ship",
+        title: "Searching the Ship",
         text: `<p>“Almost wish you had said it was just me.” he said his voice low</p>
 `,
         image: {
@@ -877,7 +877,7 @@ There is a Conglomerate Salvage and Rescue flotilla approximately two months beh
     },
     {
         id: "14a",
-        title: "Searching the ship",
+        title: "Searching the Ship",
         text: `<p>They were approaching the rear of the engineering bay, where the massive external doors loomed. Connor had seen the like before on many larger Salvage and mining vessels.
          The doors could make a direct seal with an orbital dock allowing for rapid and easy transfer of goods and materiel from the dock or another ship directly to the Gwydion. 
          Connor had also seen salvage vessels depressurize an entire compartment before opening the large doors in order to speed up a salvage effort.
@@ -904,7 +904,7 @@ which only made it's apparent lifelessness even more disconcerting.</p>
     },
     {
         id: "14b",
-        title: "Searching the ship",
+        title: "Searching the Ship",
         text: `<p>“BAAAAM BAAAAM BAAAAM!”</p>
 `,
         image: {
@@ -918,7 +918,7 @@ which only made it's apparent lifelessness even more disconcerting.</p>
     },
     {
         id: "14c",
-        title: "Searching the ship",
+        title: "Searching the Ship",
         text: `<p>The silence was shattered by the blaring of an alarm as red waring lights began flashing all across the engineering bay.</p>
 <p>“Warning Outer door opening.” Warned an incongruously calm electronic as the main bay doors began to open.</p>
 <p>Connor Onaje, and all the bots were ripped off their feet as the atmosphere rushed out through the doors like a prisoner sprung from jail.</p>
@@ -937,7 +937,7 @@ which only made it's apparent lifelessness even more disconcerting.</p>
     },
     {
         id: "14d",
-        title: "Quick Time Event",
+        title: "Searching the Ship",
         text: `<p>Connor desperately began punching in the override code one handed as he clung on for dear life</p>`,
         image: {
             imageRef: `images/ControlPanel1.jpeg`,
@@ -966,7 +966,7 @@ which only made it's apparent lifelessness even more disconcerting.</p>
     },
     {
         id: "14e",
-        title: "Searching the ship",
+        title: "Searching the Ship",
         text: `<p>Able to punch in the code the doors began closing the grind of their hinges barley audible through the now thin atmosphere of the bay. Slowly the gale pulling him towards the door died away as the doors came together and he was able to regain his footing.</p>`,
         image: {
             imageRef: `images/GwydionRedRoom.jpeg`,
@@ -978,7 +978,7 @@ which only made it's apparent lifelessness even more disconcerting.</p>
     },
     {
         id: "15a",
-        title: "Searching the ship",
+        title: "Searching the Ship",
         text: `<p>“Fuck me! That was too close” coughed Connor breathing as the air cyclers struggled to re-pressurize the vast chamber.</p>
 `,
         image: {
@@ -1017,7 +1017,7 @@ which only made it's apparent lifelessness even more disconcerting.</p>
     },
     {
         id: "15c",
-        title: "Searching the ship",
+        title: "Searching the Ship",
         text: `<p>“Compliance”</p>
 `,
         image: {
@@ -1030,7 +1030,7 @@ which only made it's apparent lifelessness even more disconcerting.</p>
     },
     {
         id: "15d",
-        title: "Searching the shipr",
+        title: "Searching the Shipr",
         text: `<p>“My observation regarding the repeated imperilment of your life and our mission does not seem humorous to me captain”</p>
         <p>"Neither." Connor replied as he finally was able to catch his breath "Your concern is appreciated Threes."`,
         image: {
@@ -1043,7 +1043,7 @@ which only made it's apparent lifelessness even more disconcerting.</p>
     },
     {
         id: "15e",
-        title: "Searching the ship",
+        title: "Searching the Ship",
         text: `<p>"I think we have searched this particular bay quite enough don't you think Ona?" Connor asked as he moved towards one of the small bulkhead doors leading out of the bay</p>
 <p>“Not going to hear a complaint from me.” replied Onaje falling in beside him. "Med bay is only a short way further along this passage."</p>
 <p>“Ok, hopefully we can find a clue to what happened to the crew there. Maybe the docs logs will show something.” he said as the remaining ENG bot worked to override door.</p>
@@ -1306,7 +1306,7 @@ Hyun-Ae had only just begun examining one piece of the security footage when Gwy
     },
     {
         id: "20a",
-        title: "Quick Time Event",
+        title: "Revelation",
         text: `<p>The door came slamming down towards her</p>`,
         image: {
             imageRef: `images/movingThroughDoorway2.jpeg`,
@@ -1579,7 +1579,7 @@ Guns raised, they moved cautiously down the corridor. Like the rest of the ship 
     },
     {
         id: "24a",
-        title: "Quick Time Event",
+        title: "Revelation",
         text: `<p>Pulling the knife free he plunged it back into the bots torso working it around furiously, trying to cut and damage the essential circuits of the bots CPU.</p>`,
         image: {
             imageRef: `images/GwydionShipDefenseRobots1.jpeg`,
@@ -1928,7 +1928,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
     },
     {
         id: "28e",
-        title: "Quick Time Event",
+        title: "Flight",
         text: `<p>Hyun-AE rushed towards the door panel, attempting to override it.</p>`,
         image: {
             imageRef: `images/ControlPanel2.jpeg`,
@@ -1989,7 +1989,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
     },
     {
         id: "29d",
-        title: "Quick Time Event",
+        title: "Flight",
         text: `<p>“Fuck” gasped Onaje as he fell to the ground.</p>
 <p>The bot advanced towards him.</p>`,
         image: {
@@ -2221,7 +2221,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
     },
     {
         id: "G1b",
-        title: "Quick Time Event",
+        title: "Flight",
         text: `<p>Uncomfortably exposed, Connor stooped over the panel slamming in the digits of the master key as Threes fired controlled bursts of suppressing fire into the passageway the Gwydion's bots approached from.</p>`,
         image: {
             imageRef: `images/ControlPanel1.jpeg`,
