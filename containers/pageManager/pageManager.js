@@ -9,9 +9,26 @@ import {
     createPageWithDialog,
     createPageWithQuickTime,
 } from "../../components/page/page.js";
+import { unpauseMusic } from "../../services/musicProvider/musicProvider.js";
+import { animateTimerBar } from "../../components/barTimer/barTimer.js";
 
 // the holder for every page of the story
 let currentPageTimeout = 0;
+
+export const handlePageNavigation = (element, pageContainer) => {
+    unpauseMusic();
+    $(".timer-bar__inner").stop();
+    nextPage(
+        pageContainer,
+        element.attr("data-next-page"),
+        parseInt(element.attr("data-story-points")) ?? 0,
+        element.attr("data-branch-target"),
+        element.attr("data-branch-value")
+    );
+    if (getCurrentPageTimeout() > 0) {
+        animateTimerBar($(".timer-bar__inner"), pageContainer);
+    }
+};
 
 export const nextPage = (
     pageContainer,
@@ -91,7 +108,7 @@ export const renderPage = (pageContainer) => {
     audio ? (audio.volume = 1) : "";
 };
 
-export const initialiseSessionStorage = () => {
+export const initializeSessionStorage = () => {
     sessionStorage.setItem("curPage", "intro");
     sessionStorage.setItem("storyPoints", 0);
 };
