@@ -3,15 +3,31 @@ import {
     setFailScreen,
     updateBranchPath,
 } from "../../services/contentProvider/contentProvider.js";
+import { unpauseMusic } from "../../services/musicProvider/musicProvider.js";
+import { animateTimerBar } from "../../components/barTimer/barTimer.js";
 import {
-    createBackgroundImageHTML,
-    createPage,
-    createPageWithDialog,
-    createPageWithQuickTime,
-} from "../../components/page/page.js";
+    updateStoryPoints,
+    getStoryPoints,
+} from "../../services/utils/utils.sessionStorage.js";
+import { renderPage } from "../pageRenderer/pageRenderer.js";
 
-// the holder for every page of the story
 let currentPageTimeout = 0;
+
+// Page navigation
+export const handlePageNavigation = (element, pageContainer) => {
+    unpauseMusic();
+    $(".timer-bar__inner").stop();
+    nextPage(
+        pageContainer,
+        element.attr("data-next-page"),
+        parseInt(element.attr("data-story-points")) ?? 0,
+        element.attr("data-branch-target"),
+        element.attr("data-branch-value")
+    );
+    if (getCurrentPageTimeout() > 0) {
+        animateTimerBar($(".timer-bar__inner"), pageContainer);
+    }
+};
 
 export const nextPage = (
     pageContainer,
@@ -51,14 +67,6 @@ export const getCurrentPage = () => {
     return sessionStorage.getItem("curPage");
 };
 
-export const updateStoryPoints = (points) => {
-    const newPoints = points + parseInt(sessionStorage.getItem("storyPoints"));
-    sessionStorage.setItem("storyPoints", newPoints);
-};
-export const getStoryPoints = () => {
-    return sessionStorage.getItem("storyPoints");
-};
-
 const setCurrentPage = (newPage) => {
     sessionStorage.setItem("curPage", newPage);
 };
@@ -67,31 +75,6 @@ export const getCurrentPageTimeout = () => {
     return currentPageTimeout;
 };
 
-const getTextHTML = (textContent) => {
-    if (textContent.dialog) {
-        return createPageWithDialog(textContent);
-    }
-    if (textContent.quickTime) {
-        return createPageWithQuickTime(textContent);
-    }
-    return createPage(textContent);
-};
-
-const getImageHTML = (imgInfo) => {
-    return createBackgroundImageHTML(imgInfo);
-};
-
-export const renderPage = (pageContainer) => {
-    const curPageContent = getContentWithId(getCurrentPage());
-    currentPageTimeout = curPageContent.time;
-    const imgHTML = getImageHTML(curPageContent.image);
-    const textHTML = getTextHTML(curPageContent);
-    pageContainer.html(imgHTML + textHTML);
-    const audio = document.getElementById("sfx");
-    audio ? (audio.volume = 1) : "";
-};
-
-export const initialiseSessionStorage = () => {
-    sessionStorage.setItem("curPage", "intro");
-    sessionStorage.setItem("storyPoints", 0);
+export const setCurrentPageTimeout = (timeout) => {
+    currentPageTimeout = timeout;
 };

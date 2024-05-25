@@ -1,14 +1,16 @@
 :root {
   /* variables */
-  /* nav-bar colors */
-  --nav-bar-background: #100809;
-  --nav-bar-background-highlight: #1d293b;
-  --nav-bar-text-color: #75d4d4;
+  /* control colors */
+  --controls-background: #100809;
+  --controls-background-highlight: #1d293b;
+  --controls-text-color: #75d4d4;
+  --timer-bar-color-top: #cc0909;
+  --timer-bar-color-bottom: #3b0202;
   /* body and headings */
   --text-color: #a7bec0;
   --background-color: #100809cc;
   --background-shadow-color: #100809d2;
-  --header-font-family: "Oleo Script Swash Caps", sans-serif;
+  --header-font-family: "Black Ops One", system-ui, sans-serif;
 }
 
 /* 
@@ -76,6 +78,7 @@ main::-webkit-scrollbar {
   display: none;
 }
 .page h1 {
+  text-align: center;
   font-family: var(--header-font-family);
   font-size: 56px;
   color: var(--text-color);
@@ -100,7 +103,7 @@ main::-webkit-scrollbar {
 }
 .page__text-container a .text-container a {
   text-decoration: none;
-  color: var(--nav-bar-text-color);
+  color: var(--controls-text-color);
 }
 
 audio {
@@ -113,16 +116,16 @@ audio {
   z-index: 999;
   padding: 6px 10px;
   border-radius: 6px;
-  border: 1px solid var(--nav-bar-text-color);
-  background-color: var(--nav-bar-background);
-  color: var(--nav-bar-text-color);
+  border: 1px solid var(--controls-text-color);
+  background-color: var(--controls-background);
+  color: var(--controls-text-color);
   font-family: var(--header-font-family);
   font-size: medium;
   cursor: pointer;
   transition: 1s all ease;
 }
 .button-container__button:hover {
-  background-color: var(--nav-bar-background-highlight);
+  background-color: var(--controls-background-highlight);
 }
 .button-container__button--reset {
   position: fixed;
@@ -137,9 +140,9 @@ audio {
   z-index: 999;
   padding: 6px 10px;
   border-radius: 6px;
-  border: 1px solid var(--nav-bar-text-color);
-  background-color: var(--nav-bar-background);
-  color: var(--nav-bar-text-color);
+  border: 1px solid var(--controls-text-color);
+  background-color: var(--controls-background);
+  color: var(--controls-text-color);
   font-family: var(--header-font-family);
   font-size: medium;
   cursor: pointer;
@@ -159,22 +162,22 @@ audio {
 
 .dialog__option {
   cursor: pointer;
-  border: 2px solid var(--nav-bar-text-color);
+  border: 2px solid var(--controls-text-color);
   padding: 10px;
 }
 .dialog__option:hover {
-  background-color: var(--nav-bar-background-highlight);
+  background-color: var(--controls-background-highlight);
 }
 
 .timer-bar div {
   border-radius: 2px;
   height: 20px;
   margin-top: 5px;
-  background: linear-gradient(to bottom, #cc0909, #3b0202);
+  background: linear-gradient(to bottom, var(--timer-bar-color-top), var(--timer-bar-color-bottom));
   transform-origin: left center;
 }
 
 .quickTime {
   padding: 10px;
-  border: 2px solid var(--nav-bar-text-color);
+  border: 2px solid var(--controls-text-color);
 }

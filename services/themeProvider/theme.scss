@@ -1,13 +1,15 @@
 :root {
     /* variables */
-    /* nav-bar colors */
-    --nav-bar-background: #100809;
-    --nav-bar-background-highlight: #1d293b;
-    --nav-bar-text-color: #75d4d4;
+    /* control colors */
+    --controls-background: #100809;
+    --controls-background-highlight: #1d293b;
+    --controls-text-color: #75d4d4;
+    --timer-bar-color-top: #cc0909;
+    --timer-bar-color-bottom: #3b0202;
 
     /* body and headings */
     --text-color: #a7bec0;
     --background-color: #100809cc;
     --background-shadow-color: #100809d2;
-    --header-font-family: "Oleo Script Swash Caps", sans-serif;
+    --header-font-family: "Black Ops One", system-ui, sans-serif;
 }
