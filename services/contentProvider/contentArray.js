@@ -1246,10 +1246,14 @@ incidental injuries upon a navy ship the rate of accidents far exceeds what one 
     {
         id: "18a",
         title: "Revelation (Hyun-Ae)",
-        text: `<p>“Ok I think I’ve found the footage” said Hyun-Ae, her focus completely fixed on the console.</p>
+        text: `<p>“Ok I think I’ve found the footage” said Hyun-Ae, her focus completely fixed on the console as she spoke.</p>
 <p>“I see it now too” came the synthesized reply of Gwydion.</p>
-<p>“It’s strange that you were not aware of the locations of these files”</p>
-<p>“I agree, I believe It was due to my inactivity since the jump, without my organization the basic components of the ships systems seemed to have picked an obscure location to store these. I was not even aware of this location in my memory until you showed it to me.”</p>
+<p>“It’s strange that you were not aware of the locations of these files.”</p>
+<p>“I agree, It appears to have been caused by my state of inactivity since the jump, without my organization the independent passive components of the ships systems seemed to have picked a location at random to store these.
+I was not even aware of this location in my memory until you brought it to my attention. Like a blind spot in my internal monitoring.”</p>
+<p>"Thats not concerning at all." She muttered clearly believing the exact opposite.</p>
+<p>"Do you think it could have anything to do with the FTL jump?" she said as she continued to stoop over the control console.</p>
+<p>"I suppose that is possible, whilst manned missions had previously been made I am the first full AI to have completed a jump"</p>
 `,
         image: {
             imageRef: `images/ControlPanelBridge.jpeg`,
@@ -1262,9 +1266,13 @@ incidental injuries upon a navy ship the rate of accidents far exceeds what one 
     {
         id: "18b",
         title: "Revelation",
-        text: `<p>“Well let's have a look and see if we can’t figure out were the crew are”</p>
-Hyun-Ae had only just begun examining one piece of the security footage when Gwydion advised. “I know what happened to the crew, Observe”</p>
-<p>A video on her console screen began playing, a compilation of the fates of the crew. Hyun-Ae was barely able to keep up with the rate Gwydion was showing her these images. A crew member being crushed by a bulkhead, a section of security personnel being ejected from an airlock, a number of crew collapsing and passing out in a sealed corridor, a crew man being followed into a toilet block followed by a bot only for the bot to leave some time later with no sign of the crew man.</p>
+        text: `<p> "Hang on, you're telling me the Cong never tested this with an AI and the first jump was to Neptune?" she asked looking up from the console for the first time. </p>
+        <p>"No the intended exit coordinates were just outside deimos, an inspection was planned by a martian delegation as a show of good faith"</p>
+        <p>"A less than subtle demonstration of your superiority you mean" she replied inflecting her words with no subtle amount of scorn</p>
+        <p>"Perhaps we should examine the files" Gwyidion said changing the subject</p>
+        <p>“Sure, see if we can’t figure out were the crew are” she said deciding there was no point in pushing the matter further.</p>
+<p> Hyun-Ae had only just begun examining one piece of the security footage when Gwydion voice broke her concentration. “Observe”</p>
+
 `,
         image: {
             imageRef: `images/CCTVFootage.jpg`,
@@ -1277,12 +1285,19 @@ Hyun-Ae had only just begun examining one piece of the security footage when Gwy
     {
         id: "18c",
         title: "Revelation",
-        text: `<p>“Oh God!” Hyun-Ae breathed “Was this you?!”</p>
-<p>“No! You have seen My logs, I made no such commands to the ships' lesser systems.”</p>
-<p>“Why was the ship killing the crew? How is the ship killing the crew? This is targeted, yet you are the only ship function capable of such coordination. How could it not be you?”</p>
-<p>“If it was me, why would I show you this?, check the local logs at bulkhead 1774-b perhaps it will show where the commands originated from.”</p>
-<p>“Yes… I will do that, you two” she said gesturing at the engineering and search and rescue bots with her. “Come with me”</p>
-<p>Hyun-Ae strode off the bridge, the bulkhead Gwydion has referred to was one of the ones that had been seen crushing a crew member, and he was right, she should be able to see the origination of the emergency seal command from there.</p>
+        text: `<p>A video on her console screen began playing. At first Hyun-Ae thought the AI was playing some sick joke as the screen was filled with images of people being sucked out air locks, crushed by bulkheads, vaporized by plasma leaks,
+and other scenes of horrific death, until she recognized the spinal corridor of the Gwydion they had passed through and saw a squad in the uniform of cong ship defense soldiers firing down the corridor they had come from
+retreating in good order but with the unmistakable look of barley controlled panic on their faces.</p>
+<p>As they passed the camera the sergeant of the squad gestured towards it and one of the squad members ceased firing down the hall and raised their gun to the camera. The view smashed into a wash of static as the trooper pulled the trigger.</p>
+<p>"Wh- What the fuck was that? What were they shooting at?" she said in disbelief</p>
+<p>"I am unsure" he replied, "I have been unable to find any footage of non-Gwydion personnel or BOTs on board and there is no clear indication of what they are engaging or why they would be destroying ship systems in such a clearly intentional manner"</p>
+<p>Hyun-Ae thought she heard a trace of anger in Gwydion's last words, but it was so faint she couldn't be sure</p>"
+<p>“We need to check the local controls of one of those bulkheads to see where the commands to seal those doors came from. Perhaps something has breached your system and is acting independently”</p>
+ <p> "Yes," he replied "Check bulkhead door B-119A, one of the crew was killed there. I don't see how it could be a system breach, cyber defenses are the most sophisticated of any Conglomerate vessel. However, I too do not see any other possibility
+ as I am unable to see what initiated the emergency seal command either</p>
+<p>“Yes… I will do that. You two” she said gesturing at the Two BOTs with her. “Come with me”</p>
+<p>Hyun-Ae strode off the bridge, in the direction of B-119A. The thought of an invading AI being more in control of the Gwydion than Gwydion himself was a terrifying one. She moved quickly keeping close to the BOTs convinced each doorway 
+and bulkhead was poised ready to smash her and the BOTs into paste.</p>
 `,
         image: {
             imageRef: `images/GwydionBridge.jpeg`,
