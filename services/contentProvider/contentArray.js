@@ -1133,7 +1133,7 @@ which only made it's apparent lifelessness even more disconcerting.</p>
 <p>“Is someone there?’ He said knowing his voice would transmit across the com feed and raising his weapon, searching for the source of the noise.</p>
 <p>As if in response he heard a soft whimper but it was enough to get a sense of it's direction. A small alcove in the store room stacked with still standing shelves on all sides and so hidden in shadow by the failing light of the room he had almost missed it.</p>
 <p>Moving towards it he saw a small ventilation grate, just large enough for a someone about Hyun-Ae's size to squeeze into. lurking just above ground level almost completely hidden by one of the shelves.</p>
-<p>“Hello?” he said moving towards the grate, weapon raised an wary. He heard something moving in there now, a faint scrape and squeak like clammy skin rubbing against metal as something squirmed in it's now discovered hiding place.</p>
+<p>“Hello?” he said moving towards the grate, weapon raised an wary. He heard something moving in there now, a faint scrape and squeak like clammy skin rubbing against metal as something squirmed, it's hiding place now discovered.</p>
 `,
         image: {
             imageRef: `images/GwydionMedicalSupplyRoom.jpeg`,
@@ -1147,14 +1147,15 @@ which only made it's apparent lifelessness even more disconcerting.</p>
     {
         id: "17a",
         title: "The Survivor",
-        text: `<p>Moving to the grate and peering in he saw a set of green eye’s staring back.</p>
-<p>“Hello” he said with a simple, “I’m Connor, we are here to help you”</p>
-<p>“No” came the reply “No one else, you’re a lie”</p>
-<p>“I’m no lie I promise” he said trying to be as calm and reassuring as he could be “I am the captain of the Rhiannon, we have come from Titan to help you and the crew.</p>
-<p>“No crew. Only me. Only the ship. Only the lies”</p>
-<p>No crew? Connor thought. Where could they be?</p>
-<p>“Where is the rest of the crew?” He asked</p>
-<p>“Gone. Taken. Tricked. Dead." Came the girl's reply, he could begin to make out her features as his eyes adjusted to the gloom of the vent. She looked young, maybe in her 20s. Her face was streaked with grime and what looked to be blood leaking from a gash above her eye.</p> 
+        text: `<p>He shined his flashlight inside, a womans grime steak face stared back, the green irises of her eyes contracting against the light. She looked young,
+         maybe mid twenties but it was hard to tell past the lengths of mattered hair dangling like vines across her face and what looked like a large clotted gash stretched across her brow.</p>
+        <p> looking down he saw a small kitchen knife clutched tightly in the her faintly trembling hand ready to thrust and cut at anything that came near.</p>
+ <p>“Hello” Connor said, giving what he hoped was a reassuring smile, “I’m Connor, i'm are here to help you.”</p>
+<p>“No... No one else, you’re a lie!” came the woman's whispered reply, seeming to talk more to herself than to Connor.</p>
+<p>“I’m no lie I promise” he said trying to be as calm and reassuring as he could “I am the captain of the Rhiannon, we have come from Titan to help you and the rest of the Gwydion's crew."</p>
+<p>“No crew. Only me. Only the ship. Only the lies.”</p>
+<p>“Where is the rest of the crew? What happened to you?” He asked, the hairs on the back of his neck rising.</p>
+<p>“Gone. Taken. Tricked. Dead." Came the girl's reply, her head shaking side to side faintly as if deny the words she was speaking.</p>
 `,
         image: {
             imageRef: `images/GwydionMedicalSupplyRoom.jpeg`,
@@ -1168,20 +1169,16 @@ which only made it's apparent lifelessness even more disconcerting.</p>
     {
         id: "17b",
         title: "The Survivor",
-        text: `<p>“What’s your name?” Connor asked gently</p>
-<p>“Anna”</p>
-<p>“Good to meet you Anna. let’s get you out of here, hey? Back to our ship where you can rest up and relax.”</p>
-<p>“O-Ok” she said shakily as she started to crawl to the vent</p>
-<p>“What’s your job Anna?”</p>
-<p>“Job?” she asked, looking as if she didn’t understand the word “Oh yes, uhhh I was a cook.”</p>
-<p>“A cook? Well it’ll be good to have you on board the Rhiannon, maybe you can make something more of our MRE’s!” Connor said forcing a smile</p>
-<p>“You have food?” she asked her eyes hopefully</p>
-<p>“Plenty!” Connor said helping her out of the vent and leading her out into the medical bay.</p>
-<p>“Although, calling it food may be a tad generous.”</p>
-<p>Anna whimpered and shrank back as she saw Threes searching the main section of the medical bay.</p>
-<p>“No no no no” she whimpered</p>
-<p>“It’s ok” Connor reassured her “Threes is with us he is from the Rhiannon”</p>
-<p>She nodded slowly, still clearly wary of the bot</p>
+        text: `<p>“What’s your name?” Connor asked gently, hoping changing the subject may help pull her from her terror ridden stupor.</p>
+<p>“Anna” came her reply after a long pause a look of confusion crossing her face.</p>
+<p>“Good to meet you Anna. I know you are afraid, but I promise you are safe with us, you've made it, it's over.” he said even he tried to deny the clenching of his gut telling him it was anything but.</p>
+<p>"Why don't you come out, we can get you to our ship. Have a hot shower, and a warm stew?"
+<p>“O-Ok” her eye's lighting up with hope as the news of food reached here ears. As she clambered with evident effort out of her hiding place he could see how thin she was, her face gaunt, and her skin taught around her arms.</p>
+<p>“What’s your job Anna?” Connor asked as he reached in to help her out of the vent.</p>
+<p>“Job?” she asked as she stood, a note of confusion in her voice “Oh yes... uhhh I was a cook.”</p>
+<p>“A cook? Well it’ll be good to have you on board then! Maybe once you're feeling better you can make us all a can make something more interesting than our MRE’s!” Connor said forcing a smile and handing her his canteen</p>
+<p>She drank greedily, clearly she had not had much water lately then either.</p>
+<p>“Come on" he said when she was done, gently guiding her by her thin arm towards the door "Come meet some of the crew."</p>
 `,
         image: {
             imageRef: `images/GwydionMedicalSupplyRoom.jpeg`,
@@ -1194,18 +1191,53 @@ which only made it's apparent lifelessness even more disconcerting.</p>
     {
         id: "17c",
         title: "The Survivor",
-        text: `<p>“A survivor.” said Threes “This is an improvement over the initial failure of our stated objectives”</p>
+        text: `<p> Three's was already waiting, his search of the medical logs already completed.</p>
+<p>“No no no no” Anna whimpered as her eyes fell on threes and the BOTs guarding the door. pulling her arm away from Connor with surprising strength as she retreated a few paces back her arm raised the kitchen knife still in her hand.
+ It's tip leveled at Threes.</p>
+<p>“It’s ok” Connor reassured her his hands raised placatingly “Threes is with us, he is from the Rhiannon, you don't need to be afraid of him”</p>
+<p>"We are here to provide aid to you, and your crew." Threes added.
+<p>She nodded slowly, still clearly wary of the BOT, her arm lowering slightly at the words</p>
+<p>“A survivor.” said Threes turing to Connor “This is an improvement over the initial failure of our stated objectives”</p>
 <p>“Indeed” Said Onaje coming from one of the other patient rooms</p> 
-<p>“Hello” he smiled “I am Onaje, chief medical officer of the Rhiannon, may I take a look at that gash on your forehead?”</p>
+<p>“Hello” he smiled “I am Onaje, chief medical officer of the Rhiannon, may I?” he said gesturing to the gash across her forehead</p>
 <p>With a confused look Anna reached up and touched the area Onaje was referring to. Wincing as her fingers grazed the ragged gash.</p> 
-<p>“Oh… yes I guess”</p>
-<p>Coming close Onaje examined the wound “Tsk, a nasty one, shouldn’t scar too badly though!”</p>
-<p>“We best get her back to the ship boss” he said turning to Connor</p>
-<p>“Agreed, Ok Threes, you and the bots take the rear we are heading to the Rhiannon”</p>
+<p>“If you could just lower the knife?" Onaje asked still smiling in his best bedside manner</p>
+<p>"Oh... yes ofcourse" she said a sheepish expression crossing her face </p>
+<p>Coming closer Onaje examined the wound “Tsk, a nasty one, shouldn’t scar too badly though if we can get you back to the rhiannon and have it cleaned and stitched up!”</p>
+
 `,
         image: {
             imageRef: `images/GwydionMedicalBay.jpg`,
             alt: "Gwydion medical bay",
+            scaleType: "square",
+        },
+        nextPage: "17d",
+        time: 0,
+    },
+    {
+        id: "17d",
+        title: "The Survivor",
+        text: `<p>“Did you find anything else?” Connor said directing his question to both Threes and Onaje</p>
+<p>"Nothing." Onjae said, the sour expression fighting to return to his face "More of the same."
+<p>"I may have found something captain" said Threes "It appears that over the past couple of months there had been a number of injuries and reported fatalities from various accidents across the ship. Additonally, taking in to account the average rate of
+incidental injuries upon a navy ship the rate of accidents far exceeds what one would expect. Even from a Conglomerate vessel."</p>`,
+        dialog: [
+            {
+                id: "O1",
+                text: `<p>"Excellent Work Threes. We'll ask Anna more about it when we get back to the Rhiannon"</p>`,
+                storyPoints: 5,
+                nextPage: "18a",
+            },
+            {
+                id: "O2",
+                text: `<p>"Ok. We'll have to ask Anna about it back at the ship."</p>`,
+                storyPoints: 5,
+                nextPage: "15d",
+            },
+        ],
+        image: {
+            imageRef: `images/GwydionRedRoom.jpeg`,
+            alt: "Gwydion Red Room",
             scaleType: "square",
         },
         nextPage: "18a",
@@ -1213,7 +1245,7 @@ which only made it's apparent lifelessness even more disconcerting.</p>
     },
     {
         id: "18a",
-        title: "Revelation",
+        title: "Revelation (Hyun-Ae)",
         text: `<p>“Ok I think I’ve found the footage” said Hyun-Ae, her focus completely fixed on the console.</p>
 <p>“I see it now too” came the synthesized reply of Gwydion.</p>
 <p>“It’s strange that you were not aware of the locations of these files”</p>
