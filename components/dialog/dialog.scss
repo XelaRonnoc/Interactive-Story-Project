@@ -1,10 +1,10 @@
 .dialog {
     &__option {
         cursor: pointer;
-        border: 2px solid var(--nav-bar-text-color);
+        border: 2px solid var(--controls-text-color);
         padding: 10px;
         &:hover {
-            background-color: var(--nav-bar-background-highlight);
+            background-color: var(--controls-background-highlight);
         }
     }
 }

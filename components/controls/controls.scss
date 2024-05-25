@@ -6,16 +6,16 @@
 
         padding: 6px 10px;
         border-radius: 6px;
-        border: 1px solid var(--nav-bar-text-color);
-        background-color: var(--nav-bar-background);
-        color: var(--nav-bar-text-color);
+        border: 1px solid var(--controls-text-color);
+        background-color: var(--controls-background);
+        color: var(--controls-text-color);
         font-family: var(--header-font-family);
         font-size: medium;
         cursor: pointer;
         transition: 1s all ease;
 
         &:hover {
-            background-color: var(--nav-bar-background-highlight);
+            background-color: var(--controls-background-highlight);
         }
 
         &--reset {
@@ -33,9 +33,9 @@
     z-index: 999;
     padding: 6px 10px;
     border-radius: 6px;
-    border: 1px solid var(--nav-bar-text-color);
-    background-color: var(--nav-bar-background);
-    color: var(--nav-bar-text-color);
+    border: 1px solid var(--controls-text-color);
+    background-color: var(--controls-background);
+    color: var(--controls-text-color);
     font-family: var(--header-font-family);
     font-size: medium;
     cursor: pointer;

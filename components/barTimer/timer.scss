@@ -3,7 +3,11 @@
         border-radius: 2px;
         height: 20px;
         margin-top: 5px;
-        background: linear-gradient(to bottom, #cc0909, #3b0202);
+        background: linear-gradient(
+            to bottom,
+            var(--timer-bar-color-top),
+            var(--timer-bar-color-bottom)
+        );
         transform-origin: left center;
     }
 }

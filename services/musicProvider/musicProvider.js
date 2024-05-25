@@ -24,7 +24,6 @@ export const initializeMusicVol = () => {
 };
 
 export const updateMusicVol = (volumeAdjustment) => {
-    console.log(volumeAdjustment);
     const musicEl = document.getElementById("backgroundMusic");
     musicEl.volume = volumeAdjustment / 100;
 };

@@ -137,7 +137,7 @@ export const contentArray = [
         },
         nextPage: "3c",
         time: 0,
-        audio: "./audio/benchWack.mp3",
+        audio: "./audio/sfx/benchWack.mp3",
     },
     {
         id: "3c",
@@ -244,7 +244,7 @@ export const contentArray = [
         },
         nextPage: "4c",
         time: 0,
-        audio: "./audio/autoNukeChime.wav",
+        audio: "./audio/sfx/autoNukeChime.wav",
     },
     {
         id: "4c",
@@ -427,7 +427,7 @@ export const contentArray = [
         },
         nextPage: "8a",
         time: 0,
-        audio: "./audio/openingSlidingDoor.wav",
+        audio: "./audio/sfx/openingSlidingDoor.wav",
     },
     {
         id: "7d",
@@ -547,7 +547,7 @@ Inside looked pristine, not a chair out of place, utterly at odds with the scene
         },
         nextPage: "10b",
         time: 0,
-        audio: "./audio/openingSlidingDoor.wav",
+        audio: "./audio/sfx/openingSlidingDoor.wav",
     },
     {
         id: "10b",
@@ -606,7 +606,7 @@ A decision she seemed evidently relieved by. Not that she would have ever admitt
         },
         nextPage: "failScreen",
         time: 30,
-        audio: "./audio/keypadBeep.wav",
+        audio: "./audio/sfx/keypadBeep.wav",
     },
     {
         id: "11b",
@@ -691,7 +691,7 @@ There is a Conglomerate Salvage and Rescue flotilla approximately two months beh
         },
         nextPage: "12c",
         time: 0,
-        audio: "./audio/noise.wav",
+        audio: "./audio/sfx/noise.wav",
     },
     {
         id: "12c",
@@ -751,7 +751,7 @@ There is a Conglomerate Salvage and Rescue flotilla approximately two months beh
         },
         nextPage: "failScreen",
         time: 3,
-        audio: "audio/metalScreech.wav",
+        audio: "audio/sfx/metalScreech.wav",
     },
     {
         id: "12f",
@@ -766,7 +766,7 @@ There is a Conglomerate Salvage and Rescue flotilla approximately two months beh
         },
         nextPage: "13a",
         time: 0,
-        audio: "audio/bulkheadDoorSlam.wav",
+        audio: "audio/sfx/bulkheadDoorSlam.wav",
     },
     {
         id: "13a",
@@ -914,7 +914,7 @@ which only made it's apparent lifelessness even more disconcerting.</p>
         },
         nextPage: "14c",
         time: 0,
-        audio: "./audio/alarm.mp3",
+        audio: "./audio/sfx/alarm.mp3",
     },
     {
         id: "14c",
@@ -933,7 +933,7 @@ which only made it's apparent lifelessness even more disconcerting.</p>
         },
         nextPage: "14d",
         time: 0,
-        audio: "./audio/decompression.wav",
+        audio: "./audio/sfx/decompression.wav",
     },
     {
         id: "14d",
@@ -962,7 +962,7 @@ which only made it's apparent lifelessness even more disconcerting.</p>
         },
         nextPage: "failScreen",
         time: 10,
-        audio: "./audio/keypadBeep.wav",
+        audio: "./audio/sfx/keypadBeep.wav",
     },
     {
         id: "14e",
@@ -1142,7 +1142,7 @@ which only made it's apparent lifelessness even more disconcerting.</p>
         },
         nextPage: "17a",
         time: 0,
-        audio: "./audio/crying.wav",
+        audio: "./audio/sfx/crying.wav",
     },
     {
         id: "17a",
@@ -1163,7 +1163,7 @@ which only made it's apparent lifelessness even more disconcerting.</p>
         },
         nextPage: "17b",
         time: 0,
-        audio: "./audio/crying.wav",
+        audio: "./audio/sfx/crying.wav",
     },
     {
         id: "17b",
@@ -1924,7 +1924,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         },
         nextPage: "28e",
         time: 0,
-        audio: "./audio/bulkheadDoorSlam.wav",
+        audio: "./audio/sfx/bulkheadDoorSlam.wav",
     },
     {
         id: "28e",
@@ -1946,7 +1946,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         },
         nextPage: "failScreen",
         time: 6,
-        audio: "./audio/keypadBeep.wav",
+        audio: "./audio/sfx/keypadBeep.wav",
     },
     {
         id: "29a",
@@ -2090,7 +2090,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         },
         nextPage: "31b",
         time: 0,
-        audio: "./audio/rocketEngine.wav",
+        audio: "./audio/sfx/rocketEngine.wav",
     },
     {
         id: "31b",
@@ -2244,7 +2244,7 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
         },
         nextPage: "failScreen",
         time: 10,
-        audio: "./audio/keypadBeep.wav",
+        audio: "./audio/sfx/keypadBeep.wav",
     },
     {
         id: "G1c",
@@ -2262,7 +2262,7 @@ He was on the ground unable to breathe or move. Surprisingly though he was aware
         },
         nextPage: "G1d",
         time: 0,
-        audio: "./audio/gunfire",
+        audio: "./audio/sfx/gunfire",
     },
     {
         id: "G1d",
