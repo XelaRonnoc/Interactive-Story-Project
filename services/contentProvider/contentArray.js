@@ -1245,8 +1245,9 @@ incidental injuries upon a navy ship the rate of accidents far exceeds what one 
     },
     {
         id: "18a",
-        title: "Revelation (Hyun-Ae)",
-        text: `<p>“Ok I think I’ve found the footage” said Hyun-Ae, her focus completely fixed on the console as she spoke.</p>
+        title: "Revelation",
+        text: `<p>****</p>
+        <p>“Ok I think I’ve found the footage” said Hyun-Ae, her focus completely fixed on the console as she spoke.</p>
 <p>“I see it now too” came the synthesized reply of Gwydion.</p>
 <p>“It’s strange that you were not aware of the locations of these files.”</p>
 <p>“I agree, It appears to have been caused by my state of inactivity since the jump, without my organization the independent passive components of the ships systems seemed to have picked a location at random to store these.
@@ -1286,7 +1287,7 @@ I was not even aware of this location in my memory until you brought it to my at
         id: "18c",
         title: "Revelation",
         text: `<p>A video on her console screen began playing. At first Hyun-Ae thought the AI was playing some sick joke as the screen was filled with images of people being sucked out air locks, crushed by bulkheads, vaporized by plasma leaks,
-and other scenes of horrific death, until she recognized the spinal corridor of the Gwydion they had passed through and saw a squad in the uniform of cong ship defense soldiers firing down the corridor they had come from
+and other scenes of horrific death, until she recognized the spinal corridor of the Gwydion they had passed through and saw a squad in the uniform of Cong marines firing down the corridor they had come from
 retreating in good order but with the unmistakable look of barley controlled panic on their faces.</p>
 <p>As they passed the camera the sergeant of the squad gestured towards it and one of the squad members ceased firing down the hall and raised their gun to the camera. The view smashed into a wash of static as the trooper pulled the trigger.</p>
 <p>"Wh- What the fuck was that? What were they shooting at?" she said in disbelief</p>
@@ -1310,9 +1311,10 @@ and bulkhead was poised ready to smash her and the BOTs into paste.</p>
     {
         id: "19a",
         title: "Revelation",
-        text: `<p>The bulkhead was open when she reached it, there was no sign of a body or blood at all. But this was the correct door. </p>
-<p>“Interface with the other sides panel” she said gesturing to the ENG bot “Look for any indication of where the command for emergency close came from”</p>
-<p>“Compliance”</p>
+        text: `<p>The bulkhead when she reached it appeared as unobtrusive as any other on the vast ship. No sign of the horrific scene displayed by the security camera was visible. No bone fragments, not managed corpse. Not even a drop of blood.
+        A wholly inconspicuous door. Regardless of the doors apparent docility however, Hyun-Ae approached it cautiously.</p>
+<p>“Interface with panel on the other side” she said gesturing to the ENG BOT having no intention of stepping through the door herself. “Look for any indication of where the command for emergency close came from.”</p>
+<p>“Compliance” came the BOTs succinct reply, already moving to complete the task.</p>
 `,
         image: {
             imageRef: `images/SquareOpenBulkheadDoor.jpeg`,
@@ -1325,11 +1327,14 @@ and bulkhead was poised ready to smash her and the BOTs into paste.</p>
     {
         id: "19b",
         title: "Revelation",
-        text: `<p>She knelt down next to the near side panel of the door and interfaced directly with it. She immediately went to the local logs for the time at which the incident had occurred. She could see the command but it had no trace signature, nothing to indicate where the command came from.</p>
-<p>It is almost as if it just appeared.</p>
+        text: `<p>Moving to the side panel on her side of the door Hyun-Ae knelt down next to it interfacing directly with the panels systems. Being a Engineer by trade she had been provided with cybernetic augmentations to
+        allow her to more easily process data and interface with the machines she worked with. Despite the fact Cybernetic not Genetic augmentation was a comparative rarity for a Venution.
+        Diving into the systems logs she narrowed down to the exact time and date of the incident she had observed from the cameras. There it was, the emergency seal command plain as day, but there was no signature.
+        No indication of the commands providence at all. 'Perhaps just a malfunction' she thought, but why would the ship have been suffering such wide spread malfunctions. No she thought rising and disconnecting from the panel.
+        More certain than ever there must somehow be an intruder in the ships systems. A malicious AI that had somehow escaped Gwydion's notice, something that should have been all but impossible.</p>
 <p>“No close command found at the expected time.” reported the synth voice of the ENG bot</p>
-<p>“Got it”</p>
-<p>So it was a command to this panel direct at least not both, which would have been more likely had it been Gwydion sending these commands and somehow removing his signature.</p>
+<p>“What?” she said in tones of surprise. That shouldn't be the case, both panels should have registered the command, wether it was a malfunction or a malicious attack both panels should have a log of the command. "Are you sure?"</p>
+<p>"Affirmative"</p>
 `,
         image: {
             imageRef: `images/SquareOpenBulkheadDoor.jpeg`,
@@ -1342,7 +1347,9 @@ and bulkhead was poised ready to smash her and the BOTs into paste.</p>
     {
         id: "19c",
         title: "Revelation",
-        text: `<p>Reaching her head through the door she went to tell the bot they were heading back to the bridge. When she heard/saw a strange buzz flicker from behind her and the faintest groan from the bulkhead above her.</p>`,
+        text: `<p>"Come on lets get back to the bridge" she said reaching her head just slightly through the doorway to address the BOT. Who bent down over the door panel was surprisingly hard to see in the flickering light and shadow of the corridor./p>
+        <p>"Compliance"</p>
+        <p>Just at that moment when she was about to pull her head back it happened. With a horrifying shriek, the door lurched and hurtled down towards her.</p>`,
         image: {
             imageRef: `images/MovingThroughDoorway2.jpeg`,
             alt: "moving through doorway 2",
@@ -1354,7 +1361,7 @@ and bulkhead was poised ready to smash her and the BOTs into paste.</p>
     {
         id: "20a",
         title: "Revelation",
-        text: `<p>The door came slamming down towards her</p>`,
+        text: `<p>"Retreat!"</p> warned the SAR BOT.`,
         image: {
             imageRef: `images/movingThroughDoorway2.jpeg`,
             alt: "moving through doorway 2",
@@ -1366,7 +1373,7 @@ and bulkhead was poised ready to smash her and the BOTs into paste.</p>
             passPage: "20b",
             failPage: "failScreen",
             failPageMessage:
-                "<p>caught unawares Hyun-Ae is decapitated by the speeding door. She had no time to even feel fear let alone pain.</p></p>",
+                "<p>caught unawares Hyun-Ae was decapitated by the speeding door. She had no time to even feel fear let alone pain.</p></p>",
             failPageCheckpoint: "19c",
         },
         nextPage: "failScreen",
@@ -1376,8 +1383,9 @@ and bulkhead was poised ready to smash her and the BOTs into paste.</p>
     {
         id: "20b",
         title: "Revelation",
-        text: `<p>“Thanks” she said looking at the SAR bot.</p>
-<p>“Affirmative” it replied deadpan.</p>
+        text: `<p>Before she even had time to react herself the metal hand of the SAR BOT yanked her unceremoniously back through the door. She landed painfully on her back side. For a moment shock and relief overwhelmed her before she recovered her senses</p> 
+        <p>“Thanks” she said looking at the SAR BOT who had so recently saved her life.</p>
+<p>“Affirmative” it replied deadpan as ever.</p>
 `,
         image: {
             imageRef: `images/SquareClosedBulkheadDoor.jpeg`,
@@ -1392,10 +1400,11 @@ and bulkhead was poised ready to smash her and the BOTs into paste.</p>
         id: "20c",
         title: "Revelation",
         text: `<p>She went to the console again and checking the logs again saw the same command in the console with still no signature for where the command originated from.</p>
-<p>“E1174, I can’t open the door, it appears the impact bent it shut, are you able to find another way to the bridge?”</p>
-<p>“Compliance” came the bots reply through the comms system”.</p>
+<p>“E1174, I can’t open the door, it appears the impact bent it shut this time, are you able to find another way to the bridge?”</p>
+<p>“Compliance” came the BOTs reply through her comms system”.</p>
 <p>“See you on the bridge then”</p>
-<p>The bot would be unlikely to respond to such an obvious statement but it made her feel safer when she treated them more like people, and she knew over time they would develop more complex personalities like Threes had. So she had always thought it was the smart idea to make friends early.</p>
+<p>The BOT unlikely to respond to such an obvious statement, but treating them like people seemed more natural to her, and she knew over time they would develop more complex personalities like Threes had.
+Not to mention the more and more unsettling this mission became the more she felt like it was best to have as many friends as she could.</p>
 `,
         image: {
             imageRef: `images/ControlPanelLarge.jpeg`,
@@ -1409,8 +1418,8 @@ and bulkhead was poised ready to smash her and the BOTs into paste.</p>
         id: "20d",
         title: "Revelation",
         text: `<p>“S8873, let's get back to the bridge”</p>
-<p>“Affirmative”</p>
-<p>As she strode back towards the bridge she keyed in the comms channel for Connor</p>
+<p>“Affirmative” the SAR BOT replied leading the way.</p>
+<p>As she strode back towards the bridge she keyed in the comms channel for Connor and the rest of the search party.</p>
 <p>“I know what happened to the crew.” she said</p>
 <p>“I think we do too…” came Connors' pained reply.</p>
 `,
@@ -1425,7 +1434,9 @@ and bulkhead was poised ready to smash her and the BOTs into paste.</p>
     {
         id: "21a",
         title: "Revelation",
-        text: `<p>The small team was making their way through the corridors transecting Gwydion's main body as they headed towards the hangar bay where Rhiannon was waiting. Onaje and Connor were taking the front keeping their eyes peeled for any further unexplained mishaps while Threes and the bots took up the rear. Anna stayed close to the front, clearly a way to get too close to the bots.</p>
+        text: `<p>****</p>
+        <p>The small team was making their way through the corridors transecting Gwydion's main body as they headed towards the hangar bay where Rhiannon was waiting. 
+        Onaje and Connor were taking the front keeping their eyes peeled for any further unexplained mishaps or signs of danger while Threes and the bots took up the rear. Anna stayed close to the front, clearly wary of getting too close to the bots.</p>
 `,
         image: {
             imageRef: `images/GwydionCorridorWithDebris2.jpeg`,
@@ -1438,7 +1449,10 @@ and bulkhead was poised ready to smash her and the BOTs into paste.</p>
     {
         id: "21b",
         title: "Revelation",
-        text: `<p>Connor was concerned about Anna’s reaction to the bots. Making him think of those empty bot cradles in the engineering deck. Had the bots somehow gone rogue? Surely the crew could have overpowered them though, most were not combat programmed bots with only minimal ship defense learning and should have been dealt with easily defeated by the conglomerate marines stationed on such a ship.</p>`,
+        text: `<p>Her reaction to the BOTs presence stirred a sense of unease in the pit of Connor's stomach.
+        Making him think back to those empty BOT cradles on the engineering deck. Had the bots somehow gone rogue? If so where were they and why hadn't they attacked us yet?
+        Surely the crew could have overpowered them though, most were not combat programmed bots with no combat learning algorithms provided to them. The conglomerate should have been dealt with easily defeated by the conglomerate marines stationed
+        on such a ship which whilst having only a fraction of the numbers as the defense BOT should have totally outclassed them, not to mention the basic combat training every member of the Cong navy received.</p>`,
         image: {
             imageRef: `images/GwydionCorridorWithDebris2.jpeg`,
             alt: "Gwydion Corridor With Debris",
@@ -1450,9 +1464,12 @@ and bulkhead was poised ready to smash her and the BOTs into paste.</p>
     {
         id: "21c",
         title: "Revelation",
-        text: `<p>They were approaching the hangar now and turned a corner, finding themselves in a longer wider corridor that should lead directly to the hangar Rhiannon was in.</p>
-        <p>“No” came the quiet protest of Anna.</p>
-        <p>“What is it?” asked Connor quietly, dropping back to walk alongside her. She had slowed her pace significantly and her eyes were wide and alert scanning the doorway leading off either side of the corridor.</p>`,
+        text: `<p>They, continued on his unease building as he was unable to wrap his mind around what could have possibly happened to the rest of the crew. He considered asking Anna, but he could see was at her wits end, and even the slightest touch
+        could send her into a panic stricken stupor again.</p> 
+        <p>They were approaching the hangar now and turned a corner, finding themselves in a longer wider corridor that should lead directly to the hangar Rhiannon was in.</p>
+        <p>"Almost there now" Onaje said in an attempt to help calm Anna further</p>
+        <p>“No” came her quiet protest.</p>
+        <p>“What is it?” asked Connor quietly, dropping back to walk alongside her. She had slowed her pace significantly and her eyes were wide and alert scanning the passages leading off either side of the corridor.</p>`,
         image: {
             imageRef: `images/GwydionLongWideCorridor.jpeg`,
             alt: "Gwydion Long Wide Corridor",
@@ -1464,7 +1481,7 @@ and bulkhead was poised ready to smash her and the BOTs into paste.</p>
     {
         id: "21d",
         title: "Revelation",
-        text: `<p>“No no no” she had stopped now, dread and anxiety creasing her features
+        text: `<p>“No no no” she had stopped now, dread and anxiety creasing her features.
 <p>“What is it?” Connor asked again “did you see something?”</p>
 <p>She shook her head</p>
 <p>“You think something is wrong though? Something has changed?”</p>
@@ -1482,9 +1499,11 @@ and bulkhead was poised ready to smash her and the BOTs into paste.</p>
     {
         id: "22a",
         title: "Revelation",
-        text: `<p>Connor didn’t notice anything wrong or different to before, but he was not foolish enough not to trust the instincts of someone who so far appeared to be the ship's only survivor.
-Guns raised, they moved cautiously down the corridor. Like the rest of the ship it was poorly lit and the drone and hum of damaged electronics and speakers was a constant low level noise.</p>
-<p>Halfway down the hallway they approached a four way junction. As they crept closer Anna began to whimper softly, clearly terrified of what may lay in wait.</p>
+        text: `<p>Connor hadn't noticed anything different to the number of other corridors they had passed, but Anna had survived whatever happened to the rest of the crew and so he was not about to take her concern for granted.</p>
+<p>Weapons raised, the small group moved cautiously down the corridor. Like the rest of the ship it was poorly lit and the drone and hum of damaged electronics was a constant low level noise that combined with the 
+faintly clanging sound of their footsteps made it difficult to make out any other sounds.</p>
+<p>They were approaching the junction now the corridors either side swathed in darkness the lights of the corridors either side seeming to be in even worse shape than the ones in the main passageway.
+As they crept closer Anna began to whimper softly, clearly terrified of what may lay in wait. Connor could hardly blame her, there was definitely something ominous about the darkness up ahead.</p>
 `,
         image: {
             imageRef: `images/GwydionLongWideCorridor.jpeg`,
@@ -1500,9 +1519,12 @@ Guns raised, they moved cautiously down the corridor. Like the rest of the ship 
         text: `<p>“Onaje, you take left, I’ll take right, Three’s you keep eye’s front”</p>
 <p>“Copy” </p>
 <p>“Compliance”</p>
+<p>The two of them replied, as Onaje and Connor stacked up on either side of the junction</p>
 <p>“Three… Two… One… GO!” </p>
 <p>Onaje and Connor pushed rapidly around the corners as Three kept his weapon aiming down the dim corridor.</p>
-<p>Connor saw nothing, just another dim corridor, in the same state of damage and disrepair as the rest..</p>
+<p>"Clear" said Onaje after a few moments</p>
+<p>Connor could see nothing either down the right hand side corridor, just another dim corridor, in the same as the rest of the ship</p>
+<p>"Cle-"</p>
 `,
         image: {
             imageRef: `images/GwydionLongWideCorridor.jpeg`,
@@ -1515,7 +1537,7 @@ Guns raised, they moved cautiously down the corridor. Like the rest of the ship 
     {
         id: "22c",
         title: "Revelation",
-        text: `<p>“BANG BANG BANG BANG” the crack of gunfire was deafening in the enclosed space.</p>
+        text: `<p>“BANG BANG BANG BANG” the crack of gunfire sounded behind them, all but deafening Connor in the enclosed space.</p>
 <p>“Behind us!” Yelled Onaje.</p>
 `,
         image: {
@@ -1529,8 +1551,9 @@ Guns raised, they moved cautiously down the corridor. Like the rest of the ship 
     {
         id: "23a",
         title: "Revelation",
-        text: `<p>One of the ENG bots taking up the rear had been obliterated, pieces of its shattered chassis scattered across the deck as its headless neck spurted oil.</p>
-<p>The entire corridor was illuminated now by the strobing light of muzzle flashes as the two remaining SAR bots were returning fire down the hall behind them. One was firing one handed as its having been mangled by another bullet as it tried to engage the three Gwydion bots advancing towards us.</p>
+        text: `<p>Turning Connor saw one of the ENG bots taking up the rear had been obliterated, pieces of its shattered chassis scattered across the deck as its headless neck spurted oil.</p>
+<p>The entire corridor was illuminated by the strobing light of muzzle flashes as the two remaining SAR bots were returning fire down the hall behind them at their attackers. 
+One was firing one handed its hanging mangled and useless by it's side as it tried to engage the three BOTs marked in the colors of the Gwydion defense cadre advancing towards the group from the Rhiannon.</p>
 `,
         image: {
             imageRef: `images/GwydionShipDefenseRobots1.jpeg`,
@@ -1543,7 +1566,8 @@ Guns raised, they moved cautiously down the corridor. Like the rest of the ship 
     {
         id: "23b",
         title: "Revelation",
-        text: `<p>Onaje had taken cover in the perpendicular corridor and was peeking around the corner firing into their oncoming attackers. Taking one of Gwydion's bots square in the chest. It collapsed, spasming as its internal circuitry sputtered and sparked in its death throes.</p>`,
+        text: `<p>Onaje had taken cover in the perpendicular corridor and was peeking around the corner firing into the oncoming attackers. He took one of the Gwydion bots square in it's torso detonating it in a shower of sparks and shrapnel.
+        Collapsing it the stricken BOT spasmed as its internal circuitry sputtered and sparked in its death throes.</p>`,
         image: {
             imageRef: `images/GwydionShipDefenseRobots1.jpeg`,
             alt: "Gwydion Ship Defense Robots",
@@ -1555,8 +1579,8 @@ Guns raised, they moved cautiously down the corridor. Like the rest of the ship 
     {
         id: "23c",
         title: "Revelation",
-        text: `<p>Connor had managed to drag Anna around the opposite corner with him and was also returning fire. Her prior whimpering had stopped now she trembled eye’s wide and alert.</p>
-<p>Connor saw another of the SAR bots get hit. Its head mulched by a sustained burst of fire. The SAR bot was throw forward clattering into the wall it was hiding behind.</p>
+        text: `<p>Connor had managed to drag Anna around the opposite corner  and was now also returning fire. Her prior whimpering had stopped now and she trembled eye’s wide and alert.</p>
+<p>Another of the SAR bots got hit. Its head mulched by a sustained torrent of fire. The BOT however was throw forward clattering into the wall it was taking over behind.</p>
 `,
         image: {
             imageRef: `images/GwydionShipDefenseRobots1.jpeg`,
@@ -1569,7 +1593,7 @@ Guns raised, they moved cautiously down the corridor. Like the rest of the ship 
     {
         id: "23d",
         title: "Revelation",
-        text: `<p>“There are more in front Captain” Vocalised Three’s taking cover and returning fire at the two new Gwydion bots making their towards us from the direction of the hangar bay.</p> 
+        text: `<p>“There are more coming from the other direction, Captain.” Vocalised Three’s taking cover and firing towards the new threat making it's way towards the junction from the direction of the hangar bay.</p> 
         <p>Both the Rhiannon's SAR bots were down now, devastated by the pincer fire hemming the small group in from both sides.</p>
         `,
         image: {
@@ -1583,8 +1607,9 @@ Guns raised, they moved cautiously down the corridor. Like the rest of the ship 
     {
         id: "23e",
         title: "Revelation",
-        text: `<p>“I am being attacked!” Came the vocalization from the last remaining ENG bot behind Onaje.</p>
-<p>No shit thought Connor until he realized what the bot meant. It had been grabbed from behind and was now wrestling with yet another Gwydion bot. The two humanoid machines battering one another with their steel limbs.</p>
+        text: `<p>“unit under attack!” Came the sudden vocalization from the last remaining ENG bot that had taken refuge behind Onaje.</p>
+<p>'No shit' Connor thought thinking the warning was perhaps a little tardy, until he realized what the BOT had meant. It had been grabbed from behind and was now wrestling with yet another Gwydion BOT. 
+The two humanoid machines battering one another with their steel limbs.</p>
 `,
         image: {
             imageRef: `images/GwydionShipDefenseRobots1.jpeg`,
@@ -1597,9 +1622,9 @@ Guns raised, they moved cautiously down the corridor. Like the rest of the ship 
     {
         id: "23f",
         title: "Revelation",
-        text: `<p>“AHHHH!” came a scream from Anna, a painful sounding thud as she struck the floor.</p>
-<p>Connor spun seeing a Gwydion ENG bot on top of Anna smashing her into the corridor floor.</p>
-<p>He didn't have a shot, concerned a any attempt to would be as dangerous to Anna as it would be to the bot.</p>
+        text: `<p>“AHHHH!” came a scream from Anna along with a painful sounding thud as she struck the floor behind Connor.</p>
+<p>He spun seeing a Gwydion ENG BOT on top of Anna smashing her into the corridor floor.</p>
+<p>He didn't have a shot, concerned that any attempt would be as dangerous to Anna as it would be to the BOT assaulting her.</p>
 `,
         image: {
             imageRef: `images/GwydionShipDefenseRobots1.jpeg`,
@@ -1612,9 +1637,9 @@ Guns raised, they moved cautiously down the corridor. Like the rest of the ship 
     {
         id: "23g",
         title: "Revelation",
-        text: `<p>Instead he lunged forward plunging his knife into the bot's faceplate through it’s eye.</p> 
-        <p>Changing it's attention to the new threat, it lunged at Connor forcing him against the wall and attempting to smash its fist into his face.</p>
-        <p>Connor stayed in close to the bot, knowing if even one blow from the it's mechanical limbs were to stike to it would put him out of the fight.</p>
+        text: `<p>Instead he lunged forward dropping the dart spewer and snatching his combat knife from it's sheath at his belt and plunging it through the back of the bots head.</p> 
+        <p>Changing it's attention to the new threat, the BOT lunged at Connor forcing him against the wall and attempting to smash its fist into his face.</p>
+        <p>Connor stayed in close to the bot, knowing if even one blow from the it's mechanical limbs were to land to it would put him out of the fight for good.</p>
         `,
         image: {
             imageRef: `images/GwydionShipDefenseRobots1.jpeg`,
@@ -1627,7 +1652,7 @@ Guns raised, they moved cautiously down the corridor. Like the rest of the ship 
     {
         id: "24a",
         title: "Revelation",
-        text: `<p>Pulling the knife free he plunged it back into the bots torso working it around furiously, trying to cut and damage the essential circuits of the bots CPU.</p>`,
+        text: `<p>Wrenching the knife free he plunged it back into the bots torso working it around furiously, trying to cut and damage the essential circuits leading to the bots CPU.</p>`,
         image: {
             imageRef: `images/GwydionShipDefenseRobots1.jpeg`,
             alt: "Gwydion Ship Defense Robots",
@@ -1638,8 +1663,8 @@ Guns raised, they moved cautiously down the corridor. Like the rest of the ship 
             successCode: "wadswdsa",
             passPage: "24b",
             failPage: "failScreen",
-            failPageMessage:
-                "<p>Connor could not work it into the bots CPU casing. Readjusting to get better leverage he made too much room between him and the bot. It’s metal fist smashed into his face, pulverizing his nose and smashing him into the wall. His head struck the wall with a dull thud and everything went black.</p>",
+            failPageMessage: `<p>Connor could not work it into the bots CPU casing. Readjusting to get better leverage he made too much room between him and the BOT. 
+                It’s metal fist smashed into his face, pulverizing his nose and smashing him into the wall. His head striking the wall with a dull thud sending everything into blackness.</p>`,
             failPageCheckpoint: "23g",
         },
         nextPage: "failScreen",
@@ -1648,9 +1673,9 @@ Guns raised, they moved cautiously down the corridor. Like the rest of the ship 
     {
         id: "24b",
         title: "Revelation",
-        text: `<p>A loud clang sounded and the bots neck joints snapped as it tumbled away from Connor. In Front of him stood Anna, a metal bar in her hands.
-<p>“Thanks,” Connor said, gathering up his firearm again.</p>
-<p>On the other side of the Corridor Onaje had shot the Gwydion bot attacking the Rhiannon Eng bot. Far less concerned about the ricochet into the ENG bot.</p>
+        text: `<p>A loud clang sounded and the bots neck joints snapped and it tumbled away from Connor. In Front of him stood Anna, a metal bar, clearly scavenged from the detritus surrounding them in her hands.
+<p>“Thanks,” Connor said, gathering up his firearm.</p>
+<p>On the other side of the Corridor Onaje had shot the Gwydion bot attacking the Rhiannon ENG BOT. Far less concerned about the well being of the replaceable machine from the Rhiannon.</p>
 `,
         image: {
             imageRef: `images/GwydionShipDefenseRobots1.jpeg`,
@@ -1663,7 +1688,8 @@ Guns raised, they moved cautiously down the corridor. Like the rest of the ship 
     {
         id: "24c",
         title: "Revelation",
-        text: `<p>Threes was still engaging the two bots approaching from the direction of the hangar. One had been struck in the leg and was moving slower than its companion as they continued to fire steady bursts into the wall behind which Threes was taking cover. There was only one bot still coming from behind them which was now trading shots with Onaje from cover behind an extruding wall strut.</p>
+        text: `<p>Threes was still engaging the two bots approaching from the direction of the hangar. One had been struck in the leg and was moving slower than its companion, limping down the corridor as they continued to fire steady bursts
+        into the wall behind which Threes was taking cover. There was only one bot still coming from the first group, which was now trading shots with Onaje from cover behind an extruding wall strut.</p>
         `,
         image: {
             imageRef: `images/GwydionShipDefenseRobots1.jpeg`,
@@ -1676,8 +1702,9 @@ Guns raised, they moved cautiously down the corridor. Like the rest of the ship 
     {
         id: "24d",
         title: "Revelation",
-        text: `<p>Ducking quickly out from cover Connor squeezed the trigger of his dart spewer. Throwing a storm of high velocity darts into the oncoming bot shredding it’s torso. The bot collapsed forwards, it's motor control disabled.</p>
-        <p>Connor threw himself back into cover as the bots advancing from the hangar raked their fire across the hallway towards him.</p>
+        text: `<p>Ducking quickly out from cover Connor squeezed the trigger of his dart spewer. Throwing a storm of high velocity darts into the damaged BOT engaging Threes shredding it’s torso. 
+        It collapsed forwards, it's motor controls shredded by the hail of darts.</p>
+        <p>Connor threw himself back into cover as the remaining bot advancing from the hangar raked its fire across the hallway towards him.</p>
         `,
         image: {
             imageRef: `images/GwydionShipDefenseRobots1.jpeg`,
@@ -1690,7 +1717,7 @@ Guns raised, they moved cautiously down the corridor. Like the rest of the ship 
     {
         id: "24e",
         title: "Revelation",
-        text: `<p>This gave Threes an opportunity to lean out from cover and fire two expertly placed shots straight into the Bots CPU. It crumpled mid stride as if it were a puppet with it's strings cut.</p>
+        text: `<p>This gave Threes an opportunity to lean out from cover and fire two expertly placed shots straight into it's CPU. The BOT crumpled to the floor mid stride as like a puppet with it's strings cut mid performance.</p>
         `,
         image: {
             imageRef: `images/GwydionShipDefenseRobots1.jpeg`,
@@ -1703,9 +1730,11 @@ Guns raised, they moved cautiously down the corridor. Like the rest of the ship 
     {
         id: "24f",
         title: "Revelation",
-        text: `<p>Now only taking fire from one direction, Onaje pushed the attack, firing a sustained burst into the last remaining bot as it rose from cover to engage Threes. Stitching the bot from groin to head.</p> 
+        text: `<p>Now only taking fire from one direction, Onaje pushed the attack, firing a sustained burst into the last remaining bot as it rose from cover to engage the now exposed Threes. Stitching the bot from groin to head.</p> 
         <p>letting out a machine groan it tumbled backwards landing with a resounding clang against the steel floor.</p>
-<p>“Captain! I know what happened to the crew” Came the sound of Hyun-Ae’s voice through the comlink.</p>
+        <p>Breathlessly Connor looked around "is everyone ok?"</p>
+        <p>A few muttered responses and the expected "Affirmative" from Threes told him that despite the loss of three of the BOTS Threes Onaje, Anna, and the last ENG bot were uninjured.
+<p>“Captain!" Came the anxious sounding voice of Hyun-Ae over his com system. "I know what happened to the crew.”</p>
 <p>I think we do too…” groaned Connor as he got to his feet.</p>
 `,
         image: {
