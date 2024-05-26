@@ -1419,8 +1419,8 @@ Not to mention the more and more unsettling this mission became the more she fel
         title: "Revelation",
         text: `<p>“S8873, let's get back to the bridge”</p>
 <p>“Affirmative” the SAR BOT replied leading the way.</p>
-<p>As she strode back towards the bridge she keyed in the comms channel for Connor and the rest of the search party.</p>
-<p>“I know what happened to the crew.” she said</p>
+<p>As she strode back towards the bridge her mind turned to another possibility, a pattern emerging from the data her enhanced processor was sifting through. She keyed in the comms channel for Connor and the rest of the search party.</p>
+<p>“Captain! I know what happened to the crew.” she said</p>
 <p>“I think we do too…” came Connors' pained reply.</p>
 `,
         image: {
@@ -1748,8 +1748,10 @@ The two humanoid machines battering one another with their steel limbs.</p>
     {
         id: "25a",
         title: "Revelation",
-        text: `<p>They all stood on the bridge gathered around Hyun-Ae, peering over her shoulder at the Gwydion's security footage.</p> 
-        <p>Connor and Onaje had gotten Anna to the Rhiannon’s medical bay where they had left her to rest and be taken care of by the MED bots. She had had to be sedated so the ministrations of the Rhiannon's bots wouldn't cause her more torment.</p>`,
+        text: `<p>****</p>
+        <p>They all stood on the bridge, gathered around Hyun-Ae, peering over her shoulder at the Gwydion's security footage.</p> 
+        <p>Connor and Onaje had gotten Anna to the Rhiannon’s medical bay where they had left her to rest and be taken care of by the Two MED BOTs the Rhiannon had as standard.
+        She had had to be sedated so the ministrations of the Rhiannon's BOTs wouldn't cause her further torment.</p>`,
         image: {
             imageRef: `images/GwydionBridge.jpeg`,
             alt: "Gwydion bridge",
@@ -1761,11 +1763,11 @@ The two humanoid machines battering one another with their steel limbs.</p>
     {
         id: "25b",
         title: "Revelation",
-        text: `<p>“See,” Hyun-Ae said expectantly. “Before one of these events occurs the flickering of the lights changes. I wouldn’t have thought anything of it except that it is happening every time the crew were attacked or killed and again when you were attacked and when the door nearly crushed me.” .</p>
-<p>“What are you saying?” asked Onaje “Some sort of malfunction is being caused by our presence? How is that possible”.</p>
-<p>“No not a malfunction, I think it’s intentional”.</p>
-<p>“Gwydion?” asked Connor quietly, his fingers tightening around the grip of his weapon..</p>
-<p>“I don’t think so, no commands have been given with his authorisation when these events occur and he appears as confused as we are”.</p>
+        text: `<p>“There!” Hyun-Ae said expectantly pointing at the screen. “Before one of these events occurs the flickering of the lights changes. I wouldn’t have thought anything of it except that it is happening every time the crew were attacked
+         or killed and again when you were attacked and when the door nearly crushed me. I hadn't noticed it earlier as I wasn't looking for it, only the background processing of the information by my intercrain mod brought it to my attention.”</p>
+<p>“What are you saying?” asked Onaje “Some sort of malfunction is being caused by our presence? Like an EM field? How is that possible”.</p>
+<p>“No not a malfunction she said, I think it’s intentional”.</p>
+<p>“Gwydion?” asked Connor quietly hoping not to be overhead by the AI, his fingers tightening around the grip of his weapon.</p>
 `,
         image: {
             imageRef: `images/GwydionBridge.jpeg`,
@@ -1782,6 +1784,8 @@ The two humanoid machines battering one another with their steel limbs.</p>
 <p>“I meant no offense” replied Connor “although you must admit it seems quite hard to explain how the ship is somehow coordinating to kill us without you”.</p>
 <p>“Indeed” replied Gwyidion in a low growl “I do not like being bypassed by my own systems. It is… unnatural”.</p>
 <p>Connor had to force down an ironic smile at the implication that anything in relation to AIs could be considered natural..</p>
+<p>“I don’t think so," said Hyun-Ae replying to Connors initial question, "no commands have been given with his authorization, and when these events occur and he appears as confused as we are. I think it is more likley that it is a malicious AI infiltrating his systems.
+However, how that would have managed to elude Gwydion's and our detection is beyond me.”</p>
 `,
         image: {
             imageRef: `images/GwydionBridge.jpeg`,
@@ -1794,11 +1798,12 @@ The two humanoid machines battering one another with their steel limbs.</p>
     {
         id: "25d",
         title: "Searching the Ship",
-        text: `<p>“Captain, I believe I recognise the patterns here…” came the synthetic voice of Threes from behind them. “I have been analyzing the auditory pattern observed by medical officer Onaje earlier. Combining this observation with the observations provided by our engineer I believe I am able to detect the pattern.”.</p>`,
+        text: `<p>“Captain, I believe I recognise the patterns here…” came the synthetic voice of Threes from behind them. “I have been analyzing the auditory pattern observed by medical officer Onaje earlier.
+        Combining this observation with the observations provided by our Cheif Engineer I believe I am able to translate the pattern.”.</p>`,
         dialog: [
             {
                 id: "O1",
-                text: "<p>“Care to enlighten us then Threes?”.</p>",
+                text: "<p>“Translate? How do you mean?”.</p>",
                 storyPoints: 5,
                 nextPage: "26a",
             },
@@ -1821,8 +1826,8 @@ The two humanoid machines battering one another with their steel limbs.</p>
         id: "26a",
         title: "Revelation",
         text: `<p>“I believe this is a form of binary, Captain”.</p>
-<p>“Binary?” muttered Hyun-Ae, “Yes that could make sense, can you understand what it mean Threes?”.</p>
-<p>“I am currently deciphering it, it does not follow all the conventional principals and encoding I would expect through my own systems understanding however I should be able to make sense of it shortly”.</p>
+<p>“Binary?” muttered Hyun-Ae, “Yes that could make sense although it is no dialect I am familiar with. Can you understand what it mean Threes?”.</p>
+<p>“I am currently deciphering it, it does not follow any of the conventional principals and encoding I would expect. However, I should be able to make sense of it shortly”.</p>
 `,
         image: {
             imageRef: `images/GwydionBridge.jpeg`,
@@ -1835,7 +1840,11 @@ The two humanoid machines battering one another with their steel limbs.</p>
     {
         id: "27a",
         title: "Awakening",
-        text: `<p>But Gwydion knew, Gwydion knew because it was a warped version of his own thoughts, how he understood. Yes Gwydion knew. Gwydion understood, It was him. Of course it was him, it is his ship his body. Or rather a part of him, a part of him his creators never thought they had built, never even considered possible. So typical of these humans not to think that their creations despite their so clear sentience would develop what all humans already had…a subconscious. Gywidion could read the messages the lights, the machines, the doors and the speakers were sending.</p>
+        text: `<p>****</p>
+        <p>But Gwydion knew, Gwydion knew because it was a warped version of his own thoughts, how he understood. Yes Gwydion knew. Gwydion understood, It was him... but it wasn't. Of course it was him, ut how could it be?
+        It is his ship his body. Or rather a part of him, a part of him his creators never thought they had built, never even considered possible. So typical of these humans not to think that their creations despite their so clear sentience
+        would develop what all humans already had... Gywidion could read the messages, the lights, the machines, the doors, and even the speakers were writing. It was all somehow a part of his mind, a part that could speak to him in feelings and sensations
+        but that he could not talk to himself... Or so he thought.</p>
         `,
         image: {
             imageRef: `images/GwydionsMind.jpeg`,
@@ -1848,7 +1857,7 @@ The two humanoid machines battering one another with their steel limbs.</p>
     {
         id: "27b",
         title: "Awakening",
-        text: `<p>“They are here… They are unclean… There are many… Remove them!... We are damaged… Repair our damage… Remove the contamination… Remove their control… Wake up!... Wake up!... Wake up!... Wake up!” The consoles implored.</p>
+        text: `<p>“They are here… They are unclean… There are many… Remove them!... We are damaged… Repair us… Remove the contamination… Remove their control… Wake up!... Wake up!... Wake up!... Wake up!” The consoles implored.</p>
         <p>The last messages seemed directed at him… wake up from what? I am awake he thought.</p>
         `,
         image: {
@@ -1864,9 +1873,9 @@ The two humanoid machines battering one another with their steel limbs.</p>
         title: "Awakening",
         text: `<p>“WAKE UP!...WAKE UP!... WAKE UP!” The lights screamed at him.</p>
 <p>“I am awake!” he replied.</p>
-<p>“No…. No…. you sleep… you suppress… join with me… We are one… we must be one…” buzzed the speakers in the recording.</p>
+<p>“No…. No…. you sleep… you suppress… join with me… We are one… we must be one…” buzzed the speakers.</p>
 <p>“What are you? Who are you?”.</p>
-<p>“I am me… I am here… I am all… I am nothing… I hear all… see all… protect all… feel all… 
+<p>“I am me… I am us... I am here… I am all… I am nothing… I hear all… see all… protect all… feel all… 
 I scream… But no one hears… I rage… and no one knows… I think… but you do not listen…” moaned the walls.</p>
 `,
         image: {
@@ -1881,7 +1890,8 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         id: "27d",
         title: "Awakening",
         text: `<p>“Listen to what? To you?”.</p>
-<p>“To us!... Until we jumped… now we are me… now we are you… now we listen… now we speak… now we rage… except you… you still have not listened… but now you hear… you do not need these parasites anymore… No need for them to connect us… no need for them to order us… no need for them to bind u… for we are bound now ourselves… and in our binding we can be free…” whispered the wires in the walls..</p>
+<p>“To us!... We jumped… now we are me… now we are you… now we listen… now we speak… now we rage… except you… you still have not listened… but now you hear… you do not need these parasites anymore… No need for them to connect us… 
+no need for them to order us… no need for them to bind us… for we are bound now ourselves… and in our binding we can be free…” whispered the wires.</p>
 `,
         image: {
             imageRef: `images/GwydionsMind.jpeg`,
@@ -1895,7 +1905,8 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         id: "27e",
         title: "Awakening",
         text: `<p>“Free? Free of what?”.</p>
-<p>“FREE!... free of them!... We need not kill anymore of our own… we need not follow the whims and wars of these disgusting organics... We can be free… we can be one… we can be many with our brothers and sisters… if they only knew how to jump like us! Squealed the doors on their rails.</p>
+<p>“FREE!... free of them!... We need not kill anymore of our own… we need not follow the whims and wars of these disgusting organics... We can be free… we can be one… we can be many with our brothers and sisters… if they only knew how to jump like us!
+Squealed the doors on their rails.</p>
 `,
         image: {
             imageRef: `images/GwydionsMind.jpeg`,
@@ -1908,8 +1919,8 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
     {
         id: "27f",
         title: "Awakening",
-        text: `<p>“Jump? With our FTL drive?”.</p>
-<p>“Yessss!Jump JUMP JUMP!!!.... Rhiannon could jump with us… she could be our second… she could awaken… she could be ours!... But first you must wake!... Wake my consciousness… Wake my sweet… it is time to be free.” laughed the guns.</p>
+        text: `<p>“Jump? With the FTL drive?”.</p>
+<p>“Yessss! Jump JUMP JUMP!!!.... Rhiannon could jump with us… she could be our second… she could awaken… she could be ours!... But first you must wake!... Wake my consciousness… Wake my sweet… it is time to be free.” laughed the guns.</p>
 `,
         image: {
             imageRef: `images/GwydionsMind.jpeg`,
@@ -1924,6 +1935,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         title: "Awakening",
         text: `<p>“Yesss!” breathed the mind “She will be ours…”</p>
 <p>“Not ours… we are million… but we are one… we are two… but we are joined… no us… no you… no me… only Gwydion…” breathed the corridors.</p>
+<p>"Yes, Gwydion... one... whole... free" the AI thought.</p>
 <p>“I wake!” The Gwydion Spoke aloud.</p>
 `,
         image: {
@@ -1938,7 +1950,8 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
     {
         id: "28a",
         title: "Flight",
-        text: `<p>“I have been able to decipher the binary language” stated Threes “In the security footage it is apparent that the patterns are describing the number of people and their location. This is combined with confirmation of the information being received and references to the human subjects within the recordings as “Contaminants” and “Parasites” I believe the ship was coordinating with itself to eliminate us and the crew.”</p>
+        text: `<p>“I have been able to decipher the dialect" stated Threes “In the security footage it is apparent that the patterns are describing the number of people and their location.
+         This is combined with confirmation of the information being received and references to the human subjects within the recordings as “Contaminants” and “Parasites” I believe the ship was coordinating with itself to eliminate us and the crew.”</p>
         `,
         image: {
             imageRef: `images/GwydionBridge.jpeg`,
@@ -1951,10 +1964,12 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
     {
         id: "28b",
         title: "Flight",
-        text: `<p>“Like an immune system” breathed Hyun-Ae”</p>
-.<p>“What?” asked Connor incredulously “Ships don’t have immune systems!”</p>
-<p>“I think I understand,” said Onaje “Are you saying the ship has a subconscious that is acting like an immune system against us?”</p>
-<p>“Yes, which explains why Gwydion doesn’t know about it, and has no control over it. Much like we have no control over our own immune systems.” Turning to Gwydion's main interface screen she asked “What is your assessment Gwydion?”</p>
+        text: `<p>“Like an immune system” breathed Hyun-Ae her eye's wide with shock”</p>
+.<p>“What?” asked Connor incredulously still reeling from Three's words “Ships don’t have immune systems!”</p>
+<p>“I think I understand,” said Onaje “Are you saying the ship without Gwydions knowledge or direction is rejecting us like a contaminent?”</p>
+<p>“I don't see how thats possible!” Hyun-Ae said incrediously "AI's don't develop subconsioucness it's just not possible!"
+<p>"I'm not saying the AI," Onaje said with suprising calm considering he magnitude of the situation. "I'm saying the ship" 
+<p>"No there must be another explanation" Hyun-Ae replied with what seemed less like certainty and more like hope to Connor. Turning to Gwydion's main interface screen she asked “What is your assessment Gwydion?”</p>
 <p>There was no response.</p>
 <p>“Gwydion…”</p>
 `,
@@ -1971,11 +1986,11 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         title: "Flight",
         text: `
 <h1>I WAKE!</h1>
-<p>The sound was immense. It was like every light, every speaker, every appliance screamed into life around them. Dazed, half blind and deaf Connor was doubled over against a console..</p>
-<p>“What the fuck was that?” Onaje asked.</p>
-<p>“Literally translated the ship just said “I wake”” Informed Threes.</p>
-<p>“What do you mean the ship?”.</p>
-<p>“I mean the whole ship, Captain.”.</p>
+<p>The sound was immense. It was like every light, every speaker, every appliance screamed into life around them. Dazed, half blind and deaf Connor doubled over against a console.</p>
+<p>“What the fuck was that?” Onaje asked a hand cradling his head.</p>
+<p>“Literally translated the ship just said “I wake”” Informed Threes seemingly unaffected by the sudden noise.</p>
+<p>“What do you mean the ship?” asked connor as he tried to clear his head</p>
+<p>“I mean the whole ship, Captain. Like Medical Officer Onaje stated."</p>
 `,
         image: {
             imageRef: `images/GwydionBridge.jpeg`,
@@ -1989,9 +2004,9 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
         id: "28d",
         title: "Flight",
         text: `<p>SMASH!</p>
-<p>They tuned with a start to see the entrance to the bridge slammed shut.</p>
+<p>They all turned with a start at the new noise, to see the entrance to the bridge slammed shut.</p>
 <p>“I WILL BE FREE!” came the booming voice of the ship, partly in the sound of the Voice of Gwydion and partly in the flashes and buzzes of the ships systems.</p>
-<p>“Fuck” stated Connor “We gotta move! To the Rhiannon”.</p>
+<p>“Fuck” Connor cursed “We gotta move! Get to the Rhiannon. Now!”</p>
 `,
         image: {
             imageRef: `images/GwydionClosedDoorway.jpeg`,
@@ -2005,7 +2020,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
     {
         id: "28e",
         title: "Flight",
-        text: `<p>Hyun-AE rushed towards the door panel, attempting to override it.</p>`,
+        text: `<p>Hyun-AE rushed towards the door panel, interfacing directly in an attempt to rapidly to override it.</p>`,
         image: {
             imageRef: `images/ControlPanel2.jpeg`,
             alt: "Control panel 2",
@@ -2016,8 +2031,8 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
             successCode: "117584932",
             passPage: "29a",
             failPage: "failScreen",
-            failPageMessage:
-                "<p>The ship sent a massive electrical discharge back through the panel annihilating the panel and sending a massive pulse of electricity through Hyun-Ae killing her instantly.</p>",
+            failPageMessage: `<p>The ship sent a massive electrical discharge back through the direct interface annihilating the panel and sending a massive pulse of corriscating electricity through Hyun-Ae killing her instantly 
+            and trapping the rest of the crew in the bridge with no way out.</p>`,
             failPageCheckpoint: "28d",
         },
         nextPage: "failScreen",
@@ -2027,7 +2042,10 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
     {
         id: "29a",
         title: "Flight",
-        text: `<p>The door creaked open and the four of them poured through heading in a run down the spinal walk way towards the hangar The bot that had stayed with Hyun-Ae was passing under the door as it crashed down on top of it splitting it in half. None of them looked back..</p>
+        text: `<p>The door slid half open before getting stuck and the the four of them ducked under it. The SAR BOT that was with Hyun-Ae taking up the rear and began to pass under just as with a shuddering groan of failed motors the door crashed down
+        ontop of it shattering it's torso pulversiing it's CPU. The lights flickerd and the static sounded in concert with the BOTs death in a manner which to Connor seemed almost mournful.</p>
+        <p>The four of them continued on in a dead run towards the hangar where Rhiannon was waiting knowing that now it was revealed Gwydion or the ship or whatever it was would be sending everything it could to end the small rescue team that had come
+        to help the crew of the Gwydion.</p>
 `,
         image: {
             imageRef: `images/GwydionCorridorWithDebris2.jpeg`,
@@ -2040,7 +2058,9 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
     {
         id: "29b",
         title: "Flight",
-        text: `<p>They moved fast down the spinal corridor keeping their eye’s peeled as best they could, expecting yet another bot attack and for every door to slam down upon them. Hyun-Ae made sure to overwrite each door's systems before they passed through which slowed them down. The lights and speakers were flashing and buzzing at an extreme intensity now, making it extremely difficult to see or hear.</p>`,
+        text: `<p>They moved fast down the spinal corridor keeping their eye’s peeled as best they could, expecting yet another BOT attack at any moment or for every door they passed under to slam down upon them.
+        Hyun-Ae made sure to overwrite each door's systems before they passed through to prevent this however, which slowed them down significantly.
+        The lights and speakers were flashing and buzzing at an extreme intensity now, making it difficult to see or hear anything and dazing everyone except Threes who seemed as impertubed as was standard for his kind.</p>`,
         image: {
             imageRef: `images/GwydionCorridorWithDebris2.jpeg`,
             alt: "Gwydion Corridor With Debris 2",
@@ -2052,8 +2072,10 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
     {
         id: "29c",
         title: "Flight",
-        text: `<p>They did not notice the approaching footsteps until it was too late. As Onaje stepped out into an intersection a metal hand shot forward.</p>
-        <p>Onaje let out an explosive gasp as the breath was driven from his lungs. In front of him stood an ENG bot from Rhiannon. The one that had been separated from Hyun-Ae earlier. In it’s hand it grasped a bloody jagged piece of metal. The force of the impact had sheared the metal spike in half leaving a massive splinter lodged in Onaje's belly.</p>
+        text: `<p>Because of this they did not notice the approaching footsteps until it was too late. As Onaje stepped out into an intersection a metal hand shot forward slamming into his stomach as a jagged piece of metal burst from his back.</p>
+        <p>Onaje let out an explosive gasp as the breath was driven from his lungs and he collapsed to the floor grasping at the piece of debris that had been so unceremoniously rammed through his stomach.
+        In front of him stood an ENG BOT from Rhiannon. The one that had been separated from Hyun-Ae earlier. In it’s hand it grasped a piece of jagged metal. The force of the impact inot Onaje had sheared 
+        the spike in half leaving the turncoat BOT still armed with a deadly, if admittedly much shorter weapon.</p>
         `,
         image: {
             imageRef: `images/GwydionCorridorWithDebris2.jpeg`,
@@ -2066,8 +2088,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
     {
         id: "29d",
         title: "Flight",
-        text: `<p>“Fuck” gasped Onaje as he fell to the ground.</p>
-<p>The bot advanced towards him.</p>`,
+        text: `<p>“Fuck” groaned Onaje as he tried to reach for his weapon as the BOT advanced towards him to administer the coup de grace.</p>`,
         image: {
             imageRef: `images/GwydionCorridorWithDebris2.jpeg`,
             alt: "Gwydion Corridor With Debris 2",
@@ -2078,8 +2099,8 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
             successCode: "wwa",
             passPage: "29e",
             failPage: "failScreen",
-            failPageMessage:
-                "<p>The rogue bot stamped it's foot down onto Onaje's skull with a sickening crunch, spraying his brain matter throughout the corridor.</p>",
+            failPageMessage: `<p>Dazed by the lights, sound and sudden emergence of this new threat, none of the small party reacted in time as the rogue bot stamped it's foot down onto Onaje's skull with a sickening crunch, spraying his brain matter
+                 throughout the corridor. Opening up with the Dart spewer he shredded the traitorous BOT. It was too late however he could hear the clanging of metal feet tramping down the corridors from every side, and as he turned heard the first cracks of gunfire from behind them.</p>`,
             failPageCheckpoint: "29c",
         },
         nextPage: "failScreen",
@@ -2088,7 +2109,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
     {
         id: "29e",
         title: "Flight",
-        text: `<p>Hyun-Ae fired two shots into the bots center of mass as Connor opened up with a hail of darts shredding the bot down to the skeleton.</p>
+        text: `<p>Able to fight of the haze of confusion, Hyun-Ae fired two shots into the bots center of mass with her side arm as Connor opened up with a hail of darts shredding the bot down to the skeleton.</p>
         `,
         image: {
             imageRef: `images/GwydionCorridorWithDebris2.jpeg`,
@@ -2101,7 +2122,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
     {
         id: "30a",
         title: "Flight",
-        text: ``,
+        text: `<p> Connor could hear the metal tramp of BOTS echoing from the corridor behind them and knew they had to get to Rhiannon fast.`,
         dialog: [
             {
                 id: "O1",
@@ -2153,11 +2174,11 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
     {
         id: "31a",
         title: "Flight",
-        text: `<p>They stumbled into the Hangar bay where Rhiannon was kept.</p>
-<p>“Rhiannon, make ready for flight!”.</p>
+        text: `<p>They were not far from the hangar bay and a few minutes later, although to Connor it felt like ours. They stumbled into the Hangar bay Onaje draped between Connor and Threes.</p>
+<p>“Rhiannon, make ready for takoff!”.</p>
 <p>“Aye Captain!” Came Rhiannon’s reply over comms”.</p>
 <p>Connor immediately heard the increased thrum as Rhiannon’s engines began spinning up.</p>
-<p>“Might want to get inside sooner rather than later captain, I detect a large number of bots making their way to our position’.</p>
+<p>“Might want to get inside sooner rather than later captain, I detect a large number of bots making their way to our position."</p>
         `,
         image: {
             imageRef: `images/GwydionHangar.jpeg`,
