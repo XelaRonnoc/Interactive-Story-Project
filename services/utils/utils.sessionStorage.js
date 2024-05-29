@@ -2,8 +2,9 @@ export const getStoryPoints = () => {
     return sessionStorage.getItem("storyPoints");
 };
 
-export const updateStoryPoints = (points) => {
-    const newPoints = points + parseInt(sessionStorage.getItem("storyPoints"));
+export const updateStoryPoints = (storyPoints) => {
+    const newPoints =
+        storyPoints + parseInt(sessionStorage.getItem("storyPoints"));
     sessionStorage.setItem("storyPoints", newPoints);
 };
 

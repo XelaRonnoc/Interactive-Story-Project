@@ -14,8 +14,8 @@ export const getTimerBarHTML = () => {
     `;
 };
 
-export const animateTimerBar = (timerBarEl, pageContainer) => {
-    timerBarEl.animate(
+export const animateTimerBar = (timerBarElement, pageContainer) => {
+    timerBarElement.animate(
         { width: "0px" },
         {
             duration: getCurrentPageTimeout() * 1000,
