@@ -1,5 +1,7 @@
 # Interactive-Story-Project
 
+By Alex Milton 47159375
+
 ## Justification
 
 Gwydion is an Interactive story project built using Jquery that explores ideas of eusociality, consciousness and AI. Whilst heavily story based Gwydion allows the player to interact at key points within the narrative responding to situations in different ways and ultimately effecting the outcome of the story.
