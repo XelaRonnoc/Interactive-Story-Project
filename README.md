@@ -6,10 +6,6 @@ Gwydion is an Interactive story project built using Jquery that explores ideas o
 
 The choice to be so heavily focused on story as opposed to the interactive elements was in order to communicate a clear vision communicating the deeper story as I envisioned it whilst remaining within the alloted time frame. I toyed with the idea of a more significantly branching narrative (Branching earlier instead of at the end) however due to the time constraint of the task this would have resulted in a significantly shorter, narrower and less focused story that would have struggled to communicate anything of interest or import or provide any significant true narrative development. Instead dissolving into a web of short and uninteresting sub plots that served little greater whole. With more time it would have been possible to provide a complete and intriguing narrative built in that way. However, I decided it was unfortunately untenable in the allotted time.
 
-sass --watch --no-source-map styles.scss:styles.css
-
-I'll give you 8.5/10
-
 ## References:
 
 ### AI Image Generators
