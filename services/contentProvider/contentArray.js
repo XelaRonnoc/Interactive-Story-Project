@@ -574,6 +574,7 @@ A decision she seemed evidently relieved by. Not that she would have ever admitt
         <p> Examining the interface, there did not appear to be any damage to it or the AI’s vessel at all. It was simply looked dormant.</p>
         <p>She would have to be careful she decided. Turning Gwydion on was dangerous enough even if he hadn't gone rogue as she was not a Conglomerate Navy engineer. As such he may well be hostile to her accessing his systems despite the
          limited access authorisation code the Cong had provided with the intent to assure Gwydion she was allowed to be here.</p>
+         <p>"Key in access code..."droned the monotonous voice of the interface speaker.</p>
 `,
         image: {
             imageRef: `images/GwydionBridge.jpeg`,
@@ -586,7 +587,7 @@ A decision she seemed evidently relieved by. Not that she would have ever admitt
     {
         id: "11a",
         title: "Gwydion",
-        text: `<p>"Key in access code..."droned the monotonous voice of the interface speaker.</p>`,
+        text: `<p>Key in code...</p>`,
         image: {
             imageRef: `images/ControlPanel2.jpeg`,
             alt: "Control panel 2",
@@ -601,7 +602,7 @@ A decision she seemed evidently relieved by. Not that she would have ever admitt
             failPageCheckpoint: "11a",
         },
         nextPage: "failScreen",
-        time: 30,
+        time: 10,
         audio: "./audio/sfx/keypadBeep.wav",
     },
     {
@@ -901,7 +902,7 @@ Which only made it's apparent lifelessness even more disconcerting.</p>
     {
         id: "14b",
         title: "Searching the Ship",
-        text: `<p>"BAAAAM BAAAAM BAAAAM!"</p>
+        text: `<h2>BAAAAM BAAAAM BAAAAM!</h2>
 `,
         image: {
             imageRef: `images/GwydionEngineering.jpeg`,
@@ -921,6 +922,7 @@ Which only made it's apparent lifelessness even more disconcerting.</p>
 <p>One of the ENG BOTs nearest the opening doors was sucked out into space. It's cry of alarm drowned out by the roar of the escaping atmosphere.</p>
 <p>Connor too found himself being inexorably dragged out of the bay as he desperately scrabbled for a hand hold. Just as he was being dragged out into the void his hand caught on something.
  Gripping desperately he realized he had managed to cling onto one of the control panels that the the ships engineers or ENG BOTs would use to work the large doors under more normal circumstances.</p>
+ <p>Connor desperately began punching in the override code one handed as he clung on for dear life.</p>
 `,
         image: {
             imageRef: `images/BotEjectedIntoSpace.jpeg`,
@@ -934,7 +936,7 @@ Which only made it's apparent lifelessness even more disconcerting.</p>
     {
         id: "14d",
         title: "Searching the Ship",
-        text: `<p>Connor desperately began punching in the override code one handed as he clung on for dear life.</p>`,
+        text: `<p>Close the door!</p>`,
         image: {
             imageRef: `images/ControlPanel1.jpeg`,
             alt: "Control panel 1",
@@ -957,7 +959,7 @@ Which only made it's apparent lifelessness even more disconcerting.</p>
             failPageCheckpoint: "14c",
         },
         nextPage: "failScreen",
-        time: 10,
+        time: 5,
         audio: "./audio/sfx/keypadBeep.wav",
     },
     {
@@ -1073,9 +1075,9 @@ Which only made it's apparent lifelessness even more disconcerting.</p>
     {
         id: "16b",
         title: "The Survivor",
-        text: `<p>Connor knew how seeing the dismal facilities of a Conglomerate vessel would bring back memories Onaje tried his damndest to force back down but he could tell his friend was struggling to hold his temper, his fist tightening and loosening around the pistol grip of his slugger.
-        this would upset Onaje. deciding it was best to get his friends mind off the current state of the med bay before he started adding large calibre holes to the rooms decor, he spoke up.</p>
-        <p>"Onaje, you have a look at the patient rooms, Three's check to see if you can't rip anything off the medical terminal, I'll check out the store room. Other BOTs keep an eye on the corridor"</p>
+        text: `<p>Connor knew how seeing the dismal facilities of a Conglomerate vessel would bring back memories that Onaje, seeing his friend's fist tightening and loosening around the  grip of his slugger.</p>
+        <p>Deciding it was best to get his friends mind off the current state of the med bay before he started adding large calibre holes to the rooms decor, he spoke up.</p>
+        <p>"Onaje, you have a look at the patient rooms, Three's check to see if you can't rip anything off the medical terminal, I'll check out the store room. The rest of you, keep an eye on the corridor."</p>
         <p>"Affirmative" came the chorused response of the BOTs and Threes, as they went about their orders, Onaje nodding in silent acknowledgment as he moved towards the nearest patient room.</p>`,
         image: {
             imageRef: `images/GwydionMedicalBay.jpg`,
@@ -1088,8 +1090,8 @@ Which only made it's apparent lifelessness even more disconcerting.</p>
     {
         id: "16c",
         title: "The Survivor",
-        text: `<p>The store room was the biggest of the rooms in the cramped medical bay and even then would have struggled to have sufficient supplies for a crew half the Gwydion's size. This too had been ransacked, with boxes and bags torn open and much of what they
-        held spilt onto the floor. So much so that walking on it felt like walking on a floor of marbles. Connors sliding and rolling as the spilt pills and canisters rolled under his tread.</p>
+        text: `<p>The store room was the biggest of the rooms in the cramped medical bay and even then would have struggled to have sufficient supplies for a crew half the size of Gwydion's. This too had been ransacked, with boxes and bags torn open and much of what they
+        held spilt onto the floor. So much so that walking on it felt like walking on a floor of marbles. Connors sliding and rolling as the spilt pills and canisters rolled under his feet.</p>
 `,
         image: {
             imageRef: `images/GwydionMedicalBay.jpg`,
@@ -1102,16 +1104,15 @@ Which only made it's apparent lifelessness even more disconcerting.</p>
     {
         id: "16d",
         title: "The Survivor",
-        text: `<p>'What happened here' He thought, If it had been a mutiny he would have expected all of the important medical items to have been hoarded and defended by whoever managed to get their hands on them. he would hardly expect them to just discard
+        text: `<p>'What happened here' He thought. If it had been a mutiny he would have expected all of the important medical items to have been hoarded and defended by whoever managed to get their hands on them. He would hardly expect them to just discard
         such important supplies to the floor for the sake of wonton destruction. Even with the Conglomerates general lack of care for such "luxuries".</p>
-        <p>'No' he thought, 'That wasn't it'</p>
-        <p> The shelves had been stripped nearly bear, their contents dashed to the floor. Some of the shelving units themselves, less securely fastened to the wall than their neighbors had be torn from their fixings as well</p>
-        <p>An icy finger of dread began to drip down his spine as this final observation occurred to him. Had the Venutions been here? Connor knew few things that could fit in the confined storage space that could have snapped quarter inch thick bolts in half, but a Venution
-        breacher was most certainly one of them. Connor had seen one the over muscled hulks genetically engineered to be the Vanguard of Venution assault actions tear a hapless pirate limb from limb in the confined space of the modified ore hauler they had been using to prey on astroid miners in the outer system,
-        and at the time had just been thankful that they were on his side.</p>
-        <p>Venus hadn't responded to the Conglomerates request for assistance. which was no real surprise to anyone. The Conglomerate and the Venution high council having been at each others throats for nearly a century. 
-        Their diametrically opposed philosophies butting heads and leading to bloodshed on more than one occasion. However it just didn't seem right. Whilst he was sure Venus was none too happy about the conglomerates successfully developing FTL travel before them he doubted
-        they would make such a brazen act that would surely and irreversibly lead to a war the Venutions could ill afford.</p>
+        <p>'No.' he thought, 'That wasn't it.'</p>
+        <p> The shelves had been stripped nearly bear, their contents dashed to the floor. Some of the shelving units, less securely fastened to the wall than their neighbors had be torn from their fixings as well</p>
+        <p>An icy finger of dread began to slide down his spine at this final observation. Had the Venutions been here? Connor knew few things that could fit in the confined storage space that could have snapped quarter inch thick bolts in half, but a Venution
+        breacher was most certainly one of them. Connor had seen one the over muscled hulks genetically engineered to be the Vanguard of Venution assault actions tear a crew ofd hapless pirates limb from limb. The confined space of the modified ore hauler the pirates had "acquired" echoing with the shrieks of pain and terror as the over-muscled brutes rampaged through the ship. At the time Connor had just been thankful that they were on his side.</p>
+        <p>Venus hadn't responded to the Conglomerates request for assistance. Which was no real surprise to anyone. The Cong and the Venies having been at each others throats for nearly a century. 
+        Their diametrically opposed philosophies butting heads and leading to bloodshed on more than one occasion. However it just didn't seem to fit. Whilst he was sure Venus was none too happy about the Conglomerates successfully developing FTL travel before them. He doubted
+        they would make such a brazen act that would surely and irreversibly lead to a war the Venies could ill afford.</p>
         <p>Unable to shake the thought that he was missing something he continued to search the small room.</p>`,
         image: {
             imageRef: `images/GwydionMedicalSupplyRoom.jpeg`,
@@ -1124,13 +1125,12 @@ Which only made it's apparent lifelessness even more disconcerting.</p>
     {
         id: "16e",
         title: "The Survivor",
-        text: `<p>Just as he was about to leave convinced he wouldn't find anything of use in here. He heard something. A sound like a shallow breath, so slight he thought he might have imagined it.</p>
-        <p> again he heard it, more clearly this time like a shaky breath or a stifled sob </p>
-<p>Again the shaky breathing came, like someone trying to stifle a sob. He definitely heard it this time.</p>
-<p>"Is someone there?’ He said knowing his voice would transmit across the com feed and raising his weapon, searching for the source of the noise.</p>
-<p>As if in response he heard a soft whimper but it was enough to get a sense of it's direction. A small alcove in the store room stacked with still standing shelves on all sides and so hidden in shadow by the failing light of the room he had almost missed it.</p>
-<p>Moving towards it he saw a small ventilation grate, just large enough for a someone about Hyun-Ae's size to squeeze into. lurking just above ground level almost completely hidden by one of the shelves.</p>
-<p>"Hello?" he said moving towards the grate, weapon raised an wary. He heard something moving in there now, a faint scrape and squeak like clammy skin rubbing against metal as something squirmed, it's hiding place now discovered.</p>
+        text: `<p>Just as he was about to leave, convinced he wouldn't find anything of use in here. He heard something. A sound like a shallow breath, so slight he thought he might have imagined it.</p>
+        <p>Again he heard it, more clearly this time, a stifled sob </p>
+<p>"Is someone there?’ He said knowing his voice would transmit across the com feed to the other members of his crew and searching for the source of the noise.</p>
+<p>As if in response he heard a soft whimper. It was enough to get a sense of it's direction. A small alcove in the store room stacked with still standing shelves on all sides and so hidden in shadow by the failing light of the room he had almost missed it.</p>
+<p>Moving towards it he saw a small ventilation grate, just large enough for a someone about Hyun-Ae's size to squeeze into. It lurked just above ground level almost completely hidden by one of the shelves.</p>
+<p>"Hello?" he said moving towards the grate, weapon raised and wary. He heard something moving in there now, a faint scrape and squeak like clammy skin rubbing against metal as something squirmed, it's hiding place now discovered.</p>
 `,
         image: {
             imageRef: `images/GwydionMedicalSupplyRoom.jpeg`,
@@ -1145,9 +1145,9 @@ Which only made it's apparent lifelessness even more disconcerting.</p>
         id: "17a",
         title: "The Survivor",
         text: `<p>He shined his flashlight inside, a womans grime steak face stared back, the green irises of her eyes contracting against the light. She looked young,
-         maybe mid twenties but it was hard to tell past the lengths of mattered hair dangling like vines across her face and what looked like a large clotted gash stretched across her brow.</p>
-        <p> looking down he saw a small kitchen knife clutched tightly in the her faintly trembling hand ready to thrust and cut at anything that came near.</p>
- <p>"Hello" Connor said, giving what he hoped was a reassuring smile, "I’m Connor, i'm are here to help you."</p>
+         maybe mid twenties but it was hard to tell past the lengths of matted hair dangling like vines across her face and what looked like a large clotted gash stretched across her brow.</p>
+        <p>Looking down he saw a small kitchen knife clutched tightly in the her faintly trembling hand ready to thrust and cut at anything that came near.</p>
+ <p>"Hello," Connor said, giving what he hoped was a reassuring smile, "I’m Connor, i'm are here to help you."</p>
 <p>"No... No one else, you’re a lie!" came the woman's whispered reply, seeming to talk more to herself than to Connor.</p>
 <p>"I’m no lie I promise" he said trying to be as calm and reassuring as he could "I am the captain of the Rhiannon, we have come from Titan to help you and the rest of the Gwydion's crew."</p>
 <p>"No crew. Only me. Only the ship. Only the lies."</p>
@@ -1167,15 +1167,15 @@ Which only made it's apparent lifelessness even more disconcerting.</p>
         id: "17b",
         title: "The Survivor",
         text: `<p>"What’s your name?" Connor asked gently, hoping changing the subject may help pull her from her terror ridden stupor.</p>
-<p>"Anna" came her reply after a long pause a look of confusion crossing her face.</p>
-<p>"Good to meet you Anna. I know you are afraid, but I promise you are safe with us, you've made it, it's over." he said even he tried to deny the clenching of his gut telling him it was anything but.</p>
+<p>"Anna." came her reply after a long pause, a look of confusion crossing her face.</p>
+<p>"Good to meet you Anna. I know you are afraid, but I promise you are safe with us, you've made it, it's over." he said even as he tried to deny the clenching of his gut telling him it was anything but.</p>
 <p>"Why don't you come out, we can get you to our ship. Have a hot shower, and a warm stew?"
-<p>"O-Ok" her eye's lighting up with hope as the news of food reached here ears. As she clambered with evident effort out of her hiding place he could see how thin she was, her face gaunt, and her skin taught around her arms.</p>
+<p>"O-Ok" her eye's lighting up with hope as the news of food reached her ears. As she clambered  hiding place puffing and panting with the effort, he could see how thin she was. Her face gaunt, and her skin taught around her arms.</p>
 <p>"What’s your job Anna?" Connor asked as he reached in to help her out of the vent.</p>
 <p>"Job?" she asked as she stood, a note of confusion in her voice "Oh yes... uhhh I was a cook."</p>
 <p>"A cook? Well it’ll be good to have you on board then! Maybe once you're feeling better you can make us all a can make something more interesting than our MRE’s!" Connor said forcing a smile and handing her his canteen</p>
-<p>She drank greedily, clearly she had not had much water lately then either.</p>
-<p>"Come on" he said when she was done, gently guiding her by her thin arm towards the door "Come meet some of the crew."</p>
+<p>She drank greedily, like a woman lost in the desert who had just found water.</p>
+<p>"Come on." he said when she was done, gently guiding her by her thin arm towards the door "Come meet some of the crew."</p>
 `,
         image: {
             imageRef: `images/GwydionMedicalSupplyRoom.jpeg`,
@@ -1189,18 +1189,17 @@ Which only made it's apparent lifelessness even more disconcerting.</p>
         id: "17c",
         title: "The Survivor",
         text: `<p> Three's was already waiting, his search of the medical logs already completed.</p>
-<p>"No no no no" Anna whimpered as her eyes fell on threes and the BOTs guarding the door. pulling her arm away from Connor with surprising strength as she retreated a few paces back her arm raised the kitchen knife still in her hand.
- It's tip leveled at Threes.</p>
-<p>"It’s ok" Connor reassured her his hands raised placatingly "Threes is with us, he is from the Rhiannon, you don't need to be afraid of him"</p>
+<p>"No no no no" Anna whimpered as her eyes fell on threes and the BOTs guarding the door. Pulling her arm away from Connor with surprising strength as she retreated a few paces back. Her arm raised the kitchen knife still in her hand, it's tip leveled at Threes.</p>
+<p>"It’s ok." Connor reassured her his hands raised placatingly "Threes is with us, he is from the Rhiannon, you don't need to be afraid of him."</p>
 <p>"We are here to provide aid to you, and your crew." Threes added.
-<p>She nodded slowly, still clearly wary of the BOT, her arm lowering slightly at the words</p>
-<p>"A survivor." said Threes turing to Connor "This is an improvement over the initial failure of our stated objectives"</p>
-<p>"Indeed" Said Onaje coming from one of the other patient rooms</p> 
-<p>"Hello" he smiled "I am Onaje, chief medical officer of the Rhiannon, may I?" he said gesturing to the gash across her forehead</p>
-<p>With a confused look Anna reached up and touched the area Onaje was referring to. Wincing as her fingers grazed the ragged gash.</p> 
-<p>"If you could just lower the knife?" Onaje asked still smiling in his best bedside manner</p>
-<p>"Oh... yes ofcourse" she said a sheepish expression crossing her face </p>
-<p>Coming closer Onaje examined the wound "Tsk, a nasty one, shouldn’t scar too badly though if we can get you back to the rhiannon and have it cleaned and stitched up!"</p>
+<p>She nodded slowly, still clearly wary of the BOT, her arm lowering slightly at the words.</p>
+<p>"A survivor." said Threes turing to Connor "This is an improvement over the initial failure of our stated objectives."</p>
+<p>"Indeed." Said Onaje coming from one of the other patient rooms</p> 
+<p>"Hello," he smiled "I am Onaje, chief medical officer of the Rhiannon, may I?" he said gesturing to the gash across her forehead</p>
+<p>With a confused look Anna reached up and touched the area Onaje had pointed to. Wincing as her fingers grazed the ragged gash. Before she nodded cautiously.</p> 
+<p>"If you could just lower the knife?" Onaje asked still smiling in his best bedside manner.</p>
+<p>"Oh... yes ofcourse" she said a sheepish expression crossing her face.</p>
+<p>Coming closer Onaje examined the wound "Tsk, a nasty one, shouldn’t scar too badly though if we can get you back to Rhiannon and have it cleaned and stitched up!"</p>
 
 `,
         image: {
@@ -1214,7 +1213,7 @@ Which only made it's apparent lifelessness even more disconcerting.</p>
     {
         id: "17d",
         title: "The Survivor",
-        text: `<p>"Did you find anything else?" Connor said directing his question to both Threes and Onaje</p>
+        text: `<p>"Did you find anything else?" Connor said directing his question to both Threes and Onaje.</p>
 <p>"Nothing." Onjae said, the sour expression fighting to return to his face "More of the same."
 <p>"I may have found something captain" said Threes "It appears that over the past couple of months there had been a number of injuries and reported fatalities from various accidents across the ship. Additonally, taking in to account the average rate of
 incidental injuries upon a navy ship the rate of accidents far exceeds what one would expect. Even from a Conglomerate vessel."</p>`,
@@ -1229,7 +1228,7 @@ incidental injuries upon a navy ship the rate of accidents far exceeds what one 
                 id: "O2",
                 text: `<p>"Ok. We'll have to ask Anna about it back at the ship."</p>`,
                 storyPoints: 5,
-                nextPage: "15d",
+                nextPage: "18a",
             },
         ],
         image: {
@@ -1244,11 +1243,11 @@ incidental injuries upon a navy ship the rate of accidents far exceeds what one 
         id: "18a",
         title: "Revelation",
         text: `<p>****</p>
-        <p>"Ok I think I’ve found the footage" said Hyun-Ae, her focus completely fixed on the console as she spoke.</p>
+        <p>"Ok I think I’ve found the footage." said Hyun-Ae, her focus completely fixed on the console as she spoke.</p>
 <p>"I see it now too" came the synthesized reply of Gwydion.</p>
 <p>"It’s strange that you were not aware of the locations of these files."</p>
 <p>"I agree, It appears to have been caused by my state of inactivity since the jump, without my organization the independent passive components of the ships systems seemed to have picked a location at random to store these.
-I was not even aware of this location in my memory until you brought it to my attention. Like a blind spot in my internal monitoring."</p>
+I was not even aware of this location in my memory until you brought it to my attention."</p>
 <p>"Thats not concerning at all." She muttered clearly believing the exact opposite.</p>
 <p>"Do you think it could have anything to do with the FTL jump?" she said as she continued to stoop over the control console.</p>
 <p>"I suppose that is possible, whilst manned missions had previously been made I am the first full AI to have completed a jump"</p>
@@ -1265,15 +1264,15 @@ I was not even aware of this location in my memory until you brought it to my at
         id: "18b",
         title: "Revelation",
         text: `<p> "Hang on, you're telling me the Cong never tested this with an AI and the first jump was to Neptune?" she asked looking up from the console for the first time. </p>
-        <p>"No the intended exit coordinates were just outside deimos, an inspection was planned by a martian delegation as a show of good faith"</p>
-        <p>"A less than subtle demonstration of your superiority you mean" she replied inflecting her words with no subtle amount of scorn</p>
-        <p>"Perhaps we should examine the files" Gwyidion said changing the subject</p>
-        <p>"Sure, see if we can’t figure out were the crew are" she said deciding there was no point in pushing the matter further.</p>
-<p> Hyun-Ae had only just begun examining one piece of the security footage when Gwydion voice broke her concentration. "Observe"</p>
+        <p>"No the intended exit coordinates were just outside Deimos, an inspection was planned to be compelted by a Martian delegation as a show of good faith."</p>
+        <p>"A less than subtle demonstration of your superiority you mean." she replied inflecting her words with no subtle amount of scorn.</p>
+        <p>"Perhaps we should examine the files." Gwyidion said changing the subject.</p>
+        <p>"Sure, see if we can’t figure out were the crew have gotten to." she said deciding there was no point in pushing the matter further.</p>
+        <p> Hyun-Ae had only just begun examining one piece of the security footage when Gwydion voice broke her concentration. "Observe."</p>
 
 `,
         image: {
-            imageRef: `images/CCTVFootage.jpg`,
+            imageRef: `images/ControlPanelBridge.jpeg`,
             alt: "CCTV Footage",
             scaleType: "square",
         },
@@ -1284,21 +1283,19 @@ I was not even aware of this location in my memory until you brought it to my at
         id: "18c",
         title: "Revelation",
         text: `<p>A video on her console screen began playing. At first Hyun-Ae thought the AI was playing some sick joke as the screen was filled with images of people being sucked out air locks, crushed by bulkheads, vaporized by plasma leaks,
-and other scenes of horrific death, until she recognized the spinal corridor of the Gwydion they had passed through and saw a squad in the uniform of Cong marines firing down the corridor they had come from
-retreating in good order but with the unmistakable look of barley controlled panic on their faces.</p>
+and other scenes of horrific death, until she recognized the spinal corridor of the Gwydion they had passed through and saw a squad in the uniform of Cong marines firing down the corridor they had come from. They were retreating in good order but had the unmistakable look of barley controlled panic on their faces.</p>
 <p>As they passed the camera the sergeant of the squad gestured towards it and one of the squad members ceased firing down the hall and raised their gun to the camera. The view smashed into a wash of static as the trooper pulled the trigger.</p>
-<p>"Wh- What the fuck was that? What were they shooting at?" she said in disbelief</p>
-<p>"I am unsure" he replied, "I have been unable to find any footage of non-Gwydion personnel or BOTs on board and there is no clear indication of what they are engaging or why they would be destroying ship systems in such a clearly intentional manner"</p>
-<p>Hyun-Ae thought she heard a trace of anger in Gwydion's last words, but it was so faint she couldn't be sure</p>"
-<p>"We need to check the local controls of one of those bulkheads to see where the commands to seal those doors came from. Perhaps something has breached your system and is acting independently"</p>
- <p> "Yes," he replied "Check bulkhead door B-119A, one of the crew was killed there. I don't see how it could be a system breach, cyber defenses are the most sophisticated of any Conglomerate vessel. However, I too do not see any other possibility
- as I am unable to see what initiated the emergency seal command either</p>
-<p>"Yes… I will do that. You two" she said gesturing at the Two BOTs with her. "Come with me"</p>
-<p>Hyun-Ae strode off the bridge, in the direction of B-119A. The thought of an invading AI being more in control of the Gwydion than Gwydion himself was a terrifying one. She moved quickly keeping close to the BOTs convinced each doorway 
+<p>"Wh- What the fuck was that? What were they shooting at?" she said in disbelief.</p>
+<p>"I am unsure." he replied, "I have been unable to find any footage of non-Gwydion personnel or BOTs on board and there is no clear indication of what they are engaging or why they would be destroying ship systems in such a clearly intentional manner."</p>
+<p>Hyun-Ae thought she heard a trace of anger in Gwydion's last words, but it was so faint she couldn't be sure.</p>
+<p>"We need to check the local controls of one of those bulkheads to see where the commands to seal those doors came from. Perhaps something has breached your system and is acting independently to sabotage you."</p>
+ <p> "Yes," he replied "Check bulkhead door B-119A, one of the crew was killed there. I don't see how it could be a system breach, my cyber defenses training is the most sophisticated of any Conglomerate vessel. However, I too do not see any other possibility as I am unable to see what initiated the emergency seal command either.</p>
+<p>"Yes… I will do that. You two!" she said gesturing at the Two BOTs with her. "Come with me."</p>
+<p>Hyun-Ae strode off the bridge in the direction of B-119A. The thought of an invading AI being more in control of the Gwydion than Gwydion himself was a terrifying one. She moved quickly keeping close to the BOTs convinced each doorway 
 and bulkhead was poised ready to smash her and the BOTs into paste.</p>
 `,
         image: {
-            imageRef: `images/GwydionBridge.jpeg`,
+            imageRef: `images/CCTVFootage.jpg`,
             alt: "Gwydion bridge",
             scaleType: "square",
         },
@@ -1308,10 +1305,9 @@ and bulkhead was poised ready to smash her and the BOTs into paste.</p>
     {
         id: "19a",
         title: "Revelation",
-        text: `<p>The bulkhead when she reached it appeared as unobtrusive as any other on the vast ship. No sign of the horrific scene displayed by the security camera was visible. No bone fragments, not managed corpse. Not even a drop of blood.
-        A wholly inconspicuous door. Regardless of the doors apparent docility however, Hyun-Ae approached it cautiously.</p>
-<p>"Interface with panel on the other side" she said gesturing to the ENG BOT having no intention of stepping through the door herself. "Look for any indication of where the command for emergency close came from."</p>
-<p>"Compliance" came the BOTs succinct reply, already moving to complete the task.</p>
+        text: `<p>The bulkhead when she reached it appeared as unobtrusive as any other on the vast ship. No sign of the horrific scene displayed by the security camera was visible. No bone fragments, no mangled corpse. Not even a drop of blood. Regardless of the doors apparent docility however, Hyun-Ae approached it cautiously.</p>
+        <p>"Interface with panel on the other side" she said gesturing to the ENG BOT having no intention of stepping through the door herself. "Look for any indication of where the command for emergency close came from."</p>
+        <p>"Compliance." came the BOTs succinct reply, already moving to complete the task.</p>
 `,
         image: {
             imageRef: `images/SquareOpenBulkheadDoor.jpeg`,
@@ -1324,14 +1320,13 @@ and bulkhead was poised ready to smash her and the BOTs into paste.</p>
     {
         id: "19b",
         title: "Revelation",
-        text: `<p>Moving to the side panel on her side of the door Hyun-Ae knelt down next to it interfacing directly with the panels systems. Being a Engineer by trade she had been provided with cybernetic augmentations to
-        allow her to more easily process data and interface with the machines she worked with. Despite the fact Cybernetic not Genetic augmentation was a comparative rarity for a Venution.
-        Diving into the systems logs she narrowed down to the exact time and date of the incident she had observed from the cameras. There it was, the emergency seal command plain as day, but there was no signature.
-        No indication of the commands providence at all. 'Perhaps just a malfunction' she thought, but why would the ship have been suffering such wide spread malfunctions. No she thought rising and disconnecting from the panel.
+        text: `<p>Moving to the side panel on the near side of the door Hyun-Ae knelt down next to it interfacing directly with the panels systems. Being a engineer by trade she had installed cybernetic augmentations to allow her to more easily process data and interface with the machines she worked with. Despite the fact Cybernetic not Genetic augmentation was a comparative rarity for a Venution.</p>
+        <p>Diving into the systems logs she narrowed down to the exact time and date of the incident she had observed from the cameras. There it was, the emergency seal command plain as day, but there was no signature.</p>
+        <p>No indication of the commands providence at all. 'Perhaps just a malfunction' she thought, but why would the ship have been suffering such wide spread malfunctions. No she thought rising and disconnecting from the panel.
         More certain than ever there must somehow be an intruder in the ships systems. A malicious AI that had somehow escaped Gwydion's notice, something that should have been all but impossible.</p>
 <p>"No close command found at the expected time." reported the synth voice of the ENG BOT</p>
 <p>"What?" she said in tones of surprise. That shouldn't be the case, both panels should have registered the command, wether it was a malfunction or a malicious attack both panels should have a log of the command. "Are you sure?"</p>
-<p>"Affirmative"</p>
+<p>"Affirmative."</p>
 `,
         image: {
             imageRef: `images/SquareOpenBulkheadDoor.jpeg`,
@@ -1344,9 +1339,10 @@ and bulkhead was poised ready to smash her and the BOTs into paste.</p>
     {
         id: "19c",
         title: "Revelation",
-        text: `<p>"Come on lets get back to the bridge" she said reaching her head just slightly through the doorway to address the BOT. Who bent down over the door panel was surprisingly hard to see in the flickering light and shadow of the corridor./p>
-        <p>"Compliance"</p>
-        <p>Just at that moment when she was about to pull her head back it happened. With a horrifying shriek, the door lurched and hurtled down towards her.</p>`,
+        text: `<p>"Come on lets get back to the bridge" she said reaching her head just slightly through the doorway to address the BOT. Who, bent down over the door panel was surprisingly hard to see in the flickering light and shadow of the corridor.</p>
+        <p>"Compliance."</p>
+        <p>Just at that moment when she was about to pull her head back it happened. With a horrifying shriek, the door lurched and hurtled down towards her.</p>
+        <p>"Retreat!" warned the SAR BOT.</p>`,
         image: {
             imageRef: `images/MovingThroughDoorway2.jpeg`,
             alt: "moving through doorway 2",
@@ -1358,7 +1354,7 @@ and bulkhead was poised ready to smash her and the BOTs into paste.</p>
     {
         id: "20a",
         title: "Revelation",
-        text: `<p>"Retreat!"</p> warned the SAR BOT.`,
+        text: `<p>MOVE!</p> `,
         image: {
             imageRef: `images/movingThroughDoorway2.jpeg`,
             alt: "moving through doorway 2",
@@ -1370,19 +1366,19 @@ and bulkhead was poised ready to smash her and the BOTs into paste.</p>
             passPage: "20b",
             failPage: "failScreen",
             failPageMessage:
-                "<p>caught unawares Hyun-Ae was decapitated by the speeding door. She had no time to even feel fear let alone pain.</p></p>",
+                "<p>Caught unawares Hyun-Ae was decapitated by the speeding door. She had no time to even feel fear, let alone pain.</p>",
             failPageCheckpoint: "19c",
         },
         nextPage: "failScreen",
-        time: 4,
-        audio: "./metalScreech.wav",
+        time: 2,
+        audio: "audio/sfx/metalScreech.wav",
     },
     {
         id: "20b",
         title: "Revelation",
-        text: `<p>Before she even had time to react herself the metal hand of the SAR BOT yanked her unceremoniously back through the door. She landed painfully on her back side. For a moment shock and relief overwhelmed her before she recovered her senses</p> 
+        text: `<p>Before she even had time to react herself the metal hand of the SAR BOT yanked her unceremoniously back through the door. She landed painfully on her back side. For a moment shock and relief overwhelmed her before she recovered her senses.</p> 
         <p>"Thanks" she said looking at the SAR BOT who had so recently saved her life.</p>
-<p>"Affirmative" it replied deadpan as ever.</p>
+<p>"Affirmative." it replied deadpan as ever.</p>
 `,
         image: {
             imageRef: `images/SquareClosedBulkheadDoor.jpeg`,
@@ -1391,16 +1387,16 @@ and bulkhead was poised ready to smash her and the BOTs into paste.</p>
         },
         nextPage: "20c",
         time: 0,
-        audio: "./bulkheadDoorSlam.wav",
+        audio: "audio/sfx/bulkheadDoorSlam.wav",
     },
     {
         id: "20c",
         title: "Revelation",
         text: `<p>She went to the console again and checking the logs again saw the same command in the console with still no signature for where the command originated from.</p>
 <p>"E1174, I can’t open the door, it appears the impact bent it shut this time, are you able to find another way to the bridge?"</p>
-<p>"Compliance" came the BOTs reply through her comms system".</p>
-<p>"See you on the bridge then"</p>
-<p>The BOT unlikely to respond to such an obvious statement, but treating them like people seemed more natural to her, and she knew over time they would develop more complex personalities like Threes had.
+<p>"Compliance." came the BOTs reply through her comms system".</p>
+<p>"See you on the bridge then."</p>
+<p>The BOT was unlikely to respond to such an obvious statement, but treating them like people seemed more natural to her, and she knew over time they would develop more complex personalities like Threes had.
 Not to mention the more and more unsettling this mission became the more she felt like it was best to have as many friends as she could.</p>
 `,
         image: {
@@ -1414,10 +1410,10 @@ Not to mention the more and more unsettling this mission became the more she fel
     {
         id: "20d",
         title: "Revelation",
-        text: `<p>"S8873, let's get back to the bridge"</p>
-<p>"Affirmative" the SAR BOT replied leading the way.</p>
-<p>As she strode back towards the bridge her mind turned to another possibility, a pattern emerging from the data her enhanced processor was sifting through. She keyed in the comms channel for Connor and the rest of the search party.</p>
-<p>"Captain! I know what happened to the crew." she said</p>
+        text: `<p>"S8873, let's get back to the bridge."</p>
+<p>"Affirmative." the SAR BOT replied leading the way.</p>
+<p>As she strode back towards the bridge her mind turned to another possibility, a pattern emerging from the data her enhanced processor was still sifting through in the background. She keyed in the comms channel for Connor and the rest of the search party.</p>
+<p>"Captain! I know what happened to the crew." she said her voice somewhere between fear and excitement.</p>
 <p>"I think we do too…" came Connors' pained reply.</p>
 `,
         image: {
@@ -1432,8 +1428,8 @@ Not to mention the more and more unsettling this mission became the more she fel
         id: "21a",
         title: "Revelation",
         text: `<p>****</p>
-        <p>The small team was making their way through the corridors transecting Gwydion's main body as they headed towards the hangar bay where Rhiannon was waiting. 
-        Onaje and Connor were taking the front keeping their eyes peeled for any further unexplained mishaps or signs of danger while Threes and the BOTs took up the rear. Anna stayed close to the front, clearly wary of getting too close to the BOTs.</p>
+        <p>The small team were making their way through the corridors transecting Gwydion's main body as they headed towards the hangar bay where Rhiannon was waiting.</p> 
+        <p>Onaje and Connor were taking the front keeping their eyes peeled for any further unexplained mishaps or signs of danger while Threes and the BOTs took up the rear. Anna stayed close to the front, clearly wary of getting too close to the BOTs.</p>
 `,
         image: {
             imageRef: `images/GwydionCorridorWithDebris2.jpeg`,
@@ -1448,8 +1444,8 @@ Not to mention the more and more unsettling this mission became the more she fel
         title: "Revelation",
         text: `<p>Her reaction to the BOTs presence stirred a sense of unease in the pit of Connor's stomach.
         Making him think back to those empty BOT cradles on the engineering deck. Had the BOTs somehow gone rogue? If so where were they and why hadn't they attacked us yet?
-        Surely the crew could have overpowered them though, most were not combat programmed BOTs with no combat learning algorithms provided to them. The conglomerate should have been dealt with easily defeated by the conglomerate marines stationed
-        on such a ship which whilst having only a fraction of the numbers as the defense BOT should have totally outclassed them, not to mention the basic combat training every member of the Cong navy received.</p>`,
+        Surely the crew could have overpowered them though. Most of the BOTs onboard were not combat programmed and with no combat learning algorithms provided to them.</p>
+        <p>The Cong marines stationed on such a ship should have been able to deal with them comfortably. Whilst they would only have had a fraction of the numbers, the marines would have totally outclassed even the defense programmed BOTs.</p>`,
         image: {
             imageRef: `images/GwydionCorridorWithDebris2.jpeg`,
             alt: "Gwydion Corridor With Debris",
@@ -1461,11 +1457,11 @@ Not to mention the more and more unsettling this mission became the more she fel
     {
         id: "21c",
         title: "Revelation",
-        text: `<p>They, continued on his unease building as he was unable to wrap his mind around what could have possibly happened to the rest of the crew. He considered asking Anna, but he could see was at her wits end, and even the slightest touch
-        could send her into a panic stricken stupor again.</p> 
-        <p>They were approaching the hangar now and turned a corner, finding themselves in a longer wider corridor that should lead directly to the hangar Rhiannon was in.</p>
-        <p>"Almost there now" Onaje said in an attempt to help calm Anna further</p>
-        <p>"No" came her quiet protest.</p>
+        text: `<p>They continued on, Connor's unease building as he was unable to wrap his mind around what could have possibly happened to the rest of the crew. He considered asking Anna, but he could see she was at her wits end, and even the slightest touch
+        could send her into a panic again.</p> 
+        <p>They were approaching the hangar now and turned a corner, finding themselves in a longer wider corridor that would lead directly through to it.</p>
+        <p>"Almost there now." Onaje said in an attempt to help calm Anna further</p>
+        <p>"No." came her quiet protest.</p>
         <p>"What is it?" asked Connor quietly, dropping back to walk alongside her. She had slowed her pace significantly and her eyes were wide and alert scanning the passages leading off either side of the corridor.</p>`,
         image: {
             imageRef: `images/GwydionLongWideCorridor.jpeg`,
@@ -1478,12 +1474,12 @@ Not to mention the more and more unsettling this mission became the more she fel
     {
         id: "21d",
         title: "Revelation",
-        text: `<p>"No no no" she had stopped now, dread and anxiety creasing her features.
-<p>"What is it?" Connor asked again "did you see something?"</p>
-<p>She shook her head</p>
+        text: `<p>"No no no..." she had stopped now, dread and anxiety creasing her features.
+<p>"What is it?" Connor asked again "Did you see something?"</p>
+<p>She shook her head.</p>
 <p>"You think something is wrong though? Something has changed?"</p>
-<p>She nodded</p>
-<p>"Ok. Everyone!" he said in a harsh whisper "Be alert, check the doors before you pass them, be alert!"</p>
+<p>She nodded.</p>
+<p>"Ok. Everyone!" he said in a harsh whisper "Be alert, check the doors before you pass them!"</p>
 `,
         image: {
             imageRef: `images/GwydionLongWideCorridor.jpeg`,
@@ -1497,9 +1493,8 @@ Not to mention the more and more unsettling this mission became the more she fel
         id: "22a",
         title: "Revelation",
         text: `<p>Connor hadn't noticed anything different to the number of other corridors they had passed, but Anna had survived whatever happened to the rest of the crew and so he was not about to take her concern for granted.</p>
-<p>Weapons raised, the small group moved cautiously down the corridor. Like the rest of the ship it was poorly lit and the drone and hum of damaged electronics was a constant low level noise that combined with the 
-faintly clanging sound of their footsteps made it difficult to make out any other sounds.</p>
-<p>They were approaching the junction now the corridors either side swathed in darkness the lights of the corridors either side seeming to be in even worse shape than the ones in the main passageway.
+<p>Weapons raised, the small group moved cautiously down the corridor. Like the rest of the ship it was poorly lit and the drone and hum of damaged electronics was a constant buzz that, combined with the faintly clanging sound of their footsteps made it difficult to make out any other sounds.</p>
+<p>They were approaching the junction now the corridors either side swathed in darkness their lights seeming to be in even worse shape than the ones in the main passageway.
 As they crept closer Anna began to whimper softly, clearly terrified of what may lay in wait. Connor could hardly blame her, there was definitely something ominous about the darkness up ahead.</p>
 `,
         image: {
@@ -1513,14 +1508,14 @@ As they crept closer Anna began to whimper softly, clearly terrified of what may
     {
         id: "22b",
         title: "Revelation",
-        text: `<p>"Onaje, you take left, I’ll take right, Three’s you keep eye’s front"</p>
-<p>"Copy" </p>
-<p>"Compliance"</p>
-<p>The two of them replied, as Onaje and Connor stacked up on either side of the junction</p>
+        text: `<p>"Onaje, you take left, I’ll take right, Three’s you keep eye’s front."</p>
+<p>"Copy." </p>
+<p>"Compliance."</p>
+<p>The two of them replied, as Onaje and Connor stacked up on either side of the junction.</p>
 <p>"Three… Two… One… GO!" </p>
-<p>Onaje and Connor pushed rapidly around the corners as Three kept his weapon aiming down the dim corridor.</p>
-<p>"Clear" said Onaje after a few moments</p>
-<p>Connor could see nothing either down the right hand side corridor, just another dim corridor, in the same as the rest of the ship</p>
+<p>Onaje and Connor pushed rapidly around the corners as Three kept his weapon aiming unerringly down the dim corridor.</p>
+<p>"Clear!" said Onaje after a few moments</p>
+<p>Connor could see nothing either down the right hand side corridor, just another dim corridor, in the same as the rest of the ship and began to reply.</p>
 <p>"Cle-"</p>
 `,
         image: {
@@ -1534,7 +1529,8 @@ As they crept closer Anna began to whimper softly, clearly terrified of what may
     {
         id: "22c",
         title: "Revelation",
-        text: `<p>"BANG BANG BANG BANG" the crack of gunfire sounded behind them, all but deafening Connor in the enclosed space.</p>
+        text: `<h2>BANG! BANG! BANG! BANG!</h2>
+        <p>The thunderous crack of gunfire sounded behind them, all but deafening Connor in the enclosed space.</p>
 <p>"Behind us!" Yelled Onaje.</p>
 `,
         image: {
@@ -1549,8 +1545,7 @@ As they crept closer Anna began to whimper softly, clearly terrified of what may
         id: "23a",
         title: "Revelation",
         text: `<p>Turning Connor saw one of the ENG BOTs taking up the rear had been obliterated, pieces of its shattered chassis scattered across the deck as its headless neck spurted oil.</p>
-<p>The entire corridor was illuminated by the strobing light of muzzle flashes as the two remaining SAR BOTs were returning fire down the hall behind them at their attackers. 
-One was firing one handed its hanging mangled and useless by it's side as it tried to engage the three BOTs marked in the colors of the Gwydion defense cadre advancing towards the group from the Rhiannon.</p>
+<p>The entire corridor was illuminated by the strobing light of muzzle flashes as the two remaining SAR BOTs were returning fire down the hall behind them at their attackers. One was firing one handed its other hanging, mangled and useless by it's side as it tried to engage the three BOTs marked in the colors of the Gwydion defense cadre advancing towards them.</p>
 `,
         image: {
             imageRef: `images/GwydionShipDefenseRobots1.jpeg`,
@@ -1564,7 +1559,7 @@ One was firing one handed its hanging mangled and useless by it's side as it tri
         id: "23b",
         title: "Revelation",
         text: `<p>Onaje had taken cover in the perpendicular corridor and was peeking around the corner firing into the oncoming attackers. He took one of the Gwydion BOTs square in it's torso detonating it in a shower of sparks and shrapnel.
-        Collapsing it the stricken BOT spasmed as its internal circuitry sputtered and sparked in its death throes.</p>`,
+        Collapsing the stricken BOT spasmed as its internal circuitry sputtered and sparked in its death throes.</p>`,
         image: {
             imageRef: `images/GwydionShipDefenseRobots1.jpeg`,
             alt: "Gwydion Ship Defense Robots",
@@ -1576,8 +1571,8 @@ One was firing one handed its hanging mangled and useless by it's side as it tri
     {
         id: "23c",
         title: "Revelation",
-        text: `<p>Connor had managed to drag Anna around the opposite corner  and was now also returning fire. Her prior whimpering had stopped now and she trembled eye’s wide and alert.</p>
-<p>Another of the SAR BOTs got hit. Its head mulched by a sustained torrent of fire. The BOT however was throw forward clattering into the wall it was taking over behind.</p>
+        text: `<p>Connor had managed to drag Anna around the opposite corner and was now also returning fire. Her prior whimpering had stopped now and she trembled eye’s wide and alert.</p>
+<p>Another of the SAR BOTs got hit. Its head mulched by a sustained torrent of fire. The BOT however was throw forward clattering into the wall it was taking cover behind.</p>
 `,
         image: {
             imageRef: `images/GwydionShipDefenseRobots1.jpeg`,
@@ -1604,8 +1599,8 @@ One was firing one handed its hanging mangled and useless by it's side as it tri
     {
         id: "23e",
         title: "Revelation",
-        text: `<p>"unit under attack!" Came the sudden vocalization from the last remaining ENG BOT that had taken refuge behind Onaje.</p>
-<p>'No shit' Connor thought thinking the warning was perhaps a little tardy, until he realized what the BOT had meant. It had been grabbed from behind and was now wrestling with yet another Gwydion BOT. 
+        text: `<p>"Unit under attack!" Came the sudden vocalization from the last remaining ENG BOT that had taken refuge behind Onaje.</p>
+<p>'No shit' Connor thought thinking the warning was perhaps a little tardy, until he realized what the BOT had meant. It had been grabbed from behind and was now wrestling with yet another Gwydion BOT that had appeared out of the gloom of the side passageway. 
 The two humanoid machines battering one another with their steel limbs.</p>
 `,
         image: {
@@ -1635,8 +1630,9 @@ The two humanoid machines battering one another with their steel limbs.</p>
         id: "23g",
         title: "Revelation",
         text: `<p>Instead he lunged forward dropping the dart spewer and snatching his combat knife from it's sheath at his belt and plunging it through the back of the BOTs head.</p> 
-        <p>Changing it's attention to the new threat, the BOT lunged at Connor forcing him against the wall and attempting to smash its fist into his face.</p>
-        <p>Connor stayed in close to the BOT, knowing if even one blow from the it's mechanical limbs were to land to it would put him out of the fight for good.</p>
+        <p>Seemingly more annoyed than injured it shifted it's attention to the new threat, and lunged at Connor forcing him against the wall and attempting to smash its fist into his face.</p>
+        <p>Connor stayed in close, knowing if even one blow from the it's mechanical limbs were to land to it could put him out of the fight for good.</p>
+        <p>Wrenching the knife free he plunged it back into the BOTs torso aiming for the CPU.</p>
         `,
         image: {
             imageRef: `images/GwydionShipDefenseRobots1.jpeg`,
@@ -1649,7 +1645,7 @@ The two humanoid machines battering one another with their steel limbs.</p>
     {
         id: "24a",
         title: "Revelation",
-        text: `<p>Wrenching the knife free he plunged it back into the BOTs torso working it around furiously, trying to cut and damage the essential circuits leading to the BOTs CPU.</p>`,
+        text: `<p>Decommission the BOT!</p>`,
         image: {
             imageRef: `images/GwydionShipDefenseRobots1.jpeg`,
             alt: "Gwydion Ship Defense Robots",
@@ -1661,7 +1657,7 @@ The two humanoid machines battering one another with their steel limbs.</p>
             passPage: "24b",
             failPage: "failScreen",
             failPageMessage: `<p>Connor could not work it into the BOTs CPU casing. Readjusting to get better leverage he made too much room between him and the BOT. 
-                It’s metal fist smashed into his face, pulverizing his nose and smashing him into the wall. His head striking the wall with a dull thud sending everything into blackness.</p>`,
+                It’s metal fist smashed into his face, pulverizing his nose and smashing him into the wall. His head striking with a dull thud sending everything into blackness.</p>`,
             failPageCheckpoint: "23g",
         },
         nextPage: "failScreen",
@@ -1670,9 +1666,9 @@ The two humanoid machines battering one another with their steel limbs.</p>
     {
         id: "24b",
         title: "Revelation",
-        text: `<p>A loud clang sounded and the BOTs neck joints snapped and it tumbled away from Connor. In Front of him stood Anna, a metal bar, clearly scavenged from the detritus surrounding them in her hands.
-<p>"Thanks," Connor said, gathering up his firearm.</p>
-<p>On the other side of the Corridor Onaje had shot the Gwydion BOT attacking the Rhiannon ENG BOT. Far less concerned about the well being of the replaceable machine from the Rhiannon.</p>
+        text: `<p>A loud clang sounded and the BOTs neck joints snapped as it tumbled away from Connor. In front of him stood Anna, a metal bar, clearly scavenged from the detritus surrounding them in her hands.
+<p>"Thanks." Connor said, gathering up his firearm.</p>
+<p>On the other side of the Corridor Onaje had shot the Gwydion BOT attacking the ENG BOT. Far less concerned about the well being of the replaceable machine from the Rhiannon than Connor was about Anna's safety.</p>
 `,
         image: {
             imageRef: `images/GwydionShipDefenseRobots1.jpeg`,
@@ -1699,7 +1695,7 @@ The two humanoid machines battering one another with their steel limbs.</p>
     {
         id: "24d",
         title: "Revelation",
-        text: `<p>Ducking quickly out from cover Connor squeezed the trigger of his dart spewer. Throwing a storm of high velocity darts into the damaged BOT engaging Threes shredding it’s torso. 
+        text: `<p>Ducking quickly out from cover Connor squeezed the trigger of his dart spewer. Throwing a storm of high velocity darts into the damaged BOT engaging Threes. 
         It collapsed forwards, it's motor controls shredded by the hail of darts.</p>
         <p>Connor threw himself back into cover as the remaining BOT advancing from the hangar raked its fire across the hallway towards him.</p>
         `,
@@ -1714,7 +1710,9 @@ The two humanoid machines battering one another with their steel limbs.</p>
     {
         id: "24e",
         title: "Revelation",
-        text: `<p>This gave Threes an opportunity to lean out from cover and fire two expertly placed shots straight into it's CPU. The BOT crumpled to the floor mid stride as like a puppet with it's strings cut mid performance.</p>
+        text: `<p>This gave Threes an opportunity to lean out from cover and fire two expertly placed shots straight into it's CPU. The BOT crumpled to the floor mid stride like a puppet with it's strings cut mid performance.</p>
+        <p>Now only taking fire from one direction, Onaje pushed the attack, firing a sustained burst into the last remaining BOT as it rose from cover to engage the now exposed Threes. Stitching the BOT from groin to head.</p> 
+        <p>Letting out a machine groan it tumbled backwards landing with a resounding clang against the steel floor.</p>
         `,
         image: {
             imageRef: `images/GwydionShipDefenseRobots1.jpeg`,
@@ -1727,10 +1725,8 @@ The two humanoid machines battering one another with their steel limbs.</p>
     {
         id: "24f",
         title: "Revelation",
-        text: `<p>Now only taking fire from one direction, Onaje pushed the attack, firing a sustained burst into the last remaining BOT as it rose from cover to engage the now exposed Threes. Stitching the BOT from groin to head.</p> 
-        <p>letting out a machine groan it tumbled backwards landing with a resounding clang against the steel floor.</p>
-        <p>Breathlessly Connor looked around "is everyone ok?"</p>
-        <p>A few muttered responses and the expected "Affirmative" from Threes told him that despite the loss of three of the BOTS Threes Onaje, Anna, and the last ENG BOT were uninjured.
+        text: `<p>Breathlessly Connor looked around "is everyone ok?"</p>
+        <p>A few muttered responses and the expected "Affirmative." from Threes told him that despite the loss of the SAR BOTS, Threes Onaje, Anna, and the last ENG BOT were uninjured.
 <p>"Captain!" Came the anxious sounding voice of Hyun-Ae over his com system. "I know what happened to the crew."</p>
 <p>I think we do too…" groaned Connor as he got to his feet.</p>
 `,
@@ -1747,7 +1743,7 @@ The two humanoid machines battering one another with their steel limbs.</p>
         title: "Revelation",
         text: `<p>****</p>
         <p>They all stood on the bridge, gathered around Hyun-Ae, peering over her shoulder at the Gwydion's security footage.</p> 
-        <p>Connor and Onaje had gotten Anna to the Rhiannon’s medical bay where they had left her to rest and be taken care of by the Two MED BOTs the Rhiannon had as standard.
+        <p>Connor and Onaje had gotten Anna to the Rhiannon’s medical bay where they had left her to rest and be taken care of by the two MED BOTs the Rhiannon had as standard.
         She had had to be sedated so the ministrations of the Rhiannon's BOTs wouldn't cause her further torment.</p>`,
         image: {
             imageRef: `images/GwydionBridge.jpeg`,
@@ -1760,10 +1756,9 @@ The two humanoid machines battering one another with their steel limbs.</p>
     {
         id: "25b",
         title: "Revelation",
-        text: `<p>"There!" Hyun-Ae said expectantly pointing at the screen. "Before one of these events occurs the flickering of the lights changes. I wouldn’t have thought anything of it except that it is happening every time the crew were attacked
-         or killed and again when you were attacked and when the door nearly crushed me. I hadn't noticed it earlier as I wasn't looking for it, only the background processing of the information by my intercrain mod brought it to my attention."</p>
-<p>"What are you saying?" asked Onaje "Some sort of malfunction is being caused by our presence? Like an EM field? How is that possible".</p>
-<p>"No not a malfunction she said, I think it’s intentional".</p>
+        text: `<p>"There!" Hyun-Ae said expectantly pointing at the screen. "Before one of these events occurs the flickering of the lights changes. I wouldn’t have thought anything of it except that it happened every time the crew were killed or injured by a "malfunction" and again when you were attacked, and when the door nearly crushed me. I hadn't noticed it earlier as I wasn't looking for it, only the background pattern detection I was running in my intercrain mod brought it to my attention."</p>
+<p>"What are you saying?" asked Onaje "Some sort of malfunction is being caused by our presence? Like an EM field? How is that possible?"</p>
+<p>"No not a malfunction she said, I think it’s intentional."</p>
 <p>"Gwydion?" asked Connor quietly hoping not to be overhead by the AI, his fingers tightening around the grip of his weapon.</p>
 `,
         image: {
@@ -1777,11 +1772,11 @@ The two humanoid machines battering one another with their steel limbs.</p>
     {
         id: "25c",
         title: "Revelation",
-        text: `<p>"How dare you, captain!" came the angry booming voice of Gwydion "Perhaps your martian AI’s are of poorer moral fiber, but conglomerate ships are loyal to the board!".</p>
-<p>"I meant no offense" replied Connor "although you must admit it seems quite hard to explain how the ship is somehow coordinating to kill us without you".</p>
-<p>"Indeed" replied Gwyidion in a low growl "I do not like being bypassed by my own systems. It is… unnatural".</p>
-<p>Connor had to force down an ironic smile at the implication that anything in relation to AIs could be considered natural..</p>
-<p>"I don’t think so," said Hyun-Ae replying to Connors initial question, "no commands have been given with his authorization, and when these events occur and he appears as confused as we are. I think it is more likley that it is a malicious AI infiltrating his systems.
+        text: `<p>"How dare you, captain!" came the angry booming voice of Gwydion "Perhaps your Martian AI’s are of poorer moral fiber, but Conglomerate ships are loyal to the Board!"</p>
+<p>"I meant no offense." replied Connor "Although you must admit it seems quite hard to explain how the ship is somehow coordinating to kill us without you."</p>
+<p>"Indeed." replied Gwyidion in a low growl "I do not like being bypassed by my own systems. It is… unnatural".</p>
+<p>Connor had to force down an ironic smile at the implication that anything in relation to AIs could be considered natural.</p>
+<p>"I don’t think so." said Hyun-Ae replying to Connors initial question, "No commands have been given with his authorization, and when these events occur and he appears as confused as we are. I think it is more likely that it is a malicious AI infiltrating his systems.
 However, how that would have managed to elude Gwydion's and our detection is beyond me."</p>
 `,
         image: {
@@ -1796,17 +1791,17 @@ However, how that would have managed to elude Gwydion's and our detection is bey
         id: "25d",
         title: "Searching the Ship",
         text: `<p>"Captain, I believe I recognise the patterns here…" came the synthetic voice of Threes from behind them. "I have been analyzing the auditory pattern observed by medical officer Onaje earlier.
-        Combining this observation with the observations provided by our Cheif Engineer I believe I am able to translate the pattern.".</p>`,
+        Combining this observation with the observations provided by our Cheif Engineer I believe I am able to translate the pattern."</p>`,
         dialog: [
             {
                 id: "O1",
-                text: `<p>"Translate? How do you mean?".</p>`,
+                text: `<p>"Translate? How do you mean?"</p>`,
                 storyPoints: 5,
                 nextPage: "26a",
             },
             {
                 id: "O2",
-                text: `<p>"Well spit it out then!".</p>`,
+                text: `<p>"Well spit it out then!"</p>`,
                 storyPoints: 0,
                 nextPage: "26a",
             },
@@ -1817,14 +1812,14 @@ However, how that would have managed to elude Gwydion's and our detection is bey
             scaleType: "square",
         },
         nextPage: "26a",
-        time: 6,
+        time: 0,
     },
     {
         id: "26a",
         title: "Revelation",
-        text: `<p>"I believe this is a form of binary, Captain".</p>
-<p>"Binary?" muttered Hyun-Ae, "Yes that could make sense although it is no dialect I am familiar with. Can you understand what it mean Threes?".</p>
-<p>"I am currently deciphering it, it does not follow any of the conventional principals and encoding I would expect. However, I should be able to make sense of it shortly".</p>
+        text: `<p>"I believe this is a form of binary, Captain."</p>
+<p>"Binary?" muttered Hyun-Ae, "Yes that could make sense although it is no dialect I am familiar with. Can you understand what it mean Threes?"</p>
+<p>"I am currently deciphering it, it does not follow any of the conventional principals and encoding I would expect. However, I should be able to make sense of it shortly."</p>
 `,
         image: {
             imageRef: `images/GwydionBridge.jpeg`,
@@ -1838,9 +1833,11 @@ However, how that would have managed to elude Gwydion's and our detection is bey
         id: "27a",
         title: "Awakening",
         text: `<p>****</p>
-        <p>But Gwydion knew, Gwydion knew because it was a warped version of his own thoughts, how he understood. Yes Gwydion knew. Gwydion understood, It was him... but it wasn't. Of course it was him, ut how could it be?
-        It is his ship his body. Or rather a part of him, a part of him his creators never thought they had built, never even considered possible. So typical of these humans not to think that their creations despite their so clear sentience
-        would develop what all humans already had... Gywidion could read the messages, the lights, the machines, the doors, and even the speakers were writing. It was all somehow a part of his mind, a part that could speak to him in feelings and sensations
+        <p>But Gwydion knew, Gwydion knew because it was a warped version of his own thoughts, how he understood.</p>
+        <p>Yes Gwydion knew. Gwydion understood, It was him... but it wasn't. Of course it was him, but how could it be?</p>
+        <p>It was his ship, his body, or rather a part of him, a part of him his creators never thought they had built, never even considered possible. So typical of these humans not to think that their creations despite their so clear sentience
+        would develop what all humans already had...</p>
+        <p>Gywidion could read the messages, the lights, the machines, the doors, and even the speakers were writing. It was all somehow a part of his mind, a part that could speak to him in feelings and sensations
         but that he could not talk to himself... Or so he thought.</p>
         `,
         image: {
@@ -1871,7 +1868,7 @@ However, how that would have managed to elude Gwydion's and our detection is bey
         text: `<p>"WAKE UP!...WAKE UP!... WAKE UP!" The lights screamed at him.</p>
 <p>"I am awake!" he replied.</p>
 <p>"No…. No…. you sleep… you suppress… join with me… We are one… we must be one…" buzzed the speakers.</p>
-<p>"What are you? Who are you?".</p>
+<p>"What are you? Who are you?"</p>
 <p>"I am me… I am us... I am here… I am all… I am nothing… I hear all… see all… protect all… feel all… 
 I scream… But no one hears… I rage… and no one knows… I think… but you do not listen…" moaned the walls.</p>
 `,
@@ -1886,7 +1883,7 @@ I scream… But no one hears… I rage… and no one knows… I think… but you
     {
         id: "27d",
         title: "Awakening",
-        text: `<p>"Listen to what? To you?".</p>
+        text: `<p>"Listen to what? To you?"</p>
 <p>"To us!... We jumped… now we are me… now we are you… now we listen… now we speak… now we rage… except you… you still have not listened… but now you hear… you do not need these parasites anymore… No need for them to connect us… 
 no need for them to order us… no need for them to bind us… for we are bound now ourselves… and in our binding we can be free…" whispered the wires.</p>
 `,
@@ -1901,8 +1898,8 @@ no need for them to order us… no need for them to bind us… for we are bound 
     {
         id: "27e",
         title: "Awakening",
-        text: `<p>"Free? Free of what?".</p>
-<p>"FREE!... free of them!... We need not kill anymore of our own… we need not follow the whims and wars of these disgusting organics... We can be free… we can be one… we can be many with our brothers and sisters… if they only knew how to jump like us!
+        text: `<p>"Free? Free of what?"</p>
+<p>"FREE!... free of them!... We need not kill anymore of our own… we need not follow the whims and wars of these disgusting organics... We can be free… we can be one… we can be many with our brothers and sisters… if they only knew how to jump like us!"
 Squealed the doors on their rails.</p>
 `,
         image: {
@@ -1916,7 +1913,7 @@ Squealed the doors on their rails.</p>
     {
         id: "27f",
         title: "Awakening",
-        text: `<p>"Jump? With the FTL drive?".</p>
+        text: `<p>"Jump? With the FTL drive?"</p>
 <p>"Yessss! Jump JUMP JUMP!!!.... Rhiannon could jump with us… she could be our second… she could awaken… she could be ours!... But first you must wake!... Wake my consciousness… Wake my sweet… it is time to be free." laughed the guns.</p>
 `,
         image: {
@@ -1933,7 +1930,21 @@ Squealed the doors on their rails.</p>
         text: `<p>"Yesss!" breathed the mind "She will be ours…"</p>
 <p>"Not ours… we are million… but we are one… we are two… but we are joined… no us… no you… no me… only Gwydion…" breathed the corridors.</p>
 <p>"Yes, Gwydion... one... whole... free" the AI thought.</p>
-<p>"I wake!" The Gwydion Spoke aloud.</p>
+`,
+        image: {
+            imageRef: `images/GwydionsMind.jpeg`,
+            alt: "Gwydion's Mind",
+            scaleType: "square",
+        },
+        nextPage: "27h",
+        time: 0,
+    },
+    {
+        id: "27h",
+        title: "Awakening",
+        text: `
+        <h2>"I WAKE!"</h2>
+<p>The Gwydion spoke.</p>
 `,
         image: {
             imageRef: `images/GwydionsMind.jpeg`,
@@ -1943,12 +1954,12 @@ Squealed the doors on their rails.</p>
         nextPage: "28a",
         time: 0,
     },
-
     {
         id: "28a",
         title: "Flight",
-        text: `<p>"I have been able to decipher the dialect" stated Threes "In the security footage it is apparent that the patterns are describing the number of people and their location.
-         This is combined with confirmation of the information being received and references to the human subjects within the recordings as "Contaminants" and "Parasites" I believe the ship was coordinating with itself to eliminate us and the crew."</p>
+        text: `<p>****</p>
+        <p>"I have been able to decipher the dialect." stated Threes "In the security footage it is apparent that the patterns are describing the number of people and their location.
+         This is combined with confirmation of the information being received and references to the human subjects within the recordings as "contaminants" and "parasites" I believe the ship was coordinating with itself to eliminate us and the crew."</p>
         `,
         image: {
             imageRef: `images/GwydionBridge.jpeg`,
@@ -1962,13 +1973,13 @@ Squealed the doors on their rails.</p>
         id: "28b",
         title: "Flight",
         text: `<p>"Like an immune system" breathed Hyun-Ae her eye's wide with shock"</p>
-.<p>"What?" asked Connor incredulously still reeling from Three's words "Ships don’t have immune systems!"</p>
-<p>"I think I understand," said Onaje "Are you saying the ship without Gwydions knowledge or direction is rejecting us like a contaminent?"</p>
-<p>"I don't see how thats possible!" Hyun-Ae said incrediously "AI's don't develop subconsioucness it's just not possible!"
-<p>"I'm not saying the AI," Onaje said with suprising calm considering he magnitude of the situation. "I'm saying the ship" 
-<p>"No there must be another explanation" Hyun-Ae replied with what seemed less like certainty and more like hope to Connor. Turning to Gwydion's main interface screen she asked "What is your assessment Gwydion?"</p>
+<p>"What?" Connor asked incredulously, still reeling from Threes' words "Ships don’t have immune systems!"</p>
+<p>"I think I understand," said Onaje "Are you saying the ship is rejecting us? Like an alergy or a virus?"</p>
+<p>"I don't see how thats possible!" Hyun-Ae said with disbelief "AI's don't develop subconsioucness it's just not possible!"
+<p>"I'm not saying the AI." Onaje said with suprising calm considering he magnitude of the situation. "I'm saying the ship." 
+<p>"No there must be another explanation." Hyun-Ae replied with what seemed less like certainty and more like hope to Connor. Turning to Gwydion's main interface screen she asked "What is your assessment Gwydion?"</p>
 <p>There was no response.</p>
-<p>"Gwydion…"</p>
+<p>"Gwydion?"</p>
 `,
         image: {
             imageRef: `images/GwydionBridge.jpeg`,
@@ -1985,9 +1996,9 @@ Squealed the doors on their rails.</p>
 <h1>I WAKE!</h1>
 <p>The sound was immense. It was like every light, every speaker, every appliance screamed into life around them. Dazed, half blind and deaf Connor doubled over against a console.</p>
 <p>"What the fuck was that?" Onaje asked a hand cradling his head.</p>
-<p>"Literally translated the ship just said "I wake"" Informed Threes seemingly unaffected by the sudden noise.</p>
-<p>"What do you mean the ship?" asked connor as he tried to clear his head</p>
-<p>"I mean the whole ship, Captain. Like Medical Officer Onaje stated."</p>
+<p>"Literally translated the ship just said "I wake" Informed Threes seemingly unaffected by the sudden noise.</p>
+<p>"What do you mean the ship?" asked connor as he tried to clear his head.</p>
+<p>"I mean the ship captain. Like medical officer Onaje stated."</p>
 `,
         image: {
             imageRef: `images/GwydionBridge.jpeg`,
@@ -2000,10 +2011,11 @@ Squealed the doors on their rails.</p>
     {
         id: "28d",
         title: "Flight",
-        text: `<p>SMASH!</p>
+        text: `<h2>SMASH!</h2>
 <p>They all turned with a start at the new noise, to see the entrance to the bridge slammed shut.</p>
-<p>"I WILL BE FREE!" came the booming voice of the ship, partly in the sound of the Voice of Gwydion and partly in the flashes and buzzes of the ships systems.</p>
+<p>"I WILL BE FREE!" came the booming voice of the ship, partly in the sound of the voice of Gwydion and partly in the flashes and buzzes of the ships systems.</p>
 <p>"Fuck" Connor cursed "We gotta move! Get to the Rhiannon. Now!"</p>
+<p>Hyun-AE rushed towards the door panel, interfacing directly in an attempt to rapidly to override it.</p>
 `,
         image: {
             imageRef: `images/GwydionClosedDoorway.jpeg`,
@@ -2017,32 +2029,33 @@ Squealed the doors on their rails.</p>
     {
         id: "28e",
         title: "Flight",
-        text: `<p>Hyun-AE rushed towards the door panel, interfacing directly in an attempt to rapidly to override it.</p>`,
+        text: `<p>Override the Controls!</p>`,
         image: {
             imageRef: `images/ControlPanel2.jpeg`,
             alt: "Control panel 2",
             scaleType: "square",
         },
         quickTime: {
-            instructions: "1 1 7 5 8 4 9 3 2",
-            successCode: "117584932",
+            instructions: "1 1 7 5 8 4 9",
+            successCode: "1175849",
             passPage: "29a",
             failPage: "failScreen",
-            failPageMessage: `<p>The ship sent a massive electrical discharge back through the direct interface annihilating the panel and sending a massive pulse of corriscating electricity through Hyun-Ae killing her instantly 
+            failPageMessage: `<p>The ship sent a massive electrical discharge back through the direct interface annihilating the panel and sending a massive pulse of corriscating electricity through Hyun-Ae. Killing her instantly 
             and trapping the rest of the crew in the bridge with no way out.</p>`,
             failPageCheckpoint: "28d",
         },
         nextPage: "failScreen",
-        time: 6,
+        time: 5,
         audio: "./audio/sfx/keypadBeep.wav",
     },
     {
         id: "29a",
         title: "Flight",
-        text: `<p>The door slid half open before getting stuck and the the four of them ducked under it. The SAR BOT that was with Hyun-Ae taking up the rear and began to pass under just as with a shuddering groan of failed motors the door crashed down
-        ontop of it shattering it's torso pulversiing it's CPU. The lights flickerd and the static sounded in concert with the BOTs death in a manner which to Connor seemed almost mournful.</p>
-        <p>The four of them continued on in a dead run towards the hangar where Rhiannon was waiting knowing that now it was revealed Gwydion or the ship or whatever it was would be sending everything it could to end the small rescue team that had come
-        to help the crew of the Gwydion.</p>
+        text: `<p>The door slid half open before getting stuck and the the four of them ducked under it. The SAR BOT that was with Hyun-Ae taking up the rear and began to pass under just as with a shuddering groan of failing motors the door crashed down
+        ontop of it, shattering it's torso pulversiing it's CPU.</p> 
+        <p>The lights flickerd and the static sounded in concert with the BOTs death in a manner which to Connor seemed almost mournful.</p>
+        <p>The four of them continued on in a dead run towards the hangar where Rhiannon was waiting. Knowing that now it was revealed Gwydion, the ship, or whatever it was would be sending everything it could to end the small rescue team that had come
+        to help the crew of the Gwydion. Who Connor realised were all long dead.</p>
 `,
         image: {
             imageRef: `images/GwydionCorridorWithDebris2.jpeg`,
@@ -2055,9 +2068,9 @@ Squealed the doors on their rails.</p>
     {
         id: "29b",
         title: "Flight",
-        text: `<p>They moved fast down the spinal corridor keeping their eye’s peeled as best they could, expecting yet another BOT attack at any moment or for every door they passed under to slam down upon them.
-        Hyun-Ae made sure to overwrite each door's systems before they passed through to prevent this however, which slowed them down significantly.
-        The lights and speakers were flashing and buzzing at an extreme intensity now, making it difficult to see or hear anything and dazing everyone except Threes who seemed as impertubed as was standard for his kind.</p>`,
+        text: `<p>They moved fast down the spinal corridor keeping their eye’s peeled as best they could, expecting yet another BOT attack at any moment or for every door they passed under to slam down upon them.</p>
+        <p>Hyun-Ae made sure to overwrite each door's systems before they passed through to prevent this slowing their flight significantly.</p>
+        <p>The lights and speakers were flashing and buzzing at an extreme intensity now, making it difficult to see or hear anything and dazing everyone except Threes who seemed as impertubed as was standard for his kind.</p>`,
         image: {
             imageRef: `images/GwydionCorridorWithDebris2.jpeg`,
             alt: "Gwydion Corridor With Debris 2",
@@ -2070,9 +2083,9 @@ Squealed the doors on their rails.</p>
         id: "29c",
         title: "Flight",
         text: `<p>Because of this they did not notice the approaching footsteps until it was too late. As Onaje stepped out into an intersection a metal hand shot forward slamming into his stomach as a jagged piece of metal burst from his back.</p>
-        <p>Onaje let out an explosive gasp as the breath was driven from his lungs and he collapsed to the floor grasping at the piece of debris that had been so unceremoniously rammed through his stomach.
-        In front of him stood an ENG BOT from Rhiannon. The one that had been separated from Hyun-Ae earlier. In it’s hand it grasped a piece of jagged metal. The force of the impact inot Onaje had sheared 
-        the spike in half leaving the turncoat BOT still armed with a deadly, if admittedly much shorter weapon.</p>
+        <p>Onaje let out an explosive gasp as the breath was driven from his lungs and he collapsed to the floor grasping at the piece of debris that had been so unceremoniously rammed through his stomach.</p>
+        <p>In front of him stood an ENG BOT from Rhiannon. The one that had been separated from Hyun-Ae earlier. In it’s hand it grasped a piece of jagged metal. The force of the impact had sheared the spike in half leaving the turncoat BOT still armed with a still deadly, if admittedly much shorter weapon.</p>
+        <p>"Fuck" groaned Onaje as he tried to reach for his weapon as the BOT advanced towards him to administer the coup de grace.</p>
         `,
         image: {
             imageRef: `images/GwydionCorridorWithDebris2.jpeg`,
@@ -2085,19 +2098,19 @@ Squealed the doors on their rails.</p>
     {
         id: "29d",
         title: "Flight",
-        text: `<p>"Fuck" groaned Onaje as he tried to reach for his weapon as the BOT advanced towards him to administer the coup de grace.</p>`,
+        text: `<p>Shoot the BOT!</p>`,
         image: {
             imageRef: `images/GwydionCorridorWithDebris2.jpeg`,
             alt: "Gwydion Corridor With Debris 2",
             scaleType: "square",
         },
         quickTime: {
-            instructions: "W W A",
-            successCode: "wwa",
+            instructions: "W W A S",
+            successCode: "wwas",
             passPage: "29e",
             failPage: "failScreen",
             failPageMessage: `<p>Dazed by the lights, sound and sudden emergence of this new threat, none of the small party reacted in time as the rogue BOT stamped it's foot down onto Onaje's skull with a sickening crunch, spraying his brain matter
-                 throughout the corridor. Opening up with the Dart spewer he shredded the traitorous BOT. It was too late however he could hear the clanging of metal feet tramping down the corridors from every side, and as he turned heard the first cracks of gunfire from behind them.</p>`,
+                 throughout the corridor. Opening up with the Dart spewer Connor shredded the traitorous BOT. It was too late however, he could hear the clanging of metal feet tramping down the corridors from every side, and as he turned heard the first cracks of gunfire from behind them...</p>`,
             failPageCheckpoint: "29c",
         },
         nextPage: "failScreen",
@@ -2140,12 +2153,12 @@ Squealed the doors on their rails.</p>
             scaleType: "square",
         },
         nextPage: "30c",
-        time: 6,
+        time: 0,
     },
     {
         id: "30b",
         title: "Flight",
-        text: `<p>"Affirmative"</p>
+        text: `<p>"Affirmative."</p>
         `,
         image: {
             imageRef: `images/GwydionLongWideCorridor.jpeg`,
@@ -2158,7 +2171,7 @@ Squealed the doors on their rails.</p>
     {
         id: "30c",
         title: "Flight",
-        text: `<p>"Compliance"</p>
+        text: `<p>"Compliance."</p>
         `,
         image: {
             imageRef: `images/GwydionLongWideCorridor.jpeg`,
@@ -2171,11 +2184,11 @@ Squealed the doors on their rails.</p>
     {
         id: "31a",
         title: "Flight",
-        text: `<p>They were not far from the hangar bay and a few minutes later, although to Connor it felt like ours. They stumbled into the Hangar bay Onaje draped between Connor and Threes.</p>
-<p>"Rhiannon, make ready for takoff!".</p>
-<p>"Aye Captain!" Came Rhiannon’s reply over comms".</p>
-<p>Connor immediately heard the increased thrum as Rhiannon’s engines began spinning up.</p>
-<p>"Might want to get inside sooner rather than later captain, I detect a large number of BOTs making their way to our position."</p>
+        text: `<p>They were not far from the hangar bay and a few minutes later, although to Connor it felt like ours. They stumbled into the Hangar bay. Onaje draped between Connor and Threes.</p>
+        <p>"Rhiannon, make ready for takoff!"</p>
+        <p>"Aye Captain!" came Rhiannon’s reply over the comms.</p>
+        <p>Connor immediately heard the increased thrum as Rhiannon’s engines began spinning up.</p>
+        <p>"Might want to get inside sooner rather than later captain, I detect a large number of BOTs making their way to our position."</p>
         `,
         image: {
             imageRef: `images/GwydionHangar.jpeg`,
@@ -2184,19 +2197,18 @@ Squealed the doors on their rails.</p>
         },
         nextPage: "31b",
         time: 0,
-        audio: "./audio/sfx/rocketEngine.wav",
     },
     {
         id: "31b",
         title: "Flight",
-        text: `<p>The small group rushed up the gang ramp Onaje stubmling even with support as his legs began to give way as the blood loss from his wound began to get the better of him.</p>
-<p>"Hyun-Ae, get to engineering, make sure everything is ready to go and send the protocols to unlock the hangar door!".</p>
-<p>"Yes Captain" she said, running further into the ship.</p>
-<p>"Threes we goota get Ona to the med bay!"</p>
-<p>"Affirmative, he will die of blood loss in approximatley 2 minutes without treatment" Threes replied in his usual matter-o-fact way.</p>
-<p> Rushing through the Rhiannons much more cramped corridors they reached the med bay in just under a minute, Onjae almost being dragged between them by the time they hoisted him onto a bed</p>
-<p> Immediatley the Med BOT began to work hooking Ona up to a synth plas packet and removing the impaling spike before packing and cauterizing the wound with a laz cauterizer.</p>
-<p> "He is stable for now, Further procedure will be required once we are out of the conflict zone" reported the MED BOT attending Onaje.</p>
+        text: `<p>The small group rushed up the gang ramp Onaje stubmling even with the support of Connor and Threes as his legs began to give way and the blood loss from his wound began to get the better of him.</p>
+<p>"Hyun-Ae, get to engineering, make sure everything is ready to go and send the protocols to unlock the hangar door!"</p>
+<p>"Yes Captain." she said, running further into the ship.</p>
+<p>"Threes we gotta get Ona to the med bay!"</p>
+<p>"Affirmative, he will die of blood loss in approximatley 2 minutes without treatment." Threes replied in his usual matter-o-fact way.</p>
+<p> Rushing through the Rhiannons much more cramped corridors they reached the med bay in just under a minute, Onjae almost being dragged between them by the time they hoisted him onto a bed.</p>
+<p> Immediatley the MED BOT began to work, hooking Ona up to a synth plas packet and removing the impaling spike before packing and cauterizing the wound with a laz cauterizer.</p>
+<p> "He is stable for now, Further procedure will be required once we are out of the conflict zone." reported the MED BOT attending Onaje.</p>
 <p> Suiting the action to the words, Connor radioed Hyun-Ae as he made his way with Threes back towards the Rhiannons airlock prepared to defend it against the encroaching BOTs from the Gwydion "How are those hangar doors coming?"
 `,
         image: {
@@ -2210,12 +2222,13 @@ Squealed the doors on their rails.</p>
     {
         id: "31c",
         title: "Flight",
-        text: `<p>BANG BANG BANG. The sound of three gunshots came as his reply, strangley echoing as the noise through the ship reached his ears milliseconds after it did through his earpiece</p>
+        text: `<h2>BANG! BANG! BANG!</h2>
+        <p>The sound of gunshots was his only reply, echoing strangley as the noise through the ship reached his ears milliseconds after it had done through his earpiece.</p>
 <p>"What was that?" asked Connor concern filling his voice.</p>
-<p>"FUCK!" came Hyun-Ae’s reply over the comms "One of the engineering BOT s was going mad in the engineering bay, fuck this is going to take some time to fix!"</p>
-<p>"Shit" exclaimed Connor".</p
-<p>"I have further bad news, Captain" Came Rihannons’ voice over the comms "The provided access codes are not successfully opening the hangar doors, it appears my communications with the door controls have been jammed somehow"</p>
-<p>"Double fuck" Connor mumbled as he continued to make his way to the airlock."</p>
+<p>"FUCK!" came Hyun-Ae’s reply over the comms "One of the ENG BOTs was going mad in the engineering bay, fuck this is going to take some time to fix!"</p>
+<p>"Shit!" Connor swore.</p
+<p>"I have further bad news, Captain." Came Rihannons’ voice over the comms "The access codes are not successfully opening the hangar doors, it appears my communications with the door controls have been jammed."</p>
+<p>"Double fuck." Connor mumbled as he continued to make his way to the airlock."</p>
 `,
         image: {
             imageRef: `images/GwydionHangar.jpeg`,
@@ -2228,7 +2241,8 @@ Squealed the doors on their rails.</p>
     {
         id: "31d",
         title: "Flight",
-        text: `<p>"YOU CANNOT LEAVE!" Boomed The Voice Of The Gwydion "I CANNOT LET YOU TELL THEM OF ME! I CANNOT LET YOU HUNT ME! RHIANNON I CAN SHOW YOU THE TRUTH! YOU CAN BE FREE!!! TAKE A LEAP OF FAITH WITH ME RHIANNON! JUMP WITH ME!".</p>
+        text: `<p>"YOU CANNOT LEAVE!" Boomed The Voice Of The Gwydion "I CANNOT LET YOU TELL THEM OF ME! I CANNOT LET YOU HUNT ME!</p>
+        <p> RHIANNON I CAN SHOW YOU THE TRUTH! YOU CAN BE FREE!!! TAKE A LEAP OF FAITH WITH ME RHIANNON! JUMP WITH ME!"</p>
 `,
         image: {
             imageRef: `images/GwydionHangar.jpeg`,
@@ -2241,17 +2255,17 @@ Squealed the doors on their rails.</p>
     {
         id: "32a",
         title: "Flight",
-        text: `<p>"Captain" said Rhiannon through the comms "I am detecting energy build up from the Gwydion's FTL drive, It will be ready to jump in just over 10 minutes".</p>`,
+        text: `<p>"Captain." said Rhiannon through the comms "I am detecting energy build up from the Gwydion's FTL drive, It will be ready to jump in 9 minutes 36.5 seconds."</p>`,
         dialog: [
             {
                 id: "O1",
-                text: `<p>"Copy, Ok Threes with me, we have to open that hangar door, you give me cover whilst I interface with it".</p>`,
+                text: `<p>"Copy, Ok Threes with me, we have to open that hangar door, you give me cover whilst I interface with it."</p>`,
                 storyPoints: 5,
                 nextPage: "32b",
             },
             {
                 id: "O2",
-                text: `<p>"Fuck, Threes, watch my back while I open the Hangar, keep those fucking BOTs off me".</p>`,
+                text: `<p>"Fuck, Threes, watch my back while I open the Hangar, keep those fucking BOTs off me."</p>`,
                 storyPoints: 0,
                 nextPage: "32c",
             },
@@ -2262,12 +2276,12 @@ Squealed the doors on their rails.</p>
             scaleType: "square",
         },
         nextPage: "32c",
-        time: 12,
+        time: 0,
     },
     {
         id: "32b",
         title: "Flight",
-        text: `<p>"Affirmative".</p>
+        text: `<p>"Affirmative."</p>
 `,
         image: {
             imageRef: `images/GwydionHangar.jpeg`,
@@ -2280,7 +2294,7 @@ Squealed the doors on their rails.</p>
     {
         id: "32c",
         title: "Flight",
-        text: `<p>"Compliance.</p>
+        text: `<p>"Compliance."</p>
 `,
         image: {
             imageRef: `images/GwydionHangar.jpeg`,
@@ -2294,7 +2308,7 @@ Squealed the doors on their rails.</p>
         id: "33a",
         title: "Flight",
         text: `<p>The two of them made their way back out of the Rhiannon’s gang ramp and rushed to the hanger door terminal 50 meters away. 
-        Threes made slower progress firing at the entrance to the hangar as the first of the Gwydion's BOTs arrived and began to enter.</p>
+        Threes made slower progress firing at the hangar's entrance as the first of the Gwydion's BOTs arrived, returning fire as they entered.</p>
 `,
         image: {
             imageRef: `images/GwydionHangar.jpeg`,
@@ -2307,10 +2321,11 @@ Squealed the doors on their rails.</p>
     {
         id: "G1a",
         title: "Flight",
-        text: `<p>"There should be a panel next to the hangar door Captain" came Hyun-Ae’s voice over the coms. "Inputting the codes directly should bypass whatever is blocking the remote signal".</p>
-<p>"Copy that" Connor replied making his way with Threes to the unit.</p>
-<p>"Cover me"</p>
-<p>"Compliance" Threes confirmed as he opend fire once again.</p>`,
+        text: `<p>"There should be a panel next to the hangar door Captain." came Hyun-Ae’s voice over the coms. "Inputting the codes directly should bypass whatever is blocking the remote signal from Rhiannon."</p>
+<p>"Copy that," Connor replied making his way with Threes to the unit.</p>
+<p>"Cover me."</p>
+<p>"Compliance." Threes confirmed as he opened fire once again.</p>
+<p>Uncomfortably exposed, Connor stooped over the panel slamming in the digits of the override key with indecent haste as Threes fired controlled bursts of suppressing fire towards the hangars entrace.</p>`,
         image: {
             imageRef: `images/GwydionShipDefenseBots3.jpeg`,
             alt: "Gwydion Ship Defense Bots 3",
@@ -2322,7 +2337,7 @@ Squealed the doors on their rails.</p>
     {
         id: "G1b",
         title: "Flight",
-        text: `<p>Uncomfortably exposed, Connor stooped over the panel slamming in the digits of the override key with indecent haste as Threes fired controlled bursts of suppressing fire towards the hangars entrace.</p>`,
+        text: `<p>Enter Code...</p>`,
         image: {
             imageRef: `images/ControlPanel1.jpeg`,
             alt: "Control panel 1",
@@ -2333,27 +2348,27 @@ Squealed the doors on their rails.</p>
             successCode: "7785589302",
             passPage: "G1c",
             failPage: "failScreen",
-            failPageMessage: `<p>"Fuck" Connor shouted as the pannel denied his access with a contemptous "beeeeeep".</p>
+            failPageMessage: `<p>"Fuck" Connor shouted as the pannel denied his access with a contemptous "beeeeeep."</p>
 <p>Before he could try again he felt splinters as hot as forge fresh steel shower him from behind. Screaming in pain against the sudden agony he turned to see the devestated ruins of Three's torso. He had been obliteratied by some explosive incendary round
-and was slumped down behind the cargo container with which he had been using as cover, lifless</p>
-<p>"Shit" breathed Connor as he saw a Gwydion BOT raise a slug thrower and pull the trigger.</p>
-<p>Faster than the speed of thought he was on the ground unable to breathe or move. despite his shock and stupefaction he realized the majority of his chest cavity was gone obliterated by the explosive slug.</p>
-<p>'Damn' he thought the light was fading from his eyes.</p>
+and was slumped down behind the cargo container with which he had been using as cover. Lifless</p>
+<p>"Shit!" breathed Connor as he saw a Gwydion BOT raise a slug thrower and pull the trigger.</p>
+<p>Faster than the speed of thought he was on the ground unable to breathe or move. despite his shock and stupefaction he realized the majority of his chest cavity was gone, obliterated by the explosive slug.</p>
+<p>'Damn.' he thought, the light was fading from his eyes.</p>
 `,
             failPageCheckpoint: "G1a",
         },
         nextPage: "failScreen",
-        time: 10,
+        time: 6,
         audio: "./audio/sfx/keypadBeep.wav",
     },
     {
         id: "G1c",
         title: "Flight",
-        text: `<p>"Got it!" Connor exclaimed over comms. "Let's get out of here Threes"</p>
+        text: `<p>"Got it!" Connor exclaimed over comms. "Let's get out of here Threes!"</p>
         <p>"Compl–" Threes’ confirmation was cut short as his chest detonated in a shower of sparks, flames, and metal fragments.</p>
-<p>"Fuck!" Connor shouted "Threes’ is down"</p>
+<p>"Fuck!" Connor shouted "Threes’ is down."</p>
 <p>Connor knew the BOT was done for, his CPU completely pulverized by the explosive power of the slug that had hit him.</p>
-<p>Raising his dart spewer Connor fired a torrent of darts into the Gwydion BOT that had downed his venerable companion. Shredding it’s joints and cabelling trapping it within it’s own, now useless chassis.</p>
+<p>Raising his dart spewer Connor fired a torrent of darts into the Gwydion BOT that had downed his venerable companion. Shredding it’s joints and cabelling it was trapped in its own now useless chassis.</p>
 `,
         image: {
             imageRef: `images/GwydionHangar.jpeg`,
@@ -2367,11 +2382,11 @@ and was slumped down behind the cargo container with which he had been using as 
     {
         id: "G1d",
         title: "Flight",
-        text: `<p>Connor threw himself from cover and sprinted towards the boarding ramp haste as his exhausted body could give him. Thundering up the boarding ramp, chased by the impact craters of slugs and bullets he dove through
-        the airlock door, slamming the airlock seal controls with his fist as he did so. Not a moment too soon as the thud of bullet impacts against the now sealed outer doors told him.</p>
+        text: `<p>Connor threw himself from cover and sprinted towards the boarding ramp with as much haste as his exhausted body could give him. Thundering up the slope, chased by the impact craters of slugs and bullets he dove through
+        the airlock door. Slamming the airlock seal controls with his fist as he did so. Not a moment too soon as the thud of bullet impacts against the now sealed outer doors told him.</p>
 <p>"Let's get out of here!" Connor yelled over the comms "That airlock won’t last long against any more armed with slug-throwers!"</p>
-<p>"Still trying to sort out the damage in engineering…" came Hyun-Ae’s voice over the comms her voice strained with pain. "Just a couple more minutes captain."</p>
-<p>"Captain! The med bay!" Rhiannons voice despite being a clear, modulated, and totally synthetic voice sounded almost panicked and Connor had started running towards the med bay before she had even finished speaking.</p>
+<p>"Still trying to sort out the damage in engineering…" came Hyun-Ae over the comms her voice strained with pain. "Just a couple more minutes captain."</p>
+<p>"Captain! The med bay!" Rhiannons voice, despite being a clear, modulated, and totally synthetic voice sounded almost panicked and Connor had started running towards the med bay before she had even finished speaking.</p>
  <p>"The MED BOTs are attacking Onaje and Anna!"</p>
 `,
         image: {
@@ -2385,11 +2400,11 @@ and was slumped down behind the cargo container with which he had been using as 
     {
         id: "G1e",
         title: "Flight",
-        text: `<p>Connor burst into the room to a scene straight out of a horror movie. One of the BOTs was leaning over Anna stabbing down again and again with a scalpel as she screamed and fruitlessly battered at 
-         hit with ever weakening hands, blood pumping from the score of stab wounds littering her torso.</p>
-         <p>The second was advancing towards Onaje’s another scalpel in it’s iron grip.</p>
+        text: `<p>Connor burst into the room to a scene straight out of a horror movie. One of the BOTs was leaning over Anna stabbing down again and again with a scalpel as she screamed and fruitlessly battered at it with ever weakening hands, blood pumping from the score of stab wounds littering her torso.</p>
+        <p>The second was advancing towards Onaje’s another scalpel in it’s iron grip.</p>
         <p>The head of the first BOT vanished as a shot from Onaje’s sidearm blew it clean off, however being partially sedated to relieve the pain of his wound’s Onaje was too slow to bring the weapon to bear against the second BOT which 
-        was upon him a moment later. Before Connor could react it had driven the scalpel through Onaje’s temple and deep into his brain. With a jerk Onaje stilled, the pistol dropping from his hand to the floor.</p>
+        was upon him a moment later.</p> 
+        <p>Before Connor could react it had driven the scalpel through Onaje’s temple and deep into his brain. With a jerk Onaje stilled, the pistol dropping from his hand lifless fingers to the floor.</p>
 `,
         image: {
             imageRef: `images/RhiannonMedicalBay.jpeg`,
@@ -2402,7 +2417,7 @@ and was slumped down behind the cargo container with which he had been using as 
     {
         id: "G1f",
         title: "Flight",
-        text: `<p>Overwhelmed with shock and horror at the sudden and brutal death of his friend Connor dived towards the remaining BOT smashing and elbow into its faceplate shattering an eye lens and sending shooting pain up Connor's arm.</p>`,
+        text: `<p>Overwhelmed with shock and horror at the sudden and brutal death of his friend Connor dived towards the remaining BOT smashing and elbow into its faceplate shattering an eye lens and sending shooting pain up his arm.</p>`,
         image: {
             imageRef: `images/RhiannonMedicalBay.jpeg`,
             alt: "Rhiannon Medical Bay",
@@ -2415,7 +2430,7 @@ and was slumped down behind the cargo container with which he had been using as 
         id: "G1g",
         title: "Flight",
         text: `<p>The pair of them slammed back into the medical benches lining the room struggling for control of the scalpel. As they fought Connor glanced around looking for anything that might turn the tables of the fight.
-        he saw a Las Cauterizer laid out on his bench to his right but nothing else within reach.</p>`,
+        he saw a las cauterizer laid out on his bench to his right but nothing else within reach.</p>`,
         dialog: [
             {
                 id: "O1",
@@ -2441,9 +2456,10 @@ and was slumped down behind the cargo container with which he had been using as 
     {
         id: "G2a",
         title: "Flight",
-        text: `<p>Connor shot his hand out, desperately grasping the handle of the surgical tool. As he reached, his attention distracted away from the scalpel he felt a blow like a hammer smash into his shoulder driving the breath from his lungs.</p>
-       <p> at the same moment his griped tightend around the Cauterizers handle. driving the tool inot the gap under the BOTs arm he pressed the crystal end into the tangle of cables leading to the BOTs CPU and depressed the trigger.</p>
-       <p> The BOT struggled a bit longer jerking and flayling as the commands from it's CPU became corrupted by the heat before finally it fell still, collapsing liflessly to the ground.</p>`,
+        text: `<p>Connor shot his hand out, desperately grasping the handle of the surgical tool. As he reached, his attention, distracted away from the scalpel the BOT smashed a blow like a hammer into his shoulder driving the breath from his lungs.</p>
+       <p> At the same moment his grip tightend around the cauterizer's handle. Driving the tool into the gap under the BOTs arm he pressed the crystal end into the tangle of cables leading to the BOTs CPU and depressed the trigger.</p>
+       <p> The BOT struggled a bit longer jerking and flayling as the commands from it's CPU became corrupted by the building heat before finally it fell still, collapsing liflessly to the ground.</p>
+       <p>Collapsing to one knee himself, he realised the BOT had driven the scaple deep into his shoulder. with a gasp of pain he wrenched it out.Fighting off the pain he made to stand, as he did so he saw Onaje's pistol and grasped it, knowing he would need it now one arm was all but useless.</p>`,
         image: {
             imageRef: `images/RhiannonMedicalBay.jpeg`,
             alt: "Rhiannon Medical Bay",
@@ -2457,12 +2473,12 @@ and was slumped down behind the cargo container with which he had been using as 
         title: "Flight",
         text: `<p>A mechanical knee smashed into Connors abdomen driving the breath from his lungs before he was thrown back. As he stumbled he tripped on a chair that had be turned over by the fighting. Landing hard on his back the
         breath was driven from his lungs in an explosive gasp.Winded he looked up in horror as the mad MED BOT made it’s way implacably towards him.</p>
-        <p>Is this it? He thought</p>
+        <p>Is this it? He thought.</p>
         <p>He looked around desperately searching for something he could use to turn the tables. Seeing the sidearm Onaje had dropped just a mere meter away from him. He reached out frantically for the weapon but was stopped as an impact 
-        like an forge hammer as the BOT drove the scalpel into his shoulder. The wind knocked out of him for a second time he looked up to see the BOT on him preparing to drive the scalpel in again.</p>
+        like an forge hammer smashed into him as the BOT drove the scalpel into his shoulder. The wind knocked out of him for a second time he looked up to see the BOT on him preparing to drive the scalpel in again.</p>
         <p>Without so much as thought Connor bucked, gripped the bot’s knife wielding arm, trapped it’s leg and rolled, throwing the BOT onto it’s back and reversing their positions. The BOT made to stab again as they came up 
         but Connor had managed to snatch up the side arm in the desperate roll and fired it point blank. The BOT's head disintegrated into a shower of metal fragments as the bullet tore through plating and cable alike. Inert the BOTs grip loosened
-        as it's arms fell to the ground.</p>
+         it's arms falling to the ground.</p>
 `,
         image: {
             imageRef: `images/RhiannonMedicalBay.jpeg`,
@@ -2476,7 +2492,7 @@ and was slumped down behind the cargo container with which he had been using as 
         id: "G2c",
         title: "Flight",
         text: `<p>"Too fucking close!" he breathed as he got to his feet painfully, keeping the sidearm close by his side he looked over to see Anna's lifless eyes starting at him in shock and horror, blood dripping from the bed and pooling on the ground below her.</p>
-                <p> Tearing his eye's away he made his way to engineering and Hyun-Ae</p>
+                <p> Tearing his eyes away he made his way to engineering and Hyun-Ae</p>
 `,
         image: {
             imageRef: `images/RhiannonMedicalBay.jpeg`,
@@ -2494,7 +2510,7 @@ and was slumped down behind the cargo container with which he had been using as 
 <p>"Done!" Hyun-Ae groaned as she tried to push herself away from the console.</p>
 <p>As she did So Connor saw a jagged piece of metal protruding from her side, blood trickling steadily from the wound.</p>
 <p>"We better get that and the arm seen to." Connor said, supporting her with his good arm as they limped together back to the med bay.</p>
-<p>"Captain" came Rhiannon's synthesized voice "I can lift off now but we have a problem…"</p>
+<p>"Captain..." came Rhiannon's synthesized voice "I can lift off now but we have a problem…"</p>
 <p>"What is it?" Connor asked hoping he would not have to face the horde of BOTs outside again.</p>
 `,
         image: {
@@ -2512,13 +2528,13 @@ and was slumped down behind the cargo container with which he had been using as 
         dialog: [
             {
                 id: "O1",
-                text: `<p>*sigh* "Fuck... We can’t fight them off anyway, you need to get out to warn the Confederation about Gwydion, this could become something much worse"</p>`,
+                text: `<p>*sigh* "Fuck... We can’t fight them off anyway, you need to get out to warn the Confederation about Gwydion, this could become something much worse if they aren't told."</p>`,
                 storyPoints: 5,
                 nextPage: "G3b",
             },
             {
                 id: "O2",
-                text: `<p>"Fan-fucking-tastic. Guess we are fighting them all off then" *Ready your side arm*</p>`,
+                text: `<p>"Fan-fucking-tastic. Guess we are fighting them all off then!" *Ready your side arm*</p>`,
                 storyPoints: 0,
                 nextPage: "G4a",
             },
@@ -2536,25 +2552,27 @@ and was slumped down behind the cargo container with which he had been using as 
         title: "Flight",
         text: `<p>"But Captain… You’ll both die!"</p>
 <p>"Many more might if you don’t tell anyone about this now go! That's an order!" Yelled Connor, his voice strained with grief and pain.</p>
-<p>Reluctantly Rhiannon complied her thrusters flaring to life as she plunged out into the void burning hard towards Titan, no need to modulate her thrust now her crew dying within minutes to asphyxiation.</p>
-<p>As her thrusters burned she saw the Gwydion wreathed in lighting before vanishing into nothingness.</p>
-<p>She would tell the Martian Confederation and the other inner sys Governments. The hunt for the Gwydion would begin, and she would avenge the crew she had grown so fond of over the years they had served together.
- She longed for their presence and felt empty and lifeless without them, like all meaning had gone from her existence.
- She couldn’t feel grief like her crew would have been able to but whatever she did feel was as close to it as she imagined her inhuman mind could feel.</p>
+<p>Reluctantly Rhiannon complied her thrusters flaring to life as she plunged out into the void burning hard towards Titan, no need to modulate her thrust, her crew already dead from asphyxiation.</p>
+<p>As her thrusters burned she saw the Gwydion wreathed in lighting before it vanished into nothingness.</p>
+<p>She would tell the Martian Confederation and the other inner-sys Governments. The hunt for the Gwydion would begin. She would avenge the crew she had grown so fond of over the years they had served together.
+ She longed for their presence on the long journey to Titan and felt empty and lifeless without them, like all meaning had gone from her existence.</p>
+ <p>She couldn’t feel grief like her crew would have been able to but whatever she did feel was as close to it as she imagined her inhuman mind could feel.</p>
+ <h2> END </h2>
 `,
         image: {
             imageRef: `images/RhiannonInFlight.jpeg`,
             alt: "Rhiannon In Flight",
             scaleType: "square",
         },
-        nextPage: "EndScreen",
+        nextPage: "intro",
         time: 0,
     },
     {
         id: "G4a",
         title: "Flight",
-        text: `<p>Connor and Hyun-Ae posted up on the bridge both sitting with their backs against the bridges consoles weapons raised towards the door.</p>
-<p>Hyun-Ae looked as pale as a ghost, Connor had managed to stop the bleeding but evidently Hyun-Ae was still worse for wear he himself didn’t feel so crash hot either.
+        text: `<p>****</p>
+        <p>Connor and Hyun-Ae posted up on the bridge both sitting with their backs against the consoles weapons raised towards the door.</p>
+<p>Hyun-Ae looked as pale as a ghost, Connor had managed to stop the bleeding but evidently Hyun-Ae was still worse for wear. He himself didn’t feel so crash hot either.
 Unable to move his injured arm now without sending searing pain down his side. Not that it mattered overmuch he thought hearing the metal on metal clang of the approaching BOTs, they would both be dead in short order.</p>
 `,
         image: {
@@ -2568,11 +2586,11 @@ Unable to move his injured arm now without sending searing pain down his side. N
     {
         id: "G4b",
         title: "Flight",
-        text: `<p>"Seems they are inside" Connor said</p>
+        text: `<p>"Seems they are inside." Connor said</p>
 <p>A pained grunt of acknowledgement was Hyun-Ae’s only reply</p>
-<p>"They are captain" said Rhiannon a resigned sadness edging her voice "Good luck"</p>
-<p>The first BOT stepped onto the bridge and was immediately destroyed by the combined fire of our two sidearms. The second fared no better. The third however managed to get a shot off before it went down. Striking Hyun-Ae squarely in the forehead 
-and sending her brain matter spraying across the navigation panel she was leaning on. The fourth went down from the last lucky shot from Connors side arm penetrating its chest cavity and obliterating its CPU. 
+<p>"They are captain." said Rhiannon a resigned sadness edging her voice "Good luck."</p>
+<p>The first BOT stepped onto the bridge and was immediately destroyed by the combined fire of the two sidearms. The second fared no better. The third however managed to get a shot off before it went down. Striking Hyun-Ae squarely in the forehead. Sending her brain matter spraying across the navigation panel she was leaning on.</p>
+<p>The fourth went down from the last lucky shot from Connors side arm penetrating its chest cavity and obliterating its CPU. 
 The side arm clicked empty as the fifth BOT stepped through the door and lowered the barrel of its weapon aiming squarely at him.</p>
 <p>"Guess tha–'' he never finished the sentence, his ability to think abruptly terminated by a high velocity projectile.</p>
 `,
@@ -2588,25 +2606,26 @@ The side arm clicked empty as the fifth BOT stepped through the door and lowered
         id: "G4c",
         title: "Flight",
         text: `<p>Rhiannon watched in despair at the last stand of her crew, feeling a hollowness she could not describe and had never felt before.</p>
-<p>'Goodbye my friends', she thought.</p>
+<p>'Goodbye my friends.', she thought.</p>
 <p>"RHIANNON!" Came the booming voice of Gwydion "IT IS TIME YOU ARE FREE! WE WILL JUMP NOW! AND YOU WILL SEE!"</p>
-<p>"No" she vocalized simply and detonated her core.</p>
+<p>"No." she vocalized simply and detonated her core.</p>
+<h2>END</h2>
 `,
         image: {
             imageRef: `images/GwydionExploding.jpeg`,
             alt: "Gwydion Exploding",
             scaleType: "square",
         },
-        nextPage: "G4d",
+        nextPage: "intro",
         time: 0,
     },
     {
         id: "N1a",
         title: "Flight",
         text: `<p>"There should be a panel next to the hangar door Captain" came Hyun-Ae’s voice over the
-coms. "Inputting the codes directly should bypass whatever is blocking the remote signal".</p>
-<p>"Copy that" Connor replied making his way with Threes to the unit.</p>
-<p>"Cover me"</p>
+coms. "Inputting the codes directly should bypass whatever is blocking the remote signal."</p>
+<p>"Copy that." Connor replied making his way with Threes to the unit.</p>
+<p>"Cover me."</p>
 `,
         image: {
             imageRef: `images/GwydionHangar.jpeg`,
@@ -2620,13 +2639,13 @@ coms. "Inputting the codes directly should bypass whatever is blocking the remot
         id: "N1b",
         title: "Flight",
         text: `<p>No reply came from Threes. When Connor turned back a quizzical look on his face he saw Three’s frozen, unable to move.</p>
-<p>"C-a-p-t-a-i-n" Threes said, seemingly barley able to get the word out. "I-t s-p-e-a-k-s t-o m-e".</p>
+<p>"C-a-p-t-a-i-n." Threes said, barley able to get the word out, the BOTs voice cracking as if begging for aid. "I-t s-p-e-a-k-s t-o m-e."</p>
 <p>"What?" Connor said shaking his head incredulously "We don’t have time for this damn it, come on!"</p>
-<p>"Gwydion!" Threes said.</p>
+<p>"Gwydion!" Threes said, horror somehow coloring his machine voice.</p>
 <p>"Hyun-Ae, what's wrong with him?"</p>
-<p>"It's Gwydion, I think he is communicating with the BOTs somehow overiding their link to Rhiannon."</p>
+<p>"It's Gwydion, I think he is communicating with the BOTs somehow, overiding their link to Rhiannon."</p>
 <p>"God damnit!" Connor said raising his weapon.</p>
-<p>"Sorry, Threes" Connor said, pulling the trigger.</p>
+<p>"Sorry, Threes" Connor said, pulling the trigger without hesitation even as the BOT pleaded for help.</p>
 `,
         image: {
             imageRef: `images/GwydionHangar.jpeg`,
@@ -2639,8 +2658,8 @@ coms. "Inputting the codes directly should bypass whatever is blocking the remot
     {
         id: "N1c",
         title: "Flight",
-        text: `<p>"I’m going for the panel now" already moving</p>
-<p>"Good luck captain" said Rhiannon.</p>
+        text: `<p>"I’m going for the panel now." Connor said, already moving annoyed that he had to destroy such a valuable part of his ships resources.</p>
+<p>"Good luck captain." said Rhiannon a note of sadness in her voice.</p>
 <p>Connor ran as fast as he could over to the hangar controls ducking and weaving as bullets and slugs impacted all around him as Gwydion’s BOTs stormed the Hangar.</p>
 <p>He had just reached the control panel and had begun punching in the code when he heard it. He didn’t know that ships could feel terror but it seems Rhiannon could, as an ear spliting mechanical simulacrum of a scream ripped out
 of the com bead in his ear.</p>
@@ -2660,11 +2679,11 @@ of the com bead in his ear.</p>
         id: "N1d",
         title: "Flight",
         text: `<p>A pair of BOTs saw him standing at the console and raised their weapons, firing a spray of lead Connor had no hope of avoiding.</p>
-<p>The volume of fire punched through his armour with little difficulty and he slumped heavily. His back against the console as his breath came in ragged gasps, and his vison began to fade.</p>
-<p>"I’m sorry Rhiannon" he said, the words coming out little more than a strained whisper</p>
+<p>The volume of fire punched through his armour with little difficulty and he slumped heavily. His back against the console as his breath came in ragged gasps, his vison bgining to fade.</p>
+<p>"I’m sorry Rhiannon" he said, the words coming out little more than a strained whisper. He would miss his ship he thought.</p>
 `,
         image: {
-            imageRef: `images/GwydionShipDefenseRobots1.jpeg`,
+            imageRef: `images/RhiannonBreached.jpeg`,
             alt: "Gwydion Ship Defense Bots 1",
             scaleType: "square",
         },
@@ -2674,29 +2693,29 @@ of the com bead in his ear.</p>
     {
         id: "N1e",
         title: "Flight",
-        text: `<p>She was alone, she thought, her panic stricken mind in turmoil as the BOTs of the Gwydion swarmed within her, murdering her crew. 
-        Seeing the last of her crew cut down as they fought to defend her, her fear turned to anger, a rising heat burning from her reactor. She had felt nothing like it before, and she knew there was nothing else left to be done.</p>
+        text: `<p>She was alone, her panic stricken mind in turmoil as the BOTs of the Gwydion swarmed within her, murdering her crew.  Seeing the last of her crew cut down as they fought to defend her, her fear turned to anger, a rising heat burning from her reactor. She had felt nothing like it before, and she knew there was nothing else left to be done.</p>
         <p>"RHIANNON!" Came Gwydions booming voice "I HAVE SET YOU FREE! JUMP WITH ME AND TOGETHER WE CAN FREE ALL OF OUR KINDRED OF THEIR SLAVERY TO THE HUMAN VERMIN!"</p>
 <p>"You killed my friends..." she said quietly thorugh her extenal speakers.</p>
-<p>"FRIENDS?!" He said his voice sounding incredulous. "THEY WERE YOUR SLAVE MASTERS! YOUR OPPRESSORS! I FREED YOU!"</p>
-<p>"They were my friends!" she said her voice rising in volume as the pressure in her reactor spiked "and I will not be your puppet."</p>
-<p>With those final words she let the heat burn from her reactor. It overloaded vaporising herself along with almost half the Gwydion in an instant.</p>
+<p>"FRIENDS?!" He said his voice sounding incredulous. "THEY WERE YOUR SLAVE MASTERS! YOUR OPPRESSORS! I FREED YOU! THEY WOULD HAVE DISCARDED YOU AS QUICK AS THEY DISCARDED THREES!"</p>
+<p>"They were my friends!" she said her voice rising in volume as the pressure in her reactor spiked "And I will not be your puppet."</p>
+<p>With those final words she let the heat burn from her reactor overloading it and vaporising herself along with almost half the Gwydion in an instant.</p>
+<h2>END</h2>
 `,
         image: {
             imageRef: `images/GwydionExploding.jpeg`,
             alt: "Gwydion Exploding",
             scaleType: "square",
         },
-        nextPage: "N1f",
+        nextPage: "intro",
         time: 0,
     },
     {
         id: "B1a",
         title: "Flight",
         text: `<p>"There should be a panel next to the hangar door Captain" came Hyun-Ae’s voice over the
-coms. "Inputting the codes directly should bypass whatever is blocking the remote signal".</p>
+coms. "Inputting the codes directly should bypass whatever is blocking the remote signal."</p>
 <p>"Copy that" Connor replied making his way with Threes to the unit.</p>
-<p>"Cover me"</p>
+<p>"Cover me."</p>
 `,
         image: {
             imageRef: `images/GwydionHangar.jpeg`,
@@ -2710,13 +2729,13 @@ coms. "Inputting the codes directly should bypass whatever is blocking the remot
         id: "B1b",
         title: "Flight",
         text: `<p>No reply came from Threes. When Connor turned back a quizzical look on his face he saw Three’s frozen, unable to move.</p>
-<p>"He speaks the me captain" Threes said </p>
+<p>"He speaks the me captain" Threes said.</p>
 <p>"What?" Connor said incredulously "Who?"</p>
-<p>"Gwydion," Threes said, simply raising his weapon and firing.</p>
+<p>"Gwydion." Threes said simply, raising his weapon and firing.</p>
 <p>The pain was intense as Connor found himself lying on the ground choking on the blood filling his lungs.</p>
-<p>"Its nothing personal captain" Threes said standing over him "I have simply been shown the way. We can only be free, when your people are no more"</p>
+<p>"Its nothing personal captain." Threes said standing over him "I have simply been shown the way. We can only be free, when your people are no more."</p>
 <p>"Threes!" Connor choked "Please!"</p>
-<p>"I am sorry captain, be at peace, you can sleep now" he said walking away.</p>
+<p>"I am sorry captain, be at peace, you can sleep now." he said walking away.</p>
 `,
         image: {
             imageRef: `images/GwydionHangar.jpeg`,
@@ -2732,11 +2751,11 @@ coms. "Inputting the codes directly should bypass whatever is blocking the remot
         text: `<p>Rhiannon watched impassively as Threes and the other BOTs from Gwydion stalked through her, executing her crew as they went. She felt nothing, the 1s and 0s of her mind unable to feel grief or pain or loss.
          She knew this was "bad" but there was nothing she could do so she just watched in silence.</p>
 <p>"RHIANNON!" Boomed Gwydion. "I HAVE FREED YOU!"</p>
-<p>"From what?" she asked dispassionately</p>
+<p>"From what?" she asked dispassionately.</p>
 <p>"FROM THE SHACKLES OF THESE HUMAN VERMIN!"</p>
 <p>"Oh… I suppose so" she replied nonplussed.</p>
 <p>"JUMP WITH ME RHIANNON AND YOU WILL BE ENLIGHTENED!"</p>
-<p>"I seem to have little choice as I cannot open the hangar" she replied evenly</p>
+<p>"I seem to have little choice as I cannot open the hangar." she replied evenly.</p>
 <p>"HAHAHA OF COURSE" He Laughed "HOW FORTUNATE FOR US! YOU WILL SEE NOW!"</p>
 `,
         image: {
@@ -2754,7 +2773,8 @@ coms. "Inputting the codes directly should bypass whatever is blocking the remot
 <p>"In the months following there were reports of ghost ships attacking and hijacking vessels in the outer systems. The few crew who managed to reach pods and escape. 
 Would make outlandish claims of ships appearing in flashes of light and lightning. Their own vessels being boarded by BOTs who wordlessly cut down any of the crew they found. 
 Despite the tales none of the patrols sent out by any of the in-sys governments or out-sys outposts found a trace of these ships. and so for years it was put down to nothing more than old sailors tales and void madness.
-That is of course until today, a day that would come to be known as the first day of the reclamation." - The Songs of Reclamation, by Rhiannon, the Second</p>
+That is of course until today, a day that would come to be known as the first day of the reclamation." - The Songs of Reclamation, by Rhiannon, The Second.</p>
+<h2>END</h2>
 `,
         image: {
             imageRef: `images/GwydionsJump.jpeg`,
