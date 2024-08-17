@@ -1,6 +1,6 @@
 # Interactive-Story-Project
 
-By Alex Milton 47159375
+By Alex Milton
 
 ## Justification
 
